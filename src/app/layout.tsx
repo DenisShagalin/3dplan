@@ -16,8 +16,8 @@ import "./globals.css";
 // className={`${geistSans.variable} ${geistMono.variable}`}
 
 export const metadata: Metadata = {
-  title: "3D Plan Onlain",
-  description: "3D Plan Onlain",
+  title: "3Dplan.online",
+  description: "3Dplan.online",
 };
 
 export default function RootLayout({
@@ -28,9 +28,9 @@ export default function RootLayout({
   return (
     <html lang='de'>
       <head>
-        <meta name='description' content='3D Plan Onlain' />
-        <meta name='keywords' content='3D Plan Onlain' />
-        <title>3D Plan Onlain</title>
+        <meta name='description' content='3Dplan.online' />
+        <meta name='keywords' content='3Dplan.online' />
+        <title>3Dplan.online</title>
       </head>
       <body>
         <div className='app'>
