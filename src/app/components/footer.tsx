@@ -64,7 +64,7 @@ export const Footer = () => {
               }}
             />
           </Link>
-          <Link href=''>
+          <Link href='https://www.linkedin.com/in/3dplan-online-grafikservice-f%C3%BCr-immobilienmakler-35a489369/'>
             <Image
               src='/linkedin.png'
               alt="linkedin"
