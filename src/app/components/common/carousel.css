@@ -1,0 +1,77 @@
+.carousel {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.carousel .carousel_control {
+    border-radius: 50%;
+    background-color: var(--main-grey-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.carousel .carousel_control svg {
+    fill: var(--main-white-color);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.carousel .carousel_control_left {
+    left: -20px;
+}
+
+.carousel .carousel_control_right {
+    right: -20px;
+}
+
+.carousel_images {
+    width: 100%;
+}
+
+.ant-carousel .slick-slide img {
+    display: unset !important;
+}
+
+/*  */
+.carousel .image_wrap {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel .image_wrap img {
+    width: 32%;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel .carousel_control{
+        width: 20px !important;
+        height: 20px;
+    }
+    .carousel .carousel_control svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .carousel .carousel_control_left {
+        left: -10px;
+    }
+    
+    .carousel .carousel_control_right {
+        right: -10px;
+    }
+}

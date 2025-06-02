@@ -1,0 +1,201 @@
+{
+  "securityMessage": "Impressum/Datenschutz",
+  "control": {
+    "learnMore": "Mehr erfahren",
+    "submit": "Einreichen",
+    "wasSended": "E-Mail wurde gesendet!",
+    "error": "Etwas ist schiefgelaufen! Versuchen Sie es später noch einmal."
+  },
+  "toolbar": {
+    "services": "Dienstleistungen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "lang": "Sprache",
+    "servicesItems": {
+      "2dDim": "2D-Grundriss mit Maßen",
+      "2dFur": "2D-Grundriss mit Möbeln",
+      "3dFur": "3D-Grundriss mit Möbeln",
+      "3dIn": "3D-Visualisierung des Innenraums",
+      "3dEx": "3D-Visualisierung des Außenbereichs",
+      "planBasic": "Plan – Basic",
+      "planPlus": "Plan – Plus",
+      "planPro": "Plan – Pro",
+      "planBasicDes": "Ideal für private Makler",
+      "planPlusDes": "Geeignet für Immobilienagenturen",
+      "planProDes": "Geeignet für Bauträger und Investoren",
+      "planBasicDiscount": "10 % Rabatt",
+      "planPlusDiscount": "15 % Rabatt",
+      "planProDiscount": "20 % Rabatt",
+      "planBasicQuantity": "Ab 20 Grundrissen",
+      "planPlusQuantity": "Ab 40 Grundrissen",
+      "planProQuantity": "Ab 60 Grundrissen"
+    }
+  },
+  "home": {
+    "usText1": "3Dplan.online - der Grafikservice für Immobilienmakler.",
+    "usText2": "Wir verwandeln alte Grundrisse in moderne Pläne und erstellen Visualisierungen von Innen- und Außenräumen.",
+    "usText3": "Perfekt für das Immobilienmarketing - steigert den Verkauf und stärkt das Image Ihrer Agentur.",
+    "usTitle": "Grafikservice für Immobilienmakler"
+  },
+  "feedback": {
+    "thomas": {
+      "text": "Eine großartige Zusammenarbeit! Die Plan-Grafiken sehen professionell aus - schnell, hochwertig und zu einem guten Preis. Spart Zeit und hinterlässt einen hervorragenden Eindruck bei Kunden. Vielen Dank und absolute Empfehlung!",
+      "name": "Thomas Schneider, Immobilienmakler"
+    },
+    "olga": {
+      "text": "Ich kann mir mein Marketing ohne diesen Service nicht mehr vorstellen. Schnelle und qualitativ hochwertige Arbeit, modernes Design - einfach perfekt! Sehr zu empfehlen. ",
+      "name": "Olga Chehova, Marketingexperte"
+    },
+    "sergio": {
+      "text": "Ein Mega-Service für alle, die ihre Immobilie professionell präsentieren möchten. Die Beiträge passen perfekt für soziale Medien wie Instagram und Facebook. Schnelle und qualitativ hochwertige Arbeit. Wenn ich wieder eine Immobilienpräsentation benötige, werde ich mich gerne an euch wenden. 100% Empfehlung!",
+      "name": "Sergio Romano, Immobilienmakler"
+    },
+    "irina": {
+      "text": "Wann immer ich eine Frage hatte, erhielt ich sofort Hilfe. Angenehme und schnelle Kommunikation. Das Team ist sehr freundlich, liebt seine Arbeit und ist immer erreichbar. Klare Weiterempfehlung!",
+      "name": "Iryna Moser, Privatkunde"
+    }
+  },
+  "mailForm": {
+    "name": "Name",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "Email",
+    "message": "Nachricht",
+    "title": "SIE KÖNNEN UNS PER E-MAIL KONTAKTIEREN<br></br>office@3dplan.online",
+    "description": "Wir freuen uns, mehr über Ihre zukünftigen Immobilienprojekte zu erfahren, sind offen für Kooperationsvorschläge und beantworten gerne all Ihre Fragen."
+  },
+  "aboutus": {
+    "title": "3dplan.online - Ihr Partner für die Erstellung hochwertiger Immobilienvisualisierungen.",
+    "description": "Wir, Anastasia Strauss und Julia Simonova, sind ein Team professioneller Designerinnen und Gründerinnen des Services <strong>3dplan.online</strong>.<br></br>Unsere Mission ist es, Makler*innen dabei zu unterstützen, professionell zu arbeiten - mit überzeugenden visuellen Materialien, die Immobilienangebote attraktiver machen. Lassen Sie uns gemeinsam die perfekte Präsentation Ihrer Immobilie erstellen!<br></br><br></br>Wir haben diesen Service entwickelt, um die Visualisierung von Immobilien, die zum Verkauf oder zur Vermietung stehen, deutlich zu verbessern. Eindrucksvolle 2D- und 3D-Grundrisse sowie fotorealistische Visualisierungen helfen dabei, Ihre Immobilie ansprechend zu präsentieren, sich von der Konkurrenz abzuheben und mehr potenzielle Kunden anzuziehen.<br></br>Zudem trägt dies zur Wertsteigerung der Immobilie beim Verkauf oder bei der Vermietung bei.<br></br><br></br><strong>Wie funktioniert das?</strong><br></br>Wir arbeiten mit bestehenden Plänen und Zeichnungen. Alles, was Sie tun müssen, ist, uns einen gescannten oder selbst gezeichneten Grundriss Ihrer Immobilie zusammen mit einer Raumbeschreibung zu senden.Wir erstellen daraus eine professionelle grafische Darstellung, die Sie für Ihr Marketing, Ihre Präsentationen und Exposés nutzen können.<br></br><br></br>Lassen Sie uns gemeinsam die perfekte Präsentation Ihrer Immobilie gestalten!"
+  },
+  "service": {
+    "3dExterior": {
+      "title": "3D-Visualisierungen von Innen und Außenbereichen",
+      "description": "Professionelle 3D-Visualisierung - ein leistungsstarkes Instrument zur Präsentation von Immobilien. Wir erstellen fotorealistische 3D-Bilder von Innenräumen und Außenansichten, die es ermöglichen, das zukünftige Objekt in allen Details noch vor Baubeginn oder Renovierungsarbeiten zu zeigen. Dies hilft potenziellen Kunden und Investoren, das Endergebnis zu sehen und alle Merkmale und Vorteile des Projekts zu bewerten.<br></br><br></br>Wer kann davon profitieren?<br></br>• Investoren und Bauträger, die ihren Partnern und Kunden visuell ansprechende und klar präsentierte Projekte zeigen möchten.<br></br>• Immobilienagenturen, die am Image des zukünftigen Objekts arbeiten und es vorteilhaft präsentieren wollen, um mehr Kunden zu gewinnen und das Interesse an Verkauf oder Vermietung zu steigern.<br></br><br></br>Lassen Sie Ihre Kunden die Zukunft heute sehen mit hochwertiger 3D-Visualisierung!",
+      "control": "Projekt jetzt starten",
+      "instructionTitle": "Wie Sie einen Grundriss bestellen: Schritt-für-Schritt-Anleitung",
+      "step1": "Senden Sie Fotos oder Videos des Grundstücks oder Raums sowie eine Beschreibung der Materialien und des gewünschten Stils. Je genauer Ihre Angaben, desto präziser das Ergebnis.",
+      "step2": "Wir erstellen erste 3D-Visualisierungen unter Berücksichtigung aller Anforderungen und senden sie Ihnen zur Freigabe.",
+      "step3": "Nach vollständiger Freigabe erhalten Sie die finalen 3D-Visualisierungen in hoher Auflösung für den Einsatz in Ihrem Marketing.",
+      "faq1title": "Welche Informationen werden für die Erstellung eine",
+      "faq1description": "Innenraumvisualisierung benötigt?<br></br>Für ein hochwertiges Ergebnis benötigen wir:<br></br>– Fotos oder ein Video des Raumes<br></br>– Einen Grundriss (handgezeichnet oder vom Architekten)<br></br>– Angaben zu Materialien sowie zur gewünschten Stilrichtung oder Atmosphäre.<br></br>Je genauer und detaillierter Ihre Angaben, desto realistischer und passgenauer wird das Endergebnis.",
+      "faq2title": "Wie lange dauert die Erstellung einer Visualisierung?",
+      "faq2description": "Die Erstellung einer Innenraumvisualisierung dauert in der Regel bis zu 10 Werktage (zuzüglich Zeit für Feedback und Korrekturen). Die Dauer hängt vom Umfang, der gewünschten Perspektivanzahl und dem Detaillierungsgrad ab.",
+      "faq3title": "Kann ich nach der Erstellung Änderungen an der Visualisierung vornehmen lassen?",
+      "faq3description": "Ja. Die Arbeit erfolgt in drei Phasen. Nach jeder Phase erhalten Sie eine Vorschau, in der Sie Änderungswünsche äußern können.",
+      "faq4title": "In welchen Formaten erhalte ich die fertigen Visualisierungen?",
+      "faq4description": "Sie erhalten die Bilder in praktischen Formaten:<br></br>– JPEG, TIFF, PNG in hoher Auflösung"
+    },
+    "3dFurniture": {
+      "title": "3D-Grundriss mit Möbeln",
+      "description": "Wir erstellen fotorealistische 3D-Grundrisse, die nicht nur die genaue Raumaufteilung, sondern auch die Möblierung zeigen. Diese Pläne helfen den Kunden, sich vorzustellen, wie der Raum im echten Leben aussieht, mit all seinen Details und der Funktionalität. Es ist das ideale Werkzeug, um zu demonstrieren, wie der Raum genutzt werden kann und um eine möglichst genaue Vorstellung vom zukünftigen Objekt zu vermitteln.<br></br><br></br>Warum ist das wichtig?<br></br>• Realistische Darstellung des Raums: 3D-Grundrisse mit Möbeln ermöglichen es den Kunden, die Raumaufteilung zu sehen, die Atmosphäre zu spüren und den Stil des Raums zu verstehen, was eine sicherere Entscheidungsfindung fördert.<br></br>• Steigerung des Agenturbildes: Hochwertige Visualisierungen unterstreichen den Professionalismus des Agenturen und helfen, sich von Mitbewerbern abzuheben und anspruchsvolle Kunden anzuziehen.",
+      "control": "Projekt jetzt starten",
+      "instructionTitle": "Wie Sie einen Grundriss bestellen: Schritt-für-Schritt-Anleitung",
+      "step1": "Senden Sie uns einen vorhandenen Grundriss – gescannt oder handgezeichnet – mit allen Maßen und zusätzlichen Informationen zum Projekt.",
+      "step2": "Wir digitalisieren Ihren Grundriss entsprechend Ihren Vorgaben und senden Ihnen eine Vorabversion zur Freigabe.",
+      "step3": "Nach der Freigabe erhalten Sie den finalen Grundriss in den vereinbarten Formaten und als hochwertige JPEG-Dateien zur Verwendung in Ihrem Marketing.",
+      "listItem1": "✔️ Flächenberechnung",
+      "listItem2": "✔️ Nordpfeil",
+      "listItem3": "✔️ Ihr Logo",
+      "listItem4": "✔️ Formate für Websites und soziale Netzwerke: A4, 3:4, 5:4",
+      "listItem5": "Auf Anfrage: Berechnung der Wohnfläche",
+      "faq1title": "Welche Informationen werden für die Erstellung eines 2D/3D-Grundrisses benötigt?",
+      "faq1description": "Bitte fügen Sie Ihrer E-Mail folgende Anhänge bei:<br></br>• Einen Grundriss – gescannt oder handgezeichnet – mit allen Maßen von Wänden, Fenstern und Türen.<br></br>• Markieren Sie die Lage von Küche, Badezimmern und WC.<br></br>• Beschriften Sie die Räume entsprechend ihrer Nutzung.<br></br><br></br>Bitte geben Sie im Text der E-Mail Folgendes an:<br></br>• Ihre Wünsche zur Möblierung bzw. Raumaufteilung.<br></br>• Bevorzugte Formate für den finalen Grundriss.<br></br>• Ob eine Nordpfeil-Markierung benötigt wird.<br></br><br></br>Zusätzlich:<br></br>• Fügen Sie das Logo Ihres Unternehmens bei, falls es auf dem Grundriss platziert werden soll.<br></br>• Falls vorhanden, senden Sie bitte Fotos oder Videos des Objekts mit.",
+      "faq2title": "Wie lange dauert die Erstellung eines 2D/3D-Grundrisses?",
+      "faq2description": "Die Bearbeitung dauert in der Regel bis zu 5 Werktage, abhängig von der Komplexität und dem Umfang des Projekts.",
+      "faq3title": "Kann ich nach der Erstellung Änderungen am Grundriss vornehmen lassen?",
+      "faq3description": "Ja, selbstverständlich. Sie erhalten zunächst einen Entwurf und können alle gewünschten Änderungen und Anpassungen vornehmen.",
+      "faq4title": "In welchem Format erhalte ich den fertigen Grundriss?",
+      "faq4description": "Wir liefern den Plan in praktischen Formaten, die sich für verschiedene Plattformen und Zwecke eignen:<br></br>• 3:4 – für Immobilienportale (Willhaben, ImmoScout)<br></br>• 5:4 – für Beiträge im Instagram-Feed<br></br>• 1:1 – für Facebook-Posts<br></br>• 9:16 – für Stories und Reels"
+    },
+    "2dFurniture": {
+      "title": "2D-Grundriss mit Möbeln",
+      "description": "Unsere detaillierten 2D-Grundrisse zeigen nicht nur die Raumaufteilung, sondern auch die Möblierung. So erhalten potenzielle Käufer und Mieter eine klare Vorstellung davon, wie der Raum genutzt und eingerichtet werden kann.<br></br><br></br>Warum ist das wichtig?<br></br>• Bessere Raumvorstellung: Kunden sehen sofort, wie sie die Räume optimal nutzen und an ihre Bedürfnisse anpassen können.<br></br>• Einladendes Wohngefühl: Eine möblierte Darstellung vermittelt bereits vor der Besichtigung ein Gefühl von Komfort und Wohnlichkeit.",
+      "control": "Projekt jetzt starten",
+      "listItem1": "✔️ Flächenberechnung",
+      "listItem2": "✔️ Nordpfeil",
+      "listItem3": "✔️ Ihr Logo",
+      "listItem4": "✔️ Formate für Websites und soziale Netzwerke: A4, 3:4, 5:4",
+      "listItem5": "Auf Anfrage: Berechnung der Wohnfläche",
+      "step1": "Senden Sie uns einen vorhandenen Grundriss – gescannt oder handgezeichnet – mit allen Maßen und zusätzlichen Informationen zum Projekt.",
+      "step2": "Wir digitalisieren Ihren Grundriss entsprechend Ihren Vorgaben und senden Ihnen eine Vorabversion zur Freigabe.",
+      "step3": "Nach der Freigabe erhalten Sie den finalen Grundriss in den vereinbarten Formaten und als hochwertige JPEG-Dateien zur Verwendung in Ihrem Marketing.",
+      "instructionTitle": "Wie Sie einen Grundriss bestellen: Schritt-für-Schritt-Anleitung"
+    },
+    "2dDim": {
+      "title": "2D-Grundriss mit Maßen",
+      "description": "Wir erstellen detaillierte 2D-Grundrisse mit präzisen Maßen, die potenziellen Käufern und Mietern helfen, den Raum und seine Funktionalität besser zu verstehen.<br></br><br></br>Warum ist das wichtig?<br></br>• Genaue Informationen: Unsere Pläne zeigen die exakten Raumgrößen, Wandpositionen, Türen und Fenster, sodass Kunden sich ihr zukünftiges Zuhause oder Büro realistisch vorstellen können.<br></br>• Einfachere Entscheidungsfindung: Klare Maßangaben erleichtern es Interessenten, schnell zu erkennen, ob ein Objekt ihren Anforderungen entspricht.",
+      "control": "Projekt jetzt starten",
+      "listItem1": "✔️ Flächenberechnung",
+      "listItem2": "✔️ Nordpfeil",
+      "listItem3": "✔️ Ihr Logo",
+      "listItem4": "✔️ Formate für Websites und soziale Netzwerke: A4, 3:4, 5:4",
+      "listItem5": "Auf Anfrage: Berechnung der Wohnfläche",
+      "step1": "Senden Sie uns einen vorhandenen Grundriss – gescannt oder handgezeichnet – mit allen Maßen und zusätzlichen Informationen zum Projekt.",
+      "step2": "Wir digitalisieren Ihren Grundriss entsprechend Ihren Vorgaben und senden Ihnen eine Vorabversion zur Freigabe.",
+      "step3": "Nach der Freigabe erhalten Sie den finalen Grundriss in den vereinbarten Formaten und als hochwertige JPEG-Dateien zur Verwendung in Ihrem Marketing.",
+      "instructionTitle": "Wie Sie einen Grundriss bestellen: Schritt-für-Schritt-Anleitung"
+    }
+  },
+  "planExample": {
+    "title": "3D-Visualisierung von Innen- und Außenräumen – der Schlüssel zum erfolgreichen Immobilienverkauf",
+    "description": "Warum ist das wichtig? Kaufentscheidungen basieren auf Emotionen und visueller Wahrnehmung. Eine 3D-Visualisierung ermöglicht es, eine Immobilie bereits vor dem Bau oder der Renovierung realistisch darzustellen und ein Gefühl für Raum und Stil zu vermitteln.<br></br><br></br>Unsere Dienstleistungen:<br></br>• 3D-Visualisierung des Innenraums – realistische Darstellungen, die Komfort und Funktionalität vermitteln.<br></br>• 3D-Visualisierung des Außenbereichs – beeindruckende Visualisierungen von Fassaden und der Umgebung."
+  },
+  "price": {
+    "rooms1": "1 bis 4 Räume",
+    "rooms2": "5 bis 15 Räume",
+    "rooms3": "16 bis 25 Räume",
+    "currency": "Euro",
+    "floor": "pro Etage"
+  },
+  "security": {
+    "title": "Impressum & Datenschutz",
+    "imprintTitle": "Impressum",
+    "description": "Anastasiia Strauss<br></br><br></br>Freischaffende Künstlerin - Grafikdienstleistungen für Immobilien<br></br>Witthauergasse 28/5<br></br>1180 Wien, Österreich<br></br><strong>Kontakt:</strong><br></br>E-Mail: office@3dplan.online<br></br>Website: www.3dplan.online<br></br><strong>Tätigkeit:</strong><br></br>Nicht anmeldepflichtige selbstständige Tätigkeit als Künstlerin gemäß § 2 GewO (grafische Dienstleistungen im<br></br>künstlerischen Kontext)<br></br><strong>Zuständige Behörde:</strong> Bezirkshauptmannschaft Wien Innere Stadt<br></br>Mitglied der Wirtschaftskammer Wien<br></br><strong>Fachgruppe:</strong> Werbung und Marktkommunikation<br></br><strong>Haftung für Inhalte:</strong><br></br>Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der<br></br>verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br></br><strong>Online-Streitbeilegung gemäß Art. 14 Abs. 1 ODR-VO:</strong><br></br>Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/odr<br></br>Sie können Ihre Beschwerde auch direkt an die oben angegebene E-Mail-Adresse richten.",
+    "policyTitle": "Datenschutz",
+    "policyDescription": "Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich<br></br>auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In dieser Datenschutzerklärung informieren wir<br></br>Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.<br></br><strong>1. Kontakt mit uns und Anfrageformulare</strong><br></br>Wenn Sie über ein Formular auf der Website (z. B. Fragebogen oder Kontaktformular) mit uns Kontakt aufnehmen,<br></br>werden Ihre angegebenen Daten (Name, E-Mail-Adresse, Telefonnummer, Projektdetails etc.) zwecks Bearbeitung der<br></br>Anfrage und für Anschlussfragen gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.<br></br><br></br><strong>2. Verwendung von Google Fonts</strong><br></br>Unsere Website verwendet Google Fonts, einen Dienst der Google Ireland Limited, Gordon House, Barrow Street,<br></br>Dublin 4, Irland. Die Schriftarten werden beim Aufruf der Seite von Servern von Google geladen. Dabei kann Google<br></br>Ihre IP-Adresse erfassen und in die USA übertragen.<br></br>Rechtsgrundlage ist ein berechtigtes Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO, da ein einheitliches und<br></br>ansprechendes Webdesign angestrebt wird.<br></br><br></br>Mehr Informationen finden Sie unter:<br></br>https://developers.google.com/fonts/faq<br></br>https://policies.google.com/privacy<br></br><br></br><strong>3. Social Media Plugins</strong><br></br>Auf unserer Website sind Plugins und Verlinkungen zu sozialen Netzwerken integriert (Instagram, Facebook, Pinterest).<br></br>Diese Dienste werden von Drittanbietern betrieben:<br></br>- Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irland<br></br>- Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irland<br></br>- Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Irland<br></br>Durch die Einbindung kann es vorkommen, dass beim Besuch unserer Website Daten wie IP-Adresse,<br></br>Browser-Informationen und Interaktionen an diese Plattformen übermittelt werden - auch wenn Sie kein Profil dort haben<br></br>oder nicht eingeloggt sind.<br></br>Weitere Informationen zur Datenverarbeitung durch diese Netzwerke finden Sie in den jeweiligen<br></br>Datenschutzerklärungen:<br></br>- Instagram: https://privacycenter.instagram.com/<br></br>- Facebook: https://www.facebook.com/about/privacy<br></br>- Pinterest: https://policy.pinterest.com/de/privacy-policy<br></br><br></br><strong>4. Ihre Rechte</strong><br></br>Sie haben grundsätzlich das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit,<br></br>Widerruf und Widerspruch.<br></br>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre<br></br>datenschutzrechtlichen Ansprüche in sonstiger Weise verletzt worden sind, können Sie sich bei der österreichischen<br></br>Datenschutzbehörde beschweren:<br></br><a>www.dsb.gv.at</a><br></br><br></br><strong>5. Verantwortlich für die Datenverarbeitung</strong><br></br>Anastasiia Strauss<br></br>Witthauergasse 28/5<br></br>1180 Wien, Österreich<br></br>Kontakt:<br></br>E-Mail: office@3dplan.online"
+  },
+  "order": {
+    "title": "VORHANDENEN GRUNDRISS HOCHLADEN",
+    "description": "Dies kann ein architektonischer oder baulicher Plan sein,<br></br>sowie eine handgezeichnete Skizze.",
+    "name": "Vorname",
+    "surname": "Nachname",
+    "org": "Organisation",
+    "city": "Stadt",
+    "idx": "Postleitzahl",
+    "address": "Adresse",
+    "mail": "E-mail",
+    "comment": "Kommentar",
+    "type": "Welche Art von Plan möchten Sie digitalisieren?",
+    "link": "Link zum Grundriss und zu den Fotos Ihres Objekts (Google Drive, Dropbox, WeTransfer)"
+  },
+  "packages": {
+    "title": "Leistungspakete",
+    "description": "Die Pakete sind für die Bestellung von Grundrissen innerhalb eines Monats ausgelegt. Sie können Ihre Aufträge im Laufe des Monats zusammenstellen und erhalten garantiert einen Rabatt auf die angegebene Anzahl an Grundrissen – unabhängig davon, ob es sich um 2D- oder 3D-Pläne handelt."
+  },
+  "info": {
+    "interior": {
+      "title": "3D-Visualisierung des Interiors",
+      "description": "Tauchen Sie in die Atmosphäre Ihres zukünftigen Raums ein dank fotorealistischer 3D-Visualisierung des Interiors. Wir erstellen detaillierte Darstellungen, die Komfort, Stil und Funktionalität der Räumlichkeiten widerspiegeln – egal ob Wohn- oder Gewerbeobjekte.<br></br>Diese Visualisierung wird zu einem hervorragenden Instrument für die Präsentation von Projekten gegenüber Investoren oder für den erfolgreichen Verkauf fertiger Lösungen.<br></br>Das Szenario und die Stilistik des Interiors werden entsprechend Ihren Wünschen entwickelt oder können von unserem Designteam vorgeschlagen werden.<br></br>Der Preis für eine Perspektive beträgt ab 200 Euro"
+    },
+    "exterior": {
+      "title": "3D-Visualisierung des Exteriors",
+      "description": "Erwecken Sie das architektonische Konzept mit einer hochwertigen 3D-Visualisierung der Fassaden zum Leben. Wir erstellen realistische Darstellungen der Außenansicht von Gebäuden unter teilweiser Einbeziehung des umgebenden Territoriums – die ideale Möglichkeit, ein Projekt in der Entwicklungsphase visuell zu präsentieren oder ein bereits bestehendes Objekt vorzustellen.<br></br>Die Modellierung erfolgt auf Grundlage architektonischer Zeichnungen, Skizzen oder Fotografien. Die Auswahl der Materialien, Fassadenstilistik und der Umgebung wird individuell besprochen.<br></br>Der Preis für eine Perspektive beträgt ab 400 Euro."
+    }
+  },
+  "pricing": {
+    "dimension": {
+      "title": "2D-Grundriss mit Maßen",
+      "description": "Ein 2D-Grundriss einer einstöckigen Immobilie ohne Möblierung, inklusive Küche, Bad und WC. Alle Wände, Fenster und Türen sind mit den notwendigen Maßangaben versehen. Für ein vollständiges Verständnis enthält der Plan eine Tabelle mit Raumgrößen sowie auf Wunsch die Berechnung der Wohnfläche. Ihr Logo und ein Nordpfeil werden selbstverständlich eingebunden."
+    },
+    "furniture": {
+      "title": "2D-Grundriss mit Möblierung",
+      "description": "Ein 2D-Grundriss einer einstöckigen Immobilie mit Möblierung – wahlweise nach realen Fotos oder nach unserem Gestaltungsvorschlag. Der Plan zeigt die Aufteilung der Räume inklusive Möbel, enthält eine Tabelle mit Raumgrößen und auf Wunsch eine Wohnflächenberechnung. Ihr Logo und der Nordpfeil sind im Plan enthalten."
+    },
+    "3d": {
+      "title": "3D-Grundriss mit Möblierung",
+      "description": "Ein 3D-Grundriss einer einstöckigen Immobilie mit Möblierung, gestaltet auf Basis realer Fotos oder nach unserem Designvorschlag. Der Grundriss vermittelt ein realistisches Raumgefühl und enthält eine Tabelle mit Raumgrößen sowie auf Wunsch die Berechnung der Wohnfläche. Ihr Logo und ein Nordpfeil sind ebenfalls integriert."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider .slider_item {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.slider .slider_item  div {
+    position: relative;
+    text-align: center;
+}
+
+.slider .slider_item img {
+    width: 100%;
+    user-select: none;
+}
+
+.slider_control {
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    z-index: 1;
+}
+
+.slider_control .control {
+    background-color: var(--main-grey-color);
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_control .control svg {
+    fill: var(--main-white-color);
+}

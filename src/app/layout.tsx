@@ -1,41 +1,52 @@
-import type { Metadata } from "next";
+import { ConfigProvider } from 'antd';
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
+
+import { Background } from "./components/background";
+import { Section } from "./components/section";
+import { Footer } from './components/footer';
+import { MainLinks } from "./components/main-links";
+
 import "./globals.css";
-// import localFont from "next/font/local";
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
-
-// className={`${geistSans.variable} ${geistMono.variable}`}
-
-export const metadata: Metadata = {
-  title: "3Dplan.online",
-  description: "3Dplan.online",
-};
-
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang='de'>
+    <html lang={locale}>
       <head>
         <meta name='description' content='3Dplan.online' />
         <meta name='keywords' content='3Dplan.online' />
         <title>3Dplan.online</title>
       </head>
       <body>
-        <div className='app'>
-          {children}
-        </div>
+        <ConfigProvider
+          theme={{
+            components: {
+              Input: {
+                borderRadiusLG: 4,
+                lineHeight: 2,
+              },
+              Dropdown: {
+                borderRadiusLG: 0,
+              }
+            }
+          }}
+        >
+          <NextIntlClientProvider messages={messages}>
+            <Background src={['/background.jpg']} />
+            <Section>
+              <MainLinks />
+              {children}
+              <Footer />
+            </Section>
+          </NextIntlClientProvider>
+        </ConfigProvider>
       </body>
     </html>
   );

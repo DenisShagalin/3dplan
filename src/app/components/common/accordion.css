@@ -1,0 +1,28 @@
+.accordion {
+    width: 550px;
+    background-color: var(--main-grey-color);
+    color: var(--main-biege-color);
+}
+
+.accordion .ant-typography {
+    color: var(--main-biege-color);
+    margin-bottom: unset;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.accordion .anticon {
+    cursor: pointer;
+}
+
+.accordion_title {
+    width: 520px;
+}
+
+@media screen and (max-width: 800px) {
+    .accordion_title {
+        width: 92%;
+    }
+}
