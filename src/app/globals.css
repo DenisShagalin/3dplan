@@ -29,10 +29,13 @@ body {
 .section {
   width: 85%;
   height: 100vh;
-  overflow: auto;
   margin: auto;
   position: relative;
   background-color: var(--main-biege-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
 .ant-dropdown-menu {
@@ -232,6 +235,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .section {
+    width: 100%;
+  }
+
   .smal_wrapper {
     width: 80% !important;
   }
