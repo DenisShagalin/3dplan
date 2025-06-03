@@ -1,5 +1,7 @@
 'use client'
 
+import './main-links.css';
+
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,8 +9,6 @@ import { useTranslations } from 'next-intl';
 import { useRouter } from "next/navigation";
 import { MenuOutlined } from '@ant-design/icons';
 import { Dropdown } from './common/dropdown';
-
-import './main-links.css';
 import useMedia from "./common/media-hook";
 
 const supportedLocales = ['en', 'de', 'ru'];

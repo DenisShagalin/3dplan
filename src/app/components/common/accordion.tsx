@@ -1,12 +1,12 @@
 'use client'
 
+import './accordion.css';
+
 import { useState } from 'react';
 import Paragraph from 'antd/lib/typography/Paragraph';
 import { useTranslations } from 'next-intl';
 import { Flex } from 'antd';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
-
-import './accordion.css';
 
 export const Accordion = ({
   title,

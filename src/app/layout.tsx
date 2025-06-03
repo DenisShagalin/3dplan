@@ -1,3 +1,5 @@
+import "./globals.css";
+
 import { ConfigProvider } from 'antd';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
@@ -6,8 +8,6 @@ import { Background } from "./components/background";
 import { Section } from "./components/section";
 import { Footer } from './components/footer';
 import { MainLinks } from "./components/main-links";
-
-import "./globals.css";
 
 export default async function RootLayout({
   children,

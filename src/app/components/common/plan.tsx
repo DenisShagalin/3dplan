@@ -5,7 +5,6 @@ import Title from 'antd/lib/typography/Title';
 import Link from "next/link";
 import Text from 'antd/lib/typography/Text';
 
-
 export const Plan = ({
   title,
   text,

@@ -1,8 +1,9 @@
 'use client';
 
+import './slider.css'
+
 import { useCallback, useRef, useState } from 'react';
 import { CaretLeftFilled, CaretRightFilled } from '@ant-design/icons';
-import './slider.css'
 
 const CONTROL_WIDTH = 40;
 

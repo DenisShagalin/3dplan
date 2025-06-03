@@ -1,10 +1,11 @@
 'use client'
 
+import './carousel.css';
+
 import { Carousel as AntCarousel } from 'antd';
 import { CaretLeftFilled, CaretRightFilled } from '@ant-design/icons';
 import { useRef } from 'react';
 import Spinner from './spinner';
-import './carousel.css';
 
 interface IProps {
   loading: boolean;
