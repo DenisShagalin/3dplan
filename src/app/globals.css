@@ -30,7 +30,7 @@ body {
   width: 85%;
   height: 100vh;
   margin: auto;
-  position: relative;
+  position: relative !important;
   background-color: var(--main-biege-color);
   display: flex;
   flex-direction: column;

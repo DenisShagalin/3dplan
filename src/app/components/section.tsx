@@ -5,7 +5,7 @@ export const Section = ({
 }: {
   children: any
 }) => (
-  <div className="section">
+  <div className="section" style={{ position: 'relative' }}>
     {children}
   </div>
 );
