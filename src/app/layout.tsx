@@ -20,9 +20,9 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <meta name='description' content='3Dplan.online' />
-        <meta name='keywords' content='3Dplan.online' />
-        <title>3Dplan.online</title>
+        <title>2D & 3D Grundrisse online ab 25 € | 3dplan.online</title>
+        <meta name='description' content='Digitale 2D/3D-Grundrisse ab 25 € online bestellen. Wohnflächenberechnung, Exposé-Grafiken, Digitalisierung alter Pläne. Hochwertige & professionell Grundriss visualisierung - 3dplan.online' />
+        <meta name='keywords' content='2D Grundrisse online bestellen, 3D Grundrisse erstellen lassen, Grundriss Service ab 25 Euro, Wohnflächenberechnung online, Grundriss für Exposé, Digitalisierung Baupläne, alte Grundrisse digitalisieren, Grundriss Visualisierung, Immobilienpräsentation Grundriss, Architektenplan digital' />
       </head>
       <body>
         <ConfigProvider
