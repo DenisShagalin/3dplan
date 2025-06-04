@@ -11,9 +11,10 @@ import { Slider } from '../../components/common/slider';
 import { Steps } from '../../components/steps';
 import { Accordion } from '../../components/common/accordion';
 import { Price } from '../../components/common/price';
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { Order } from '@/app/components/order';
 import useMedia from '@/app/components/common/media-hook';
+import { Picture } from '@/app/components/picture';
 
 const ImgWrap = ({ children }: any) => (
   <div className='image_wrap'>
@@ -43,17 +44,25 @@ const images = [
 
 export default function Page() {
   const [isOpen, setOpen] = useState<boolean>(false);
+  const [src, setSrc] = useState('');
+
   const t = useTranslations();
   const { isSmall } = useMedia();
+
+  const onClick = useCallback((src: string) => () => {
+    setSrc(src);
+  }, []);
+
   return (
     <>
+      <Picture src={src} open={!!src} setOpen={() => setSrc('')} />
       <Order open={isOpen} setOpen={setOpen} defaultValue='3dFurniture' />
       <Flex vertical align='center'>
         <Carousel loading={false}>
           {images.map((block, idx) => (
             <ImgWrap key={idx}>
               {block.map((src) => (
-                <img key={src} src={src} alt={src} />
+                <img key={src} src={src} alt={src} onClick={onClick(src)} />
               ))}
             </ImgWrap>
           ))}

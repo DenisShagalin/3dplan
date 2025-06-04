@@ -36,6 +36,22 @@ export const Slider = ({ left, right }: { left: string, right: string }) => {
     ref,
   ])
 
+  const onTouchMove = useCallback((event: React.TouchEvent) => {
+    if (isDragging && ref.current) {
+      const touch = event.touches[0];
+      const width = ref.current.clientWidth;
+      const rect = ref.current.getBoundingClientRect();
+      const x = touch.pageX - rect.x;
+      const percent = (x * 100) / width;
+      setCoordX(touch.pageX);
+      setControlPosition(Number(percent));
+    }
+  }, [
+    isDragging,
+    coordX,
+    ref,
+  ]);
+
   return (
     <div
       ref={ref}
@@ -43,6 +59,7 @@ export const Slider = ({ left, right }: { left: string, right: string }) => {
       onPointerUp={() => setIsDragging(false)}
       onMouseLeave={() => setIsDragging(false)}
       onPointerMove={onPointerMove}
+      onTouchMove={onTouchMove}
     >
       <div
         className='slider_control'

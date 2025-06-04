@@ -1,3 +1,4 @@
+'use client'
 
 import Paragraph from 'antd/lib/typography/Paragraph';
 import Title from 'antd/lib/typography/Title';
@@ -8,6 +9,8 @@ import { Flex } from 'antd';
 import { Carousel } from '../../components/common/carousel';
 import { Accordion } from '../../components/common/accordion';
 import { Steps } from '../../components/steps';
+import { useState, useCallback } from 'react';
+import { Picture } from '@/app/components/picture';
 
 const ImgWrap = ({ children }: any) => (
   <div className='image_wrap'>
@@ -25,14 +28,21 @@ const images = [
 export default function Page() {
   const t = useTranslations();
 
+  const [src, setSrc] = useState('');
+
+  const onClick = useCallback((src: string) => () => {
+    setSrc(src);
+  }, []);
+
   return (
     <>
+      <Picture src={src} open={!!src} setOpen={() => setSrc('')} />
       <Flex vertical align='center'>
         <Carousel loading={false}>
           {images.map((block, idx) => (
             <ImgWrap key={idx}>
               {block.map((src) => (
-                <img key={src} src={src} alt={src} />
+                <img key={src} src={src} alt={src} onClick={onClick(src)} />
               ))}
             </ImgWrap>
           ))}
