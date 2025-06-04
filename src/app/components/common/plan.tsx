@@ -28,7 +28,8 @@ export const Plan = ({
       <Title
         style={{
           color: 'var(--main-grey-color)',
-          margin: '0'
+          margin: '0',
+          textAlign: 'center'
         }}
         level={5}
       >
@@ -46,7 +47,8 @@ export const Plan = ({
       <Title
         style={{
           color: 'var(--main-green-color)',
-          margin: '0'
+          margin: '0',
+          textAlign: 'center'
         }}
         level={isSmall ? 4 : 3}
       >
@@ -55,7 +57,8 @@ export const Plan = ({
       <Text
         style={{
           color: 'var(--main-grey-color)',
-          fontSize: '14px'
+          fontSize: '14px',
+          textAlign: 'center'
         }}
       >
         {info}
@@ -67,14 +70,19 @@ export const Plan = ({
           marginTop: '1rem',
           fontSize: '12px',
           backgroundColor: 'var(--main-grey-color)',
-          padding: '0 0.5rem'
+          padding: '0 0.5rem',
+          textAlign: 'center'
         }}
         onClick={onClick}
       >
-        <Text style={{
-          color: 'var(--main-white-color)',
-          fontSize: '16px',
-          }}>{t('service.2dFurniture.control')}</Text>
+        <Text
+          style={{
+            color: 'var(--main-white-color)',
+            fontSize: '16px',
+          }}
+        >
+          {t('service.2dFurniture.control')}
+        </Text>
       </Link>
     </Flex>
   )

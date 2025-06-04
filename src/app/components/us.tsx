@@ -42,7 +42,7 @@ export const Us = () => {
           }}
           level={2}
         >
-          {t('home.usTitle')}
+          {t('home.usTitle').toUpperCase()}
         </Title>
       </Flex>
 
