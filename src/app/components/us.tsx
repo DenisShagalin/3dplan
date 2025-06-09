@@ -39,6 +39,7 @@ export const Us = () => {
             textAlign: 'center',
             color: 'var(--main-grey-color)',
             fontFamily: 'Arial, sans-serif',
+            fontSize: '24px'
           }}
           level={2}
         >

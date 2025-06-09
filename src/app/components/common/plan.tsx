@@ -39,7 +39,9 @@ export const Plan = ({
         style={{
           color: 'var(--main-grey-color)',
           fontSize: '10px',
-          textAlign: 'center'
+          textAlign: 'center',
+          lineHeight: '1.5em',
+          height: '3em',
         }}
       >
         {text}

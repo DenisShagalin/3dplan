@@ -8,14 +8,14 @@ function useMedia() {
     const [isSmall, setIsLargeScreen] = useState(false);
 
     useEffect(() => {
-        setIsLargeScreen(!window.matchMedia("(min-width: 800px)").matches);
+        setIsLargeScreen(!window.matchMedia("(min-width: 820px)").matches);
 
         // I write this into a function for better visibility
         const handleResize = (e: any) => {
             setIsLargeScreen(!e.matches);
         };
 
-        const mediaQuery = window.matchMedia("(min-width: 801px)");
+        const mediaQuery = window.matchMedia("(min-width: 821px)");
 
         mediaQuery.addEventListener('change', handleResize);
 

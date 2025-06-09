@@ -22,7 +22,7 @@ export function Picture({
       onCancel={() => setOpen(false)}
       width={isSmall ? '80%' : '60%'}
       style={{
-        maxWidth: isSmall ? undefined : '800px',
+        maxWidth: isSmall ? undefined : '820px',
         padding: 0,
       }}
       footer={null}

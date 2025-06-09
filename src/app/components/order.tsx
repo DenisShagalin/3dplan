@@ -107,7 +107,7 @@ export function Order({
       width={isSmall ? '100%' : '60%'}
       style={{
         backgroundColor: 'var(--main-biege-color)',
-        maxWidth: isSmall ? undefined : '800px',
+        maxWidth: isSmall ? undefined : '820px',
         padding: 0,
         margin: isSmall ? 0 : undefined,
         top: isSmall ? 0 : undefined,

@@ -69,7 +69,7 @@ export default function Mail() {
       className='smal_wrapper small_padding'
       style={{
         width: '70%',
-        maxWidth: '800px',
+        maxWidth: '820px',
         margin: '16px auto',
         padding: 16,
         background: '#ffffff',

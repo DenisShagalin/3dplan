@@ -105,7 +105,7 @@ export default function Page() {
             })}
           </Paragraph>
 
-          <Flex style={{ width: isSmall ? '100%' : '70%', margin: '30px 0' }} justify='center'>
+          <Flex style={{ width: isSmall ? '100%' : '80%', margin: '30px 0' }} justify='center'>
             <Price price={25} rooms='price.rooms1' />
             <Price price={50} rooms='price.rooms2' highlight />
             <Price price={75} rooms='price.rooms3' />
