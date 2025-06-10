@@ -43,6 +43,7 @@ export const Accordion = ({
         <Paragraph>{
           t.rich(description, {
             br: () => <br />,
+            strong: (c) => <strong>{c}</strong>,
           })
         }</Paragraph>
       )}
