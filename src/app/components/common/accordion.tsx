@@ -31,12 +31,13 @@ export const Accordion = ({
       <Flex
         vertical={false}
         align='center'
+        justify='space-between'
       >
         <Paragraph className='accordion_title'>{t(title)}</Paragraph>
         {isOpen ? (
-          <UpOutlined onClick={() => setOpen(prev => !prev)} />
+          <UpOutlined onClick={() => setOpen(prev => !prev)} style={{ width: '30px '}} />
         ) : (
-          <DownOutlined onClick={() => setOpen(prev => !prev)} />
+          <DownOutlined onClick={() => setOpen(prev => !prev)} style={{ width: '30px '}} />
         )}
       </Flex>
       {isOpen && (

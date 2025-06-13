@@ -24,7 +24,7 @@ const StepWrap = ({ children }: any) => <div style={{
   flexDirection: 'row',
   justifyContent: 'center',
   alignItems: 'flex-start',
-  width: '350px',
+  width: '30%',
 }}>{children}</div>
 
 export const Steps = ({
@@ -64,6 +64,9 @@ export const Steps = ({
         justify='space-around'
         gap='small'
         wrap
+        style={{
+          padding: '0 20px'
+        }}
       >
         {steps.map((step, idx) => (
           <StepWrap key={idx}>
