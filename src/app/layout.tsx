@@ -26,7 +26,8 @@ export default async function RootLayout({
         <meta name='keywords' content='2D Grundrisse online bestellen, 3D Grundrisse erstellen lassen, Grundriss Service ab 25 Euro, Wohnflächenberechnung online, Grundriss für Exposé, Digitalisierung Baupläne, alte Grundrisse digitalisieren, Grundriss Visualisierung, Immobilienpräsentation Grundriss, Architektenplan digital' />
       </head>
       <body>
-        <ConfigProvider
+      {children}
+        {/* <ConfigProvider
           theme={{
             components: {
               Input: {
@@ -47,7 +48,7 @@ export default async function RootLayout({
               <Footer />
             </Section>
           </NextIntlClientProvider>
-        </ConfigProvider>
+        </ConfigProvider> */}
       </body>
     </html>
   );
