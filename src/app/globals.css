@@ -12,7 +12,7 @@ body {
   position: relative;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
-};
+}
 
 .section {
   width: 85%;
@@ -52,7 +52,7 @@ body {
   font-family: inherit;
   letter-spacing: 1px;
   font-size: 16px
-};
+}
 
 /* feedbacks */
 .home_feedbacks {
