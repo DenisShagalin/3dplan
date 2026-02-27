@@ -345,6 +345,7 @@ Requested Terms Copy: ${termRequest ? "Yes" : "No"}
 ${message || "—"}
         `,
         subject: `Order from ${email}: ${firstName} ${lastName}`,
+        files,
       });
       setLoading(false);
       setSubmitLabel(t("control.wasSended"));
@@ -379,6 +380,7 @@ ${message || "—"}
     coverings,
     isAgreed,
     termRequest,
+    files,
     clear,
   ]);
 

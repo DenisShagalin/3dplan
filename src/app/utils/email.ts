@@ -1,10 +1,22 @@
-export async function sendEmail(data: any) {
-    const apiEndpoint = '/api/email';
+export async function sendEmail(data: {
+  message: string;
+  subject: string;
+  files?: File[];
+}) {
+  const apiEndpoint = "/api/email";
 
-    console.log(data, 'data')
+  const formData = new FormData();
+  formData.append("message", data.message);
+  formData.append("subject", data.subject);
 
-    // return fetch(apiEndpoint, {
-    //     method: 'POST',
-    //     body: JSON.stringify(data),
-    // })
+  if (data.files) {
+    data.files.forEach((file) => {
+      formData.append("files", file);
+    });
+  }
+
+  return fetch(apiEndpoint, {
+    method: "POST",
+    body: formData,
+  });
 }
