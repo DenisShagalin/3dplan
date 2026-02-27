@@ -3,6 +3,7 @@
   --main-biege-color: #ededed;
   --main-white-color: #fff;
   --main-green-color: rgb(156, 167, 105);
+  --light-grey-color: #9d9d9d;
 }
 
 /* general */
@@ -36,7 +37,7 @@ body {
 }
 
 .align-center {
-  align-items: 'center'
+  align-items: "center";
 }
 
 .home {
@@ -51,12 +52,25 @@ body {
   padding: 4px 6px;
   font-family: inherit;
   letter-spacing: 1px;
-  font-size: 16px
+  font-size: 16px;
+}
+
+/* Order button */
+.order_button {
+  background-color: var(--main-green-color);
+  border: none;
+  padding: 4px 20px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  color: var(--main-grey-color);
 }
 
 /* feedbacks */
 .home_feedbacks {
-  background-color: var(--main-white-color)
+  background-color: var(--main-white-color);
 }
 
 .home_people_wrap {
@@ -73,7 +87,7 @@ body {
 .home_partners {
   width: 100%;
   overflow-x: auto;
-  background-color: var(--main-white-color)
+  background-color: var(--main-white-color);
 }
 
 .home_partners img {
@@ -95,30 +109,30 @@ body {
   padding: 20px 0;
 }
 
-.home_us>img {
+.home_us > img {
   width: 25%;
   padding-right: 1rem;
 }
 
-.home_us>div {
+.home_us > div {
   width: 35%;
 }
 
-.home_us>div>img {
+.home_us > div > img {
   width: 80%;
 }
 
 /* plan example */
 .plan-example {
   padding: 50px 0;
-  background-color: var(--main-white-color)
+  background-color: var(--main-white-color);
 }
 
-.plan-example>img {
+.plan-example > img {
   width: 55%;
 }
 
-.plan-example>div {
+.plan-example > div {
   width: 45%;
 }
 
@@ -131,23 +145,23 @@ body {
   padding: 24px 10px;
 }
 
-.price>div>span:nth-child(1) {
+.price > div > span:nth-child(1) {
   font-size: 32px;
   padding-right: 6px;
   font-weight: 700;
 }
 
-.price>div>span:nth-child(2) {
+.price > div > span:nth-child(2) {
   font-weight: 700;
   font-size: 24px;
 }
 
-.price>span:nth-child(2) {
+.price > span:nth-child(2) {
   font-weight: 700;
   font-size: 16px;
 }
 
-.price>span:nth-child(3) {
+.price > span:nth-child(3) {
   margin-top: 14px;
   text-align: center;
 }
@@ -166,23 +180,23 @@ body {
   padding: 5px 0px;
 }
 
-.price_mini>div>span:nth-child(1) {
+.price_mini > div > span:nth-child(1) {
   font-size: 24px;
   padding-right: 6px;
   font-weight: 700;
 }
 
-.price_mini>div>span:nth-child(2) {
+.price_mini > div > span:nth-child(2) {
   font-weight: 700;
   font-size: 16px;
 }
 
-.price_mini>span:nth-child(2) {
+.price_mini > span:nth-child(2) {
   font-weight: 700;
   font-size: 12px;
 }
 
-.price_mini>span:nth-child(3) {
+.price_mini > span:nth-child(3) {
   margin-top: 10px;
   font-size: 12px;
   text-align: center;
@@ -193,21 +207,21 @@ body {
     width: 100%;
     padding: 18px 0px;
   }
-  
-  .price>div>span:nth-child(1) {
+
+  .price > div > span:nth-child(1) {
     font-size: 24px;
     padding-right: 6px;
   }
-  
-  .price>div>span:nth-child(2) {
+
+  .price > div > span:nth-child(2) {
     font-size: 16px;
   }
-  
-  .price>span:nth-child(2) {
+
+  .price > span:nth-child(2) {
     font-size: 12px;
   }
-  
-  .price>span:nth-child(3) {
+
+  .price > span:nth-child(3) {
     margin-top: 10px;
     text-align: center;
     width: 90%;
@@ -268,7 +282,7 @@ body {
     flex-direction: column;
   }
 
-  .steps_wrapper>div {
+  .steps_wrapper > div {
     width: unset !important;
     padding: 10px;
     min-height: 85px;
@@ -308,7 +322,6 @@ body {
   }
   .home_feedbacks {
     flex-direction: column !important;
-    
   }
   .home_people_wrap {
     width: 90% !important;
@@ -337,4 +350,32 @@ body {
   .wrapper img {
     width: 100% !important;
   }
+}
+
+/* input type file */
+#file-upload {
+  opacity: 0; /* Visually hide the input but keep it accessible */
+  position: absolute; /* Optional, depending on layout needs */
+  z-index: -1; /* Ensure it's behind the label */
+}
+
+#file-name-display {
+  padding-left: 0.5rem;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: var(--main-biege-color);
+}
+
+.custom-file-upload:hover {
+  background-color: #e9e9e9;
+}
+
+.recipient-select .ant-select-selector {
+  border-radius: unset;
+  border: unset !important;
+  outline: unset;
 }

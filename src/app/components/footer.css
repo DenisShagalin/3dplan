@@ -38,6 +38,10 @@
     padding: 10px 6px;
 }
 
+.footer .link_block img {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 820px) {
     .footer {
         flex-direction: column;

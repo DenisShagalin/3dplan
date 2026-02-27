@@ -1,62 +1,78 @@
-import { Flex } from 'antd';
-import Link from "next/link";
+"use client";
+
+import { Flex } from "antd";
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
-import Text from 'antd/lib/typography/Text';
+import Text from "antd/lib/typography/Text";
+import { useTranslations } from "next-intl";
+import { useOrder } from "../hooks/useOrder";
+import { OrderType } from "./order";
+
+const plans: Array<{
+  src: string;
+  alt: string;
+  order: OrderType;
+  title: string;
+}> = [
+  {
+    src: "/plans/A4_R.jpg",
+    alt: "R",
+    order: "2dDimension",
+    title: "toolbar.servicesItems.2dDim",
+  },
+  {
+    src: "/plans/A4-M.jpg",
+    alt: "M",
+    order: "2dFurniture",
+    title: "toolbar.servicesItems.2dFur",
+  },
+  {
+    src: "/plans/A4-3D.jpg",
+    alt: "3D",
+    order: "3dFurniture",
+    title: "toolbar.servicesItems.3dFur",
+  },
+];
 
 export const MainPlans = () => {
   const t = useTranslations();
 
+  const { orderView, showOrder } = useOrder();
+
   return (
-    <Flex className='home_plans' justify='space-around'>
-      <Link href='/service/2d-dimension'>
-        <Flex vertical className='img_wrap' align='center'>
-          <Image
-            src="/plans/A4_R.jpg"
-            alt="R"
-            width={1000}
-            height={0}
-            priority
-            style={{
-              width: '100%',
-              height: 'auto',
-            }}
-          />
-          <Text className='dark_link'>{t('control.learnMore')}</Text>
-        </Flex>
-      </Link>
-      <Link href='/service/2d-furniture'>
-        <Flex vertical className='img_wrap' align='center'>
-          <Image
-            src="/plans/A4-M.jpg"
-            alt="M"
-            width={1000}
-            height={0}
-            priority
-            style={{
-              width: '100%',
-              height: 'auto',
-            }}
-          />
-          <Text className='dark_link'>{t('control.learnMore')}</Text>
-        </Flex>
-      </Link>
-      <Link href='/service/3d-furniture'>
-        <Flex vertical className='img_wrap' align='center'>
-          <Image
-            src="/plans/A4-3D.jpg"
-            alt="3D"
-            width={1000}
-            height={0}
-            priority
-            style={{
-              width: '100%',
-              height: 'auto',
-            }}
-          />
-          <Text className='dark_link'>{t('control.learnMore')}</Text>
-        </Flex>
-      </Link>
-    </Flex>
-  )
+    <>
+      {orderView}
+      <Flex className="home_plans" justify="space-around">
+        {plans.map((plan) => (
+          <Flex key={plan.alt} vertical className="img_wrap" align="center">
+            <Image
+              src={plan.src}
+              alt={plan.alt}
+              width={1000}
+              height={0}
+              priority
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
+            <Text
+              style={{
+                color: "var(--main-grey-color)",
+                margin: 8,
+                fontSize: '1rem'
+              }}
+            >
+              {t(plan.title)}
+            </Text>
+            <button
+              className="order_button"
+              onClick={() => showOrder(plan.order)}
+            >
+              {t("control.order")}
+            </button>
+          </Flex>
+        ))}
+      </Flex>
+    </>
+  );
 };

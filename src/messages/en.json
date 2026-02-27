@@ -4,7 +4,8 @@
     "learnMore": "Learn more",
     "submit": "Submit",
     "wasSended": "E-mail was sended!",
-    "error": "Something went wrong! try later"
+    "error": "Something went wrong! try later",
+    "order": "Order"
   },
   "toolbar": {
     "services": "Services",
@@ -58,6 +59,14 @@
     "irina": {
       "text": "Whenever I had a question, I received immediate help. Pleasant and quick communication. The team is very friendly, loves their work, and is always available. Clear recommendation!",
       "name": "Iryna Moser, Private Client"
+    },
+    "madeleine": {
+      "text": "Thank you very much, the floor plan looks great! I'm very pleased that everything worked out so quickly.",
+      "name": "Madeleine Graf, Real Estate Agent"
+    },
+    "vicdan": {
+      "text": "Thank you very much for the quick delivery of the adapted floor plan. Both versions work perfectly for us, and we would like to sincerely thank you for the fast and efficient completion.",
+      "name": "Vicdan Mutlu, Kundenbetreuung /Hausverwaltung"
     }
   },
   "mailForm": {
@@ -111,7 +120,21 @@
       "faq3title": "Can I make changes after the plan has been created?",
       "faq3description": "Yes, absolutely. You will receive a draft version of the plan and have the opportunity to make any necessary edits or adjustments.",
       "faq4title": "Do you offer certified living area calculations?",
-      "faq4description": "We create floor plans and calculate living areas based on the measurements and data you provide. All square meter figures and dimensions we illustrate are approximate values.<br></br>We do <strong>not provide certified area calculations</strong> – our service is a graphic-based floor plan digitization service."
+      "faq4description": "We create floor plans and calculate living areas based on the measurements and data you provide. All square meter figures and dimensions we illustrate are approximate values.<br></br>We do <strong>not provide certified area calculations</strong> – our service is a graphic-based floor plan digitization service.",
+      "serviceInfo": {
+        "title": "3D Floor Plan with Furniture",
+        "description": "Based on your existing plan, we create professional 3D floor plans with carefully arranged furniture and harmonious interior design. This format clearly demonstrates the proportions, functionality, and atmosphere of the space.<br></br>You will receive two realistic perspectives for each property.<br></br>Optionally, the floor plan can include the surrounding area: terraces, parking spaces, garden, or relaxation areas. This provides a complete view not only of the interior but of the entire property.<br></br>Perfect for real estate listings, presentations, and a modern presentation of your property.",
+        "item1": "✓ 1–10 rooms per plan",
+        "item2": "✓ 1 or 2 views (top view and side view)",
+        "item3": "✓ Turnaround time: 4–5 days",
+        "item4": "✓ Revisions included in the price",
+        "item5": "+50% — Express delivery (48 hours)",
+        "item6": "+50% — Complex-shaped rooms",
+        "item7": "+50% — More than 10 rooms on the plan",
+        "item8": "+50% — Additional 2D/3D plan for the same property",
+        "item9": "+50% — External areas (parking, garden, patio, etc.)",
+        "priceText": "per floor plan for a property"
+      }
     },
     "2dFurniture": {
       "title": "2D floor plan with furniture",
@@ -125,7 +148,21 @@
       "step1": "Send us an existing floor plan – scanned or hand-drawn – with all measurements and any additional project information.",
       "step2": "We will digitize your floor plan according to your requirements and send a draft for your approval.",
       "step3": "Once approved, you will receive the final plan in the agreed formats and in high-resolution JPEG files for use in your marketing.",
-      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide"
+      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
+      "serviceInfo": {
+        "title": "2D Floor Plan with Furniture",
+        "description": "A furnished 2D floor plan created based on your existing property plan and designed according to our concept or based on your photos and preferences.<br></br>Your floor plan will feature harmoniously arranged furniture that clearly highlights the proportions and layout of the space.<br></br>You can individually choose the color of the parquet flooring, tiles in the sanitary areas, and the terrace.<br></br>Ideal for real estate listings, brochures, and a clear, easy-to-understand presentation of your property.",
+        "item1": "✓ 1–10 rooms per plan",
+        "item2": "✓ 1 or 2 views (top view and side view)",
+        "item3": "✓ Turnaround time: 4–5 days",
+        "item4": "✓ Revisions included in the price",
+        "item5": "+50% — Express delivery (48 hours)",
+        "item6": "+50% — Complex-shaped rooms",
+        "item7": "+50% — More than 10 rooms on the plan",
+        "item8": "+50% — Additional 2D/3D plan for the same property",
+        "item9": "+50% — External areas (parking, garden, patio, etc.)",
+        "priceText": "per floor plan for a property"
+      }
     },
     "2dDim": {
       "title": "2D floor plan with dimensions",
@@ -139,7 +176,21 @@
       "step1": "Send us an existing floor plan – scanned or hand-drawn – with all measurements and any additional project information.",
       "step2": "We will digitize your floor plan according to your requirements and send a draft for your approval.",
       "step3": "Once approved, you will receive the final plan in the agreed formats and in high-resolution JPEG files for use in your marketing.",
-      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide"
+      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
+      "serviceInfo": {
+        "title": "2D Floor Plan with Dimensions",
+        "description": "A 2D floor plan created based on your existing property plan – ideal for hard-to-read, old, or modified drawings.<br></br>Your plan will be presented in a clear and clean layout, with precise measurement lines on all walls.<br></br>Kitchen and sanitary areas are included<br></br>Perfect for real estate listings.",
+        "item1": "✓ 1–10 rooms per plan",
+        "item2": "✓ 1 or 2 views (top view and side view)",
+        "item3": "✓ Turnaround time: 4–5 days",
+        "item4": "✓ Revisions included in the price",
+        "item5": "+50% — Express delivery (48 hours)",
+        "item6": "+50% — Complex-shaped rooms",
+        "item7": "+50% — More than 10 rooms on the plan",
+        "item8": "+50% — Additional 2D/3D plan for the same property",
+        "item9": "+50% — External areas (parking, garden, patio, etc.)",
+        "priceText": "per floor plan for a property"
+      }
     }
   },
   "price": {
@@ -157,18 +208,43 @@
     "policyDescription": "Protecting your personal data is very important to us. We process your data exclusively on the basis of the legal provisions (GDPR, TKG 2003). In this privacy statement, we inform you about the most important aspects of data processing on our website.<br></br><br></br><strong>1. Contacting Us and Inquiry Forms</strong><br></br>If you contact us via a form on the website (e.g. questionnaire or contact form), the data you provide (name, email address, phone number, project details, etc.) will be stored for the purpose of processing your request and any follow-up questions. This data will not be shared without your consent.<br></br><br></br><strong>2. Use of Google Fonts</strong><br></br>Our website uses Google Fonts, a service of Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. The fonts are loaded from Google servers when the website is accessed. Google may record your IP address and transfer it to the USA.<br></br>The legal basis is our legitimate interest pursuant to Art. 6 para. 1 lit. f GDPR to ensure a uniform and attractive website design.<br></br><br></br>More information:<br></br>https://developers.google.com/fonts/faq<br></br>https://policies.google.com/privacy<br></br><br></br><strong>3. Social Media Plugins</strong><br></br>Our website includes plugins and links to social networks (Instagram, Facebook, Pinterest), operated by third-party providers:<br></br>• Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Ireland<br></br>• Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Ireland<br></br>• Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland<br></br><br></br>When visiting our site, data such as IP address, browser details, and interactions may be transmitted to these platforms, even if you are not logged in or do not have a profile on them.<br></br><br></br>For more information about how these networks process data, see their respective privacy policies:<br></br>• Instagram: https://privacycenter.instagram.com/<br></br>• Facebook: https://www.facebook.com/about/privacy<br></br>• Pinterest: https://policy.pinterest.com/de/privacy-policy<br></br><br></br><strong>4. Your Rights</strong><br></br>You have the right to access, correct, delete, restrict, transfer, revoke, and object to your data.<br></br>If you believe that the processing of your data violates data protection law or your data protection rights have been otherwise infringed, you can file a complaint with the Austrian Data Protection Authority:<br></br>www.dsb.gv.at<br></br><br></br><strong>5. Responsible for Data Processing</strong><br></br>Anastasiia Strauss<br></br>Witthauergasse 28/5<br></br>1180 Vienna, Austria<br></br><br></br>Contact:<br></br>Email: office@3dplan.online"
   },
   "order": {
-    "title": "UPLOAD EXISTING FLOOR PLAN",
-    "description": "This can be an architectural or construction plan,<br></br>as well as a hand-drawn sketch.",
+    "title": "Choose the type of floor plan:*",
+    "type1": "2D floor plan with dimensions",
+    "type2": "2D floor plan with furniture",
+    "type3": "3D floor plan with furniture",
+    "materialsTitle": "Select the finishing materials:",
+    "fileInputButton": "Choose file",
+    "fileInputLabel": "Upload the floor plan of your property (up to 5 MB)",
+    "expressDelivery": "+50% — Express delivery (48 hours)",
+    "exteriorAreas": "+50% — Exterior areas (parking, garden, patio, etc.)",
+    "roomCoveringTitle": "Floor coverings in the room",
+    "bathroomsCoveringTitle": "Floor coverings in the bathrooms",
+    "kitchecnCoveringTitle": "Floor coverings in the kitchen",
+    "terraceCoveringTitle": "Floor coverings on the terraces",
+    "outdoorCoveringTitle": "Outdoor surface coverings",
+    "doorCoveringTitle": "Door finishes",
+    "recipientTitle": "Invoice recipient",
+    "recipientLabel": "Title",
+    "recipientLabelMs": "Ms.",
+    "recipientLabelMr": "Mr.",
+    "recipientLabelDiverse": "Non-binary / Diverse",
+    "recipientLabelUnknown": "Prefer not to say",
     "name": "First Name",
     "surname": "Last Name",
-    "org": "Organization",
+    "org": "Company",
+    "uid": "UID number",
+    "country": "Country",
     "city": "City",
     "idx": "Postal Code",
     "address": "Address",
     "mail": "E-mail",
-    "comment": "Comment",
-    "type": "What type of plan would you like to digitize?",
-    "link": "Link to the floor plan and photos of your property (Google Drive, Dropbox, WeTransfer)"
+    "comment": "Comments:",
+
+    "termsTitle": "Terms and Conditions",
+    "termsAcceptLabel": "I accept the <a href=\"/security\">General Terms and Conditions</a> and the <a href=\"/security\">Privacy Policy</a>.<br><span style=\"font-size: 12px;\">* Required for order processing</span>",
+    "termsRequest": "I expressly request that you begin providing the service before the end of the withdrawal period. I am aware that, by doing so, I will lose my right of withdrawal.",
+    "orderButton": "Submit order",
+    "orderNotification": "After submitting your request, you will receive a confirmation and an invoice by email."
   },
   "packages": {
     "title": "Service Packages",
@@ -197,5 +273,102 @@
       "title": "3D Floor Plan with Furniture",
       "description": "A 3D floor plan of a single-story property with furniture, arranged either based on real photos or our suggested layout. The plan includes a table listing room sizes and, if needed, a calculation of the living area.<br></br>Your logo and a north arrow are also included."
     }
+  },
+
+  "mainFAQ": {
+    "1": {
+      "question": "How can I order a 2D/3D floor plan?",
+      "answer": "Email us at office@3dplan.online with all details of your project. You can also order directly via the form on our website."
+    },
+    "2": {
+      "question": "What information is needed to create a 2D/3D floor plan?",
+      "answer": "Please send to office@3dplan.online:<br></br>A scanned or hand-drawn plan of the existing property with room dimensions and labels<br></br>Photos of the property<br></br>Information on the location of plumbing and large appliances (TV, fridge, stove)<br></br>Details about flooring, doors, windows, and other materials to be included<br></br>Your billing information"
+    },
+    "3": {
+      "question": "How long does it take to create a 2D/3D floor plan?",
+      "answer": "Processing time for 2D or 3D plans (1–10 rooms per floor) is 4–5 days.<br></br>Delivery time may vary depending on project size, especially if the plan has more than 10 rooms."
+    },
+    "4": {
+      "question": "Can changes be made after the floor plan is created?",
+      "answer": "Yes, the price includes up to two rounds of revisions. You can adjust dimensions, furniture layout, or add details without extra cost."
+    },
+    "5": {
+      "question": "In what format will I receive the floor plan?",
+      "answer": "You will receive your project via email in PNG format with a transparent background, ideal for marketing. JPEG format is also available on request."
+    },
+    "6": {
+      "question": "How long is my project stored?",
+      "answer": "The approved final project is stored for one year.<br></br>Working files are stored for three months; after this period, changes are no longer possible."
+    },
+    "7": {
+      "question": "What are the payment terms?",
+      "answer": "Payment is 100% in advance. Work on your project begins after payment is received."
+    },
+    "8": {
+      "question": "Can you arrange furniture according to my photos?",
+      "answer": "Yes, we can place furniture in a 2D or 3D plan based on your photos. We use standard 3D models, so the appearance may differ slightly."
+    },
+    "9": {
+      "question": "Can you arrange furniture yourself, or do I need to provide a layout?",
+      "answer": "We can arrange furniture considering room ergonomics and planning principles. If you have preferences, you can provide instructions."
+    },
+    "10": {
+      "question": "Is there a discount for ordering 2D/3D plans for the same property?",
+      "answer": "Yes, one plan costs €39, two plans €59, three plans €79. Each additional plan is 50% off."
+    },
+    "11": {
+      "question": "Can you create a floor plan including the surrounding area?",
+      "answer": "Yes, for an extra 50%: standard plan €39, plan with surrounding area €59. Parking, garden, patio, or pool can be added on request."
+    },
+    "12": {
+      "question": "What is the price of a 2D/3D floor plan?",
+      "answer": "Plans up to 10 rooms: €39. Plans over 10 rooms: +50%, €59."
+    },
+    "13": {
+      "question": "Do you calculate floor areas?",
+      "answer": "No, we provide a “clean” floor plan. You can add room areas, room names, and any other required information yourself, according to your needs."
+    },
+    "14": {
+      "question": "Can I choose finishing materials for the 3D model?",
+      "answer": "Yes, when placing an online order, you can select floor and tile finishes from our standard material library or provide your own reference photos.<br></br><br></br>Interior walls and façades are rendered in a neutral white finish."
+    }
+  },
+  "mainInstruction": {
+    "title": "How to order a floor plan: step-by-step guide",
+    "step1": "Send us your project details by email",
+    "description1": "Email us and specify the type of plan you need: 2D with dimensions, 2D with furniture, or 3D with furniture.<br></br>Please include the following materials:<br></br>▪ Floor plans with dimensions and room labels<br></br>▪ Photos of the property<br></br>▪ Information about the location of plumbing and appliances (TV, fridge, stove)<br></br>▪ Details about flooring, doors, windows, and other materials<br></br>▪ Your billing information",
+    "step2": "Pay for your project",
+    "description2": "Once all required information is provided, you will receive an invoice.<br></br>Work on your project will begin as soon as payment is received.",
+    "step3": "Receive your finished project by email",
+    "description3": "You will receive your completed project in JPEG or PNG format, ready to use in your marketing.<br></br>We provide a “clean” plan that you can enhance with all necessary details for presentation or sale."
+  },
+  "banner": {
+    "line1": "✓ 2D floor plan with dimensions",
+    "line2": "✓ 2D floor plan with furniture",
+    "line3": "✓ 3D floor plan with furniture",
+    "line4": "3Dplan.online – Online graphic service for real estate agents and agencies, specializing in the digitization of existing floor plans.",
+    "priceText": "per floor plan",
+    "banner2PriceText": "Floor plan with outdoor area",
+    "banner2Line1": "✓ Enhances the appeal of your presentations",
+    "banner2Line2": "✓ Shows furniture and space usage realistically",
+    "banner2Description": "We can extend your floor plan to include an outdoor area of your choice (e.g. pool, patio, parking) for an additional 50%.",
+    "banner3PriceText": "for two floor plans",
+    "banner3Line1": "✓ Combo offer for your property",
+    "banner3Line2": "✓ More floor plans at a better price",
+    "banner3Description": "The price of each additional floor plan of the same property is reduced by 50% — a cost-effective solution for presentations, marketing, or planning."
+  },
+  "serviceInfo": {
+    "description": "3Dplan.online – An online graphic service for digitizing existing floor plans for real estate agents and agencies.<br></br>All types of floor plans at one fixed price, regardless of the property type.",
+    "item1": "✓ 1–10 rooms per plan",
+    "item2": "✓ 1 or 2 views (top view and side view)",
+    "item3": "✓ Turnaround time: 4–5 days",
+    "item4": "✓ Revisions included in the price",
+    "item5": "+50% — Express delivery (48 hours)",
+    "item6": "+50% — Complex-shaped rooms",
+    "item7": "+50% — More than 10 rooms on the plan",
+    "item8": "+50% — Additional 2D/3D plan for the same property",
+    "item9": "+50% — External areas (parking, garden, patio, etc.)",
+    "title": "Additional charges:",
+    "priceText": "per floor plan for a property"
   }
 }

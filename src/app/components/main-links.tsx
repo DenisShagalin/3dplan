@@ -84,8 +84,12 @@ export const MainLinks = () => {
       label: 'DE'
     },
     {
-      key: 'ru',
-      label: 'RU'
+      key: 'fr',
+      label: 'FR'
+    },
+    {
+      key: 'cs',
+      label: 'CZ'
     },
   ];
 

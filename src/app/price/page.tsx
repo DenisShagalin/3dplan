@@ -54,7 +54,7 @@ export default function Price() {
                   width: isSmall ? '80%' : '28%',
                 }}
               >
-                <ImgWrapper src='/2d-dimension/0.jpg' />
+                <ImgWrapper src='/2d-dimension/1.jpg' />
 
                 <Title
                   style={{
@@ -228,7 +228,7 @@ export default function Price() {
                 justify='space-around'
               >
                 <Flex style={{ width: '28%' }}>
-                  <ImgWrapper src='/2d-dimension/0.jpg' />
+                  <ImgWrapper src='/2d-dimension/1.jpg' />
                 </Flex>
                 <Flex style={{ width: '28%' }}>
                   <ImgWrapper src='/2d-furniture/1.jpg' />

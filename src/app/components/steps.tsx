@@ -3,7 +3,7 @@ import Title from 'antd/lib/typography/Title';
 import { useTranslations } from 'next-intl';
 import { Flex } from 'antd';
 
-const Step = ({ step }: { step: number }) => <div style={{
+export const Step = ({ step }: { step: number }) => <div style={{
   width: '60px',
   minWidth: '60px',
   maxWidth: '60px',
@@ -13,19 +13,19 @@ const Step = ({ step }: { step: number }) => <div style={{
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  marginRight: '15px',
-  fontSize: '20px'
+  // marginRight: '15px',
+  fontSize: '1.625rem'
 }}>
   {step}
 </div>;
 
-const StepWrap = ({ children }: any) => <div style={{
+export const StepWrap = ({ children, ...rest }: any) => <div style={{
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
   alignItems: 'flex-start',
   width: '30%',
-}}>{children}</div>
+}} {...rest}>{children}</div>
 
 export const Steps = ({
   title,
