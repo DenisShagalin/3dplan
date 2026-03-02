@@ -145,11 +145,13 @@ const MaterialsChooser = ({
   coverings,
   onChange,
   current,
+  isSmall,
 }: {
   title: string;
   coverings: string[];
   onChange: (type: string) => void;
   current: string[];
+  isSmall: boolean;
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -159,7 +161,7 @@ const MaterialsChooser = ({
       style={{
         backgroundColor: "var(--main-white-color)",
         padding: "0.5rem",
-        width: "50%",
+        width: isSmall ? "90%" : "50%",
         borderRadius: "4px",
       }}
     >
@@ -220,6 +222,7 @@ export function Order({
   defaultValue: OrderType;
 }) {
   const [type, setType] = useState("");
+  const [clientType, setClientType] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [iuid, setIuid] = useState("");
@@ -296,6 +299,7 @@ export function Order({
     setExteriorAreas(false);
     setTermsRequest(false);
     setIsAgreed(false);
+    setClientType("");
   }, []);
 
   const onSubmit = useCallback(async () => {
@@ -336,6 +340,7 @@ Country: ${country}
 City: ${city}
 Postal Code: ${idx}
 Address: ${address}
+Client Type: ${clientType}
 
 --- Terms ---
 Agreed to Terms: ${isAgreed ? "Yes" : "No"}
@@ -381,6 +386,7 @@ ${message || "—"}
     isAgreed,
     termRequest,
     files,
+    clientType,
     clear,
   ]);
 
@@ -446,7 +452,7 @@ ${message || "—"}
       width={isSmall ? "100%" : "60%"}
       style={{
         backgroundColor: "var(--main-biege-color)",
-        maxWidth: isSmall ? undefined : "820px",
+        maxWidth: isSmall ? "unset" : "820px",
         padding: 0,
         margin: isSmall ? 0 : undefined,
         top: isSmall ? 0 : undefined,
@@ -540,6 +546,7 @@ ${message || "—"}
           coverings={roomCovering}
           onChange={onCoveringChange("roomCovering")}
           current={coverings["roomCovering"] || []}
+          isSmall={isSmall}
         />
 
         <MaterialsChooser
@@ -547,6 +554,7 @@ ${message || "—"}
           coverings={bathCovering}
           onChange={onCoveringChange("bathCovering")}
           current={coverings["bathCovering"] || []}
+          isSmall={isSmall}
         />
 
         <MaterialsChooser
@@ -554,6 +562,7 @@ ${message || "—"}
           coverings={kitchenCovering}
           onChange={onCoveringChange("kitchenCovering")}
           current={coverings["kitchenCovering"] || []}
+          isSmall={isSmall}
         />
 
         <MaterialsChooser
@@ -561,6 +570,7 @@ ${message || "—"}
           coverings={terraceCovering}
           onChange={onCoveringChange("terraceCovering")}
           current={coverings["terraceCovering"] || []}
+          isSmall={isSmall}
         />
 
         <MaterialsChooser
@@ -568,6 +578,7 @@ ${message || "—"}
           coverings={outdoorCovering}
           onChange={onCoveringChange("outdoorCovering")}
           current={coverings["outdoorCovering"] || []}
+          isSmall={isSmall}
         />
 
         <MaterialsChooser
@@ -575,6 +586,7 @@ ${message || "—"}
           coverings={doorCovering}
           onChange={onCoveringChange("doorCovering")}
           current={coverings["doorCovering"] || []}
+          isSmall={isSmall}
         />
 
         <Flex
@@ -610,33 +622,59 @@ ${message || "—"}
             width: "82%",
           }}
         >
-          <Flex vertical align="flex-start" style={{ width: "49%" }}>
-            <Typography.Text>{t("order.recipientLabel")}</Typography.Text>
-            <Select
-              style={{
-                width: "100%",
-              }}
-              className="recipient-select"
-              onChange={(value) => setType(value)}
-              options={[
-                {
-                  value: "ms",
-                  label: t("order.recipientLabelMs"),
-                },
-                {
-                  value: "mr",
-                  label: t("order.recipientLabelMr"),
-                },
-                {
-                  value: "diverse",
-                  label: t("order.recipientLabelDiverse"),
-                },
-                {
-                  value: "unknown",
-                  label: t("order.recipientLabelUnknown"),
-                },
-              ]}
-            />
+          <Flex
+            align="flex-start"
+            justify="space-between"
+            style={{ width: "100%", padding: "0.25rem 0" }}
+          >
+            <Flex vertical align="flex-start" style={{ width: "49%" }}>
+              <Typography.Text>{t("order.clientTitle")}</Typography.Text>
+              <Select
+                style={{
+                  width: "100%",
+                }}
+                className="recipient-select"
+                onChange={(value) => setClientType(value)}
+                options={[
+                  {
+                    value: "businessClient",
+                    label: t("order.businessClient"),
+                  },
+                  {
+                    value: "privateClient",
+                    label: t("order.privateClient"),
+                  },
+                ]}
+              />
+            </Flex>
+            <Flex vertical align="flex-start" style={{ width: "49%" }}>
+              <Typography.Text>{t("order.recipientLabel")}</Typography.Text>
+              <Select
+                style={{
+                  width: "100%",
+                }}
+                className="recipient-select"
+                onChange={(value) => setType(value)}
+                options={[
+                  {
+                    value: "ms",
+                    label: t("order.recipientLabelMs"),
+                  },
+                  {
+                    value: "mr",
+                    label: t("order.recipientLabelMr"),
+                  },
+                  {
+                    value: "diverse",
+                    label: t("order.recipientLabelDiverse"),
+                  },
+                  {
+                    value: "unknown",
+                    label: t("order.recipientLabelUnknown"),
+                  },
+                ]}
+              />
+            </Flex>
           </Flex>
 
           <Flex
@@ -821,7 +859,8 @@ ${message || "—"}
         <Flex
           style={{
             width: "80%",
-            backgroundColor: "var(--main-white-color)",
+            backgroundColor:
+              clientType === "businessClient" ? "" : "var(--main-white-color)",
             padding: "0.5rem",
             borderRadius: "4px",
           }}
@@ -830,6 +869,7 @@ ${message || "—"}
         >
           <input
             type="checkbox"
+            disabled={clientType === "businessClient"}
             checked={termRequest}
             onChange={() => setTermsRequest(!termRequest)}
           />
@@ -844,6 +884,7 @@ ${message || "—"}
           align="center"
           style={{
             width: "100%",
+            margin: isSmall ? "1rem" : undefined,
           }}
         >
           <Button

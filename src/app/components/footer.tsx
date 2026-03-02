@@ -1,8 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Flex } from "antd";
 import { useTranslations } from "next-intl";
 
-import Paragraph from "antd/lib/typography/Paragraph";
+const FooterLink = ({ href, label }: { href: string; label: string }) => (
+  <Link
+    href={href}
+    style={{
+      textDecoration: "unset",
+      color: "inherit",
+      fontFamily: "inherit",
+      padding: "2px",
+    }}
+  >
+    {label}
+  </Link>
+);
 
 import "./footer.css";
 
@@ -125,18 +138,16 @@ export const Footer = () => {
           justifyContent: "flex-end",
         }}
       >
-        <Paragraph style={{ color: "inherit", fontFamily: "inherit" }}>
-          <Link
-            href="/security"
-            style={{
-              textDecoration: "unset",
-              color: "inherit",
-              fontFamily: "inherit",
-            }}
-          >
-            {t("securityMessage")}
-          </Link>
-        </Paragraph>
+        <Flex
+          style={{ fontFamily: "inherit", fontSize: "0.875rem" }}
+          vertical
+          align="center"
+        >
+          <FooterLink href="/security/privacy" label={t("policyLabels.privacy")} />
+          <FooterLink href="/security/legal-notice" label={t("policyLabels.legalNotice")} />
+          <FooterLink href="/security/terms" label={t("policyLabels.terms")} />
+          <FooterLink href="/security/info" label={t("policyLabels.info")} />
+        </Flex>
       </div>
     </div>
   );

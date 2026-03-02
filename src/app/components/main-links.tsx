@@ -49,14 +49,6 @@ export const MainLinks = () => {
       key: '/service/3d-furniture',
       label: t('toolbar.servicesItems.3dFur')
     },
-    {
-      key: '/service/3d-exterior/',
-      label: t('toolbar.servicesItems.3dIn')
-    },
-    {
-      key: '/service/3d-exterior',
-      label: t('toolbar.servicesItems.3dEx')
-    },
   ];
 
   const main = [
