@@ -1,7 +1,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { cookies } from 'next/headers';
 
-const supportedLocales = ['en', 'de', 'ru', 'fr', 'cs'];
+const supportedLocales = ['en', 'de', 'fr', 'cs'];
 
 export default getRequestConfig(async () => {
   const cookieLocale = (await cookies()).get('3DPLAN_LOCALE')?.value || 'en';

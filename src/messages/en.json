@@ -1,4 +1,10 @@
 {
+  "cookie": {
+    "message": "We use cookies to improve your experience on our website. By continuing to browse, you agree to our use of cookies.",
+    "learnMore": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
   "policyLabels": {
     "privacy": "Privacy Policy",
     "legalNotice": "Legal Notice",
@@ -84,8 +90,7 @@
     "description": "We would be happy to hear about your upcoming real estate projects, consider cooperation proposals, and answer all your questions."
   },
   "aboutus": {
-    "title": "3dplan.online - Your partner in creating high-quality real estate visualizations.",
-    "description": "We, Anastasia Strauss and Yulia Simonova, are a team of professional designers and the creators of <strong>3dplan.online</strong>.<br></br>Our mission is to help real estate agents work more professionally by creating compelling visual materials that make their listings more attractive.<br></br>Let’s create the perfect presentation for your property together!<br></br><br></br>We developed this service to significantly improve the visual presentation of properties for sale or rent. Striking 2D and 3D floor plans, along with photorealistic visualizations, help showcase real estate effectively, highlight its advantages over the competition, and attract more potential buyers or renters. This also contributes to increasing the property’s value during sale or rental.<br></br><br></br><strong>How does it work?</strong><br></br>We work with existing floor plans and sketches. All you need to do is scan or draw the current layout of the property and send it to us along with a description of the rooms<br></br>We’ll turn it into a professional graphic representation you can use in your marketing, presentations, and property brochures.<br></br><br></br>Let’s create the perfect presentation for your property together!"
+    "description": "<h2>About Us</h2><p>We are the team behind 3DPlan.online – professional designers and 3D visualizers specializing in real estate presentation.</p><p>Our mission is to help real estate agents and agencies operate at a high professional level by creating clear and modern visual materials that make properties more attractive and easier for clients to understand.</p><p>We created this service to significantly enhance the quality of property visualizations. High-quality 2D and 3D floor plans, as well as photorealistic images, help present real estate in the best possible way, highlight its advantages, stand out from competitors, and attract more potential buyers or tenants.</p><p>A professional presentation not only strengthens trust in the property but can also contribute to achieving a higher sales or rental price.</p><h2>How It Works</h2><p>We work with existing plans, drawings, or sketches. Simply provide a scanned or hand-drawn floor plan with dimensions and room descriptions — and we will transform it into a professional graphic visualization.</p><p>The final materials can be used in marketing, online listings, presentations, and promotional displays.</p>"
   },
   "service": {
     "3dExterior": {

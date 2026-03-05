@@ -1,4 +1,10 @@
 {
+  "cookie": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant à naviguer, vous acceptez notre utilisation des cookies.",
+    "learnMore": "En savoir plus",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
   "policyLabels": {
     "privacy": "Politique de confidentialité",
     "legalNotice": "Mentions légales",
@@ -14,60 +20,60 @@
   },
   "toolbar": {
     "services": "Services",
-    "pricing": "Pricing",
-    "about": "About us",
+    "pricing": "Tarifs",
+    "about": "À propos de nous",
     "contact": "Contact",
-    "lang": "Language",
+    "lang": "Langue",
     "servicesItems": {
-      "2dDim": "2D floor plan with dimensions",
-      "2dFur": "2D floor plan with furniture",
-      "3dFur": "3D floor plan with furniture",
-      "3dIn": "3D interior visualization",
-      "3dEx": "3D exterior visualization",
-      "planBasic": "Plan – Basic",
+      "2dDim": "Plan 2D avec dimensions",
+      "2dFur": "Plan 2D avec mobilier",
+      "3dFur": "Plan 3D avec mobilier",
+      "3dIn": "Visualisation 3D d'intérieur",
+      "3dEx": "Visualisation 3D d'extérieur",
+      "planBasic": "Plan – Basique",
       "planPlus": "Plan – Plus",
       "planPro": "Plan – Pro",
-      "planBasicDes": "Ideal for private real estate agents",
-      "planPlusDes": "Suitable for real estate agencies",
-      "planProDes": "Suitable for developers and investors",
-      "planBasicDiscount": "10% discount",
-      "planPlusDiscount": "15% discount",
-      "planProDiscount": "20% discount",
-      "planBasicQuantity": "From 20 floor plans",
-      "planPlusQuantity": "From 40 floor plans",
-      "planProQuantity": "From 60 floor plans"
+      "planBasicDes": "Idéal pour les agents immobiliers privés",
+      "planPlusDes": "Adapté aux agences immobilières",
+      "planProDes": "Adapté aux promoteurs et investisseurs",
+      "planBasicDiscount": "10% de réduction",
+      "planPlusDiscount": "15% de réduction",
+      "planProDiscount": "20% de réduction",
+      "planBasicQuantity": "À partir de 20 plans d'étage",
+      "planPlusQuantity": "À partir de 40 plans d'étage",
+      "planProQuantity": "À partir de 60 plans d'étage"
     }
   },
   "home": {
-    "usText1": "3Dplan.online - graphic service for real estate agents.",
-    "usText2": "We transform old property plans into modern, professional designs and create interior and exterior visualizations.",
-    "usText3": "Perfect for real estate marketing - boosting sales and enhancing your agency's image.",
-    "usTitle": "Graphic service for real estate agents"
+    "usText1": "3Dplan.online - service graphique pour agents immobiliers.",
+    "usText2": "Nous transformons les anciens plans de biens immobiliers en designs modernes et professionnels, et créons des visualisations d'intérieur et d'extérieur.",
+    "usText3": "Parfait pour le marketing immobilier - boostez vos ventes et renforcez l'image de votre agence.",
+    "usTitle": "Service graphique pour agents immobiliers"
   },
   "planExample": {
-    "title": "3D Visualization of Interiors and Exteriors – The Key to Successful Real Estate Sales",
-    "description": "Why is important? Buyerthis s make decisions based on emotions and visual perception. 3D visualization helps to present a property even before construction or renovation, creating a sense of space and style.<br></br><br></br>Our Services:<br></br>• 3D Interior Visualization – realistic images that convey comfort and functionality.<br></br>• 3D Exterior Visualization – striking visual solutions for facades and surrounding areas."
+    "title": "Visualisation 3D d'intérieurs et d'extérieurs – La clé d'une vente immobilière réussie",
+    "description": "Pourquoi est-ce important ? Les acheteurs prennent leurs décisions sur la base des émotions et de la perception visuelle. La visualisation 3D permet de présenter un bien immobilier même avant la construction ou la rénovation, créant une impression d'espace et de style.<br></br><br></br>Nos services :<br></br>• Visualisation 3D d'intérieur – des images réalistes qui transmettent confort et fonctionnalité.<br></br>• Visualisation 3D d'extérieur – des solutions visuelles saisissantes pour les façades et les espaces environnants."
   },
   "feedback": {
     "thomas": {
-      "text": "A great collaboration! The plan graphics look professional - fast, high-quality, and at a good price. It saves time and leaves a great impression on clients. Thank you and I highly recommend it!",
-      "name": "Thomas Schneider, Real Estate Agent"
+      "text": "Une excellente collaboration ! Les graphiques des plans ont l'air professionnels - rapides, de haute qualité et à un bon prix. Cela fait gagner du temps et laisse une excellente impression aux clients. Merci et je le recommande vivement !",
+      "name": "Thomas Schneider, Agent immobilier"
     },
     "olga": {
-      "text": "I can no longer imagine my marketing without this service. Fast and high-quality work, modern design - simply perfect! Highly recommended.",
-      "name": "Olga Chehova, Marketing Expert"
+      "text": "Je ne peux plus imaginer mon marketing sans ce service. Travail rapide et de haute qualité, design moderne - tout simplement parfait ! Hautement recommandé.",
+      "name": "Olga Chehova, Experte en marketing"
     },
     "sergio": {
-      "text": "A fantastic service for anyone who wants to present their property professionally. The posts are perfect for social media platforms like Instagram and Facebook. Fast and high-quality work. If I need another property presentation, I will gladly turn to you again. 100% recommendation!",
-      "name": "Sergio Romano, Real Estate Agent"
+      "text": "Un service fantastique pour tous ceux qui souhaitent présenter leur bien immobilier de manière professionnelle. Les publications sont parfaites pour les réseaux sociaux comme Instagram et Facebook. Travail rapide et de haute qualité. Si j'ai besoin d'une autre présentation de bien, je ferai de nouveau appel à vous avec plaisir. Recommandation à 100% !",
+      "name": "Sergio Romano, Agent immobilier"
     },
     "irina": {
-      "text": "Whenever I had a question, I received immediate help. Pleasant and quick communication. The team is very friendly, loves their work, and is always available. Clear recommendation!",
-      "name": "Iryna Moser, Private Client"
+      "text": "Chaque fois que j'avais une question, j'ai reçu une aide immédiate. Communication agréable et rapide. L'équipe est très sympathique, aime son travail et est toujours disponible. Recommandation sans réserve !",
+      "name": "Iryna Moser, Cliente particulière"
     },
     "madeleine": {
-      "text": "Thank you very much, the floor plan looks great! I'm very pleased that everything worked out so quickly.",
-      "name": "Madeleine Graf, Real Estate Agent"
+      "text": "Merci beaucoup, le plan d'étage est superbe ! Je suis très contente que tout se soit passé si rapidement.",
+      "name": "Madeleine Graf, Agent immobilier"
     },
     "vicdan": {
       "text": "Nous vous remercions pour l’envoi rapide du plan adapté. Les deux versions nous conviennent parfaitement et nous tenons à vous remercier sincèrement pour la réalisation rapide.",
@@ -75,113 +81,112 @@
     }
   },
   "mailForm": {
-    "name": "Name",
-    "firstName": "First Name",
-    "lastName": "Last Name",
-    "email": "Email",
+    "name": "Nom",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "E-mail",
     "message": "Message",
-    "title": "YOU CAN CONTACT US BY EMAIL<br></br>office@3dplan.online",
-    "description": "We would be happy to hear about your upcoming real estate projects, consider cooperation proposals, and answer all your questions."
+    "title": "CONTACTEZ-NOUS PAR E-MAIL<br></br>office@3dplan.online",
+    "description": "Nous serions ravis de vous entendre parler de vos projets immobiliers à venir, d'examiner des propositions de coopération et de répondre à toutes vos questions."
   },
   "aboutus": {
-    "title": "3dplan.online - Your partner in creating high-quality real estate visualizations.",
-    "description": "We, Anastasia Strauss and Yulia Simonova, are a team of professional designers and the creators of <strong>3dplan.online</strong>.<br></br>Our mission is to help real estate agents work more professionally by creating compelling visual materials that make their listings more attractive.<br></br>Let’s create the perfect presentation for your property together!<br></br><br></br>We developed this service to significantly improve the visual presentation of properties for sale or rent. Striking 2D and 3D floor plans, along with photorealistic visualizations, help showcase real estate effectively, highlight its advantages over the competition, and attract more potential buyers or renters. This also contributes to increasing the property’s value during sale or rental.<br></br><br></br><strong>How does it work?</strong><br></br>We work with existing floor plans and sketches. All you need to do is scan or draw the current layout of the property and send it to us along with a description of the rooms<br></br>We’ll turn it into a professional graphic representation you can use in your marketing, presentations, and property brochures.<br></br><br></br>Let’s create the perfect presentation for your property together!"
+    "description": "<h2>À propos de nous</h2><p>Nous sommes l’équipe de 3DPlan.online, des designers professionnels et des spécialistes en visualisation 3D, spécialisés dans la présentation de biens immobiliers.</p><p>Notre mission est d’aider les agents immobiliers et les agences à travailler à un niveau professionnel élevé en créant des supports visuels clairs et modernes qui rendent les biens plus attractifs et plus compréhensibles pour les clients.</p><p>Nous avons créé ce service afin d’élever la visualisation immobilière à un niveau supérieur. Des plans 2D et 3D de haute qualité ainsi que des images photoréalistes permettent de mettre un bien en valeur, d’en souligner les atouts, de se démarquer de la concurrence et d’attirer davantage d’acheteurs ou de locataires potentiels.</p><p>Une présentation professionnelle renforce non seulement la confiance envers le bien, mais contribue également à en augmenter la valeur lors de la vente ou de la mise en location.</p><h2>Comment travaillons-nous ?</h2><p>Nous travaillons à partir de plans, de dessins techniques ou d’esquisses existants.</p><p>Il suffit de nous fournir un plan scanné ou dessiné à la main avec les dimensions et la description des pièces — nous le transformons en une visualisation graphique professionnelle.</p><p>Les supports finalisés peuvent être utilisés dans le marketing, les annonces en ligne, les présentations commerciales et les supports promotionnels.</p>"
   },
   "service": {
     "3dExterior": {
-      "title": "3D visualizations of interior and exterior spaces",
-      "description": "Professional 3D visualization - a powerful tool for real estate presentation. We create photorealistic 3D images of interiors and exteriors, which allow you to showcase the future property in all its details even before construction or renovation begins. This helps potential clients and investors to see the final result and assess all the features and advantages of the project.<br></br><br></br>Who can benefit from this?<br></br> • Investors and developers who want to present visually appealing and clearly presented projects to their partners and clients.<br></br>• Real estate agencies working on the image of a future project and looking to present it in the best light, attracting more clients and increasing interest in sales or rentals.<br></br><br></br>Let your clients see the future today with high-quality 3D visualization!",
-      "control": "Start now",
-      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
-      "step1": "Send photos or videos of the site or interior, along with a description of materials and the desired style. The more details you provide, the more accurate the result will be.",
-      "step2": "We will create initial 3D visualizations based on all your requirements and send them to you for approval.",
-      "step3": "Once fully approved, we will deliver the final 3D visualizations in high resolution for use in your marketing.",
-      "faq1title": "What information is required to create an interior visualization?",
-      "faq1description": "To deliver a high-quality result, we need the following:<br></br>– Photos or a video of the space<br></br>– A floor plan (either hand-drawn or architectural)<br></br>– Information about materials and the desired style or atmosphere.<br></br>The more detailed and accurate the input, the more realistic and precise the final result will be.",
-      "faq2title": "How long does it take to create a visualization?",
-      "faq2description": "Creating an interior visualization usually takes up to 10 business days (excluding the time needed for feedback and revisions). The timeline depends on the project’s complexity, the number of perspectives, and the required level of detail.",
-      "faq3title": "Can I request changes after the visualization has been created?",
-      "faq3description": "Yes. The process includes three stages. After each stage, you will receive a draft version and have the opportunity to request any changes or adjustments.",
-      "faq4title": "In which formats will I receive the final visualizations?",
-      "faq4description": "You will receive the images in convenient formats:<br></br>– JPEG, TIFF, PNG in high resolution."
+      "title": "Visualisations 3D d'intérieur et d'extérieur",
+      "description": "Visualisation 3D professionnelle - un outil puissant pour la présentation immobilière. Nous créons des images 3D photoréalistes d'intérieurs et d'extérieurs, qui vous permettent de présenter le futur bien dans tous ses détails, même avant le début de la construction ou de la rénovation. Cela aide les clients potentiels et les investisseurs à voir le résultat final et à évaluer toutes les caractéristiques et les avantages du projet.<br></br><br></br>Qui peut en bénéficier ?<br></br> • Les investisseurs et promoteurs qui souhaitent présenter des projets visuellement attrayants et clairement exposés à leurs partenaires et clients.<br></br>• Les agences immobilières qui travaillent sur l'image d'un futur projet et cherchent à le présenter sous son meilleur jour, en attirant plus de clients et en augmentant l'intérêt pour les ventes ou les locations.<br></br><br></br>Permettez à vos clients de voir le futur dès aujourd'hui avec une visualisation 3D de haute qualité !",
+      "control": "Commencer maintenant",
+      "instructionTitle": "Comment commander un plan d'étage : Guide étape par étape",
+      "step1": "Envoyez des photos ou des vidéos du site ou de l'intérieur, ainsi qu'une description des matériaux et du style souhaité. Plus vous fournirez de détails, plus le résultat sera précis.",
+      "step2": "Nous créerons des visualisations 3D initiales basées sur toutes vos exigences et vous les enverrons pour approbation.",
+      "step3": "Une fois entièrement approuvées, nous vous livrerons les visualisations 3D finales en haute résolution pour une utilisation dans votre marketing.",
+      "faq1title": "Quelles informations sont nécessaires pour créer une visualisation d'intérieur ?",
+      "faq1description": "Pour obtenir un résultat de haute qualité, nous avons besoin des éléments suivants :<br></br>– Photos ou une vidéo de l'espace<br></br>– Un plan d'étage (dessiné à la main ou architectural)<br></br>– Des informations sur les matériaux et le style ou l'atmosphère souhaités.<br></br>Plus les données d'entrée sont détaillées et précises, plus le résultat final sera réaliste et précis.",
+      "faq2title": "Combien de temps faut-il pour créer une visualisation ?",
+      "faq2description": "La création d'une visualisation d'intérieur prend généralement jusqu'à 10 jours ouvrables (sans compter le temps nécessaire aux retours et aux corrections). Le délai dépend de la complexité du projet, du nombre de perspectives et du niveau de détail requis.",
+      "faq3title": "Puis-je demander des modifications après la création de la visualisation ?",
+      "faq3description": "Oui. Le processus comprend trois étapes. Après chaque étape, vous recevrez une version préliminaire et aurez la possibilité de demander des modifications ou des ajustements.",
+      "faq4title": "Dans quels formats recevrai-je les visualisations finales ?",
+      "faq4description": "Vous recevrez les images dans des formats pratiques :<br></br>– JPEG, TIFF, PNG en haute résolution."
     },
     "3dFurniture": {
-      "title": "3D floor plan with furniture",
-      "description": "We create photorealistic 3D floor plans that not only display the exact layout but also the furniture arrangement. These plans help clients see how the space will look in real life, with all the details and functionality. It’s the perfect tool for showcasing how the space can be used and for providing an accurate representation of the future property.<br></br><br></br>Why is this important?<br></br>• Realistic representation of the space: 3D floor plans with furniture allow clients to see the layout of the rooms, feel the atmosphere, and understand the style of the space, helping them make a more confident decision.<br></br>• Enhancing the agency’s image: High-quality visualizations highlight the professionalism of the agency, helping to stand out from competitors and attract discerning clients",
-      "control": "Start now",
-      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide.",
-      "step1": "Send us an existing floor plan – scanned or hand-drawn – with all measurements and any additional project information.",
-      "step2": "We will digitize your floor plan according to your requirements and send a draft for your approval.",
-      "step3": "Once approved, you will receive the final plan in the agreed formats and in high-resolution JPEG files for use in your marketing.",
-      "listItem1": "✔️ Area calculation",
-      "listItem2": "✔️ North arrow",
-      "listItem3": "✔️ Your logo",
-      "listItem4": "✔️ Formats for websites and social networks: A4, 3:4, 5:4",
-      "listItem5": "On request: calculation of living area",
-      "faq1title": "What information is required to create a 2D/3D floor plan?",
-      "faq1description": "Please include the following attachments in your email:<br></br>• A floor plan – scanned or hand-drawn – showing all wall, window, and door measurements.<br></br>• Indicate the location of the kitchen, bathrooms, and toilets.<br></br>• Label the purpose of each room.<br></br><br></br>In the body of the email, please specify:<br></br>• Your preferences regarding furniture layout.<br></br>• Preferred formats for the final floor plan.<br></br>• Whether the North arrow should be included<br></br><br></br>Additionally:<br></br>• Attach your company’s logo if you would like it to appear on the plan.<br></br>• If available, please include photos or videos of the property.",
-      "faq2title": "How long does it take to create a 2D/3D floor plan?",
-      "faq2description": "The creation of a floor plan usually takes up to 5 business days, depending on the complexity and scope of the project.",
-      "faq3title": "Can I make changes after the plan has been created?",
-      "faq3description": "Yes, absolutely. You will receive a draft version of the plan and have the opportunity to make any necessary edits or adjustments.",
-      "faq4title": "Do you offer certified living area calculations?",
-      "faq4description": "We create floor plans and calculate living areas based on the measurements and data you provide. All square meter figures and dimensions we illustrate are approximate values.<br></br>We do <strong>not provide certified area calculations</strong> – our service is a graphic-based floor plan digitization service.",
+      "title": "Plan 3D avec mobilier",
+      "description": "Nous créons des plans d'étage 3D photoréalistes qui affichent non seulement l'agencement exact mais aussi la disposition du mobilier. Ces plans aident les clients à voir à quoi ressemblera l'espace dans la réalité, avec tous les détails et la fonctionnalité. C'est l'outil parfait pour montrer comment l'espace peut être utilisé et pour fournir une représentation précise du futur bien immobilier.<br></br><br></br>Pourquoi est-ce important ?<br></br>• Représentation réaliste de l'espace : Les plans d'étage 3D avec mobilier permettent aux clients de voir l'agencement des pièces, de ressentir l'atmosphère et de comprendre le style de l'espace, les aidant à prendre une décision plus confiante.<br></br>• Renforcement de l'image de l'agence : Des visualisations de haute qualité soulignent le professionnalisme de l'agence, aidant à se démarquer de la concurrence et à attirer des clients exigeants",
+      "control": "Commencer maintenant",
+      "instructionTitle": "Comment commander un plan d'étage : Guide étape par étape.",
+      "step1": "Envoyez-nous un plan d'étage existant – scanné ou dessiné à la main – avec toutes les dimensions et toute information supplémentaire sur le projet.",
+      "step2": "Nous numériserons votre plan d'étage selon vos exigences et vous enverrons une ébauche pour approbation.",
+      "step3": "Une fois approuvé, vous recevrez le plan final dans les formats convenus et en fichiers JPEG haute résolution pour une utilisation dans votre marketing.",
+      "listItem1": "✔️ Calcul de la surface",
+      "listItem2": "✔️ Rose des vents",
+      "listItem3": "✔️ Votre logo",
+      "listItem4": "✔️ Formats pour sites web et réseaux sociaux : A4, 3:4, 5:4",
+      "listItem5": "Sur demande : calcul de la surface habitable",
+      "faq1title": "Quelles informations sont nécessaires pour créer un plan 2D/3D ?",
+      "faq1description": "Veuillez inclure les pièces jointes suivantes dans votre e-mail :<br></br>• Un plan d'étage – scanné ou dessiné à la main – avec toutes les dimensions des murs, fenêtres et portes.<br></br>• Indiquez l'emplacement de la cuisine, des salles de bain et des toilettes.<br></br>• Identifiez la destination de chaque pièce.<br></br><br></br>Dans le corps de l'e-mail, veuillez préciser :<br></br>• Vos préférences concernant l'agencement des meubles.<br></br>• Les formats préférés pour le plan final.<br></br>• Si la rose des vents doit être incluse.<br></br><br></br>En outre :<br></br>• Joignez le logo de votre entreprise si vous souhaitez qu'il apparaisse sur le plan.<br></br>• Si disponible, veuillez inclure des photos ou des vidéos du bien.",
+      "faq2title": "Combien de temps faut-il pour créer un plan 2D/3D ?",
+      "faq2description": "La création d'un plan d'étage prend généralement jusqu'à 5 jours ouvrables, selon la complexité et l'étendue du projet.",
+      "faq3title": "Puis-je effectuer des modifications après la création du plan ?",
+      "faq3description": "Oui, absolument. Vous recevrez une version préliminaire du plan et aurez la possibilité d'effectuer les modifications ou ajustements nécessaires.",
+      "faq4title": "Proposez-vous des calculs certifiés de surface habitable ?",
+      "faq4description": "Nous créons des plans d'étage et calculons les surfaces habitables sur la base des mesures et des données que vous fournissez. Toutes les surfaces en mètres carrés et les dimensions que nous illustrons sont des valeurs approximatives.<br></br>Nous ne fournissons <strong>pas de calculs certifiés de surface</strong> – notre service est un service graphique de numérisation de plans d'étage.",
       "serviceInfo": {
         "title": "Plan 3D avec mobilier",
         "description": "À partir du plan existant, nous créons des plans d’étages 3D professionnels avec un mobilier soigneusement disposé et un design intérieur harmonieux. Ce format permet de présenter clairement les proportions, la fonctionnalité et l’atmosphère des espaces.<br></br>Vous recevrez deux perspectives réalistes pour chaque bien.<br></br>Le plan d’étage peut également inclure, si vous le souhaitez, l’environnement extérieur : terrasses, places de parking, jardin ou espaces détente. Cela permet une représentation complète non seulement des pièces, mais de l’ensemble du bien immobilier.<br></br>Idéal pour les annonces immobilières, les présentations et une mise en valeur moderne de votre bien.",
-        "item1": "✓ 1–10 rooms per plan",
-        "item2": "✓ 1 or 2 views (top view and side view)",
-        "item3": "✓ Turnaround time: 4–5 days",
-        "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
-        "priceText": "per floor plan for a property"
+        "item1": "✓ 1 à 10 pièces par plan",
+        "item2": "✓ 1 ou 2 vues (vue de dessus et vue latérale)",
+        "item3": "✓ Délai de réalisation : 4–5 jours",
+        "item4": "✓ Corrections incluses dans le prix",
+        "item5": "+50% — Livraison express (48 heures)",
+        "item6": "+50% — Pièces de configuration complexe",
+        "item7": "+50% — Plus de 10 pièces sur le plan",
+        "item8": "+50% — Plan 2D/3D supplémentaire du même bien",
+        "item9": "+50% — Espaces extérieurs (parking, jardin, patio, etc.)",
+        "priceText": "par plan d'étage pour un bien immobilier"
       }
     },
     "2dFurniture": {
-      "title": "2D floor plan with furniture",
-      "description": "Our detailed 2D floor plans show not only the layout but also the furniture arrangement. This gives potential buyers and tenants a clear idea of how the space can be used and furnished.<br></br><br></br>Why is this important?<br></br>• Better spatial understanding: Customers can immediately see how to optimize the space and adapt it to their needs.<br></br>• Inviting living atmosphere: A furnished representation creates a sense of comfort and coziness even before the viewing.",
-      "control": "Start now",
-      "listItem1": "✔️ Area calculation",
-      "listItem2": "✔️ North arrow",
-      "listItem3": "✔️ Your logo",
-      "listItem4": "✔️ Formats for websites and social networks: A4, 3:4, 5:4",
-      "listItem5": "On request: calculation of living area",
-      "step1": "Send us an existing floor plan – scanned or hand-drawn – with all measurements and any additional project information.",
-      "step2": "We will digitize your floor plan according to your requirements and send a draft for your approval.",
-      "step3": "Once approved, you will receive the final plan in the agreed formats and in high-resolution JPEG files for use in your marketing.",
-      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
+      "title": "Plan 2D avec mobilier",
+      "description": "Nos plans d'étage 2D détaillés montrent non seulement l'agencement mais aussi la disposition du mobilier. Cela donne aux acheteurs et locataires potentiels une idée claire de la façon dont l'espace peut être utilisé et aménagé.<br></br><br></br>Pourquoi est-ce important ?<br></br>• Meilleure compréhension de l'espace : Les clients peuvent immédiatement voir comment optimiser l'espace et l'adapter à leurs besoins.<br></br>• Atmosphère de vie accueillante : Une représentation meublée crée une sensation de confort et de convivialité avant même la visite.",
+      "control": "Commencer maintenant",
+      "listItem1": "✔️ Calcul de la surface",
+      "listItem2": "✔️ Rose des vents",
+      "listItem3": "✔️ Votre logo",
+      "listItem4": "✔️ Formats pour sites web et réseaux sociaux : A4, 3:4, 5:4",
+      "listItem5": "Sur demande : calcul de la surface habitable",
+      "step1": "Envoyez-nous un plan d'étage existant – scanné ou dessiné à la main – avec toutes les dimensions et toute information supplémentaire sur le projet.",
+      "step2": "Nous numériserons votre plan d'étage selon vos exigences et vous enverrons une ébauche pour approbation.",
+      "step3": "Une fois approuvé, vous recevrez le plan final dans les formats convenus et en fichiers JPEG haute résolution pour une utilisation dans votre marketing.",
+      "instructionTitle": "Comment commander un plan d'étage : Guide étape par étape",
       "serviceInfo": {
-        "title": "2D Floor Plan with Dimensions",
+        "title": "Plan 2D avec mobilier",
         "description": "",
-        "item1": "✓ 1–10 rooms per plan",
-        "item2": "✓ 1 or 2 views (top view and side view)",
-        "item3": "✓ Turnaround time: 4–5 days",
-        "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
-        "priceText": "per floor plan for a property"
+        "item1": "✓ 1 à 10 pièces par plan",
+        "item2": "✓ 1 ou 2 vues (vue de dessus et vue latérale)",
+        "item3": "✓ Délai de réalisation : 4–5 jours",
+        "item4": "✓ Corrections incluses dans le prix",
+        "item5": "+50% — Livraison express (48 heures)",
+        "item6": "+50% — Pièces de configuration complexe",
+        "item7": "+50% — Plus de 10 pièces sur le plan",
+        "item8": "+50% — Plan 2D/3D supplémentaire du même bien",
+        "item9": "+50% — Espaces extérieurs (parking, jardin, patio, etc.)",
+        "priceText": "par plan d'étage pour un bien immobilier"
       }
     },
     "2dDim": {
-      "title": "2D floor plan with dimensions",
-      "description": "We create detailed 2D floor plans with precise measurements, helping potential buyers and tenants better understand the space and its functionality.<br></br><br></br>Why is this important?<br></br>• Accurate information: Our plans display exact room sizes, wall positions, doors, and windows, allowing clients to realistically envision their future home or office.<br></br>• Easier decision-making: Clear measurements make it easier for potential buyers or tenants to quickly determine whether a property meets their needs.",
-      "control": "Start now",
-      "listItem1": "✔️ Area calculation",
-      "listItem2": "✔️ North arrow",
-      "listItem3": "✔️ Your logo",
-      "listItem4": "✔️ Formats for websites and social networks: A4, 3:4, 5:4",
-      "listItem5": "On request: calculation of living area",
-      "step1": "Send us an existing floor plan – scanned or hand-drawn – with all measurements and any additional project information.",
-      "step2": "We will digitize your floor plan according to your requirements and send a draft for your approval.",
-      "step3": "Once approved, you will receive the final plan in the agreed formats and in high-resolution JPEG files for use in your marketing.",
-      "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
+      "title": "Plan 2D avec dimensions",
+      "description": "Nous créons des plans d'étage 2D détaillés avec des mesures précises, aidant les acheteurs et locataires potentiels à mieux comprendre l'espace et sa fonctionnalité.<br></br><br></br>Pourquoi est-ce important ?<br></br>• Informations précises : Nos plans affichent les dimensions exactes des pièces, les positions des murs, des portes et des fenêtres, permettant aux clients d'imaginer réalistement leur futur logement ou bureau.<br></br>• Prise de décision facilitée : Des mesures claires permettent aux acheteurs ou locataires potentiels de déterminer rapidement si un bien correspond à leurs besoins.",
+      "control": "Commencer maintenant",
+      "listItem1": "✔️ Calcul de la surface",
+      "listItem2": "✔️ Rose des vents",
+      "listItem3": "✔️ Votre logo",
+      "listItem4": "✔️ Formats pour sites web et réseaux sociaux : A4, 3:4, 5:4",
+      "listItem5": "Sur demande : calcul de la surface habitable",
+      "step1": "Envoyez-nous un plan d'étage existant – scanné ou dessiné à la main – avec toutes les dimensions et toute information supplémentaire sur le projet.",
+      "step2": "Nous numériserons votre plan d'étage selon vos exigences et vous enverrons une ébauche pour approbation.",
+      "step3": "Une fois approuvé, vous recevrez le plan final dans les formats convenus et en fichiers JPEG haute résolution pour une utilisation dans votre marketing.",
+      "instructionTitle": "Comment commander un plan d'étage : Guide étape par étape",
       "serviceInfo": {
         "title": "Plan 2D avec indications des dimensions",
         "description": "Un plan 2D réalisé à partir du plan existant de votre bien immobilier – idéal pour les plans difficiles à lire, anciens ou modifiés.<br></br>Votre plan sera présenté de manière claire et soignée, avec des lignes de cotation précises sur tous les murs.<br></br>La cuisine et les installations sanitaires sont incluses.<br></br>Idéal pour les annonces immobilières.",
@@ -199,24 +204,24 @@
     }
   },
   "price": {
-    "rooms1": "1 to 4 rooms",
-    "rooms2": "5 to 15 rooms",
-    "rooms3": "16 to 25 rooms",
+    "rooms1": "1 à 4 pièces",
+    "rooms2": "5 à 15 pièces",
+    "rooms3": "16 à 25 pièces",
     "currency": "Euros",
-    "floor": "per floor"
+    "floor": "par étage"
   },
   "security": {
-    "title": "Imprint & Privacy Policy",
-    "imprintTitle": "Imprint",
-    "description": "Anastasiia Strauss<br></br>Freelance Artist – Graphic Services for Real Estate<br></br>Witthauergasse 28/5<br></br>1180 Vienna, Austria<br></br><br></br><strong>Contact:</strong><br></br>Email: office@3dplan.online<br></br>Website: www.3dplan.online<br></br><br></br><strong>Activity:</strong><br></br>Independent artistic activity not subject to business registration in accordance with § 2 of the Austrian Trade Regulation Act (GewO) (graphic services in an artistic context)<br></br><strong>Responsible authority:</strong> District Authority of Vienna Inner City (Bezirkshauptmannschaft Wien Innere Stadt)<br></br>Member of the Vienna Chamber of Commerce<br></br><strong>Division:</strong> Advertising and Market Communication<br></br><strong>Liability for content:</strong><br></br>Despite careful content control, I assume no liability for the content of external links. The operators of linked pages are solely responsible for their content.<br></br><strong>Online Dispute Resolution according to Art. 14 para. 1 ODR Regulation:</strong><br></br>The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/odr<br></br>You can also send your complaint directly to the email address provided above.",
-    "policyTitle": "Privacy Policy",
-    "policyDescription": "Protecting your personal data is very important to us. We process your data exclusively on the basis of the legal provisions (GDPR, TKG 2003). In this privacy statement, we inform you about the most important aspects of data processing on our website.<br></br><br></br><strong>1. Contacting Us and Inquiry Forms</strong><br></br>If you contact us via a form on the website (e.g. questionnaire or contact form), the data you provide (name, email address, phone number, project details, etc.) will be stored for the purpose of processing your request and any follow-up questions. This data will not be shared without your consent.<br></br><br></br><strong>2. Use of Google Fonts</strong><br></br>Our website uses Google Fonts, a service of Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. The fonts are loaded from Google servers when the website is accessed. Google may record your IP address and transfer it to the USA.<br></br>The legal basis is our legitimate interest pursuant to Art. 6 para. 1 lit. f GDPR to ensure a uniform and attractive website design.<br></br><br></br>More information:<br></br>https://developers.google.com/fonts/faq<br></br>https://policies.google.com/privacy<br></br><br></br><strong>3. Social Media Plugins</strong><br></br>Our website includes plugins and links to social networks (Instagram, Facebook, Pinterest), operated by third-party providers:<br></br>• Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Ireland<br></br>• Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Ireland<br></br>• Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland<br></br><br></br>When visiting our site, data such as IP address, browser details, and interactions may be transmitted to these platforms, even if you are not logged in or do not have a profile on them.<br></br><br></br>For more information about how these networks process data, see their respective privacy policies:<br></br>• Instagram: https://privacycenter.instagram.com/<br></br>• Facebook: https://www.facebook.com/about/privacy<br></br>• Pinterest: https://policy.pinterest.com/de/privacy-policy<br></br><br></br><strong>4. Your Rights</strong><br></br>You have the right to access, correct, delete, restrict, transfer, revoke, and object to your data.<br></br>If you believe that the processing of your data violates data protection law or your data protection rights have been otherwise infringed, you can file a complaint with the Austrian Data Protection Authority:<br></br>www.dsb.gv.at<br></br><br></br><strong>5. Responsible for Data Processing</strong><br></br>Anastasiia Strauss<br></br>Witthauergasse 28/5<br></br>1180 Vienna, Austria<br></br><br></br>Contact:<br></br>Email: office@3dplan.online"
+    "title": "Mentions légales & Politique de confidentialité",
+    "imprintTitle": "Mentions légales",
+    "description": "Anastasiia Strauss<br></br>Artiste indépendante – Services graphiques pour l'immobilier<br></br>Witthauergasse 28/5<br></br>1180 Vienne, Autriche<br></br><br></br><strong>Contact :</strong><br></br>E-mail : office@3dplan.online<br></br>Site web : www.3dplan.online<br></br><br></br><strong>Activité :</strong><br></br>Activité artistique indépendante non soumise à l'obligation d'immatriculation au registre du commerce conformément à l'article 2 de la loi autrichienne sur le commerce (GewO) (services graphiques dans un contexte artistique)<br></br><strong>Autorité compétente :</strong> Direction de district de Vienne-Centre (Bezirkshauptmannschaft Wien Innere Stadt)<br></br>Membre de la Chambre de commerce de Vienne<br></br><strong>Division :</strong> Publicité et communication marketing<br></br><strong>Responsabilité du contenu :</strong><br></br>Malgré un contrôle minutieux du contenu, je décline toute responsabilité quant au contenu des liens externes. Les exploitants des pages liées sont seuls responsables de leur contenu.<br></br><strong>Règlement en ligne des litiges conformément à l'art. 14, para. 1 du règlement ODR :</strong><br></br>La Commission européenne met à disposition une plateforme de règlement en ligne des litiges (ODR) : https://ec.europa.eu/odr<br></br>Vous pouvez également envoyer votre réclamation directement à l'adresse e-mail indiquée ci-dessus.",
+    "policyTitle": "Politique de confidentialité",
+    "policyDescription": "La protection de vos données personnelles est très importante pour nous. Nous traitons vos données exclusivement sur la base des dispositions légales (RGPD, TKG 2003). Dans cette déclaration de confidentialité, nous vous informons des aspects les plus importants du traitement des données sur notre site web.<br></br><br></br><strong>1. Prise de contact et formulaires de demande</strong><br></br>Si vous nous contactez via un formulaire sur le site web (par ex. questionnaire ou formulaire de contact), les données que vous fournissez (nom, adresse e-mail, numéro de téléphone, détails du projet, etc.) seront stockées aux fins du traitement de votre demande et de toute question de suivi. Ces données ne seront pas partagées sans votre consentement.<br></br><br></br><strong>2. Utilisation de Google Fonts</strong><br></br>Notre site web utilise Google Fonts, un service de Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande. Les polices sont chargées depuis les serveurs Google lors de l'accès au site web. Google peut enregistrer votre adresse IP et la transférer aux États-Unis.<br></br>La base légale est notre intérêt légitime conformément à l'art. 6, para. 1, lit. f RGPD pour assurer une conception de site web uniforme et attrayante.<br></br><br></br>Plus d'informations :<br></br>https://developers.google.com/fonts/faq<br></br>https://policies.google.com/privacy<br></br><br></br><strong>3. Plugins pour réseaux sociaux</strong><br></br>Notre site web inclut des plugins et des liens vers des réseaux sociaux (Instagram, Facebook, Pinterest), exploités par des fournisseurs tiers :<br></br>• Instagram : Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irlande<br></br>• Facebook : Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irlande<br></br>• Pinterest : Pinterest Europe Ltd., Palmerston House, 2e étage, Fenian Street, Dublin 2, Irlande<br></br><br></br>Lors de la visite de notre site, des données telles que l'adresse IP, les détails du navigateur et les interactions peuvent être transmises à ces plateformes, même si vous n'êtes pas connecté ou si vous n'avez pas de profil sur celles-ci.<br></br><br></br>Pour plus d'informations sur la façon dont ces réseaux traitent les données, consultez leurs politiques de confidentialité respectives :<br></br>• Instagram : https://privacycenter.instagram.com/<br></br>• Facebook : https://www.facebook.com/about/privacy<br></br>• Pinterest : https://policy.pinterest.com/de/privacy-policy<br></br><br></br><strong>4. Vos droits</strong><br></br>Vous avez le droit d'accéder à vos données, de les corriger, de les supprimer, d'en restreindre le traitement, de les transférer, de retirer votre consentement et de vous opposer à leur traitement.<br></br>Si vous pensez que le traitement de vos données enfreint la législation sur la protection des données ou que vos droits en matière de protection des données ont été violés, vous pouvez déposer une plainte auprès de l'Autorité autrichienne de protection des données :<br></br>www.dsb.gv.at<br></br><br></br><strong>5. Responsable du traitement des données</strong><br></br>Anastasiia Strauss<br></br>Witthauergasse 28/5<br></br>1180 Vienne, Autriche<br></br><br></br>Contact :<br></br>E-mail : office@3dplan.online"
   },
   "order": {
-    "title": "UPLOAD EXISTING FLOOR PLAN",
-    "type1": "2D-Grundriss mit Maßen",
-    "type2": "2D-Grundriss mit Möbeln",
-    "type3": "3D-Grundriss mit Möbeln",
+    "title": "TÉLÉCHARGER LE PLAN EXISTANT",
+    "type1": "Plan 2D avec dimensions",
+    "type2": "Plan 2D avec mobilier",
+    "type3": "Plan 3D avec mobilier",
     "materialsTitle": "Sélectionnez les matériaux de finition:",
     "fileInputButton": "Choisir un fichier",
     "fileInputLabel": "Téléchargez le plan de votre bien immobilier (jusqu’à 5 Mo)",
@@ -227,7 +232,7 @@
     "kitchecnCoveringTitle": "Revêtements de sol de la cuisine",
     "terraceCoveringTitle": "Revêtements de sol des terrasses",
     "outdoorCoveringTitle": "Revêtements de sol des espaces extérieurs",
-     "doorCoveringTitle": "Finitions des portes",
+    "doorCoveringTitle": "Finitions des portes",
     "recipientTitle": "Destinataire de la facture",
     "recipientLabel": "Civilité",
     "recipientLabelMs": "Madame",
@@ -245,8 +250,8 @@
     "mail": "E-mail",
     "comment": "Commentaire",
     "termsTitle": "Conditions générales",
-    "termsAcceptLabel": "Je demande expressément que vous commenciez l’exécution du service avant la fin du délai de rétractation. Je suis conscient(e) que cela entraîne la perte de mon droit de rétractation.",
-    "termsRequest": "J'accepte les <a href=\"/security\">Conditions générales</a> et la <a href=\"/security\">Politique de confidentialité</a>.<br><span style=\"font-size: 12px;\">* Requis pour le traitement de la commande</span>",
+    "termsRequest": "Je demande expressément que vous commenciez l’exécution du service avant la fin du délai de rétractation. Je suis conscient(e) que cela entraîne la perte de mon droit de rétractation.",
+    "termsAcceptLabel": "J'accepte les <a href=\"/security\">Conditions générales</a> et la <a href=\"/security\">Politique de confidentialité</a>.<br><span style=\"font-size: 12px;\">* Requis pour le traitement de la commande</span>",
     "orderButton": "Passer la commande",
     "orderNotification": "Après l’envoi de votre demande, vous recevrez une confirmation ainsi qu’une facture par e-mail.",
     "clientTitle": "Je commande en tant que:*",
@@ -254,31 +259,31 @@
     "privateClient": "Client particulier"
   },
   "packages": {
-    "title": "Service Packages",
-    "description": "The packages are designed for ordering floor plans within one month. You can place your orders throughout the month and are guaranteed a discount for the specified number of floor plans, regardless of the type — 2D or 3D."
+    "title": "Forfaits de services",
+    "description": "Les forfaits sont conçus pour la commande de plans d'étage sur un mois. Vous pouvez passer vos commandes tout au long du mois et bénéficiez d'une remise garantie pour le nombre de plans spécifié, quel que soit le type — 2D ou 3D."
   },
   "info": {
     "interior": {
-      "title": "3D Interior Visualization",
-      "description": "Immerse yourself in the atmosphere of your future space with photorealistic 3D interior visualizations. We create detailed images that reflect the comfort, style, and functionality of your spaces—whether residential or commercial.<br></br>Such visualizations are an excellent tool for presenting projects to investors or successfully marketing completed solutions.<br></br>The interior concept and style are developed according to your preferences or can be proposed by our team of designers.<br></br>The cost per angle starts at €200."
+      "title": "Visualisation 3D d'intérieur",
+      "description": "Plongez dans l'atmosphère de votre futur espace avec des visualisations 3D d'intérieur photoréalistes. Nous créons des images détaillées qui reflètent le confort, le style et la fonctionnalité de vos espaces — qu'ils soient résidentiels ou commerciaux.<br></br>De telles visualisations sont un excellent outil pour présenter des projets à des investisseurs ou pour commercialiser avec succès des solutions achevées.<br></br>Le concept d'intérieur et le style sont développés selon vos préférences ou peuvent être proposés par notre équipe de designers.<br></br>Le coût par angle commence à 200 €."
     },
     "exterior": {
-      "title": "3D Exterior Visualization",
-      "description": "Bring your architectural concept to life with high-quality 3D facade visualizations. We produce realistic images of a building’s exterior, partially incorporating the surrounding environment—an ideal way to visually present a project during development or to showcase an existing property.<br></br>Modeling is based on architectural drawings, sketches, or photographs. The choice of materials, facade style, and surroundings is discussed individually.<br></br>The cost per angle starts at €400."
+      "title": "Visualisation 3D d'extérieur",
+      "description": "Donnez vie à votre concept architectural avec des visualisations 3D de façades de haute qualité. Nous produisons des images réalistes de l'extérieur d'un bâtiment, intégrant partiellement l'environnement — une façon idéale de présenter visuellement un projet en cours de développement ou de mettre en valeur un bien existant.<br></br>La modélisation est basée sur des plans architecturaux, des croquis ou des photographies. Le choix des matériaux, le style de façade et les alentours sont discutés individuellement.<br></br>Le coût par angle commence à 400 €."
     }
   },
   "pricing": {
     "dimension": {
-      "title": "2D Floor Plan with Dimensions",
-      "description": "A 2D floor plan of a single-story property without furniture, including kitchen, bathroom, and toilet, with all essential measurements. For complete clarity, the plan features a table with room sizes and, if needed, a calculation of the living area. Your logo and a north arrow are also included."
+      "title": "Plan 2D avec dimensions",
+      "description": "Un plan 2D d'un bien immobilier à un étage sans mobilier, incluant la cuisine, la salle de bain et les toilettes, avec toutes les mesures essentielles. Pour une clarté complète, le plan comprend un tableau avec les surfaces des pièces et, si nécessaire, un calcul de la surface habitable. Votre logo et une rose des vents sont également inclus."
     },
     "furniture": {
-      "title": "2D Floor Plan with Furniture",
-      "description": "A 2D floor plan of a single-story property with furniture, arranged either according to real photos or based on our proposed design. The plan includes a table showing room sizes and, if required, a calculation of the living area. Your logo and a north arrow are also included."
+      "title": "Plan 2D avec mobilier",
+      "description": "Un plan 2D d'un bien immobilier à un étage avec mobilier, disposé soit d'après de vraies photos soit selon notre design proposé. Le plan comprend un tableau indiquant les surfaces des pièces et, si requis, un calcul de la surface habitable. Votre logo et une rose des vents sont également inclus."
     },
     "3d": {
-      "title": "3D Floor Plan with Furniture",
-      "description": "A 3D floor plan of a single-story property with furniture, arranged either based on real photos or our suggested layout. The plan includes a table listing room sizes and, if needed, a calculation of the living area.<br></br>Your logo and a north arrow are also included."
+      "title": "Plan 3D avec mobilier",
+      "description": "Un plan 3D d'un bien immobilier à un étage avec mobilier, disposé soit d'après de vraies photos soit selon notre agencement suggéré. Le plan comprend un tableau listant les surfaces des pièces et, si nécessaire, un calcul de la surface habitable.<br></br>Votre logo et une rose des vents sont également inclus."
     }
   },
   "mainFAQ": {

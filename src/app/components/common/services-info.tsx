@@ -37,12 +37,13 @@ export const ServicesInfo = ({
   descriptionitems,
   items,
   onOrder,
+  skip = false,
 }: any) => {
   const t = useTranslations();
   const { isMiddle, isSmall } = useMedia();
   return (
     <>
-      <Flex
+      {!skip && <><Flex
         style={{
           width: isMiddle ? "100%" : "60%",
           margin: "auto",
@@ -168,7 +169,7 @@ export const ServicesInfo = ({
             </TextWrap>
           ))}
         </Flex>
-      </Flex>
+      </Flex> </>}
       <StepsAccordion
         title="mainInstruction.title"
         steps={[

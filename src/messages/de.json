@@ -1,4 +1,10 @@
 {
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern. Indem Sie weiter surfen, stimmen Sie der Verwendung von Cookies zu.",
+    "learnMore": "Mehr erfahren",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
   "policyLabels": {
     "privacy": "Datenschutz",
     "legalNotice": "Impressum",
@@ -80,8 +86,7 @@
     "description": "Wir freuen uns, mehr über Ihre zukünftigen Immobilienprojekte zu erfahren, sind offen für Kooperationsvorschläge und beantworten gerne all Ihre Fragen."
   },
   "aboutus": {
-    "title": "3dplan.online - Ihr Partner für die Erstellung hochwertiger Immobilienvisualisierungen.",
-    "description": "Wir, Anastasia Strauss und Julia Simonova, sind ein Team professioneller Designerinnen und Gründerinnen des Services <strong>3dplan.online</strong>.<br></br>Unsere Mission ist es, Makler*innen dabei zu unterstützen, professionell zu arbeiten - mit überzeugenden visuellen Materialien, die Immobilienangebote attraktiver machen. Lassen Sie uns gemeinsam die perfekte Präsentation Ihrer Immobilie erstellen!<br></br><br></br>Wir haben diesen Service entwickelt, um die Visualisierung von Immobilien, die zum Verkauf oder zur Vermietung stehen, deutlich zu verbessern. Eindrucksvolle 2D- und 3D-Grundrisse sowie fotorealistische Visualisierungen helfen dabei, Ihre Immobilie ansprechend zu präsentieren, sich von der Konkurrenz abzuheben und mehr potenzielle Kunden anzuziehen.<br></br>Zudem trägt dies zur Wertsteigerung der Immobilie beim Verkauf oder bei der Vermietung bei.<br></br><br></br><strong>Wie funktioniert das?</strong><br></br>Wir arbeiten mit bestehenden Plänen und Zeichnungen. Alles, was Sie tun müssen, ist, uns einen gescannten oder selbst gezeichneten Grundriss Ihrer Immobilie zusammen mit einer Raumbeschreibung zu senden.Wir erstellen daraus eine professionelle grafische Darstellung, die Sie für Ihr Marketing, Ihre Präsentationen und Exposés nutzen können.<br></br><br></br>Lassen Sie uns gemeinsam die perfekte Präsentation Ihrer Immobilie gestalten!"
+    "description": "<h2>Über uns</h2><p>Wir sind das Team von 3DPlan.online – professionelle Designer und 3D-Visualisierer, spezialisiert auf die Präsentation von Immobilien.</p><p>Unsere Mission ist es, Maklern und Immobilienagenturen dabei zu helfen, auf einem hohen professionellen Niveau zu arbeiten, indem wir anschauliche und moderne Visualisierungsmaterialien erstellen, die Immobilien für Kunden attraktiver und verständlicher machen.</p><p>Wir haben diesen Service ins Leben gerufen, um die Visualisierung von Immobilien auf ein neues Qualitätsniveau zu heben. Hochwertige 2D- und 3D-Grundrisse sowie fotorealistische Darstellungen ermöglichen es, eine Immobilie optimal zu präsentieren, ihre Vorteile hervorzuheben, sich von Mitbewerbern abzuheben und mehr potenzielle Käufer oder Mieter zu gewinnen.</p><p>Eine professionelle Präsentation stärkt nicht nur das Vertrauen in das Objekt, sondern trägt auch dazu bei, einen höheren Verkaufs- oder Vermietungspreis zu erzielen.</p><h2>Wie arbeiten wir?</h2><p>Wir arbeiten mit bereits vorhandenen Plänen, Zeichnungen oder Skizzen. Es genügt, einen eingescannten oder handgezeichneten Grundriss mit Maßangaben und einer Beschreibung der Räume bereitzustellen – wir verwandeln ihn in eine professionelle grafische Visualisierung.</p><p>Die fertigen Materialien können im Marketing, in Online-Inseraten, Präsentationen und bei Werbeexpositionen eingesetzt werden.</p>"
   },
   "service": {
     "3dExterior": {

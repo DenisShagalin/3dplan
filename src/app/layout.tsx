@@ -8,6 +8,7 @@ import { Background } from "./components/background";
 import { Section } from "./components/section";
 import { Footer } from "./components/footer";
 import { MainLinks } from "./components/main-links";
+import { CookiePopup } from "./components/cookie-popup";
 
 export default async function RootLayout({
   children,
@@ -57,6 +58,7 @@ export default async function RootLayout({
               {children}
               <Footer />
             </Section>
+            <CookiePopup />
           </NextIntlClientProvider>
         </ConfigProvider>
       </body>
