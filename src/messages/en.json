@@ -328,7 +328,7 @@
       "answer": "We can arrange furniture considering room ergonomics and planning principles. If you have preferences, you can provide instructions."
     },
     "10": {
-      "question": "Is there a discount for ordering 2D and 3D plans for the same property?",
+      "question": "Is there a discount for ordering 2D/3D plans for the same property?",
       "answer": "Yes. One plan costs €39, two plans €59, three plans €79. Each additional plan costs +€20."
     },
     "11": {
@@ -366,11 +366,11 @@
     "banner2PriceText": "Floor plan with outdoor area",
     "banner2Line1": "✓ Enhances the appeal of your presentations",
     "banner2Line2": "✓ Shows furniture and space usage realistically",
-    "banner2Description": "We can extend your floor plan to include an outdoor area of your choice (e.g. pool, patio, parking) for an additional 50%.",
+    "banner2Description": "We can extend your floor plan to include an outdoor area of your choice (e.g. pool, patio, parking) for an additional 20€.",
     "banner3PriceText": "for two floor plans",
     "banner3Line1": "✓ Combo offer for your property",
     "banner3Line2": "✓ More floor plans at a better price",
-    "banner3Description": "The price of each additional floor plan of the same property is reduced by 50% — a cost-effective solution for presentations, marketing, or planning."
+    "banner3Description": "The price of each additional floor plan of the same property is reduced by 20€ — a cost-effective solution for presentations, marketing, or planning."
   },
   "serviceInfo": {
     "description": "3Dplan.online – An online graphic service for digitizing existing floor plans for real estate agents and agencies.<br></br>All types of floor plans at one fixed price, regardless of the property type.",

@@ -163,29 +163,39 @@ const MaterialsChooser = ({
         borderRadius: "4px",
       }}
     >
-      <Title
-        style={{
-          fontFamily: "Arial",
-          color: "var(--main-grey-color)",
-          textAlign: "center",
-          margin: "0.5rem",
-        }}
-        level={5}
-      >
-        {title}
-      </Title>
-      {isOpen ? (
-        <UpOutlined
-          onClick={() => setIsOpen(false)}
-          style={{ marginBottom: "0.5rem" }}
-        />
-      ) : (
-        <DownOutlined onClick={() => setIsOpen(true)} />
-      )}
+      <Flex align="center" justify="center" style={{ width: "100%" }}>
+        <Title
+          style={{
+            fontFamily: "Arial",
+            color: "var(--main-grey-color)",
+            textAlign: "center",
+            margin: "0.5rem",
+          }}
+          level={5}
+        >
+          {title}
+        </Title>
+        {isOpen ? (
+          <UpOutlined
+            onClick={() => setIsOpen(false)}
+            style={{ marginBottom: "0.5rem" }}
+          />
+        ) : (
+          <DownOutlined onClick={() => setIsOpen(true)} />
+        )}
+      </Flex>
 
       <Flex wrap="wrap" style={{ display: isOpen ? "" : "none" }}>
         {coverings.map((src) => (
-          <Flex key={src} style={{ width: "45%", margin: "0.5rem" }}>
+          <Flex
+            title={src
+              .split("/")
+              .pop()
+              ?.replace(/\.[^.]+$/, "")
+              ?.replace(/\d/, "")}
+            key={src}
+            style={{ width: "45%", margin: "0.5rem" }}
+          >
             <input
               type="checkbox"
               checked={current.includes(src)}
@@ -257,8 +267,8 @@ export function Order({
       email.trim() &&
       firstName.trim() &&
       lastName.trim() &&
-      org.trim() &&
-      iuid.trim() &&
+      (clientType === "businessClient" ? org.trim() : true) &&
+      (clientType === "businessClient" ? iuid.trim() : true) &&
       country.trim() &&
       idx.trim() &&
       city.trim() &&
@@ -723,6 +733,7 @@ ${message || "—"}
                 placeholder={t("order.org")}
                 onChange={(e) => setOrg(e.target.value)}
                 value={org}
+                disabled={clientType === "privateClient"}
                 style={{
                   border: "unset",
                 }}
@@ -742,6 +753,7 @@ ${message || "—"}
                 placeholder={t("order.uid")}
                 onChange={(e) => setIuid(e.target.value)}
                 value={iuid}
+                disabled={clientType === "privateClient"}
                 style={{
                   border: "unset",
                 }}

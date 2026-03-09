@@ -14,7 +14,6 @@ const ImgWrap = ({ children }: { children: React.ReactNode }) => (
 
 const images = [
   "/2d-dimension/1.jpg",
-  "/2d-dimension/1.jpg",
   "/2d-dimension/2.jpg",
   "/2d-dimension/3.jpg",
   "/2d-dimension/4.jpg",

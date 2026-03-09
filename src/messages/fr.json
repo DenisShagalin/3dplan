@@ -323,11 +323,11 @@
       "answer": "Oui, nous pouvons placer le mobilier sur le plan 2D ou 3D en nous basant sur vos photos. Nous utilisons des modèles 3D standards, donc l’apparence peut légèrement différer de vos photos."
     },
     "9": {
-      "question": "Pouvez-vous disposer le mobilier vous-même ou dois-je fournir un plan ?",
+      "question": "Pouvez-vous disposer le mobilier ou dois-je fournir un plan ?",
       "answer": "Nous pouvons placer le mobilier en tenant compte de l’ergonomie et des principes de planification. Si vous avez des préférences, vous pouvez nous fournir vos instructions."
     },
     "10": {
-      "question": "Y a-t-il une remise pour commander des plans 2D et 3D pour le même bien ?",
+      "question": "Y a-t-il une remise pour des plans 2D/3D du même bien ?",
       "answer": "Oui. Un plan coûte 39 €, deux plans 59 €, trois plans 79 €. Chaque plan supplémentaire coûte +20 €."
     },
     "11": {
@@ -380,7 +380,7 @@
     "item5": "+20€ — Livraison express (48 heures)",
     "item6": "+20€ — Pièces de configuration complexe",
     "item7": "+20€ — Plus de 10 pièces sur le plan",
-    "item8": "50% — Plan 2D/3D supplémentaire du même bien",
+    "item8": "+20€ — Plan 2D/3D supplémentaire du même bien",
     "item9": "+20 € — Terrains extérieurs (parking, jardin, patio, etc.)",
     "title": "Suppléments:",
     "priceText": "par plan d’étage pour un bien immobilier"

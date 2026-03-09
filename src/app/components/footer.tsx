@@ -136,6 +136,7 @@ export const Footer = () => {
         style={{
           flexDirection: "row",
           justifyContent: "flex-end",
+          textAlign: 'center'
         }}
       >
         <Flex

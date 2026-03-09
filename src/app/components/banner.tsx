@@ -61,7 +61,7 @@ export const Banner = () => {
   return (
     <Flex
       justify="space-around"
-      align={isSmall ? "center" : "flex-end"}
+      align="center"
       style={{
         width: "100%",
         height: "250px",
@@ -112,7 +112,7 @@ export const Banner = () => {
           {t(currentSlideData.description)}
         </Paragraph>
       </Flex>
-      <div
+      {/* <div
         style={{
           position: "absolute",
           width: isSmall ? "100px" : "180px",
@@ -148,7 +148,7 @@ export const Banner = () => {
             {t(currentSlideData.priceText)}
           </span>
         </Title>
-      </div>
+      </div> */}
     </Flex>
   );
 };
