@@ -133,17 +133,17 @@
       "faq4description": "Vytváříme půdorysy a počítáme obytné plochy na základě rozměrů a dat, která nám poskytnete. Všechny hodnoty metrů čtverečních a rozměry, které uvádíme, jsou přibližné.<br></br>Neposkytujeme <strong>certifikované výpočty ploch</strong> – naše služba je grafická služba digitalizace půdorysů.",
       "serviceInfo": {
         "title": "3D půdorys s nábytkem",
-        "description": "Na základě stávajícího plánu vytváříme profesionální 3D půdorysy s promyšleným rozmístěním nábytku a harmonickým designem interiéru. Tento formát umožňuje jasně ukázat proporce, funkčnost a atmosféru prostoru.<br></br>Pro každý objekt získáte dvě realistické perspektivy.<br></br>Na přání lze k půdorysu přidat okolní prostředí: terasy, parkovací místa, zahradu nebo relaxační zóny. Tím vzniká kompletní představa nejen o prostoru, ale i o celé nemovitosti.<br></br>Ideální pro realitní inzerci, prezentace a moderní představení objektu.",
+        "description": "Vyvíjíme profesionální 3D půdorysy s pečlivě uspořádaným nábytkem a harmonickým interiérovým designem, které jasně ukazují proporce, funkčnost a atmosféru prostoru.<br></br>Naše vizualizace pomáhají potenciálním kupcům okamžitě pochopit uspořádání a tok prostoru. Prezentované realisticky a atraktivně, každý plán zvýrazňuje plný potenciál místností a vytváří silný první dojem.<br></br>Ke každé nemovitosti obdržíte dvě realistické perspektivy pro lepší prostorové vnímání. Volitelně můžeme zahrnout i okolní plochy, jako jsou terasy, parkovací místa nebo relaxační zóny, abychom prezentovali nemovitost jako kompletní a soudržné životní prostředí.<br></br>Ideální pro inzerci nemovitostí, prezentace, brožury a moderní, přesvědčivou prezentaci nemovitosti.",
         "item1": "✓ 1–10 místností na plánu",
-        "item2": "✓ 1 nebo 2 pohledy (pohled shora a pohled zboku)",
+        "item2": "✓ 1 nebo 2 perspektivy (pohled shora a boční pohled)",
         "item3": "✓ Doba realizace: 4–5 dní",
         "item4": "✓ Revize zahrnuty v ceně",
-        "item5": "+50% — Expresní dodání (48 hodin)",
-        "item6": "+50% — Místnosti se složitým tvarem",
-        "item7": "+50% — Více než 10 místností na plánu",
-        "item8": "+50% — Další 2D/3D plán pro stejnou nemovitost",
-        "item9": "+50% — Venkovní plochy (parkování, zahrada, terasa apod.)",
-        "priceText": "za půdorys nemovitosti"
+        "item5": "+20€ — Expresní dodání (48 hodin)",
+        "item6": "+20€ — Místnosti se složitým tvarem",
+        "item7": "+20€ — Více než 10 místností na plánu",
+        "item8": "+20€ — Další 2D/3D plán pro stejnou nemovitost",
+        "item9": "+20€ — Venkovní plochy (parkování, zahrada, terasa apod.)",
+        "priceText": "za půdorys jedné nemovitosti"
       }
     },
     "2dFurniture": {
@@ -161,16 +161,16 @@
       "instructionTitle": "Jak objednat půdorys: Průvodce krok za krokem",
       "serviceInfo": {
         "title": "2D půdorys s nábytkem",
-        "description": "",
+        "description": "Zařízený 2D půdorys vytvořený na základě vašeho stávajícího plánu nemovitosti a navržený buď podle našeho konceptu, nebo na základě vašich fotografií a individuálních preferencí.<br></br><br></br>Váš půdorys bude obsahovat harmonicky uspořádaný nábytek, který jasně zvýrazní proporce, funkčnost a dispozici prostoru. Koncept zařízení pomáhá potenciálním kupcům nebo nájemcům lépe si představit, jak lze jednotlivé místnosti využít a jak spolu prostory souvisejí.<br></br>Můžete si individuálně zvolit barvu parketové podlahy, dlažby v sanitárních prostorách a terasy tak, aby odpovídala charakteru nemovitosti.<br></br>Ideální pro realitní inzerce, brožury a jasnou, atraktivní a snadno srozumitelnou prezentaci vaší nemovitosti.",
         "item1": "✓ 1–10 místností na plánu",
-        "item2": "✓ 1 nebo 2 pohledy (pohled shora a pohled zboku)",
+        "item2": "✓ 1 pohledy (pohled shora)",
         "item3": "✓ Doba realizace: 4–5 dní",
         "item4": "✓ Revize zahrnuty v ceně",
-        "item5": "+50% — Expresní dodání (48 hodin)",
-        "item6": "+50% — Místnosti se složitým tvarem",
-        "item7": "+50% — Více než 10 místností na plánu",
-        "item8": "+50% — Další 2D/3D plán pro stejnou nemovitost",
-        "item9": "+50% — Venkovní plochy (parkování, zahrada, terasa apod.)",
+        "item5": "+20€ — Expresní dodání (48 hodin)",
+        "item6": "+20€ — Místnosti se složitým tvarem",
+        "item7": "+20€ — Více než 10 místností na plánu",
+        "item8": "+20€ — Další 2D/3D plán pro stejnou nemovitost",
+        "item9": "+20€ — Venkovní plochy (parkování, zahrada, terasa apod.)",
         "priceText": "za půdorys nemovitosti"
       }
     },
@@ -189,16 +189,16 @@
       "instructionTitle": "Jak objednat půdorys: Průvodce krok za krokem",
       "serviceInfo": {
         "title": "2D půdorys s uvedením rozměrů",
-        "description": "2D půdorys vytvořený na základě stávajícího plánu vaší nemovitosti – ideální pro špatně čitelné, staré nebo upravené výkresy.<br></br>Váš půdorys bude zpracován přehledně a čistě, s přesnými kótami na všech stěnách.<br></br>Kuchyň a sanitární prostory jsou zahrnuty.<br></br>Ideální pro realitní inzerci.",
+        "description": "2D půdorys s rozměry vytvořený na základě vašeho stávajícího plánu nemovitosti – ideální pro těžko čitelné, zastaralé nebo upravené výkresy.<br></br>Váš plán bude přepracován do přehledného a strukturovaného formátu s přesnými rozměrovými liniemi na všech stěnách, což zajistí maximální čitelnost a přesnost. Kuchyňské a hygienické prostory jsou jasně vyznačeny, aby poskytly lepší představu o prostorovém uspořádání a funkčních zónách.<br></br>Tento typ půdorysu umožňuje potenciálním kupcům nebo nájemcům okamžitě pochopit velikosti místností, proporce a celkové uspořádání nemovitosti.<br></br>Díky přehlednému grafickému zpracování je plán snadno srozumitelný i pro osoby, které nejsou zvyklé číst technické výkresy.<br></br>Ideální pro realitní inzeráty, brožury a profesionální prezentace nemovitostí.",
         "item1": "✓ 1–10 místností na plánu",
-        "item2": "✓ 1 nebo 2 pohledy (půdorys a boční pohled)",
+        "item2": "✓ 1 pohledy (pohled shora)",
         "item3": "✓ Doba zpracování: 4–5 dní",
         "item4": "✓ Korekce zahrnuty v ceně",
-        "item5": "+50% — Expresní dodání (48 hodin)",
-        "item6": "+50% — Místnosti složité konfigurace",
-        "item7": "+50% — Více než 10 místností na plánu",
-        "item8": "+50% — Další 2D/3D plán téže nemovitosti",
-        "item9": "+50% — Vnější prostory (parkoviště, zahrada, patio atd.)",
+        "item5": "+20€ — Expresní dodání (48 hodin)",
+        "item6": "+20€ — Místnosti složité konfigurace",
+        "item7": "+20€ — Více než 10 místností na plánu",
+        "item8": "+20€ — Další 2D/3D plán téže nemovitosti",
+        "item9": "+20€ — Vnější prostory (parkoviště, zahrada, patio atd.)",
         "priceText": "za půdorys jedné nemovitosti"
       }
     }
@@ -225,8 +225,8 @@
     "materialsTitle": "Vyberte dokončovací materiály:",
     "fileInputButton": "Vybrat soubor",
     "fileInputLabel": "Nahrajte půdorys vaší nemovitosti (do 5 MB)",
-    "expressDelivery": "+50 % — Expresní dodání (48 hodin)",
-    "exteriorAreas": "+50 % — Venkovní plochy (parkování, zahrada, terasa apod.)",
+    "expressDelivery": "+20 € — Expresní dodání (48 hodin)",
+    "exteriorAreas": "+20 € — Venkovní plochy (parkování, zahrada, terasa apod.)",
     "roomCoveringTitle": "Podlahové krytiny v místnostech",
     "bathroomsCoveringTitle": "Podlahové krytiny v koupelnách",
     "kitchecnCoveringTitle": "Podlahové krytiny v kuchyni",
@@ -250,7 +250,7 @@
     "mail": "E-mail",
     "comment": "Komentář",
     "termsTitle": "Obchodní podmínky",
-    "termsAcceptLabel": "Souhlasím s <a href=\"/security\">Všeobecnými obchodními podmínkami</a> a <a href=\"/security\">Zásadami ochrany osobních údajů.</a>.<br><span style=\"font-size: 12px;\">* Požadováno pro dokončení objednávky</span>",
+    "termsAcceptLabel": "Souhlasím s <a href=\"/security/terms\">Všeobecnými obchodními podmínkami</a> a <a href=\"/security/privacy\">Zásadami ochrany osobních údajů.</a>.<br><span style=\"font-size: 12px;\">* Požadováno pro dokončení objednávky</span>",
     "termsRequest": "Výslovně žádám, aby byla služba zahájena před uplynutím lhůty pro odstoupení od smlouvy. Jsem si vědom(a), že tím ztrácím své právo na odstoupení od smlouvy.",
     "orderButton": "Odeslat objednávku",
     "orderNotification": "Po odeslání vaší žádosti obdržíte potvrzení a fakturu e-mailem.",
@@ -274,16 +274,19 @@
   },
   "pricing": {
     "dimension": {
-      "title": "2D půdorys s rozměry",
-      "description": "2D půdorys jednopodlažní nemovitosti bez nábytku, včetně kuchyně, koupelny a toalety, se všemi základními rozměry. Pro úplnou přehlednost plán obsahuje tabulku s velikostmi místností a v případě potřeby výpočet obytné plochy. Součástí je také vaše logo a severní šipka."
+      "price": "39 € za půdorys jedné nemovitosti",
+      "title": "2D půdorys s uvedením rozměrů",
+      "description": "<p>2D půdorys s rozměry vytvořený na základě vašeho stávajícího plánu nemovitosti – ideální pro těžko čitelné, zastaralé nebo upravené výkresy.</p><p>Váš plán bude přepracován do přehledného a strukturovaného formátu s přesnými rozměrovými liniemi na všech stěnách, což zajistí maximální čitelnost a přesnost. Kuchyňské a hygienické prostory jsou jasně vyznačeny, aby poskytly lepší představu o prostorovém uspořádání a funkčních zónách.</p><p>Tento typ půdorysu umožňuje potenciálním kupcům nebo nájemcům okamžitě pochopit velikosti místností, proporce a celkové uspořádání nemovitosti.</p><p>Díky přehlednému grafickému zpracování je plán snadno srozumitelný i pro osoby, které nejsou zvyklé číst technické výkresy.</p><p>Ideální pro realitní inzeráty, brožury a profesionální prezentace nemovitostí.</p>"
     },
     "furniture": {
+      "price": "39 € za půdorys jedné nemovitosti",
       "title": "2D půdorys s nábytkem",
-      "description": "2D půdorys jednopodlažní nemovitosti s nábytkem, uspořádaným buď podle skutečných fotografií, nebo na základě námi navrženého designu. Plán obsahuje tabulku s velikostmi místností a v případě potřeby výpočet obytné plochy. Součástí je také vaše logo a severní šipka."
+      "description": "<p>Zařízený 2D půdorys vytvořený na základě vašeho stávajícího plánu nemovitosti a navržený buď podle našeho konceptu, nebo na základě vašich fotografií a individuálních preferencí.</p><p>Váš půdorys bude obsahovat harmonicky uspořádaný nábytek, který jasně zvýrazní proporce, funkčnost a dispozici prostoru. Koncept zařízení pomáhá potenciálním kupcům nebo nájemcům lépe si představit, jak lze jednotlivé místnosti využít a jak spolu prostory souvisejí.</p><p>Můžete si individuálně zvolit barvu parketové podlahy, dlažby v sanitárních prostorách a terasy tak, aby odpovídala charakteru nemovitosti.</p><p>Ideální pro realitní inzerce, brožury a jasnou, atraktivní a snadno srozumitelnou prezentaci vaší nemovitosti.</p>"
     },
     "3d": {
+      "price": "39 € za půdorys jedné nemovitosti",
       "title": "3D půdorys s nábytkem",
-      "description": "3D půdorys jednopodlažní nemovitosti s nábytkem, uspořádaným buď na základě skutečných fotografií, nebo podle námi navrženého rozmístění. Plán obsahuje tabulku se seznamem velikostí místností a v případě potřeby výpočet obytné plochy.<br></br>Součástí je také vaše logo a severní šipka."
+      "description": "<p>Vyvíjíme profesionální 3D půdorysy s pečlivě uspořádaným nábytkem a harmonickým interiérovým designem, které jasně ukazují proporce, funkčnost a atmosféru prostoru.</p><p>Naše vizualizace pomáhají potenciálním kupcům okamžitě pochopit uspořádání a tok prostoru. Prezentované realisticky a atraktivně, každý plán zvýrazňuje plný potenciál místností a vytváří silný první dojem.</p><p>Ke každé nemovitosti obdržíte dvě realistické perspektivy pro lepší prostorové vnímání. Volitelně můžeme zahrnout i okolní plochy, jako jsou terasy, parkovací místa nebo relaxační zóny, abychom prezentovali nemovitost jako kompletní a soudržné životní prostředí.</p><p>Ideální pro inzerci nemovitostí, prezentace, brožury a moderní, přesvědčivou prezentaci nemovitosti.</p>"
     }
   },
   "mainFAQ": {
@@ -325,15 +328,15 @@
     },
     "10": {
       "question": "Existuje sleva při objednávce 2D a 3D půdorysu pro jeden objekt?",
-      "answer": "Ano: jeden plán stojí 39 €, dva plány 59 €, tři plány 79 €. Každý další plán se účtuje se sleva 50 %."
+      "answer": "Ano. Jeden plán stojí 39 €, dva plány 59 €, tři plány 79 €. Každý další plán stojí +20 €."
     },
     "11": {
       "question": "Můžete vytvořit půdorys včetně okolí?",
-      "answer": "Ano, za příplatek 50 %: standardní plán 39 €, plán s okolím 59 €. Na přání lze přidat parkování, zahradu, patio nebo bazén."
+      "answer": "Ano, za příplatek 20 €: standardní plán stojí 39 €, plán s okolím 59 €. Na přání lze přidat parkování, zahradu, patio nebo bazén."
     },
     "12": {
       "question": "Kolik stojí 2D/3D půdorys?",
-      "answer": "Plán do 10 místností: 39 €, více než 10 místností: +50 %, 59 €."
+      "answer": "Plán do 10 místností: 39 €. Plán s více než 10 místnostmi: 59 € (+20 € příplatek)."
     },
     "13": {
       "question": "Provádíte výpočet ploch?",
@@ -362,7 +365,7 @@
     "banner2PriceText": "Půdorys s venkovní částí",
     "banner2Line1": "✓ Zvyšuje atraktivitu vašich prezentací",
     "banner2Line2": "✓ Realisticky zobrazuje zařízení a využití prostoru",
-    "banner2Description": "Můžeme rozšířit váš půdorys o venkovní část dle vašeho výběru (např. bazén, terasa, parkování) za příplatek +50 %.",
+    "banner2Description": "Můžeme rozšířit váš půdorys o venkovní část dle vašeho výběru (např. bazén, terasa, parkování) za příplatek +20 €.",
     "banner3PriceText": "za dva půdorysy",
     "banner3Line1": "✓ Kombinovaná nabídka pro vaši nemovitost",
     "banner3Line2": "✓ Více půdorysů za výhodnější cenu",
@@ -371,14 +374,14 @@
   "serviceInfo": {
     "description": "3Dplan.online – Online grafický servis pro digitalizaci stávajících půdorysů pro realitní makléře a realitní kanceláře.<br></br>Všechny typy půdorysů za jednotnou cenu, bez ohledu na typ nemovitosti.",
     "item1": "✓ 1–10 místností na plánu",
-    "item2": "✓ 1 nebo 2 pohledy (půdorys a boční pohled)",
+    "item2": "✓ 1 nebo 2 perspektivy (pohled shora a boční pohled)",
     "item3": "✓ Doba zpracování: 4–5 dní",
     "item4": "✓ Korekce zahrnuty v ceně",
-    "item5": "+50% — Expresní dodání (48 hodin)",
-    "item6": "+50% — Místnosti složité konfigurace",
-    "item7": "+50% — Více než 10 místností na plánu",
-    "item8": "+50% — Další 2D/3D plán téže nemovitosti",
-    "item9": "+50% — Vnější prostory (parkoviště, zahrada, patio atd.)",
+    "item5": "+20€ — Expresní dodání (48 hodin)",
+    "item6": "+20€ — Místnosti složité konfigurace",
+    "item7": "+20€ — Více než 10 místností na plánu",
+    "item8": "+20€ — Další 2D/3D plán téže nemovitosti",
+    "item9": "+20€ — Vnější prostory (parkoviště, zahrada, patio atd.)",
     "title": "Příplatky:",
     "priceText": "za půdorys jedné nemovitosti"
   },

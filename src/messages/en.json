@@ -133,16 +133,16 @@
       "faq4description": "We create floor plans and calculate living areas based on the measurements and data you provide. All square meter figures and dimensions we illustrate are approximate values.<br></br>We do <strong>not provide certified area calculations</strong> – our service is a graphic-based floor plan digitization service.",
       "serviceInfo": {
         "title": "3D Floor Plan with Furniture",
-        "description": "Based on your existing plan, we create professional 3D floor plans with carefully arranged furniture and harmonious interior design. This format clearly demonstrates the proportions, functionality, and atmosphere of the space.<br></br>You will receive two realistic perspectives for each property.<br></br>Optionally, the floor plan can include the surrounding area: terraces, parking spaces, garden, or relaxation areas. This provides a complete view not only of the interior but of the entire property.<br></br>Perfect for real estate listings, presentations, and a modern presentation of your property.",
+        "description": "We develop professional 3D floor plans with thoughtfully arranged furniture and harmonious interior design, clearly showcasing the proportions, functionality, and atmosphere of the space.<br></br>Our visualizations help potential buyers immediately understand the layout and flow of the property. Presented in a realistic and inviting way, each plan highlights the full potential of the rooms and creates a strong first impression.<br></br>You receive two realistic perspectives per property for better spatial understanding. Optionally, we can include surrounding areas such as terraces, parking spaces, or relaxation zones to present the property as a complete living environment.<br></br>Ideal for real estate listings, presentations, brochures, and a modern, compelling property showcase.",
         "item1": "✓ 1–10 rooms per plan",
         "item2": "✓ 1 or 2 views (top view and side view)",
         "item3": "✓ Turnaround time: 4–5 days",
         "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
+        "item5": "+20€ — Express delivery (48 hours)",
+        "item6": "+20€ — Complex-shaped rooms",
+        "item7": "+20€ — More than 10 rooms on the plan",
+        "item8": "+20€ — Additional 2D/3D plan for the same property",
+        "item9": "+20€ — External areas (parking, garden, patio, etc.)",
         "priceText": "per floor plan for a property"
       }
     },
@@ -161,16 +161,16 @@
       "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
       "serviceInfo": {
         "title": "2D Floor Plan with Furniture",
-        "description": "A furnished 2D floor plan created based on your existing property plan and designed according to our concept or based on your photos and preferences.<br></br>Your floor plan will feature harmoniously arranged furniture that clearly highlights the proportions and layout of the space.<br></br>You can individually choose the color of the parquet flooring, tiles in the sanitary areas, and the terrace.<br></br>Ideal for real estate listings, brochures, and a clear, easy-to-understand presentation of your property.",
+        "description": "A furnished 2D floor plan created based on your existing property plan and designed either according to our concept or based on your photos and individual preferences.<br></br>Your floor plan will feature harmoniously arranged furniture that clearly highlights the proportions, functionality, and layout of the space. The furnishing concept helps potential buyers or tenants better visualize how each room can be used and how the spaces connect with one another.<br></br>You can individually choose the color of the parquet flooring, tiles in the sanitary areas, and the terrace to match the character of the property. <br></br>Ideal for real estate listings, brochures, and a clear, attractive, and easy-to-understand presentation of your property.",
         "item1": "✓ 1–10 rooms per plan",
-        "item2": "✓ 1 or 2 views (top view and side view)",
+        "item2": "✓ 1 view (top)",
         "item3": "✓ Turnaround time: 4–5 days",
         "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
+        "item5": "+20€ — Express delivery (48 hours)",
+        "item6": "+20€ — Complex-shaped rooms",
+        "item7": "+20€ — More than 10 rooms on the plan",
+        "item8": "+20€ — Additional 2D/3D plan for the same property",
+        "item9": "+20€ — External areas (parking, garden, patio, etc.)",
         "priceText": "per floor plan for a property"
       }
     },
@@ -189,16 +189,16 @@
       "instructionTitle": "How to Order a Floor Plan: Step-by-Step Guide",
       "serviceInfo": {
         "title": "2D Floor Plan with Dimensions",
-        "description": "A 2D floor plan created based on your existing property plan – ideal for hard-to-read, old, or modified drawings.<br></br>Your plan will be presented in a clear and clean layout, with precise measurement lines on all walls.<br></br>Kitchen and sanitary areas are included<br></br>Perfect for real estate listings.",
+        "description": "A 2D floor plan with dimensions created based on your existing property plan – ideal for hard-to-read, outdated, or modified drawings.<br></br>Your plan will be redesigned in a clear, structured layout with precise measurement lines on all walls, ensuring maximum readability and accuracy. Kitchen and sanitary areas are clearly indicated to provide a better understanding of the spatial layout and functional zones.<br></br>This type of plan allows potential buyers or tenants to immediately grasp room sizes, proportions, and overall organization of the property.<br></br>Thanks to the clear graphic presentation, the plan is easy to understand even for people who are not used to reading technical drawings.<br></br>Perfect for real estate listings, brochures, and professional property presentations.",
         "item1": "✓ 1–10 rooms per plan",
-        "item2": "✓ 1 or 2 views (top view and side view)",
+        "item2": "✓ 1 view (top)",
         "item3": "✓ Turnaround time: 4–5 days",
         "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
+        "item5": "+20€ — Express delivery (48 hours)",
+        "item6": "+20€ — Complex-shaped rooms",
+        "item7": "+20€ — More than 10 rooms on the plan",
+        "item8": "+20€ — Additional 2D/3D plan for the same property",
+        "item9": "+20€ — External areas (parking, garden, patio, etc.)",
         "priceText": "per floor plan for a property"
       }
     }
@@ -225,8 +225,8 @@
     "materialsTitle": "Select the finishing materials:",
     "fileInputButton": "Choose file",
     "fileInputLabel": "Upload the floor plan of your property (up to 5 MB)",
-    "expressDelivery": "+50% — Express delivery (48 hours)",
-    "exteriorAreas": "+50% — Exterior areas (parking, garden, patio, etc.)",
+    "expressDelivery": "+20€ — Express delivery (48 hours)",
+    "exteriorAreas": "+20€ — Exterior areas (parking, garden, patio, etc.)",
     "roomCoveringTitle": "Floor coverings in the room",
     "bathroomsCoveringTitle": "Floor coverings in the bathrooms",
     "kitchecnCoveringTitle": "Floor coverings in the kitchen",
@@ -250,7 +250,7 @@
     "mail": "E-mail",
     "comment": "Comments:",
     "termsTitle": "Terms and Conditions",
-    "termsAcceptLabel": "I accept the <a href=\"/security\">General Terms and Conditions</a> and the <a href=\"/security\">Privacy Policy</a>.<br><span style=\"font-size: 12px;\">* Required for order processing</span>",
+    "termsAcceptLabel": "I accept the <a href=\"/security/terms\">General Terms and Conditions</a> and the <a href=\"/security/privacy\">Privacy Policy</a>.<br><span style=\"font-size: 12px;\">* Required for order processing</span>",
     "termsRequest": "I expressly request that you begin providing the service before the end of the withdrawal period. I am aware that, by doing so, I will lose my right of withdrawal.",
     "orderButton": "Submit order",
     "orderNotification": "After submitting your request, you will receive a confirmation and an invoice by email.",
@@ -274,16 +274,19 @@
   },
   "pricing": {
     "dimension": {
+      "price": "€39 per floor plan for a property",
       "title": "2D Floor Plan with Dimensions",
-      "description": "A 2D floor plan of a single-story property without furniture, including kitchen, bathroom, and toilet, with all essential measurements. For complete clarity, the plan features a table with room sizes and, if needed, a calculation of the living area. Your logo and a north arrow are also included."
+      "description": "<p>A 2D floor plan with dimensions created based on your existing property plan – ideal for hard-to-read, outdated, or modified drawings.</p><p>Your plan will be redesigned in a clear, structured layout with precise measurement lines on all walls, ensuring maximum readability and accuracy. Kitchen and sanitary areas are clearly indicated to provide a better understanding of the spatial layout and functional zones.</p><p>This type of plan allows potential buyers or tenants to immediately grasp room sizes, proportions, and overall organization of the property.</p><p>Thanks to the clear graphic presentation, the plan is easy to understand even for people who are not used to reading technical drawings.</p><p>Perfect for real estate listings, brochures, and professional property presentations.</p>"
     },
     "furniture": {
+      "price": "€39 per floor plan for a property",
       "title": "2D Floor Plan with Furniture",
-      "description": "A 2D floor plan of a single-story property with furniture, arranged either according to real photos or based on our proposed design. The plan includes a table showing room sizes and, if required, a calculation of the living area. Your logo and a north arrow are also included."
+      "description": "<p>A furnished 2D floor plan created based on your existing property plan and designed either according to our concept or based on your photos and individual preferences.</p><p>Your floor plan will feature harmoniously arranged furniture that clearly highlights the proportions, functionality, and layout of the space. The furnishing concept helps potential buyers or tenants better visualize how each room can be used and how the spaces connect with one another.</p><p>You can individually choose the color of the parquet flooring, tiles in the sanitary areas, and the terrace to match the character of the property.</p><p>Ideal for real estate listings, brochures, and a clear, attractive, and easy-to-understand presentation of your property.</p>"
     },
     "3d": {
+      "price": "€39 per floor plan for a property",
       "title": "3D Floor Plan with Furniture",
-      "description": "A 3D floor plan of a single-story property with furniture, arranged either based on real photos or our suggested layout. The plan includes a table listing room sizes and, if needed, a calculation of the living area.<br></br>Your logo and a north arrow are also included."
+      "description": "<p>We develop professional 3D floor plans with thoughtfully arranged furniture and harmonious interior design, clearly showcasing the proportions, functionality, and atmosphere of the space.</p><p>Our visualizations help potential buyers immediately understand the layout and flow of the property. Presented in a realistic and inviting way, each plan highlights the full potential of the rooms and creates a strong first impression.</p><p>You receive two realistic perspectives per property for better spatial understanding. Optionally, we can include surrounding areas such as terraces, parking spaces, or relaxation zones to present the property as a complete living environment.</p><p>Ideal for real estate listings, presentations, brochures, and a modern, compelling property showcase.</p>"
     }
   },
 
@@ -325,16 +328,16 @@
       "answer": "We can arrange furniture considering room ergonomics and planning principles. If you have preferences, you can provide instructions."
     },
     "10": {
-      "question": "Is there a discount for ordering 2D/3D plans for the same property?",
-      "answer": "Yes, one plan costs €39, two plans €59, three plans €79. Each additional plan is 50% off."
+      "question": "Is there a discount for ordering 2D and 3D plans for the same property?",
+      "answer": "Yes. One plan costs €39, two plans €59, three plans €79. Each additional plan costs +€20."
     },
     "11": {
       "question": "Can you create a floor plan including the surrounding area?",
-      "answer": "Yes, for an extra 50%: standard plan €39, plan with surrounding area €59. Parking, garden, patio, or pool can be added on request."
+      "answer": "Yes, for an additional €20. The standard plan costs €39, and a plan including the surrounding area costs €59. Parking, a garden, a patio, or a pool can be added on request."
     },
     "12": {
       "question": "What is the price of a 2D/3D floor plan?",
-      "answer": "Plans up to 10 rooms: €39. Plans over 10 rooms: +50%, €59."
+      "answer": "Plans with up to 10 rooms cost €39. Plans with more than 10 rooms cost €59 (+€20 surcharge)."
     },
     "13": {
       "question": "Do you calculate floor areas?",
@@ -375,11 +378,11 @@
     "item2": "✓ 1 or 2 views (top view and side view)",
     "item3": "✓ Turnaround time: 4–5 days",
     "item4": "✓ Revisions included in the price",
-    "item5": "+50% — Express delivery (48 hours)",
-    "item6": "+50% — Complex-shaped rooms",
-    "item7": "+50% — More than 10 rooms on the plan",
-    "item8": "+50% — Additional 2D/3D plan for the same property",
-    "item9": "+50% — External areas (parking, garden, patio, etc.)",
+    "item5": "+20€ — Express delivery (48 hours)",
+    "item6": "+20€ — Complex-shaped rooms",
+    "item7": "+20€ — More than 10 rooms on the plan",
+    "item8": "+20€ — Additional 2D/3D plan for the same property",
+    "item9": "+20€ — External areas (parking, garden, patio, etc.)",
     "title": "Additional charges:",
     "priceText": "per floor plan for a property"
   },

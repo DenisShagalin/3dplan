@@ -16,19 +16,19 @@ const plans: Array<{
   {
     src: "/plans/A4_R.jpg",
     alt: "R",
-    order: "2dDimension",
+    order: "2D floor plan with dimensions",
     title: "toolbar.servicesItems.2dDim",
   },
   {
     src: "/plans/A4-M.jpg",
     alt: "M",
-    order: "2dFurniture",
+    order: "2D floor plan with furniture",
     title: "toolbar.servicesItems.2dFur",
   },
   {
     src: "/plans/A4-3D.jpg",
     alt: "3D",
-    order: "3dFurniture",
+    order: "3D floor plan with furniture",
     title: "toolbar.servicesItems.3dFur",
   },
 ];
@@ -59,7 +59,7 @@ export const MainPlans = () => {
               style={{
                 color: "var(--main-grey-color)",
                 margin: 8,
-                fontSize: '1rem'
+                fontSize: "1rem",
               }}
             >
               {t(plan.title)}

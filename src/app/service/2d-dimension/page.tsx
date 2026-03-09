@@ -4,9 +4,9 @@ import { Flex } from "antd";
 import { Carousel } from "../../components/common/carousel";
 import { Slider } from "../../components/common/slider";
 import { useCallback, useState } from "react";
-import { Order } from "@/app/components/order";
 import { Picture } from "@/app/components/picture";
 import { ServicesInfo } from "../../components/common/services-info";
+import { useOrder } from "../../hooks/useOrder";
 
 const ImgWrap = ({ children }: { children: React.ReactNode }) => (
   <div className="image_wrap">{children}</div>
@@ -22,20 +22,21 @@ const images = [
 ];
 
 export default function Page() {
-  const [isOpen, setOpen] = useState<boolean>(false);
   const [src, setSrc] = useState("");
+
+  const { orderView, showOrder } = useOrder();
 
   const onClick = useCallback(
     (src: string) => () => {
       setSrc(src);
     },
-    []
+    [],
   );
 
   return (
     <>
       <Picture src={src} open={!!src} setOpen={() => setSrc("")} />
-      <Order open={isOpen} setOpen={setOpen} defaultValue="2dDimension" />
+      {orderView}
       <Flex vertical align="center">
         <Carousel loading={false}>
           {images.map((src, idx) => (
@@ -63,7 +64,7 @@ export default function Page() {
             "service.2dDim.serviceInfo.item9",
           ]}
           onOrder={() => {
-            setOpen(true);
+            showOrder("2D floor plan with dimensions");
           }}
         />
 

@@ -129,17 +129,17 @@
       "faq4description": "Wir erstellen Grundrisspläne und berechnen die Wohnfläche auf Grundlage der von Ihnen bereitgestellten Maße und Daten. Alle Quadratmeterangaben und Maße, die wir darstellen, sind als Näherungswerte zu verstehen.<br></br>Wir bieten <strong>keine zertifizierte Flächenberechnung</strong> an – unser Service ist ein grafischer Dienst zur Digitalisierung von Grundrissen.",
       "serviceInfo": {
         "title": "3D-Grundriss mit Möblierung",
-        "description": "Auf Basis des bestehenden Plans erstellen wir professionelle 3D-Etagenpläne mit durchdachter Möblierung und harmonischem Innenraumdesign. Dieses Format ermöglicht es, Proportionen, Funktionalität und Atmosphäre der Räume anschaulich darzustellen.<br></br>Sie erhalten zwei realistische Perspektiven für jedes Objekt.<br></br>Optional kann zum Etagenplan die Umgebung hinzugefügt werden: Terrassen, Parkplätze, Garten oder Ruhebereiche. So entsteht eine vollständige Darstellung nicht nur der Räume, sondern der gesamten Immobilie.<br></br>Ideal für Immobilienanzeigen, Präsentationen und eine moderne Darstellung Ihres Objekts.",
-        "item1": "✓ 1–10 rooms per plan",
-        "item2": "✓ 1 or 2 views (top view and side view)",
-        "item3": "✓ Turnaround time: 4–5 days",
-        "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
-        "priceText": "per floor plan for a property"
+        "description": "Wir erstellen professionelle 3D-Grundrisse mit durchdacht arrangierter Möblierung, die die Proportionen, Funktionalität und die Atmosphäre der Räume klar und anschaulich zur Geltung bringen.<br></br>Unsere Visualisierungen helfen potenziellen Käufern, die Raumaufteilung und den Grundriss Fluss der Immobilie sofort zu erfassen. Realistisch und einladend präsentiert, hebt jeder Plan das volle Potenzial der einzelnen Räume hervor und schafft einen überzeugenden ersten Eindruck.<br></br>Sie erhalten pro Objekt zwei realistische Perspektiven für ein besseres räumliches Verständnis. Optional können wir auch Außenbereiche wie Terrassen, Parkplätze oder Ruhebereiche integrieren, um die Immobilie als vollständiges und stimmiges Wohnumfeld darzustellen.<br></br>Ideal für Immobilieninserate, Präsentationen, Broschüren und eine moderne, überzeugende Objektpräsentation.",
+        "item1": "✓ 1–10 Räume auf dem Grundriss",
+        "item2": "✓ 1 oder 2 Ansichten (Draufsicht und Seitenansicht)",
+        "item3": "✓ Bearbeitungszeit: 4–5 Tage",
+        "item4": "✓ Korrekturen im Preis inbegriffen",
+        "item5": "+20€ — Expresslieferung (48 Stunden)",
+        "item6": "+20€ — Räume mit komplexer Geometrie",
+        "item7": "+20€ — Mehr als 10 Räume auf dem Plan",
+        "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
+        "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
+        "priceText": "pro Grundriss für eine Immobilie"
       }
     },
     "2dFurniture": {
@@ -156,18 +156,18 @@
       "step3": "Nach der Freigabe erhalten Sie den finalen Grundriss in den vereinbarten Formaten und als hochwertige JPEG-Dateien zur Verwendung in Ihrem Marketing.",
       "instructionTitle": "Wie Sie einen Grundriss bestellen: Schritt-für-Schritt-Anleitung",
       "serviceInfo": {
-        "title": "2D Floor Plan with Dimensions",
-        "description": "",
-        "item1": "✓ 1–10 rooms per plan",
-        "item2": "✓ 1 or 2 views (top view and side view)",
-        "item3": "✓ Turnaround time: 4–5 days",
-        "item4": "✓ Revisions included in the price",
-        "item5": "+50% — Express delivery (48 hours)",
-        "item6": "+50% — Complex-shaped rooms",
-        "item7": "+50% — More than 10 rooms on the plan",
-        "item8": "+50% — Additional 2D/3D plan for the same property",
-        "item9": "+50% — External areas (parking, garden, patio, etc.)",
-        "priceText": "per floor plan for a property"
+        "title": "2D-Grundriss mit Möblierung",
+        "description": "Ein möblierter 2D-Grundriss, erstellt auf Basis Ihres bestehenden Objektplans und gestaltet entweder nach unserem Konzept oder auf Grundlage Ihrer Fotos und individuellen Wünsche.<br></br><br></br>Ihr Grundriss wird mit harmonisch angeordneten Möbeln versehen, die die Proportionen, die Funktionalität und die Raumaufteilung klar hervorheben. Das Einrichtungskonzept hilft potenziellen Käufern oder Mietern, sich die Nutzung der einzelnen Räume besser vorzustellen und die Verbindung zwischen den Bereichen zu verstehen.<br></br>Die Farbe des Parkettbodens, der Fliesen in den Sanitärbereichen sowie der Terrasse können Sie individuell auswählen, passend zum Charakter der Immobilie.<br></br>Ideal für Immobilienanzeigen, Broschüren sowie eine klare, ansprechende und leicht verständliche Präsentation Ihrer Immobilie.",
+        "item1": "✓ 1–10 Räume auf dem Grundriss",
+        "item2": "✓ 1 Ansichten (Draufsicht)",
+        "item3": "✓ Bearbeitungszeit: 4–5 Tage",
+        "item4": "✓ Korrekturen im Preis inbegriffen",
+        "item5": "+20€ — Expresslieferung (48 Stunden)",
+        "item6": "+20€ — Räume mit komplexer Geometrie",
+        "item7": "+20€ — Mehr als 10 Räume auf dem Plan",
+        "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
+        "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
+        "priceText": "pro Grundriss für eine Immobilie"
       }
     },
     "2dDim": {
@@ -185,16 +185,16 @@
       "instructionTitle": "Wie Sie einen Grundriss bestellen: Schritt-für-Schritt-Anleitung",
       "serviceInfo": {
         "title": "2D-Grundriss mit Maßangaben",
-        "description": "Ein 2D-Grundriss, erstellt auf Basis des bestehenden Plans Ihrer Immobilie – ideal für schwer lesbare, alte oder geänderte Zeichnungen.<br></br>Ihr Grundriss wird klar und übersichtlich dargestellt, mit präzisen Maßlinien an allen Wänden.<br></br>Küche und Sanitärbereiche sind enthalten.<br></br>Perfekt geeignet für Immobilienanzeigen.",
+        "description": "Ein 2D-Grundriss mit Bemaßung, erstellt auf Basis Ihres bestehenden Immobilienplans – ideal für schwer lesbare, veraltete oder nachträglich geänderte Zeichnungen.<br></br>Ihr Plan wird in einem klaren, strukturierten Layout neu gestaltet und mit präzisen Maßlinien an allen Wänden versehen, um maximale Lesbarkeit und Genauigkeit zu gewährleisten. Küchen- und Sanitärbereiche werden deutlich gekennzeichnet, um ein besseres Verständnis der räumlichen Aufteilung und der funktionalen Zonen zu ermöglichen.<br></br>Diese Art von Grundriss erlaubt es potenziellen Käufern oder Mietern, Raumgrößen, Proportionen und die Gesamtorganisation der Immobilie auf einen Blick zu erfassen.<br></br>Perfekt geeignet für Immobilienanzeigen, Exposés und professionelle Immobilienpräsentationen.",
         "item1": "✓ 1–10 Räume auf dem Grundriss",
-        "item2": "✓ 1 oder 2 Ansichten (Draufsicht und Seitenansicht)",
+        "item2": "✓ 1 Ansichten (Draufsicht)",
         "item3": "✓ Bearbeitungszeit: 4–5 Tage",
         "item4": "✓ Korrekturen im Preis inbegriffen",
-        "item5": "+50% — Expresslieferung (48 Stunden)",
-        "item6": "+50% — Räume mit komplexer Geometrie",
-        "item7": "+50% — Mehr als 10 Räume auf dem Plan",
-        "item8": "+50% — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
-        "item9": "+50% — Außenbereiche (Parkplatz, Garten, Patio usw.)",
+        "item5": "+20€ — Expresslieferung (48 Stunden)",
+        "item6": "+20€ — Räume mit komplexer Geometrie",
+        "item7": "+20€ — Mehr als 10 Räume auf dem Plan",
+        "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
+        "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
         "priceText": "pro Grundriss für eine Immobilie"
       }
     }
@@ -225,8 +225,8 @@
     "materialsTitle": "Wählen Sie die Ausstattungsmaterialien aus:",
     "fileInputButton": "Datei auswählen",
     "fileInputLabel": "Laden Sie den Grundriss Ihrer Immobilie hoch (bis zu 5 MB)",
-    "expressDelivery": "+50 % — Express-Bearbeitung (48 Stunden)",
-    "exteriorAreas": "+50 % — Außenbereiche (Parkplatz, Garten, Terrasse usw.)",
+    "expressDelivery": "+20 € — Express-Bearbeitung (48 Stunden)",
+    "exteriorAreas": "+20 € — Außenbereiche (Parkplatz, Garten, Terrasse usw.)",
     "roomCoveringTitle": "Bodenbeläge in den Zimmern",
     "bathroomsCoveringTitle": "Bodenbeläge in den Sanitärräumen",
     "kitchecnCoveringTitle": "Bodenbeläge in der Küche",
@@ -250,8 +250,8 @@
     "mail": "E-mail",
     "comment": "Kommentar",
     "termsTitle": "Geschäftsbedingungen",
-    "termsAcceptLabel": "Ich verlange ausdrücklich, dass Sie vor Ablauf der Widerrufsfrist mit der Ausführung der Dienstleistung beginnen. Mir ist bekannt, dass ich dadurch mein Widerrufsrecht verliere.",
-    "termsRequest": "Ich akzeptiere die <a href=\"/security\">Allgemeinen Geschäftsbedingungen</a> und die <a href=\"/security\">Datenschutzrichtlinie</a>.<br><span style=\"font-size: 12px;\">* Erforderlich für die Bestellabwicklung</span>",
+    "termsRequest": "Ich verlange ausdrücklich, dass Sie vor Ablauf der Widerrufsfrist mit der Ausführung der Dienstleistung beginnen. Mir ist bekannt, dass ich dadurch mein Widerrufsrecht verliere.",
+    "termsAcceptLabel": "Ich akzeptiere die <a href=\"/security/terms\">Allgemeinen Geschäftsbedingungen</a> und die <a href=\"/security/privacy\">Datenschutzrichtlinie</a>.<br><span style=\"font-size: 12px;\">* Erforderlich für die Bestellabwicklung</span>",
     "orderButton": "Bestellung absenden",
     "orderNotification": "Nach dem Absenden Ihrer Anfrage erhalten Sie eine Bestätigung sowie eine Rechnung per E-Mail.",
     "clientTitle": "Ich bestelle als:*",
@@ -274,14 +274,17 @@
   },
   "pricing": {
     "dimension": {
+      "price": "39 € pro Grundriss für eine Immobilie",
       "title": "2D-Grundriss mit Maßen",
       "description": "Ein 2D-Grundriss einer einstöckigen Immobilie ohne Möblierung, inklusive Küche, Bad und WC. Alle Wände, Fenster und Türen sind mit den notwendigen Maßangaben versehen. Für ein vollständiges Verständnis enthält der Plan eine Tabelle mit Raumgrößen sowie auf Wunsch die Berechnung der Wohnfläche. Ihr Logo und ein Nordpfeil werden selbstverständlich eingebunden."
     },
     "furniture": {
+      "price": "39 € pro Grundriss für eine Immobilie",
       "title": "2D-Grundriss mit Möblierung",
       "description": "Ein 2D-Grundriss einer einstöckigen Immobilie mit Möblierung – wahlweise nach realen Fotos oder nach unserem Gestaltungsvorschlag. Der Plan zeigt die Aufteilung der Räume inklusive Möbel, enthält eine Tabelle mit Raumgrößen und auf Wunsch eine Wohnflächenberechnung. Ihr Logo und der Nordpfeil sind im Plan enthalten."
     },
     "3d": {
+      "price": "39 € pro Grundriss für eine Immobilie",
       "title": "3D-Grundriss mit Möblierung",
       "description": "Ein 3D-Grundriss einer einstöckigen Immobilie mit Möblierung, gestaltet auf Basis realer Fotos oder nach unserem Designvorschlag. Der Grundriss vermittelt ein realistisches Raumgefühl und enthält eine Tabelle mit Raumgrößen sowie auf Wunsch die Berechnung der Wohnfläche. Ihr Logo und ein Nordpfeil sind ebenfalls integriert."
     }
@@ -325,15 +328,15 @@
     },
     "10": {
       "question": "Gibt es einen Rabatt für 2D- und 3D-Pläne desselben Objekts?",
-      "answer": "Ja: Ein Plan kostet 39 €, zwei Pläne 59 €, drei Pläne 79 €. Jeder zusätzliche Plan 50 % Rabatt."
+      "answer": "Ja. Ein Plan kostet 39 €, zwei Pläne 59 €, drei Pläne 79 €. Jeder zusätzliche Plan kostet +20 €."
     },
     "11": {
       "question": "Können Sie einen Grundriss mit Umgebung erstellen?",
-      "answer": "Ja, für +50 %: Standardplan 39 €, Plan mit Umgebung 59 €. Auf Wunsch können Parkplatz, Garten, Patio oder Pool hinzugefügt werden."
+      "answer": "Ja, für einen Aufpreis von 20 €: Der Standardplan kostet 39 €, ein Plan mit Umgebung kostet 59 €. Auf Wunsch können Parkplatz, Garten, Patio oder Pool hinzugefügt werden."
     },
     "12": {
       "question": "Wie viel kostet ein 2D-/3D-Grundriss?",
-      "answer": "Pläne bis 10 Räume: 39 €, Pläne über 10 Räume: +50 %, 59 €."
+      "answer": "Pläne bis zu 10 Räumen: 39 €. Pläne mit mehr als 10 Räumen: 59 € (+20 € Aufpreis)."
     },
     "13": {
       "question": "Berechnen Sie die Flächen?",
@@ -362,7 +365,7 @@
     "banner2PriceText": "Grundriss mit Außenbereich",
     "banner2Line1": "✓ Steigert die Attraktivität Ihrer Präsentationen",
     "banner2Line2": "✓ Stellt Möblierung und Nutzung realistisch dar",
-    "banner2Description": "Gerne erweitern wir Ihren Grundriss um einen Außenbereich Ihrer Wahl (z. B. Pool, Terrasse, Parkplatz) gegen einen Aufpreis von +50 %.",
+    "banner2Description": "Gerne erweitern wir Ihren Grundriss um einen Außenbereich Ihrer Wahl (z. B. Pool, Terrasse, Parkplatz) gegen einen Aufpreis von +20 €.",
     "banner3PriceText": "für zwei Grundrisse",
     "banner3Line1": "✓ Kombotarif für Ihre Immobilie",
     "banner3Line2": "✓ Mehr Grundrisse zum besseren Preis",
@@ -374,11 +377,11 @@
     "item2": "✓ 1 oder 2 Ansichten (Draufsicht und Seitenansicht)",
     "item3": "✓ Bearbeitungszeit: 4–5 Tage",
     "item4": "✓ Korrekturen im Preis inbegriffen",
-    "item5": "+50% — Expresslieferung (48 Stunden)",
-    "item6": "+50% — Räume mit komplexer Geometrie",
-    "item7": "+50% — Mehr als 10 Räume auf dem Plan",
-    "item8": "+50% — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
-    "item9": "+50% — Außenbereiche (Parkplatz, Garten, Patio usw.)",
+    "item5": "+20€ — Expresslieferung (48 Stunden)",
+    "item6": "+20€ — Räume mit komplexer Geometrie",
+    "item7": "+20€ — Mehr als 10 Räume auf dem Plan",
+    "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
+    "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
     "title": "Zusatzkosten:",
     "priceText": "pro Grundriss für eine Immobilie"
   },

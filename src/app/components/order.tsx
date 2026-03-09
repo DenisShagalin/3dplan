@@ -11,12 +11,10 @@ import { DownOutlined, UpOutlined } from "@ant-design/icons";
 import Image from "next/image";
 
 export type OrderType =
-  | "2dDimension"
-  | "2dFurniture"
-  | "3dFurniture"
-  | "planBasic"
-  | "planPlus"
-  | "planPro";
+  | "2D floor plan with dimensions"
+  | "2D floor plan with furniture"
+  | "3D floor plan with furniture"
+  | "";
 
 const MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024;
 
@@ -216,10 +214,11 @@ const MaterialsChooser = ({
 export function Order({
   open,
   setOpen,
+  defaultValue = "",
 }: {
   open: boolean;
   setOpen: (b: boolean) => void;
-  defaultValue: OrderType;
+  defaultValue?: OrderType;
 }) {
   const [type, setType] = useState("");
   const [clientType, setClientType] = useState("");
@@ -235,7 +234,9 @@ export function Order({
   const [address, setAddress] = useState("");
   const [message, setMessage] = useState("");
 
-  const [types, setTypes] = useState<string[]>([]);
+  const [types, setTypes] = useState<string[]>(
+    defaultValue ? [defaultValue] : [],
+  );
   const [files, setFiles] = useState<File[]>([]);
   const [coverings, setCoverings] = useState<Record<any, any>>({});
   const [isExpressDeliviery, setExpressDelivery] = useState(false);

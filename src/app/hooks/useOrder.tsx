@@ -3,7 +3,7 @@ import { OrderType, Order } from "../components/order";
 
 export const useOrder = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
-  const [orderValue, setOrderValue] = useState<OrderType | null>("2dDimension");
+  const [orderValue, setOrderValue] = useState<OrderType | null>("");
 
   const showOrder = useCallback((orderValue: OrderType) => {
     setOpen(true);
