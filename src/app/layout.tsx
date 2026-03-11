@@ -26,16 +26,8 @@ export default async function RootLayout({
         <title>2D & 3D Grundrisse online | 3dplan.online</title>
         <meta
           name="description"
-          content="Digitale 2D/3D-Grundrisse. Wohnflächenberechnung, Exposé-Grafiken, Digitalisierung alter Pläne. Hochwertige & professionell Grundriss visualisierung - 3dplan.online"
+          content="Grundriss für Immobilien Exposé. Grundriss für Immobilienverkauf. Immobilien Grundriss Service. Grundriss für Immobilienanzeige. Grundriss für Makler. Grundriss Service online. Grundriss erstellen lassen. Grundriss digitalisieren. 3D Grundriss Wohnung. 2D Grundriss mit Maßen. Grundriss für Immobilien Exposé. Grundriss erstellen Preis. Immobilien Visualisierung Grundriss. Professioneller Grundriss Immobilien"
         />
-        <meta
-          name="keywords"
-          content="2D Grundrisse online bestellen, 3D Grundrisse erstellen lassen, Grundriss Service, Wohnflächenberechnung online, Grundriss für Exposé, Digitalisierung Baupläne, alte Grundrisse digitalisieren, Grundriss Visualisierung, Immobilienpräsentation Grundriss, Architektenplan digital"
-        />
-
-        {/* <title>2D & 3D Grundrisse online ab 25 € | 3dplan.online</title>
-        <meta name='description' content='Digitale 2D/3D-Grundrisse ab 25 € online bestellen. Wohnflächenberechnung, Exposé-Grafiken, Digitalisierung alter Pläne. Hochwertige & professionell Grundriss visualisierung - 3dplan.online' />
-        <meta name='keywords' content='2D Grundrisse online bestellen, 3D Grundrisse erstellen lassen, Grundriss Service ab 25 Euro, Wohnflächenberechnung online, Grundriss für Exposé, Digitalisierung Baupläne, alte Grundrisse digitalisieren, Grundriss Visualisierung, Immobilienpräsentation Grundriss, Architektenplan digital' /> */}
       </head>
       <body>
         <ConfigProvider

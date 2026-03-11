@@ -63,11 +63,22 @@ const PriceMini = ({
     <Flex
       vertical
       align="center"
-      style={{ padding: "1rem", fontFamily: "Arial, sans-serif" }}
+      style={{
+        padding: "1rem",
+        fontFamily: "Arial, sans-serif",
+        width: isSmall ? "90%" : "32%",
+      }}
     >
       <ImgWrapper src={imageSrc} />
       <Text style={{ color: "var(--main-grey-color)" }}>{title}</Text>
-      <Paragraph style={{ padding: "1rem", margin: 0, fontSize: "1.325rem" }}>
+      <Paragraph
+        style={{
+          padding: "1rem",
+          margin: 0,
+          fontSize: "1.325rem",
+          textAlign: "center",
+        }}
+      >
         {priceText}
       </Paragraph>
       <div

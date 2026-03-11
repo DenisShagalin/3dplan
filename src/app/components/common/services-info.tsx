@@ -43,133 +43,136 @@ export const ServicesInfo = ({
   const { isMiddle, isSmall } = useMedia();
   return (
     <>
-      {!skip && <><Flex
-        style={{
-          width: isMiddle ? "100%" : "60%",
-          margin: "auto",
-          backgroundColor: "var(--main-white-color)",
-          padding: isMiddle ? "3rem 0" : "3rem",
-          marginBottom: "2rem",
-          position: "relative",
-        }}
-        vertical
-        align="center"
-      >
-        <Typography
-          style={{
-            fontFamily: "Arial, sans-serif",
-            fontSize: "1.375rem",
-            color: "var(--main-grey-color)",
-            width: isMiddle ? "80%" : "",
-            fontWeight: "bold",
-          }}
-        >
-          {t.rich(title, {
-            br: () => <br />,
-          })}
-        </Typography>
-        <Paragraph
-          style={{
-            fontFamily: "Arial, sans-serif",
-            fontSize: "1rem",
-            marginTop: "0.5rem",
-            color: "var(--main-grey-color)",
-            width: isMiddle ? "80%" : "",
-            textAlign: "center",
-          }}
-        >
-          {t.rich(description, {
-            br: () => <br />,
-          })}
-        </Paragraph>
-        <Flex
-          align="center"
-          vertical={isSmall ? true : false}
-          justify="space-around"
-          style={{ width: "80%" }}
-        >
+      {!skip && (
+        <>
           <Flex
             style={{
-              position: isMiddle ? "relative" : "absolute",
-              bottom: isMiddle ? "" : "-125px",
-              left: isMiddle ? "" : "-25px",
-              width: isMiddle ? "150px" : "250px",
-              height: isMiddle ? "150px" : "250px",
-              backgroundColor: "var(--main-green-color)",
-              borderRadius: "50%",
-              color: "var(--main-grey-color)",
+              width: isMiddle ? "100%" : "60%",
+              margin: "auto",
+              backgroundColor: "var(--main-white-color)",
+              padding: isMiddle ? "3rem 0" : "3rem",
+              marginBottom: "2rem",
+              position: "relative",
             }}
-            align="center"
-            justify="center"
             vertical
+            align="center"
           >
-            <span
+            <Typography
               style={{
+                fontFamily: "Arial, sans-serif",
+                fontSize: "1.375rem",
+                color: "var(--main-grey-color)",
+                width: isMiddle ? "80%" : "",
                 fontWeight: "bold",
-                fontSize: isMiddle ? "2rem" : "4rem",
               }}
             >
-              {price}
-            </span>
-            <span
+              {t.rich(title, {
+                br: () => <br />,
+              })}
+            </Typography>
+            <Paragraph
               style={{
-                fontSize: isMiddle ? "1rem" : "1.5rem",
+                fontFamily: "Arial, sans-serif",
+                fontSize: "1rem",
+                marginTop: "0.5rem",
+                color: "var(--main-grey-color)",
+                width: isMiddle ? "80%" : "",
                 textAlign: "center",
               }}
             >
-              {t(priceText)}
-            </span>
+              {t.rich(description, {
+                br: () => <br />,
+              })}
+            </Paragraph>
+            <Flex
+              align="center"
+              vertical={isSmall ? true : false}
+              justify="space-around"
+              style={{ width: "80%" }}
+            >
+              <Flex
+                style={{
+                  position: isMiddle ? "relative" : "absolute",
+                  bottom: isMiddle ? "" : "-125px",
+                  left: isMiddle ? "" : "-25px",
+                  width: isMiddle ? "150px" : "250px",
+                  height: isMiddle ? "150px" : "250px",
+                  backgroundColor: "var(--main-green-color)",
+                  borderRadius: "50%",
+                  color: "var(--main-grey-color)",
+                }}
+                align="center"
+                justify="center"
+                vertical
+              >
+                <span
+                  style={{
+                    fontWeight: "bold",
+                    fontSize: isMiddle ? "2rem" : "4rem",
+                  }}
+                >
+                  {price}
+                </span>
+                <span
+                  style={{
+                    fontSize: isMiddle ? "1rem" : "1.5rem",
+                    textAlign: "center",
+                  }}
+                >
+                  {t(priceText)}
+                </span>
+              </Flex>
+              <Flex
+                vertical
+                align="flex-start"
+                justify="flex-start"
+                style={{ paddingTop: isSmall ? "1rem" : "" }}
+              >
+                {descriptionitems.map((item: string, idx: number) => (
+                  <TextWrap key={idx} style={{ textAlign: "left" }}>
+                    {t(item)}
+                  </TextWrap>
+                ))}
+              </Flex>
+            </Flex>
+            <button
+              className="order_button"
+              onClick={onOrder}
+              style={{ marginTop: "1rem" }}
+            >
+              {t("control.order")}
+            </button>
           </Flex>
           <Flex
+            style={{
+              width: isSmall ? "80%" : "60%",
+              margin: "auto",
+              marginBottom: "2rem",
+            }}
             vertical
-            align="flex-start"
-            justify="flex-start"
-            style={{ paddingTop: isSmall ? "1rem" : "" }}
+            align="center"
           >
-            {descriptionitems.map((item: string, idx: number) => (
-              <TextWrap key={idx} style={{ textAlign: "left" }}>
-                {t(item)}
-              </TextWrap>
-            ))}
-          </Flex>
-        </Flex>
-        <button
-          className="order_button"
-          onClick={onOrder}
-          style={{ marginTop: "1rem" }}
-        >
-          {t("control.order")}
-        </button>
-      </Flex>
-
-      <Flex
-        style={{
-          width: isSmall ? "80%" : "60%",
-          margin: "auto",
-          marginBottom: "2rem",
-        }}
-        vertical
-        align="center"
-      >
-        <Flex
-          vertical
-          align="flex-start"
-          style={{ marginLeft: isSmall ? "" : "5rem" }}
-        >
-          {items.map((item: string, idx: number) => (
-            <TextWrap
-              key={idx}
-              style={{
-                color: "var(--light-grey-color)",
-                fontWeight: "normal",
-                textAlign: "left",
-              }}
+            <Flex
+              vertical
+              align="flex-start"
+              style={{ marginLeft: isSmall ? "" : "5rem" }}
             >
-              {t(item)}
-            </TextWrap>
-          ))}
-        </Flex>
-      </Flex> </>}
+              {items.map((item: string, idx: number) => (
+                <TextWrap
+                  key={idx}
+                  style={{
+                    color: "var(--light-grey-color)",
+                    fontWeight: "normal",
+                    textAlign: "left",
+                  }}
+                >
+                  {t(item)}
+                </TextWrap>
+              ))}
+            </Flex>
+          </Flex>{" "}
+        </>
+      )}
       <StepsAccordion
         title="mainInstruction.title"
         steps={[
@@ -188,6 +191,9 @@ export const ServicesInfo = ({
         justify="center"
         align={isMiddle ? "center" : "flex-start"}
         vertical={isMiddle ? true : false}
+        style={{
+          width: "100%",
+        }}
       >
         <Flex
           align="flex-start"
