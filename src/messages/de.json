@@ -219,9 +219,9 @@
   },
   "order": {
     "title": "VORHANDENEN GRUNDRISS HOCHLADEN",
-    "type1": "Plan 2D avec cotations",
-    "type2": "Plan 2D avec mobilier",
-    "type3": "Plan 3D avec mobilier",
+    "type1": "2D-Plan mit Bemaßung",
+    "type2": "2D-Plan mit Möblierung",
+    "type3": "3D-Plan mit Möblierung",
     "materialsTitle": "Wählen Sie die Ausstattungsmaterialien aus:",
     "fileInputButton": "Datei auswählen",
     "fileInputLabel": "Laden Sie den Grundriss Ihrer Immobilie hoch (bis zu 5 MB)",
