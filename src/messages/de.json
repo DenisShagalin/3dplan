@@ -275,18 +275,18 @@
   "pricing": {
     "dimension": {
       "price": "39 € pro Grundriss für eine Immobilie",
-      "title": "2D-Grundriss mit Maßen",
-      "description": "Ein 2D-Grundriss einer einstöckigen Immobilie ohne Möblierung, inklusive Küche, Bad und WC. Alle Wände, Fenster und Türen sind mit den notwendigen Maßangaben versehen. Für ein vollständiges Verständnis enthält der Plan eine Tabelle mit Raumgrößen sowie auf Wunsch die Berechnung der Wohnfläche. Ihr Logo und ein Nordpfeil werden selbstverständlich eingebunden."
+      "title": "2D-Grundriss mit Maßangaben",
+      "description": "<p>Ein 2D-Grundriss mit Bemaßung, erstellt auf Basis Ihres bestehenden Immobilienplans – ideal für schwer lesbare, veraltete oder nachträglich geänderte Zeichnungen.</p><p>Ihr Plan wird in einem klaren, strukturierten Layout neu gestaltet und mit präzisen Maßlinien an allen Wänden versehen, um maximale Lesbarkeit und Genauigkeit zu gewährleisten. Küchen- und Sanitärbereiche werden deutlich gekennzeichnet, um ein besseres Verständnis der räumlichen Aufteilung und der funktionalen Zonen zu ermöglichen.</p><p>Diese Art von Grundriss erlaubt es potenziellen Käufern oder Mietern, Raumgrößen, Proportionen und die Gesamtorganisation der Immobilie auf einen Blick zu erfassen.</p><p>Perfekt geeignet für Immobilienanzeigen, Exposés und professionelle Immobilienpräsentationen.</p>"
     },
     "furniture": {
       "price": "39 € pro Grundriss für eine Immobilie",
       "title": "2D-Grundriss mit Möblierung",
-      "description": "Ein 2D-Grundriss einer einstöckigen Immobilie mit Möblierung – wahlweise nach realen Fotos oder nach unserem Gestaltungsvorschlag. Der Plan zeigt die Aufteilung der Räume inklusive Möbel, enthält eine Tabelle mit Raumgrößen und auf Wunsch eine Wohnflächenberechnung. Ihr Logo und der Nordpfeil sind im Plan enthalten."
+      "description": "<p>Ein möblierter 2D-Grundriss, erstellt auf Basis Ihres bestehenden Objektplans und gestaltet entweder nach unserem Konzept oder auf Grundlage Ihrer Fotos und individuellen Wünsche.</p><p>Ihr Grundriss wird mit harmonisch angeordneten Möbeln versehen, die die Proportionen, die Funktionalität und die Raumaufteilung klar hervorheben. Das Einrichtungskonzept hilft potenziellen Käufern oder Mietern, sich die Nutzung der einzelnen Räume besser vorzustellen und die Verbindung zwischen den Bereichen zu verstehen.</p><p>Die Farbe des Parkettbodens, der Fliesen in den Sanitärbereichen sowie der Terrasse können Sie individuell auswählen, passend zum Charakter der Immobilie.</p><p>Ideal für Immobilienanzeigen, Broschüren sowie eine klare, ansprechende und leicht verständliche Präsentation Ihrer Immobilie.</p>"
     },
     "3d": {
       "price": "39 € pro Grundriss für eine Immobilie",
       "title": "3D-Grundriss mit Möblierung",
-      "description": "Ein 3D-Grundriss einer einstöckigen Immobilie mit Möblierung, gestaltet auf Basis realer Fotos oder nach unserem Designvorschlag. Der Grundriss vermittelt ein realistisches Raumgefühl und enthält eine Tabelle mit Raumgrößen sowie auf Wunsch die Berechnung der Wohnfläche. Ihr Logo und ein Nordpfeil sind ebenfalls integriert."
+      "description": "<p>Wir erstellen professionelle 3D-Grundrisse mit durchdacht arrangierter Möblierung, die die Proportionen, Funktionalität und die Atmosphäre der Räume klar und anschaulich zur Geltung bringen.</p><p>Unsere Visualisierungen helfen potenziellen Käufern, die Raumaufteilung und den Grundriss Fluss der Immobilie sofort zu erfassen. Realistisch und einladend präsentiert, hebt jeder Plan das volle Potenzial der einzelnen Räume hervor und schafft einen überzeugenden ersten Eindruck.</p><p>Sie erhalten pro Objekt zwei realistische Perspektiven für ein besseres räumliches Verständnis. Optional können wir auch Außenbereiche wie Terrassen, Parkplätze oder Ruhebereiche integrieren, um die Immobilie als vollständiges und stimmiges Wohnumfeld darzustellen.</p><p>Ideal für Immobilieninserate, Präsentationen, Broschüren und eine moderne, überzeugende Objektpräsentation.</p>"
     }
   },
   "mainFAQ": {
