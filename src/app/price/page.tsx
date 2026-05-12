@@ -7,6 +7,7 @@ import { Flex } from "antd";
 import useMedia from "../components/common/media-hook";
 import { ServicesInfo } from "../components/common/services-info";
 import { useOrder } from "../hooks/useOrder";
+import { useEffect } from "react";
 
 export type OrderType =
   | "2D floor plan with dimensions"
@@ -146,6 +147,16 @@ export default function Price() {
   const { isSmall } = useMedia();
 
   const t = useTranslations();
+
+  useEffect(() => {
+    if (window && "gtag" in window) {
+      // @ts-ignore
+      window?.gtag?.("event", "conversion", {
+        send_to: "AW-18022087039/htcLCJ7W46scEP_yzJFD",
+      });
+    }
+  }, []);
+
   return (
     <>
       {orderView}
