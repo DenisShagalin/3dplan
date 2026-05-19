@@ -252,7 +252,7 @@ export function Order({
   const [isExpressDeliviery, setExpressDelivery] = useState(false);
   const [isExteriorAreas, setExteriorAreas] = useState(false);
 
-  const [termRequest, setTermsRequest] = useState(false);
+  const [termRequest, setTermsRequest] = useState("");
   const [isAgreed, setIsAgreed] = useState(false);
 
   const t = useTranslations();
@@ -269,6 +269,7 @@ export function Order({
       lastName.trim() &&
       (clientType === "businessClient" ? org.trim() : true) &&
       (clientType === "businessClient" ? iuid.trim() : true) &&
+      (clientType === "privateClient" ? !!termRequest : true) &&
       country.trim() &&
       idx.trim() &&
       city.trim() &&
@@ -288,6 +289,8 @@ export function Order({
       address,
       isAgreed,
       types,
+      termRequest,
+      clientType,
     ],
   );
 
@@ -308,7 +311,7 @@ export function Order({
     setCoverings({});
     setExpressDelivery(false);
     setExteriorAreas(false);
-    setTermsRequest(false);
+    setTermsRequest("");
     setIsAgreed(false);
     setClientType("");
   }, []);
@@ -355,7 +358,7 @@ Client Type: ${clientType}
 
 --- Terms ---
 Agreed to Terms: ${isAgreed ? "Yes" : "No"}
-Requested Terms Copy: ${termRequest ? "Yes" : "No"}
+Requested Terms Copy: ${termRequest}
 
 --- Comment ---
 ${message || "—"}
@@ -878,17 +881,34 @@ ${message || "—"}
             borderRadius: "4px",
           }}
           justify="space-between"
-          align="center"
+          vertical
         >
-          <input
-            type="checkbox"
-            disabled={clientType === "businessClient"}
-            checked={termRequest}
-            onChange={() => setTermsRequest(!termRequest)}
+          <div
+            dangerouslySetInnerHTML={{
+              __html: t.raw("order.termsRequest"),
+            }}
+            style={{ width: "100%", paddingLeft: "1rem" }}
           />
-          <Typography.Text style={{ paddingLeft: "1rem" }}>
-            {t("order.termsRequest")}
-          </Typography.Text>
+          <Flex vertical style={{ paddingTop: "0.5rem" }}>
+            <Flex>
+              <input
+                type="checkbox"
+                disabled={clientType === "businessClient"}
+                checked={termRequest === "agree"}
+                onChange={() => setTermsRequest("agree")}
+              />
+              <label style={{ paddingLeft: "0.5rem" }}> {t("order.agree")}</label>
+            </Flex>
+            <Flex>
+              <input
+                type="checkbox"
+                disabled={clientType === "businessClient"}
+                checked={termRequest === "disagree"}
+                onChange={() => setTermsRequest("disagree")}
+              />
+              <label style={{ paddingLeft: "0.5rem" }}> {t("order.disagree")}</label>
+            </Flex>
+          </Flex>
         </Flex>
 
         <Flex

@@ -250,13 +250,15 @@
     "mail": "E-mail",
     "comment": "Commentaire",
     "termsTitle": "Conditions générales",
-    "termsRequest": "Je demande expressément que vous commenciez l’exécution du service avant la fin du délai de rétractation. Je suis conscient(e) que cela entraîne la perte de mon droit de rétractation.",
+    "termsRequest": "Je demande expressément que vous commenciez l’exécution du service avant la fin du délai de rétractation. Je suis conscient(e) que cela entraîne la perte de mon droit de rétractation.<br><span style=\"font-size: 12px;\">* Requis pour le traitement de la commande</span>",
     "termsAcceptLabel": "J'accepte les <a href=\"/security/terms\">Conditions générales</a> et la <a href=\"/security/privacy\">Politique de confidentialité</a>.<br><span style=\"font-size: 12px;\">* Requis pour le traitement de la commande</span>",
     "orderButton": "Passer la commande",
     "orderNotification": "Après l’envoi de votre demande, vous recevrez une confirmation ainsi qu’une facture par e-mail.",
     "clientTitle": "Je commande en tant que:*",
     "businessClient": "Client professionnel",
-    "privateClient": "Client particulier"
+    "privateClient": "Client particulier",
+    "agree": "Je suis d’accord",
+    "disagree": "Je ne suis pas d’accord"
   },
   "packages": {
     "title": "Forfaits de services",

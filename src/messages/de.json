@@ -250,13 +250,15 @@
     "mail": "E-mail",
     "comment": "Kommentar",
     "termsTitle": "Geschäftsbedingungen",
-    "termsRequest": "Ich verlange ausdrücklich, dass Sie vor Ablauf der Widerrufsfrist mit der Ausführung der Dienstleistung beginnen. Mir ist bekannt, dass ich dadurch mein Widerrufsrecht verliere.",
+    "termsRequest": "Ich verlange ausdrücklich, dass Sie vor Ablauf der Widerrufsfrist mit der Ausführung der Dienstleistung beginnen. Mir ist bekannt, dass ich dadurch mein Widerrufsrecht verliere. <br><span style=\"font-size: 12px;\">* Erforderlich für die Bestellabwicklung</span>",
     "termsAcceptLabel": "Ich akzeptiere die <a href=\"/security/terms\">Allgemeinen Geschäftsbedingungen</a> und die <a href=\"/security/privacy\">Datenschutzrichtlinie</a>.<br><span style=\"font-size: 12px;\">* Erforderlich für die Bestellabwicklung</span>",
     "orderButton": "Bestellung absenden",
     "orderNotification": "Nach dem Absenden Ihrer Anfrage erhalten Sie eine Bestätigung sowie eine Rechnung per E-Mail.",
     "clientTitle": "Ich bestelle als:*",
     "businessClient": "Geschäftskunde",
-    "privateClient": "Privatkunde"
+    "privateClient": "Privatkunde",
+    "agree": "Ich stimme zu",
+    "disagree": "Ich stimme nicht zu"
   },
   "packages": {
     "title": "Leistungspakete",

@@ -251,12 +251,14 @@
     "comment": "Comments:",
     "termsTitle": "Terms and Conditions",
     "termsAcceptLabel": "I accept the <a href=\"/security/terms\">General Terms and Conditions</a> and the <a href=\"/security/privacy\">Privacy Policy</a>.<br><span style=\"font-size: 12px;\">* Required for order processing</span>",
-    "termsRequest": "I expressly request that you begin providing the service before the end of the withdrawal period. I am aware that, by doing so, I will lose my right of withdrawal.",
+    "termsRequest": "I expressly request that you begin providing the service before the end of the withdrawal period. I am aware that, by doing so, I will lose my right of withdrawal. <br><span style=\"font-size: 12px;\">* Required for order processing</span>",
     "orderButton": "Submit order",
     "orderNotification": "After submitting your request, you will receive a confirmation and an invoice by email.",
     "clientTitle": "I am ordering as: *",
     "businessClient": "Business Client",
-    "privateClient": "Private Client"
+    "privateClient": "Private Client",
+    "agree": "I agree",
+    "disagree": "I do not agree"
   },
   "packages": {
     "title": "Service Packages",

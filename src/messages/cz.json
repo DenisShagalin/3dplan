@@ -251,12 +251,14 @@
     "comment": "Komentář",
     "termsTitle": "Obchodní podmínky",
     "termsAcceptLabel": "Souhlasím s <a href=\"/security/terms\">Všeobecnými obchodními podmínkami</a> a <a href=\"/security/privacy\">Zásadami ochrany osobních údajů.</a>.<br><span style=\"font-size: 12px;\">* Požadováno pro dokončení objednávky</span>",
-    "termsRequest": "Výslovně žádám, aby byla služba zahájena před uplynutím lhůty pro odstoupení od smlouvy. Jsem si vědom(a), že tím ztrácím své právo na odstoupení od smlouvy.",
+    "termsRequest": "Výslovně žádám, aby byla služba zahájena před uplynutím lhůty pro odstoupení od smlouvy. Jsem si vědom(a), že tím ztrácím své právo na odstoupení od smlouvy.<br><span style=\"font-size: 12px;\">* Požadováno pro dokončení objednávky</span>",
     "orderButton": "Odeslat objednávku",
     "orderNotification": "Po odeslání vaší žádosti obdržíte potvrzení a fakturu e-mailem.",
     "clientTitle": "Objednávám jako:*",
     "businessClient": "Podnikatelský zákazník",
-    "privateClient": "Soukromý zákazník"
+    "privateClient": "Soukromý zákazník",
+    "agree": "Souhlasím",
+    "disagree": "Nesouhlasím"
   },
   "packages": {
     "title": "Servisní balíčky",
