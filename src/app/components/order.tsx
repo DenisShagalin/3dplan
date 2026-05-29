@@ -264,9 +264,11 @@ export function Order({
 
   const isActive = useMemo(
     () =>
+      !!files.length &&
       email.trim() &&
       firstName.trim() &&
       lastName.trim() &&
+      clientType.trim() &&
       (clientType === "businessClient" ? org.trim() : true) &&
       (clientType === "businessClient" ? iuid.trim() : true) &&
       (clientType === "privateClient" ? !!termRequest : true) &&
@@ -527,7 +529,8 @@ ${message || "—"}
           <span id="file-name-display">
             {files.length > 0
               ? files.map((file) => file.name).join(", ")
-              : t("order.fileInputLabel")}
+              : t("order.fileInputLabel")}{" "}
+            *
           </span>
         </Flex>
 
@@ -897,7 +900,10 @@ ${message || "—"}
                 checked={termRequest === "agree"}
                 onChange={() => setTermsRequest("agree")}
               />
-              <label style={{ paddingLeft: "0.5rem" }}> {t("order.agree")}</label>
+              <label style={{ paddingLeft: "0.5rem" }}>
+                {" "}
+                {t("order.agree")}
+              </label>
             </Flex>
             <Flex>
               <input
@@ -906,7 +912,10 @@ ${message || "—"}
                 checked={termRequest === "disagree"}
                 onChange={() => setTermsRequest("disagree")}
               />
-              <label style={{ paddingLeft: "0.5rem" }}> {t("order.disagree")}</label>
+              <label style={{ paddingLeft: "0.5rem" }}>
+                {" "}
+                {t("order.disagree")}
+              </label>
             </Flex>
           </Flex>
         </Flex>
