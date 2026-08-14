@@ -4,12 +4,42 @@ import Paragraph from "antd/lib/typography/Paragraph";
 import { useTranslations } from "next-intl";
 import { Flex } from "antd";
 import Title from "antd/lib/typography/Title";
+import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import useMedia from "../components/common/media-hook";
+import { consumeConfirmation } from "../utils/confirmation";
 
 export default function Confirmation() {
   const t = useTranslations();
+  const router = useRouter();
 
   const { isSmall } = useMedia();
+
+  // Reachable only right after a contact or order submit.
+  const [isAllowed, setAllowed] = useState(false);
+  const [submittedKey, setSubmittedKey] = useState<
+    "contact" | "order" | null | undefined
+  >(null);
+  // The flag is one-shot, so it must not be read twice (StrictMode in dev).
+  const isChecked = useRef(false);
+
+  useEffect(() => {
+    if (isChecked.current) return;
+    isChecked.current = true;
+
+    const key = consumeConfirmation();
+
+    if (key === "contact" || key === "order") {
+      setAllowed(true);
+      setSubmittedKey(key);
+    } else {
+      router.replace("/");
+    }
+  }, [router]);
+
+  if (!isAllowed) {
+    return null;
+  }
 
   return (
     <Flex
@@ -41,9 +71,14 @@ export default function Confirmation() {
           }}
           level={4}
         >
-          {t.rich("confirmation.title", {
-            br: () => <br />,
-          })}
+          {t.rich(
+            submittedKey === "order"
+              ? "confirmation.title"
+              : "confirmationContact.title",
+            {
+              br: () => <br />,
+            },
+          )}
         </Title>
 
         <Paragraph
@@ -57,7 +92,10 @@ export default function Confirmation() {
         >
           <div
             dangerouslySetInnerHTML={{
-              __html: t.raw("confirmation.description"),
+              __html:
+                submittedKey === "order"
+                  ? t.raw("confirmation.description")
+                  : t.raw("confirmationContact.description"),
             }}
           />
         </Paragraph>

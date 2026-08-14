@@ -3,15 +3,17 @@
 import { useTranslations } from 'next-intl';
 import { useCallback, useMemo, useState } from 'react';
 import { Input, Flex, Typography, Button } from 'antd';
+import { useRouter } from "next/navigation";
 import Title from 'antd/lib/typography/Title';
 import Paragraph from 'antd/lib/typography/Paragraph';
 import { sendEmail } from '../utils/email';
+import { allowConfirmation } from '../utils/confirmation';
 import useMedia from '../components/common/media-hook';
 
 export default function Mail() {
   const t = useTranslations();
-
-  const { isSmall } = useMedia();
+  const router = useRouter();
+  const { isSmall } = useMedia();    
 
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -38,10 +40,8 @@ export default function Mail() {
       setLastName('');
       setEmail('');
       setMessage('');
-      setTimeout(() => {
-        setSubmitLabel(t('control.submit'));
-        setLoading(false);
-      }, 5000);
+      allowConfirmation('contact');
+      router.push("/confirmation");
     } catch (e) {
       setLoading(false);
       setSubmitLabel(t('control.error'));

@@ -6,8 +6,10 @@ import { Input, Flex, Typography, Button, Modal } from "antd";
 import { Select } from "antd";
 import Title from "antd/lib/typography/Title";
 import { sendEmail } from "../utils/email";
+import { allowConfirmation } from "../utils/confirmation";
 import useMedia from "./common/media-hook";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 export type OrderType =
@@ -230,6 +232,8 @@ export function Order({
   setOpen: (b: boolean) => void;
   defaultValue?: OrderType;
 }) {
+  const router = useRouter();
+
   const [type, setType] = useState("");
   const [clientType, setClientType] = useState("");
   const [firstName, setFirstName] = useState("");
@@ -371,10 +375,8 @@ ${message || "—"}
       setLoading(false);
       setSubmitLabel(t("control.wasSended"));
       clear();
-      setTimeout(() => {
-        setSubmitLabel(t("order.orderButton"));
-        setLoading(false);
-      }, 5000);
+      allowConfirmation('order');
+      router.push("/confirmation");
     } catch (e) {
       setLoading(false);
       setSubmitLabel(t("control.error"));
