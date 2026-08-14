@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Button, Flex, Typography } from "antd";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import "./cookie-popup.css";
 
 const COOKIE_CONSENT_KEY = "3DPLAN_LOCALE_cookie_consent";

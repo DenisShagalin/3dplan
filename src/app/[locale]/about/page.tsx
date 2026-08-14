@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Flex } from "antd";
-import useMedia from "../components/common/media-hook";
+import useMedia from "@/app/components/common/media-hook";
 
 export default function About() {
   const t = useTranslations();

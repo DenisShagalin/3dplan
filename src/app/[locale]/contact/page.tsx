@@ -3,12 +3,12 @@
 import { useTranslations } from 'next-intl';
 import { useCallback, useMemo, useState } from 'react';
 import { Input, Flex, Typography, Button } from 'antd';
-import { useRouter } from "next/navigation";
+import { useRouter } from '@/i18n/navigation';
 import Title from 'antd/lib/typography/Title';
 import Paragraph from 'antd/lib/typography/Paragraph';
-import { sendEmail } from '../utils/email';
-import { allowConfirmation } from '../utils/confirmation';
-import useMedia from '../components/common/media-hook';
+import { sendEmail } from '@/app/utils/email';
+import { allowConfirmation } from '@/app/utils/confirmation';
+import useMedia from '@/app/components/common/media-hook';
 
 export default function Mail() {
   const t = useTranslations();

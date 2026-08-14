@@ -9,7 +9,7 @@ import { sendEmail } from "../utils/email";
 import { allowConfirmation } from "../utils/confirmation";
 import useMedia from "./common/media-hook";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/i18n/navigation";
 import Image from "next/image";
 
 export type OrderType =

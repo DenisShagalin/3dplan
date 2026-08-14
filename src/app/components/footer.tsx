@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Flex } from "antd";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const FooterLink = ({ href, label }: { href: string; label: string }) => (
   <Link

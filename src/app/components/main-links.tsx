@@ -2,32 +2,24 @@
 
 import "./main-links.css";
 
-import { useState, useEffect, useCallback } from "react";
-import Link from "next/link";
+import { useCallback } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
 import { MenuOutlined } from "@ant-design/icons";
 import { Dropdown } from "./common/dropdown";
 import useMedia from "./common/media-hook";
-import {
-  buildLocaleCookie,
-  isSupportedLocale,
-  type Locale,
-} from "../../i18n/locales";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
+import { isSupportedLocale } from "@/i18n/locales";
 
 export const MainLinks = () => {
-  // Resolved on the server: the cookie, or the detected browser language.
-  const activeLocale = useLocale();
-  const [locale, setLocale] = useState<string>(activeLocale);
+  // Resolved on the server from the URL prefix, the cookie or the browser.
+  const locale = useLocale();
+  // Without the locale prefix, so it can be re-rendered under another one.
+  const pathname = usePathname();
   const router = useRouter();
   const t = useTranslations();
 
   const { isSmall } = useMedia();
-
-  useEffect(() => {
-    setLocale(activeLocale);
-  }, [activeLocale]);
 
   const serviceItems = [
     {
@@ -98,21 +90,17 @@ export const MainLinks = () => {
     },
   ];
 
-  const changeLocale = (locale: Locale) => {
-    setLocale(locale);
-    document.cookie = buildLocaleCookie(locale);
-    router.refresh();
-  };
-
+  // The dropdowns mix page links and language keys in one menu.
   const onClick = useCallback(
-    (href: any) => {
+    (href: string) => {
       if (isSupportedLocale(href)) {
-        changeLocale(href);
+        // Same page, other language: "/price" -> "/de/price".
+        router.replace(pathname, { locale: href });
         return;
       }
       router.push(href);
     },
-    [router],
+    [pathname, router],
   );
 
   return (

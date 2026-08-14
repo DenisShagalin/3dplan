@@ -4,9 +4,9 @@ import Paragraph from "antd/lib/typography/Paragraph";
 import Text from "antd/lib/typography/Text";
 import { useTranslations } from "next-intl";
 import { Flex } from "antd";
-import useMedia from "../components/common/media-hook";
-import { ServicesInfo } from "../components/common/services-info";
-import { useOrder } from "../hooks/useOrder";
+import useMedia from "@/app/components/common/media-hook";
+import { ServicesInfo } from "@/app/components/common/services-info";
+import { useOrder } from "@/app/hooks/useOrder";
 import { useEffect } from "react";
 
 export type OrderType =

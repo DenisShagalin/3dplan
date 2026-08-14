@@ -1,12 +1,12 @@
 "use client";
 
 import { Flex } from "antd";
-import { Carousel } from "../../components/common/carousel";
-import { Slider } from "../../components/common/slider";
+import { Carousel } from "@/app/components/common/carousel";
+import { Slider } from "@/app/components/common/slider";
 import { useCallback, useState } from "react";
 import { Picture } from "@/app/components/picture";
-import { ServicesInfo } from "../../components/common/services-info";
-import { useOrder } from "../../hooks/useOrder";
+import { ServicesInfo } from "@/app/components/common/services-info";
+import { useOrder } from "@/app/hooks/useOrder";
 
 const ImgWrap = ({ children }: { children: React.ReactNode }) => (
   <div className="image_wrap">{children}</div>

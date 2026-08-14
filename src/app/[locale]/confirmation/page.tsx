@@ -5,9 +5,9 @@ import { useTranslations } from "next-intl";
 import { Flex } from "antd";
 import Title from "antd/lib/typography/Title";
 import { useEffect, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
-import useMedia from "../components/common/media-hook";
-import { consumeConfirmation } from "../utils/confirmation";
+import { useRouter } from "@/i18n/navigation";
+import useMedia from "@/app/components/common/media-hook";
+import { consumeConfirmation } from "@/app/utils/confirmation";
 
 export default function Confirmation() {
   const t = useTranslations();
