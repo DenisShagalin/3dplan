@@ -57,7 +57,7 @@ export default async function RootLayout({
             },
           }}
         >
-          <NextIntlClientProvider messages={messages}>
+          <NextIntlClientProvider locale={locale} messages={messages}>
             <Background src={["/background2.jpg"]} />
             <Section>
               <MainLinks />

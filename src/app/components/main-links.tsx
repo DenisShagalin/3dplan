@@ -5,35 +5,29 @@ import "./main-links.css";
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { MenuOutlined } from "@ant-design/icons";
 import { Dropdown } from "./common/dropdown";
 import useMedia from "./common/media-hook";
-
-const supportedLocales = ["en", "de", "fr", "cz"];
+import {
+  buildLocaleCookie,
+  isSupportedLocale,
+  type Locale,
+} from "../../i18n/locales";
 
 export const MainLinks = () => {
-  const [locale, setLocale] = useState<string>("en");
+  // Resolved on the server: the cookie, or the detected browser language.
+  const activeLocale = useLocale();
+  const [locale, setLocale] = useState<string>(activeLocale);
   const router = useRouter();
   const t = useTranslations();
 
   const { isSmall } = useMedia();
 
   useEffect(() => {
-    const cookieLocale = document.cookie
-      .split("; ")
-      .find((r) => r.startsWith("3DPLAN_LOCALE="))
-      ?.split("=")?.[1];
-
-    if (cookieLocale && supportedLocales.includes(cookieLocale)) {
-      setLocale(cookieLocale);
-    } else {
-      setLocale("en");
-      document.cookie = `3DPLAN_LOCALE=en;`;
-      router.refresh();
-    }
-  }, [router]);
+    setLocale(activeLocale);
+  }, [activeLocale]);
 
   const serviceItems = [
     {
@@ -104,22 +98,15 @@ export const MainLinks = () => {
     },
   ];
 
-  const changeLocale = (locale: string) => {
+  const changeLocale = (locale: Locale) => {
     setLocale(locale);
-    document.cookie = `3DPLAN_LOCALE=${locale};`;
+    document.cookie = buildLocaleCookie(locale);
     router.refresh();
   };
 
   const onClick = useCallback(
     (href: any) => {
-      if (
-        href === "en" ||
-        href === "de" ||
-        href === "fr" ||
-        href === "cz" ||
-        href === "sk" ||
-        href === "it"
-      ) {
+      if (isSupportedLocale(href)) {
         changeLocale(href);
         return;
       }
@@ -174,7 +161,7 @@ export const MainLinks = () => {
               {t("toolbar.contact").toLocaleUpperCase()}
             </Link>
 
-            <Dropdown items={lang} onClick={changeLocale}>
+            <Dropdown items={lang} onClick={onClick}>
               <Link href="">{locale.toUpperCase()}</Link>
             </Dropdown>
           </>
