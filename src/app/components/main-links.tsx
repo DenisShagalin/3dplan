@@ -82,6 +82,14 @@ export const MainLinks = () => {
       key: "cz",
       label: "CZ",
     },
+    {
+      key: "sk",
+      label: "SK",
+    },
+    {
+      key: "it",
+      label: "IT",
+    },
   ];
 
   const items = [
@@ -104,7 +112,14 @@ export const MainLinks = () => {
 
   const onClick = useCallback(
     (href: any) => {
-      if (href === "en" || href === "de" || href === "fr" || href === "cz") {
+      if (
+        href === "en" ||
+        href === "de" ||
+        href === "fr" ||
+        href === "cz" ||
+        href === "sk" ||
+        href === "it"
+      ) {
         changeLocale(href);
         return;
       }

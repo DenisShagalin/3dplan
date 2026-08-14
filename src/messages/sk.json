@@ -1,0 +1,413 @@
+{
+  "cookie": {
+    "message": "Používame súbory cookies na zlepšenie vášho zážitku na našej webovej stránke. Pokračovaním v prehliadaní súhlasíte s ich používaním.",
+    "learnMore": "Zistiť viac",
+    "accept": "Prijať",
+    "decline": "Odmietnuť"
+  },
+  "policyLabels": {
+    "privacy": "Zásady ochrany osobných údajov",
+    "legalNotice": "Impressum",
+    "terms": "Všeobecné obchodné podmienky",
+    "info": "Poučenie o práve na odstúpenie od zmluvy"
+  },
+  "control": {
+    "learnMore": "Zistiť viac",
+    "submit": "Odoslať",
+    "wasSended": "E-mail bol odoslaný!",
+    "error": "Niečo sa pokazilo! Skúste to, prosím, neskôr.",
+    "order": "Objednať"
+  },
+  "toolbar": {
+    "services": "Služby",
+    "pricing": "Cenník",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "lang": "Jazyk",
+    "servicesItems": {
+      "2dDim": "2D pôdorys s rozmermi",
+      "2dFur": "2D pôdorys s nábytkom",
+      "3dFur": "3D pôdorys s nábytkom",
+      "3dIn": "3D vizualizácia interiéru",
+      "3dEx": "3D vizualizácia exteriéru",
+      "planBasic": "Balík – Basic",
+      "planPlus": "Balík – Plus",
+      "planPro": "Balík – Pro",
+      "planBasicDes": "Ideálne pre samostatných realitných maklérov",
+      "planPlusDes": "Vhodné pre realitné kancelárie",
+      "planProDes": "Vhodné pre developerov a investorov",
+      "planBasicDiscount": "Zľava 10 %",
+      "planPlusDiscount": "Zľava 15 %",
+      "planProDiscount": "Zľava 20 %",
+      "planBasicQuantity": "Od 20 pôdorysov",
+      "planPlusQuantity": "Od 40 pôdorysov",
+      "planProQuantity": "Od 60 pôdorysov"
+    }
+  },
+  "home": {
+    "usText1": "3Dplan.online – grafický servis pre realitných maklérov.",
+    "usText2": "Premieňame staré plány nehnuteľností na moderné profesionálne vizualizácie a vytvárame vizualizácie interiérov aj exteriérov.",
+    "usText3": "Ideálne pre realitný marketing – podporuje predaj a posilňuje imidž vašej kancelárie.",
+    "usTitle": "Grafický servis pre realitných maklérov"
+  },
+  "planExample": {
+    "title": "3D vizualizácia interiérov a exteriérov – kľúč k úspešnému predaju nehnuteľností",
+    "description": "Prečo je to dôležité? Kupujúci sa často rozhodujú na základe emócií a vizuálneho dojmu. 3D vizualizácia pomáha predstaviť nehnuteľnosť ešte pred výstavbou alebo rekonštrukciou a vytvára jasnú predstavu o priestore a štýle.<br></br><br></br>Naše služby:<br></br>• 3D vizualizácia interiéru – realistické obrazy, ktoré vystihujú komfort a funkčnosť priestoru.<br></br>• 3D vizualizácia exteriéru – pôsobivé vizuálne riešenia fasád a okolia."
+  },
+  "feedback": {
+    "thomas": {
+      "text": "Skvelá spolupráca! Grafické plány vyzerajú profesionálne – rýchlo, kvalitne a za dobrú cenu. Šetrí to čas a zanecháva výborný dojem na klientov. Ďakujem a určite odporúčam!",
+      "name": "Thomas Schneider, realitný maklér"
+    },
+    "olga": {
+      "text": "Svoj marketing si už bez tejto služby neviem predstaviť. Rýchla a kvalitná práca, moderný dizajn – jednoducho perfektné! Vrelo odporúčam.",
+      "name": "Olga Chehova, marketingová expertka"
+    },
+    "sergio": {
+      "text": "Fantastická služba pre každého, kto chce svoju nehnuteľnosť prezentovať profesionálne. Výstupy sú ideálne pre sociálne siete ako Instagram a Facebook. Rýchla a kvalitná práca. Ak budem opäť potrebovať prezentáciu nehnuteľnosti, rád sa na vás obrátim. 100 % odporúčanie!",
+      "name": "Sergio Romano, realitný maklér"
+    },
+    "irina": {
+      "text": "Vždy, keď som mala otázku, dostala som okamžitú pomoc. Príjemná a rýchla komunikácia. Tím je veľmi priateľský, má rád svoju prácu a je vždy k dispozícii. Jednoznačne odporúčam!",
+      "name": "Iryna Moser, súkromná klientka"
+    },
+    "madeleine": {
+      "text": "Veľmi pekne ďakujem, pôdorys vyzerá skvele! Teší ma, že všetko prebehlo tak rýchlo.",
+      "name": "Madeleine Graf, realitná maklérka"
+    },
+    "vicdan": {
+      "text": "Ďakujeme za rýchle zaslanie upraveného pôdorysu. Obe verzie nám plne vyhovujú a touto cestou by sme sa chceli úprimne poďakovať za rýchle a efektívne spracovanie.",
+      "name": "Vicdan Mutlu, zákaznícka podpora / správa nehnuteľností"
+    }
+  },
+  "mailForm": {
+    "name": "Meno",
+    "firstName": "Meno",
+    "lastName": "Priezvisko",
+    "email": "E-mail",
+    "message": "Správa",
+    "title": "MÔŽETE NÁS KONTAKTOVAŤ E-MAILOM<br></br>office@3dplan.online",
+    "description": "Radi sa dozvieme o vašich pripravovaných realitných projektoch, posúdime návrhy na spoluprácu a odpovieme na všetky vaše otázky."
+  },
+  "aboutus": {
+    "description": "<h2>O nás</h2><p>Sme tím 3DPlan.online – profesionálni dizajnéri a 3D vizualizátori so zameraním na prezentáciu nehnuteľností.</p><p>Naším cieľom je pomáhať realitným maklérom a realitným kanceláriám pracovať na vysokej profesionálnej úrovni prostredníctvom jasných a moderných vizuálnych materiálov, ktoré robia nehnuteľnosti atraktívnejšími a zrozumiteľnejšími pre klientov.</p><p>Túto službu sme vytvorili preto, aby sme výrazne zvýšili kvalitu vizuálnej prezentácie nehnuteľností. Kvalitné 2D a 3D pôdorysy, ako aj fotorealistické vizualizácie, pomáhajú predstaviť nehnuteľnosť v najlepšom svetle, zdôrazniť jej výhody, odlíšiť sa od konkurencie a osloviť viac potenciálnych kupujúcich alebo nájomcov.</p><p>Profesionálna prezentácia nielen posilňuje dôveru v nehnuteľnosť, ale môže prispieť aj k dosiahnutiu vyššej predajnej alebo nájomnej ceny.</p><h2>Ako to funguje</h2><p>Pracujeme s existujúcimi plánmi, výkresmi alebo skicami. Stačí nám poslať naskenovaný alebo ručne kreslený pôdorys s rozmermi a označením miestností – a my ho premeníme na profesionálnu grafickú vizualizáciu.</p><p>Finálne materiály môžete využiť v marketingu, online inzercii, prezentáciách a propagačných materiáloch.</p>"
+  },
+  "service": {
+    "3dExterior": {
+      "title": "3D vizualizácie interiérov a exteriérov",
+      "description": "Profesionálna 3D vizualizácia je silný nástroj na prezentáciu nehnuteľností. Vytvárame fotorealistické 3D vizualizácie interiérov a exteriérov, ktoré umožňujú predstaviť budúcu nehnuteľnosť vo všetkých detailoch ešte pred začiatkom výstavby alebo rekonštrukcie. Pomáha to potenciálnym klientom a investorom vidieť výsledok a posúdiť všetky vlastnosti a výhody projektu.<br></br><br></br>Pre koho je služba vhodná?<br></br> • Investori a developeri, ktorí chcú svojim partnerom a klientom prezentovať vizuálne atraktívne a zrozumiteľné projekty.<br></br>• Realitné kancelárie, ktoré pracujú na imidži budúceho projektu a chcú ho predstaviť v najlepšom svetle, zvýšiť záujem klientov a podporiť predaj alebo prenájom.<br></br><br></br>Ukážte svojim klientom budúcnosť už dnes pomocou kvalitnej 3D vizualizácie!",
+      "control": "Začať teraz",
+      "instructionTitle": "Ako objednať pôdorys: postup krok za krokom",
+      "step1": "Pošlite fotografie alebo video objektu či interiéru spolu s opisom materiálov a požadovaného štýlu. Čím viac detailov poskytnete, tým presnejší bude výsledok.",
+      "step2": "Na základe vašich požiadaviek vytvoríme úvodné 3D vizualizácie a pošleme vám ich na schválenie.",
+      "step3": "Po finálnom schválení vám dodáme hotové 3D vizualizácie vo vysokom rozlíšení na použitie v marketingu.",
+      "faq1title": "Aké informácie sú potrebné na vytvorenie vizualizácie interiéru?",
+      "faq1description": "Na dosiahnutie kvalitného výsledku potrebujeme:<br></br>– fotografie alebo video priestoru<br></br>– pôdorys (ručný nákres alebo architektonický plán)<br></br>– informácie o materiáloch a požadovanom štýle alebo atmosfére.<br></br>Čím podrobnejšie a presnejšie sú podklady, tým realistickejší a presnejší bude finálny výsledok.",
+      "faq2title": "Ako dlho trvá vytvorenie vizualizácie?",
+      "faq2description": "Vytvorenie interiérovej vizualizácie zvyčajne trvá do 10 pracovných dní (bez času potrebného na spätnú väzbu a úpravy). Termín závisí od zložitosti projektu, počtu pohľadov a požadovanej úrovne detailov.",
+      "faq3title": "Môžem po vytvorení vizualizácie požiadať o úpravy?",
+      "faq3description": "Áno. Proces zahŕňa tri fázy. Po každej fáze dostanete návrh a máte možnosť požiadať o zmeny alebo úpravy.",
+      "faq4title": "V akých formátoch dostanem finálne vizualizácie?",
+      "faq4description": "Obrázky dostanete v praktických formátoch:<br></br>– JPEG, TIFF, PNG vo vysokom rozlíšení."
+    },
+    "3dFurniture": {
+      "title": "3D pôdorys s nábytkom",
+      "description": "Vytvárame fotorealistické 3D pôdorysy, ktoré zobrazujú nielen presné dispozičné riešenie, ale aj rozmiestnenie nábytku. Tieto pôdorysy pomáhajú klientom predstaviť si, ako bude priestor vyzerať v reálnom živote, vrátane detailov a funkčnosti. Sú ideálnym nástrojom na ukázanie možností využitia priestoru a presnejšiu predstavu o budúcej nehnuteľnosti.<br></br><br></br>Prečo je to dôležité?<br></br>• Realistické zobrazenie priestoru: 3D pôdorysy s nábytkom umožňujú klientom vidieť dispozičné riešenie miestností, vnímať atmosféru a pochopiť štýl priestoru, čo im pomáha rozhodovať sa istejšie.<br></br>• Posilnenie imidžu realitnej kancelárie: kvalitné vizualizácie zdôrazňujú profesionalitu kancelárie, pomáhajú odlíšiť sa od konkurencie a osloviť náročných klientov",
+      "control": "Začať teraz",
+      "instructionTitle": "Ako objednať pôdorys: postup krok za krokom.",
+      "step1": "Pošlite nám existujúci pôdorys – naskenovaný alebo ručne kreslený – so všetkými rozmermi a ďalšími informáciami o projekte.",
+      "step2": "Pôdorys digitalizujeme podľa vašich požiadaviek a pošleme vám návrh na schválenie.",
+      "step3": "Po schválení dostanete finálny pôdorys v dohodnutých formátoch a vo vysokom rozlíšení ako súbory JPEG na použitie v marketingu.",
+      "listItem1": "✔️ Výpočet plochy",
+      "listItem2": "✔️ Severka",
+      "listItem3": "✔️ Vaše logo",
+      "listItem4": "✔️ Formáty pre webové stránky a sociálne siete: A4, 3:4, 5:4",
+      "listItem5": "Na požiadanie: výpočet obytnej plochy",
+      "faq1title": "Aké informácie sú potrebné na vytvorenie 2D/3D pôdorysu?",
+      "faq1description": "Do e-mailu, prosím, priložte:<br></br>• pôdorys – naskenovaný alebo ručne kreslený – so všetkými rozmermi stien, okien a dverí.<br></br>• Označte umiestnenie kuchyne, kúpeľní a toaliet.<br></br>• Uveďte účel každej miestnosti.<br></br><br></br>V texte e-mailu, prosím, uveďte:<br></br>• vaše preferencie pri rozmiestnení nábytku.<br></br>• požadované formáty finálneho pôdorysu.<br></br>• či má byť zahrnutá severka<br></br><br></br>Okrem toho:<br></br>• priložte logo vašej spoločnosti, ak ho chcete mať na pôdoryse.<br></br>• ak sú k dispozícii, priložte fotografie alebo videá nehnuteľnosti.",
+      "faq2title": "Ako dlho trvá vytvorenie 2D/3D pôdorysu?",
+      "faq2description": "Vytvorenie pôdorysu zvyčajne trvá do 5 pracovných dní v závislosti od zložitosti a rozsahu projektu.",
+      "faq3title": "Môžem po vytvorení pôdorysu požiadať o zmeny?",
+      "faq3description": "Áno, samozrejme. Dostanete návrh pôdorysu a budete mať možnosť požiadať o potrebné úpravy alebo zmeny.",
+      "faq4title": "Ponúkate certifikovaný výpočet obytnej plochy?",
+      "faq4description": "Vytvárame pôdorysy a vypočítavame obytné plochy na základe rozmerov a údajov, ktoré nám poskytnete. Všetky údaje o metroch štvorcových a rozmeroch, ktoré zobrazujeme, sú približné.<br></br><strong>Neposkytujeme certifikovaný výpočet plochy</strong> – naša služba je grafickou digitalizáciou pôdorysov.",
+      "serviceInfo": {
+        "title": "3D pôdorys s nábytkom",
+        "description": "Vytvárame profesionálne 3D pôdorysy s premyslene rozmiestneným nábytkom a harmonickým interiérovým riešením, ktoré jasne ukazujú proporcie, funkčnosť a atmosféru priestoru.<br></br>Naše vizualizácie pomáhajú potenciálnym kupujúcim okamžite pochopiť dispozíciu a nadväznosť priestorov nehnuteľnosti. Každý pôdorys je prezentovaný realisticky a príťažlivo, zdôrazňuje plný potenciál miestností a vytvára silný prvý dojem.<br></br>Pre lepšie priestorové pochopenie dostanete dva realistické pohľady na jednu nehnuteľnosť. Voliteľne môžeme zahrnúť aj exteriérové plochy, ako sú terasy, parkovacie miesta alebo oddychové zóny, aby bola nehnuteľnosť prezentovaná ako kompletné obytné prostredie.<br></br>Ideálne pre realitné inzeráty, prezentácie, brožúry a modernú presvedčivú prezentáciu nehnuteľnosti.",
+        "item1": "✓ 1–10 miestností na pôdorys",
+        "item2": "✓ 1 alebo 2 pohľady (pohľad zhora a bočný pohľad)",
+        "item3": "✓ Doba spracovania: 4–5 dní",
+        "item4": "✓ Úpravy zahrnuté v cene",
+        "item5": "+20€ — Expresné dodanie (48 hodín)",
+        "item6": "+20€ — Miestnosti so zložitou geometriou",
+        "item7": "+20€ — Viac ako 10 miestností na pôdoryse",
+        "item8": "+20€ — Ďalší 2D/3D pôdorys tej istej nehnuteľnosti",
+        "item9": "+20€ — Exteriérové plochy (parkovanie, záhrada, patio atď.)",
+        "priceText": "za pôdorys jednej nehnuteľnosti"
+      }
+    },
+    "2dFurniture": {
+      "title": "2D pôdorys s nábytkom",
+      "description": "Naše detailné 2D pôdorysy zobrazujú nielen dispozíciu, ale aj rozmiestnenie nábytku. Potenciálni kupujúci a nájomcovia tak získajú jasnú predstavu o tom, ako možno priestor využívať a zariadiť.<br></br><br></br>Prečo je to dôležité?<br></br>• Lepšie pochopenie priestoru: klienti hneď vidia, ako možno priestor optimalizovať a prispôsobiť ich potrebám.<br></br>• Príjemná atmosféra bývania: zariadené zobrazenie vytvára pocit pohodlia a útulnosti ešte pred obhliadkou.",
+      "control": "Začať teraz",
+      "listItem1": "✔️ Výpočet plochy",
+      "listItem2": "✔️ Severka",
+      "listItem3": "✔️ Vaše logo",
+      "listItem4": "✔️ Formáty pre webové stránky a sociálne siete: A4, 3:4, 5:4",
+      "listItem5": "Na požiadanie: výpočet obytnej plochy",
+      "step1": "Pošlite nám existujúci pôdorys – naskenovaný alebo ručne kreslený – so všetkými rozmermi a ďalšími informáciami o projekte.",
+      "step2": "Pôdorys digitalizujeme podľa vašich požiadaviek a pošleme vám návrh na schválenie.",
+      "step3": "Po schválení dostanete finálny pôdorys v dohodnutých formátoch a vo vysokom rozlíšení ako súbory JPEG na použitie v marketingu.",
+      "instructionTitle": "Ako objednať pôdorys: postup krok za krokom",
+      "serviceInfo": {
+        "title": "2D pôdorys s nábytkom",
+        "description": "Zariadený 2D pôdorys vytvorený na základe vášho existujúceho plánu nehnuteľnosti, navrhnutý buď podľa nášho konceptu, alebo podľa vašich fotografií a individuálnych požiadaviek.<br></br>Váš pôdorys bude obsahovať harmonicky rozmiestnený nábytok, ktorý jasne zvýrazní proporcie, funkčnosť a dispozíciu priestoru. Koncept zariadenia pomáha potenciálnym kupujúcim alebo nájomcom lepšie si predstaviť, ako možno jednotlivé miestnosti využívať a ako na seba priestory nadväzujú.<br></br>Individuálne si môžete vybrať farbu parkiet, dlažby v sanitárnych priestoroch a na terase tak, aby zodpovedali charakteru nehnuteľnosti. <br></br>Ideálne pre realitné inzeráty, brožúry a jasnú, atraktívnu a ľahko zrozumiteľnú prezentáciu vašej nehnuteľnosti.",
+        "item1": "✓ 1–10 miestností na pôdorys",
+        "item2": "✓ 1 pohľad (zhora)",
+        "item3": "✓ Doba spracovania: 4–5 dní",
+        "item4": "✓ Úpravy zahrnuté v cene",
+        "item5": "+20€ — Expresné dodanie (48 hodín)",
+        "item6": "+20€ — Miestnosti so zložitou geometriou",
+        "item7": "+20€ — Viac ako 10 miestností na pôdoryse",
+        "item8": "+20€ — Ďalší 2D/3D pôdorys tej istej nehnuteľnosti",
+        "item9": "+20€ — Exteriérové plochy (parkovanie, záhrada, patio atď.)",
+        "priceText": "za pôdorys jednej nehnuteľnosti"
+      }
+    },
+    "2dDim": {
+      "title": "2D pôdorys s rozmermi",
+      "description": "Vytvárame detailné 2D pôdorysy s presnými rozmermi, ktoré pomáhajú potenciálnym kupujúcim a nájomcom lepšie pochopiť priestor a jeho funkčnosť.<br></br><br></br>Prečo je to dôležité?<br></br>• Presné informácie: naše pôdorysy zobrazujú rozmery miestností, polohy stien, dverí a okien, vďaka čomu si klienti dokážu realisticky predstaviť svoj budúci domov alebo kanceláriu.<br></br>• Jednoduchšie rozhodovanie: jasné rozmery pomáhajú potenciálnym kupujúcim alebo nájomcom rýchlo posúdiť, či nehnuteľnosť zodpovedá ich potrebám.",
+      "control": "Začať teraz",
+      "listItem1": "✔️ Výpočet plochy",
+      "listItem2": "✔️ Severka",
+      "listItem3": "✔️ Vaše logo",
+      "listItem4": "✔️ Formáty pre webové stránky a sociálne siete: A4, 3:4, 5:4",
+      "listItem5": "Na požiadanie: výpočet obytnej plochy",
+      "step1": "Pošlite nám existujúci pôdorys – naskenovaný alebo ručne kreslený – so všetkými rozmermi a ďalšími informáciami o projekte.",
+      "step2": "Pôdorys digitalizujeme podľa vašich požiadaviek a pošleme vám návrh na schválenie.",
+      "step3": "Po schválení dostanete finálny pôdorys v dohodnutých formátoch a vo vysokom rozlíšení ako súbory JPEG na použitie v marketingu.",
+      "instructionTitle": "Ako objednať pôdorys: postup krok za krokom",
+      "serviceInfo": {
+        "title": "2D pôdorys s rozmermi",
+        "description": "2D pôdorys s rozmermi vytvorený na základe existujúceho plánu vašej nehnuteľnosti – ideálny pre ťažko čitateľné, zastarané alebo upravované výkresy.<br></br>Váš plán bude prekreslený do jasnej a štruktúrovanej podoby s presnými kótovacími čiarami na všetkých stenách, čo zabezpečí maximálnu čitateľnosť a prehľadnosť. Kuchynské a sanitárne priestory budú zreteľne označené pre lepšie pochopenie dispozičného riešenia a funkčných zón.<br></br>Tento typ pôdorysu umožňuje potenciálnym kupujúcim alebo nájomcom okamžite pochopiť veľkosť miestností, proporcie a celkové usporiadanie nehnuteľnosti.<br></br>Vďaka jasnému grafickému spracovaniu je plán ľahko zrozumiteľný aj pre ľudí, ktorí nie sú zvyknutí čítať technické výkresy.<br></br>Perfektné pre realitné inzeráty, brožúry a profesionálne prezentácie nehnuteľností.",
+        "item1": "✓ 1–10 miestností na pôdorys",
+        "item2": "✓ 1 pohľad (zhora)",
+        "item3": "✓ Doba spracovania: 4–5 dní",
+        "item4": "✓ Úpravy zahrnuté v cene",
+        "item5": "+20€ — Expresné dodanie (48 hodín)",
+        "item6": "+20€ — Miestnosti so zložitou geometriou",
+        "item7": "+20€ — Viac ako 10 miestností na pôdoryse",
+        "item8": "+20€ — Ďalší 2D/3D pôdorys tej istej nehnuteľnosti",
+        "item9": "+20€ — Exteriérové plochy (parkovanie, záhrada, patio atď.)",
+        "priceText": "za pôdorys jednej nehnuteľnosti"
+      }
+    }
+  },
+  "price": {
+    "rooms1": "1 až 4 miestnosti",
+    "rooms2": "5 až 15 miestností",
+    "rooms3": "16 až 25 miestností",
+    "currency": "Eur",
+    "floor": "za podlažie"
+  },
+  "security": {
+    "title": "Impressum a zásady ochrany osobných údajov",
+    "imprintTitle": "Impressum",
+    "description": "Anastasiia Strauss<br></br>Slobodná umelkyňa – grafické služby pre realitný trh<br></br>Witthauergasse 28/5<br></br>1180 Viedeň, Rakúsko<br></br><br></br><strong>Kontakt:</strong><br></br>E-mail: office@3dplan.online<br></br>Webová stránka: www.3dplan.online<br></br><br></br><strong>Činnosť:</strong><br></br>Samostatná umelecká činnosť nepodliehajúca živnostenskému oprávneniu podľa § 2 rakúskeho živnostenského zákona (GewO) (grafické služby v umeleckom kontexte)<br></br><strong>Príslušný orgán:</strong> Okresný správny orgán Viedeň – Innere Stadt (Bezirkshauptmannschaft Wien Innere Stadt)<br></br>Člen Viedenskej hospodárskej komory<br></br><strong>Oddelenie:</strong> Reklama a trhová komunikácia<br></br><strong>Zodpovednosť za obsah:</strong><br></br>Napriek dôkladnej kontrole obsahu nepreberám zodpovednosť za obsah externých odkazov. Za obsah prepojených stránok zodpovedajú výlučne ich prevádzkovatelia.<br></br><strong>Online riešenie sporov podľa čl. 14 ods. 1 nariadenia ODR:</strong><br></br>Európska komisia poskytuje platformu na online riešenie sporov (ODR): https://ec.europa.eu/odr<br></br>Sťažnosť môžete zaslať aj priamo na vyššie uvedenú e-mailovú adresu.",
+    "policyTitle": "Zásady ochrany osobných údajov",
+    "policyDescription": "Ochrana vašich osobných údajov je pre nás veľmi dôležitá. Vaše údaje spracúvame výlučne na základe zákonných ustanovení (GDPR, TKG 2003). V tomto vyhlásení o ochrane osobných údajov vás informujeme o najdôležitejších aspektoch spracovania údajov na našej webovej stránke.<br></br><br></br><strong>1. Kontaktovanie a dopytové formuláre</strong><br></br>Ak nás kontaktujete prostredníctvom formulára na webovej stránke (napr. dotazník alebo kontaktný formulár), údaje, ktoré uvediete (meno, e-mailová adresa, telefónne číslo, údaje o projekte atď.), budú uložené na účely spracovania vašej požiadavky a prípadných následných otázok. Tieto údaje nebudú bez vášho súhlasu poskytované tretím stranám.<br></br><br></br><strong>2. Používanie Google Fonts</strong><br></br>Naša webová stránka používa Google Fonts, službu spoločnosti Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Írsko. Fonty sa pri návšteve webovej stránky načítavajú zo serverov Google. Google môže zaznamenať vašu IP adresu a preniesť ju do USA.<br></br>Právnym základom je náš oprávnený záujem podľa čl. 6 ods. 1 písm. f GDPR zabezpečiť jednotný a atraktívny dizajn webovej stránky.<br></br><br></br>Viac informácií:<br></br>https://developers.google.com/fonts/faq<br></br>https://policies.google.com/privacy<br></br><br></br><strong>3. Pluginy sociálnych médií</strong><br></br>Naša webová stránka obsahuje pluginy a odkazy na sociálne siete (Instagram, Facebook, Pinterest), ktoré prevádzkujú tretie strany:<br></br>• Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Írsko<br></br>• Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Írsko<br></br>• Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Írsko<br></br><br></br>Pri návšteve našej stránky môžu byť týmto platformám prenášané údaje, ako je IP adresa, údaje o prehliadači a interakcie, aj keď nie ste prihlásení alebo na nich nemáte profil.<br></br><br></br>Viac informácií o spracúvaní údajov týmito sieťami nájdete v ich zásadách ochrany osobných údajov:<br></br>• Instagram: https://privacycenter.instagram.com/<br></br>• Facebook: https://www.facebook.com/about/privacy<br></br>• Pinterest: https://policy.pinterest.com/de/privacy-policy<br></br><br></br><strong>4. Vaše práva</strong><br></br>Máte právo na prístup, opravu, vymazanie, obmedzenie spracúvania, prenosnosť údajov, odvolanie súhlasu a námietku proti spracúvaniu vašich údajov.<br></br>Ak sa domnievate, že spracúvanie vašich údajov porušuje právne predpisy o ochrane osobných údajov alebo že boli porušené vaše práva na ochranu osobných údajov, môžete podať sťažnosť rakúskemu úradu na ochranu osobných údajov:<br></br>www.dsb.gv.at<br></br><br></br><strong>5. Zodpovedná osoba za spracovanie údajov</strong><br></br>Anastasiia Strauss<br></br>Witthauergasse 28/5<br></br>1180 Viedeň, Rakúsko<br></br><br></br>Kontakt:<br></br>E-mail: office@3dplan.online"
+  },
+  "order": {
+    "title": "Vyberte typ pôdorysu:*",
+    "type1": "2D pôdorys s rozmermi",
+    "type2": "2D pôdorys s nábytkom",
+    "type3": "3D pôdorys s nábytkom",
+    "materialsTitle": "Vyberte dokončovacie materiály:",
+    "fileInputButton": "Vybrať súbor",
+    "fileInputLabel": "Nahrajte pôdorys vašej nehnuteľnosti (do 5 MB)",
+    "expressDelivery": "+20€ — Expresné dodanie (48 hodín)",
+    "exteriorAreas": "+20€ — Exteriérové plochy (parkovanie, záhrada, patio atď.)",
+    "roomCoveringTitle": "Podlahové krytiny v miestnosti",
+    "bathroomsCoveringTitle": "Podlahové krytiny v kúpeľniach",
+    "kitchecnCoveringTitle": "Podlahové krytiny v kuchyni",
+    "terraceCoveringTitle": "Podlahové krytiny na terasách",
+    "outdoorCoveringTitle": "Vonkajšie povrchové úpravy",
+    "doorCoveringTitle": "Povrchová úprava dverí",
+    "recipientTitle": "Príjemca faktúry",
+    "recipientLabel": "Oslovenie",
+    "recipientLabelMs": "Pani",
+    "recipientLabelMr": "Pán",
+    "recipientLabelDiverse": "Nebinárne / iné",
+    "recipientLabelUnknown": "Nechcem uviesť",
+    "name": "Meno",
+    "surname": "Priezvisko",
+    "org": "Spoločnosť",
+    "uid": "IČ DPH",
+    "country": "Krajina",
+    "city": "Mesto",
+    "idx": "PSČ",
+    "address": "Adresa",
+    "mail": "E-mail",
+    "comment": "Poznámky:",
+    "termsTitle": "Všeobecné obchodné podmienky",
+    "termsAcceptLabel": "Súhlasím so <a href=\"/security/terms\">Všeobecnými obchodnými podmienkami</a> a so <a href=\"/security/privacy\">Zásadami ochrany osobných údajov</a>.<br><span style=\"font-size: 12px;\">* Povinné pre spracovanie objednávky</span>",
+    "termsRequest": "Výslovne žiadam, aby ste začali poskytovať službu pred uplynutím lehoty na odstúpenie od zmluvy. Beriem na vedomie, že tým strácam právo na odstúpenie od zmluvy. <br><span style=\"font-size: 12px;\">* Povinné pre spracovanie objednávky</span>",
+    "orderButton": "Odoslať objednávku",
+    "orderNotification": "Po odoslaní žiadosti dostanete e-mailom potvrdenie a faktúru.",
+    "clientTitle": "Objednávam ako: *",
+    "businessClient": "Firemný klient",
+    "privateClient": "Súkromný klient",
+    "agree": "Súhlasím",
+    "disagree": "Nesúhlasím"
+  },
+  "packages": {
+    "title": "Balíky služieb",
+    "description": "Balíky sú určené na objednávanie pôdorysov v rámci jedného mesiaca. Objednávky môžete zadávať počas celého mesiaca a máte garantovanú zľavu podľa uvedeného počtu pôdorysov bez ohľadu na typ – 2D alebo 3D."
+  },
+  "info": {
+    "interior": {
+      "title": "3D vizualizácia interiéru",
+      "description": "Ponorte sa do atmosféry budúceho priestoru pomocou fotorealistických 3D vizualizácií interiéru. Vytvárame detailné obrazy, ktoré odrážajú komfort, štýl a funkčnosť priestorov – obytných aj komerčných.<br></br>Takéto vizualizácie sú výborným nástrojom na prezentáciu projektov investorom alebo na úspešný marketing hotových riešení.<br></br>Interiérový koncept a štýl sa pripravujú podľa vašich preferencií alebo ich môže navrhnúť náš tím dizajnérov.<br></br>Cena za jeden pohľad začína od 200 €."
+    },
+    "exterior": {
+      "title": "3D vizualizácia exteriéru",
+      "description": "Oživte svoj architektonický koncept kvalitnými 3D vizualizáciami fasád. Vytvárame realistické obrazy exteriéru budovy s čiastočným zapracovaním okolitého prostredia – ideálne na vizuálnu prezentáciu projektu vo fáze developmentu alebo na predstavenie existujúcej nehnuteľnosti.<br></br>Modelovanie vychádza z architektonických výkresov, skíc alebo fotografií. Výber materiálov, štýl fasády a okolie sa riešia individuálne.<br></br>Cena za jeden pohľad začína od 400 €."
+    }
+  },
+  "pricing": {
+    "dimension": {
+      "price": "39 € za pôdorys jednej nehnuteľnosti",
+      "title": "2D pôdorys s rozmermi",
+      "description": "<p>2D pôdorys s rozmermi vytvorený na základe existujúceho plánu vašej nehnuteľnosti – ideálny pre ťažko čitateľné, zastarané alebo upravované výkresy.</p><p>Váš plán bude prekreslený do jasnej a štruktúrovanej podoby s presnými kótovacími čiarami na všetkých stenách, čo zabezpečí maximálnu čitateľnosť a presnosť. Kuchynské a sanitárne priestory budú zreteľne označené pre lepšie pochopenie dispozičného riešenia a funkčných zón.</p><p>Tento typ pôdorysu umožňuje potenciálnym kupujúcim alebo nájomcom okamžite pochopiť veľkosť miestností, proporcie a celkové usporiadanie nehnuteľnosti.</p><p>Vďaka jasnému grafickému spracovaniu je plán ľahko zrozumiteľný aj pre ľudí, ktorí nie sú zvyknutí čítať technické výkresy.</p><p>Perfektné pre realitné inzeráty, brožúry a profesionálne prezentácie nehnuteľností.</p>"
+    },
+    "furniture": {
+      "price": "39 € za pôdorys jednej nehnuteľnosti",
+      "title": "2D pôdorys s nábytkom",
+      "description": "<p>Zariadený 2D pôdorys vytvorený na základe vášho existujúceho plánu nehnuteľnosti, navrhnutý buď podľa nášho konceptu, alebo podľa vašich fotografií a individuálnych požiadaviek.</p><p>Váš pôdorys bude obsahovať harmonicky rozmiestnený nábytok, ktorý jasne zvýrazní proporcie, funkčnosť a dispozíciu priestoru. Koncept zariadenia pomáha potenciálnym kupujúcim alebo nájomcom lepšie si predstaviť, ako možno jednotlivé miestnosti využívať a ako na seba priestory nadväzujú.</p><p>Individuálne si môžete vybrať farbu parkiet, dlažby v sanitárnych priestoroch a na terase tak, aby zodpovedali charakteru nehnuteľnosti.</p><p>Ideálne pre realitné inzeráty, brožúry a jasnú, atraktívnu a ľahko zrozumiteľnú prezentáciu vašej nehnuteľnosti.</p>"
+    },
+    "3d": {
+      "price": "39 € za pôdorys jednej nehnuteľnosti",
+      "title": "3D pôdorys s nábytkom",
+      "description": "<p>Vytvárame profesionálne 3D pôdorysy s premyslene rozmiestneným nábytkom a harmonickým interiérovým riešením, ktoré jasne ukazujú proporcie, funkčnosť a atmosféru priestoru.</p><p>Naše vizualizácie pomáhajú potenciálnym kupujúcim okamžite pochopiť dispozíciu a nadväznosť priestorov nehnuteľnosti. Každý pôdorys je prezentovaný realisticky a príťažlivo, zdôrazňuje plný potenciál miestností a vytvára silný prvý dojem.</p><p>Pre lepšie priestorové pochopenie dostanete dva realistické pohľady na jednu nehnuteľnosť. Voliteľne môžeme zahrnúť aj exteriérové plochy, ako sú terasy, parkovacie miesta alebo oddychové zóny, aby bola nehnuteľnosť prezentovaná ako kompletné obytné prostredie.</p><p>Ideálne pre realitné inzeráty, prezentácie, brožúry a modernú presvedčivú prezentáciu nehnuteľnosti.</p>"
+    }
+  },
+  "mainFAQ": {
+    "1": {
+      "question": "Ako si môžem objednať 2D/3D pôdorys?",
+      "answer": "Napíšte nám na office@3dplan.online a pošlite nám všetky informácie o vašom projekte. Objednávku môžete odoslať aj priamo cez formulár na našej webovej stránke."
+    },
+    "2": {
+      "question": "Aké informácie sú potrebné na vytvorenie 2D/3D pôdorysu?",
+      "answer": "Pošlite nám, prosím, na office@3dplan.online:<br></br>naskenovaný alebo ručne kreslený plán existujúcej nehnuteľnosti s rozmermi a označením miestností<br></br>fotografie nehnuteľnosti<br></br>informácie o umiestnení sanity a veľkých spotrebičov (TV, chladnička, sporák)<br></br>údaje o podlahách, dverách, oknách a ďalších materiáloch, ktoré majú byť zobrazené<br></br>vaše fakturačné údaje"
+    },
+    "3": {
+      "question": "Ako dlho trvá vytvorenie 2D/3D pôdorysu?",
+      "answer": "Spracovanie 2D alebo 3D pôdorysu (1–10 miestností na podlaží) trvá 4–5 dní.<br></br>Dodacia lehota sa môže líšiť podľa rozsahu projektu, najmä ak pôdorys obsahuje viac ako 10 miestností."
+    },
+    "4": {
+      "question": "Je možné po vytvorení pôdorysu vykonať zmeny?",
+      "answer": "Áno, cena zahŕňa až dve kolá úprav. Bez príplatku môžete upraviť rozmery, rozmiestnenie nábytku alebo doplniť detaily."
+    },
+    "5": {
+      "question": "V akom formáte dostanem pôdorys?",
+      "answer": "Projekt dostanete e-mailom vo formáte PNG s priehľadným pozadím, ideálnym na marketing. Na požiadanie je dostupný aj formát JPEG."
+    },
+    "6": {
+      "question": "Ako dlho bude môj projekt uložený?",
+      "answer": "Schválený finálny projekt uchovávame jeden rok.<br></br>Pracovné súbory uchovávame tri mesiace; po uplynutí tejto lehoty už úpravy nie sú možné."
+    },
+    "7": {
+      "question": "Aké sú platobné podmienky?",
+      "answer": "Platba prebieha 100 % vopred. Práca na vašom projekte sa začína po prijatí platby."
+    },
+    "8": {
+      "question": "Viete rozmiestniť nábytok podľa mojich fotografií?",
+      "answer": "Áno, nábytok môžeme umiestniť do 2D alebo 3D pôdorysu podľa vašich fotografií. Používame štandardné 3D modely, preto sa vzhľad môže mierne líšiť."
+    },
+    "9": {
+      "question": "Viete nábytok rozmiestniť sami alebo musím dodať dispozíciu?",
+      "answer": "Nábytok môžeme rozmiestniť s ohľadom na ergonómiu miestnosti a princípy plánovania. Ak máte konkrétne požiadavky, môžete nám poskytnúť pokyny."
+    },
+    "10": {
+      "question": "Existuje zľava pri objednávke 2D/3D pôdorysov pre tú istú nehnuteľnosť?",
+      "answer": "Áno. Jeden pôdorys stojí 39 €, dva pôdorysy 59 €, tri pôdorysy 79 €. Každý ďalší pôdorys stojí +20 €."
+    },
+    "11": {
+      "question": "Viete vytvoriť pôdorys vrátane okolia?",
+      "answer": "Áno, za príplatok 20 €. Štandardný pôdorys stojí 39 € a pôdorys vrátane okolia stojí 59 €. Na požiadanie môžeme pridať parkovanie, záhradu, patio alebo bazén."
+    },
+    "12": {
+      "question": "Aká je cena 2D/3D pôdorysu?",
+      "answer": "Pôdorysy do 10 miestností stoja 39 €. Pôdorysy s viac ako 10 miestnosťami stoja 59 € (+20 € príplatok)."
+    },
+    "13": {
+      "question": "Vykonávate výpočet plôch?",
+      "answer": "Nie, dodávame „čistý“ pôdorys. Plochy miestností, názvy miestností a ďalšie potrebné informácie si môžete doplniť sami podľa svojich potrieb."
+    },
+    "14": {
+      "question": "Môžem si vybrať dokončovacie materiály pre 3D model?",
+      "answer": "Áno, pri online objednávke si môžete vybrať podlahové a obkladové materiály z našej štandardnej knižnice materiálov alebo nám poskytnúť vlastné referenčné fotografie.<br></br><br></br>Vnútorné steny a fasády sú zobrazené v neutrálnej bielej farbe."
+    }
+  },
+  "mainInstruction": {
+    "title": "Ako objednať pôdorys: postup krok za krokom",
+    "step1": "Pošlite nám údaje o vašom projekte e-mailom",
+    "description1": "Napíšte nám e-mail a uveďte, aký typ pôdorysu potrebujete: 2D s rozmermi, 2D s nábytkom alebo 3D s nábytkom.<br></br>Priložte, prosím, tieto materiály:<br></br>▪ pôdorysy s rozmermi a označením miestností<br></br>▪ fotografie nehnuteľnosti<br></br>▪ informácie o umiestnení sanity a spotrebičov (TV, chladnička, sporák)<br></br>▪ údaje o podlahách, dverách, oknách a ďalších materiáloch<br></br>▪ vaše fakturačné údaje",
+    "step2": "Zaplaťte za svoj projekt",
+    "description2": "Po dodaní všetkých potrebných informácií vám pošleme faktúru.<br></br>Práca na projekte sa začne hneď po prijatí platby.",
+    "step3": "Dostanete hotový projekt e-mailom",
+    "description3": "Hotový projekt dostanete vo formáte JPEG alebo PNG, pripravený na použitie vo vašom marketingu.<br></br>Dodávame „čistý“ pôdorys, ktorý si môžete doplniť o všetky potrebné údaje na prezentáciu alebo predaj."
+  },
+  "banner": {
+    "line1": "✓ 2D pôdorys s rozmermi",
+    "line2": "✓ 2D pôdorys s nábytkom",
+    "line3": "✓ 3D pôdorys s nábytkom",
+    "line4": "3Dplan.online – online grafický servis pre realitných maklérov a realitné kancelárie so zameraním na digitalizáciu existujúcich pôdorysov.",
+    "priceText": "za pôdorys",
+    "banner2PriceText": "Pôdorys s exteriérovou plochou",
+    "banner2Line1": "✓ Zvyšuje atraktivitu vašich prezentácií",
+    "banner2Line2": "✓ Realisticky ukazuje nábytok a využitie priestoru",
+    "banner2Description": "Váš pôdorys môžeme rozšíriť o vybranú exteriérovú plochu (napr. bazén, patio, parkovanie) za príplatok 20 €.",
+    "banner3PriceText": "za dva pôdorysy",
+    "banner3Line1": "✓ Výhodná kombinácia pre vašu nehnuteľnosť",
+    "banner3Line2": "✓ Viac pôdorysov za lepšiu cenu",
+    "banner3Description": "Cena každého ďalšieho pôdorysu tej istej nehnuteľnosti je znížená o 20 € – výhodné riešenie pre prezentácie, marketing alebo plánovanie."
+  },
+  "serviceInfo": {
+    "description": "3Dplan.online – online grafický servis na digitalizáciu existujúcich pôdorysov pre realitných maklérov a realitné kancelárie.<br></br>Všetky typy pôdorysov za jednotnú cenu bez ohľadu na typ nehnuteľnosti.",
+    "item1": "✓ 1–10 miestností na pôdorys",
+    "item2": "✓ 1 alebo 2 pohľady (pohľad zhora a bočný pohľad)",
+    "item3": "✓ Doba spracovania: 4–5 dní",
+    "item4": "✓ Úpravy zahrnuté v cene",
+    "item5": "+20€ — Expresné dodanie (48 hodín)",
+    "item6": "+20€ — Miestnosti so zložitou geometriou",
+    "item7": "+20€ — Viac ako 10 miestností na pôdoryse",
+    "item8": "+20€ — Ďalší 2D/3D pôdorys tej istej nehnuteľnosti",
+    "item9": "+20€ — Exteriérové plochy (parkovanie, záhrada, patio atď.)",
+    "title": "Príplatky:",
+    "priceText": "za pôdorys jednej nehnuteľnosti"
+  },
+  "privacyPage": {
+    "title": "Zásady ochrany osobných údajov",
+    "description": "<h3>1. Kontakt a dopytové formuláre</h3><p>Ak nás kontaktujete prostredníctvom formulára na našej webovej stránke (napr. kontaktný alebo dopytový formulár), údaje, ktoré uvediete (meno, e-mailová adresa, telefónne číslo, údaje o projekte atď.), budú uložené na účely spracovania vašej požiadavky a prípadných následných otázok.<br/>Poskytovanie údajov: vaše údaje nebudú bez vášho výslovného súhlasu poskytované tretím stranám.<br/>Doba uchovávania: údaje budú uchovávané len tak dlho, ako je potrebné na spracovanie vašej požiadavky.<p/><h3>2. Používanie Google Fonts</h3><p>Naša webová stránka používa Google Fonts, službu spoločnosti Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Írsko.</br>Fonty sa pri načítaní stránky sťahujú zo serverov Google.<br/>Google môže zaznamenať vašu IP adresu a preniesť ju do USA.<br/>Právny základ: oprávnený záujem podľa čl. 6 ods. 1 písm. f GDPR na zabezpečenie jednotného a atraktívneho dizajnu webovej stránky.<br/><br/>Viac informácií:<br/><a href=\"https://developers.google.com/fonts/faq\">Google Fonts FAQ</a><br/><a href=\"https://policies.google.com/privacy\">Zásady ochrany osobných údajov Google</a></p><h3>3. Pluginy sociálnych médií</h3><p>Naša webová stránka obsahuje pluginy a odkazy na sociálne siete (Instagram, Facebook, Pinterest). Tieto služby prevádzkujú tretie strany:<br/>Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Írsko<br/>Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Írsko<br/>Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Írsko<br/>Pri návšteve našej webovej stránky môžu byť týmto platformám prenášané údaje, ako je IP adresa, informácie o prehliadači a interakcie – aj v prípade, že nemáte účet alebo nie ste prihlásení.<br/>Viac informácií o spracúvaní údajov týmito platformami:<br/><a href=\"https://privacycenter.instagram.com/\">Instagram</a><br/><a href=\"https://www.facebook.com/privacy/explanation\">Facebook</a><br/><a href=\"https://policy.pinterest.com/en/privacy-policy\">Pinterest</a></p><h3>4. Vaše práva</h3><p>Máte právo na:<br/>prístup k svojim údajom<br/>opravu nesprávnych údajov<br/>vymazanie údajov<br/>obmedzenie spracúvania<br/>prenosnosť údajov<br/>odvolanie súhlasu<br/>námietku proti spracúvaniu<br/>Ak sa domnievate, že vaše údaje boli spracúvané v rozpore s právnymi predpismi o ochrane osobných údajov, môžete sa obrátiť na rakúsky úrad na ochranu osobných údajov:<br/><a href=\"https://www.dsb.gv.at\">www.dsb.gv.at</a></p><h3>5. Zodpovedná osoba</h3><p>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Viedeň, Rakúsko<br/>UID: ATU82810647 (bez DPH)<br/>Kontakt: office@3dplan.online<p/><h3>Poznámky</h3><p>Tieto zásady ochrany osobných údajov sa vzťahujú len na používanie webovej stránky a údaje odoslané prostredníctvom kontaktných alebo dopytových formulárov.<br/>Údaje poskytnuté v súvislosti s objednávkami (napr. plány, fotografie, individuálne požiadavky) budú použité výlučne na realizáciu vášho projektu.<p/>"
+  },
+  "legalNotice": {
+    "description": "<p><strong>Poskytovateľ služby:</strong><br/><br/><strong>Anastasiia Strauss</strong><br/>Slobodná umelkyňa – grafické služby pre realitný trh<br/>Witthauergasse 28/5<br/>1180 Viedeň, Rakúsko<br/><br/><strong>Kontakt:</strong><br/>E-mail: office@3dplan.online<br/>Webová stránka: <a href=\"https://www.3dplan.online\">www.3dplan.online</a><br/><br/><strong>Predmet činnosti:</strong><br/>Samostatná umelecká činnosť podľa § 2 GewO (grafické služby v umeleckom kontexte).<br/><br/><strong>Dozorný orgán:</strong><br/>Okresný správny orgán Viedeň – Innere Stadt (Bezirkshauptmannschaft Wien Innere Stadt)<br/><br/><strong>Členstvo:</strong><br/>Viedenská hospodárska komora (Wirtschaftskammer Wien)<br/>Oddelenie: Reklama a trhová komunikácia<br/><br/><strong>Identifikačné číslo pre DPH (UID):</strong> ATU82810647 (bez DPH)<br/><br/><strong>Zodpovednosť za obsah:</strong><br/>Napriek dôkladnej kontrole obsahu nepreberáme zodpovednosť za obsah externých odkazov. Za obsah prepojených stránok zodpovedajú výlučne ich prevádzkovatelia.<br/><br/><strong>Online riešenie sporov:</strong><br/>Podľa čl. 14 ods. 1 nariadenia ODR poskytuje Európska komisia platformu na online riešenie sporov (ODR):<br/><a href=\"https://ec.europa.eu/odr\">https://ec.europa.eu/odr</a><br/>Sťažnosti môžete zasielať aj priamo e-mailom na vyššie uvedenú adresu.</p>"
+  },
+  "termsPage": {
+    "title": "Všeobecné obchodné podmienky",
+    "description": "<h3>1. Platnosť a rozsah pôsobnosti</h3><p>Tieto Všeobecné obchodné podmienky (VOP) sa vzťahujú na všetky zmluvy uzatvorené medzi Anastasiou Strauss (ďalej len „3DPlan.online“) a jej klientmi (ďalej len „Klient“) týkajúce sa vytvorenia a dodania 2D a 3D pôdorysov. Nasledujúce podmienky sa vzťahujú na objednávky zadané prostredníctvom nášho online obchodu podnikateľmi.</p><p>Nasledujúce obchodné podmienky sa vzťahujú na objednávky zadané prostredníctvom nášho online obchodu spotrebiteľmi aj firemnými zákazníkmi.</p><p><strong>Spotrebiteľom</strong> je každá fyzická osoba, ktorá uzatvára právny úkon na účely, ktoré prevažne nesúvisia s jej obchodnou, podnikateľskou alebo samostatnou profesionálnou činnosťou.</p><p><strong>Podnikateľom</strong> je každá fyzická alebo právnická osoba alebo právne spôsobilá osobná spoločnosť, ktorá pri uzatváraní právneho úkonu koná v rámci svojej obchodnej, podnikateľskej alebo samostatnej profesionálnej činnosti.</p><h3>2. Popis služieb</h3><p>3DPlan.online poskytuje profesionálne grafické služby, najmä digitalizáciu 2D pôdorysov nehnuteľností do prezentačne pripravených 2D a 3D plánov. Služby zahŕňajú:</p><ul><li>2D pôdorysy s rozmermi</li><li>2D pôdorysy s nábytkom</li><li>3D pôdorysy s nábytkom</li></ul><p>Poskytnuté budú výlučne tie služby a produkty, ktoré sú výslovne uvedené vo vašej objednávke alebo zmluve.</p><h3>3. Uzatvorenie zmluvy / objednávka</h3><p>Kúpna zmluva sa uzatvára priamo so spoločnosťou 3DPlan.online. Zobrazenie produktov v online obchode nepredstavuje právne záväznú ponuku, ale výzvu na zadanie objednávky.</p><p>Produkty môžete najprv nezáväzne pridať do nákupného košíka a svoje údaje môžete kedykoľvek pred odoslaním záväznej objednávky upraviť pomocou dostupných nástrojov.</p><p>Zmluva je uzatvorená v okamihu, keď prijmete ponuku na produkty v nákupnom košíku kliknutím na tlačidlo „Objednať“. Ihneď po odoslaní objednávky dostanete e-mailom potvrdenie spolu s faktúrou na úhradu.</p><p>Uskutočnením platby potvrdzujete svoj súhlas s podmienkami služby 3DPlan.online.</p><p>Akékoľvek zmeny alebo doplnenia objednávky po jej odoslaní sú možné len s naším súhlasom.</p><h3>4. Ceny a platba</h3><p>Všetky ceny sú uvedené v eurách (EUR) a platia len pre platby v eurách. <strong>DPH sa neúčtuje</strong> (§6 ods. 1 Z 27 UStG).</p><p>Pri platbách v iných menách si 3DPlan.online vyhradzuje právo účtovať dodatočný poplatok súvisiaci s konverziou meny a bankovými poplatkami.</p><p>Platba sa uskutočňuje 100 % vopred bankovým prevodom. Naše bankové údaje budú poskytnuté v samostatnom e-maile.</p><p>Dodanie alebo poskytnutie služieb prebehne až po prijatí celej platby.</p><h3>5. Lehoty spracovania a dodanie</h3><p>Štandardná lehota spracovania 2D a 3D pôdorysov (pre 1–10 miestností na podlaží) je 4–5 dní.</p><p>Objednávky sa dodávajú vo formáte PNG (JPG na požiadanie) prostredníctvom odkazu na stiahnutie.</p><p>Lehoty spracovania sa môžu líšiť v závislosti od rozsahu a zložitosti projektu. Najmä pri viac ako 10 miestnostiach alebo pri väčšej vyťaženosti môže byť čas spracovania predĺžený. V takýchto prípadoch bude 3DPlan.online informovať klienta o očakávaných lehotách pred vystavením faktúry.</p><p>V prípade omeškania spôsobeného chýbajúcimi doplňujúcimi informáciami od klienta, vyššou mocou alebo inými okolnosťami mimo našej kontroly sa dodacia lehota primerane predlžuje.<p/><p>Čas potrebný na úpravy <strong>nie je zahrnutý</strong> v uvedenej lehote 4–5 dní a považuje sa za dodatočný pracovný čas.</p><h3>6. Práva k materiálom a duševné vlastníctvo</h3><p>Po úplnom zaplatení prechádzajú na klienta práva na používanie na súkromné alebo komerčné účely v rozsahu dohodnutej objednávky.</p><p>Dizajnér si vyhradzuje právo použiť dielo na účely portfólia, vlastnej propagácie a marketingu pri zachovaní dôvernosti a bez zverejnenia adresy klienta alebo iných osobných údajov.</p><h3>7. Odstúpenie a ukončenie</h3><p>Podnikatelia nemajú zákonné právo na odstúpenie od zmluvy.</p><h3>8. Vylúčenie zodpovednosti</h3><p>Dodané 2D a 3D pôdorysy sú výsledkom počítačového grafického spracovania a slúžia výlučne na vizuálne a ilustračné účely. Nepredstavujú reálne fotografie a môžu sa líšiť od skutočného stavu nehnuteľnosti.</p><p>Grafické materiály sa vytvárajú na základe plánov, rozmerov, fotografií a ďalších informácií poskytnutých klientom. 3DPlan.online nepreberá zodpovednosť za správnosť alebo úplnosť vstupných údajov dodaných klientom.</p><p>Vizualizácie nepredstavujú stavebnú, architektonickú ani technickú projektovú dokumentáciu a nesmú sa používať ako stavebné alebo inžinierske dokumenty.</p><p>Zobrazenia sú len orientačné a vytvárajú sa bez detailného architektonického modelovania, na základe štandardných 3D modelov nábytku, dekoratívnych prvkov a stavebných komponentov.</p><p>3DPlan.online nezodpovedá za nemožnosť používania dodaných súborov z dôvodov mimo svojej kontroly (vrátane technických obmedzení hardvéru alebo softvéru klienta).</p><h3>Voči podnikateľom (§ 1 UGB):</h3><p>3DPlan.online nezodpovedá za ľahkú nedbanlivosť.<br/>Zodpovednosť za úmysel a hrubú nedbanlivosť zostáva nedotknutá.<br/>Zodpovednosť za ušlý zisk, následné škody a nepriame škody je v rozsahu povolenom zákonom vylúčená.</p><h3>Voči spotrebiteľom (§ 1 KSchG):</h3><p>3DPlan.online zodpovedá za škody spôsobené ujmou na živote, zdraví alebo tele v súlade so zákonnými ustanoveniami.</p><p>Za iné škody zodpovedá 3DPlan.online len v prípade úmyslu alebo hrubej nedbanlivosti.</p><p>V prípade ľahkej nedbanlivosti zodpovedá 3DPlan.online len za porušenie podstatných zmluvných povinností a len do výšky škody typicky predvídateľnej podľa zmluvy.</p><p>Povinné zákonné ustanovenia o zodpovednosti zostávajú nedotknuté.</p><h3>9. Spolupráca klienta</h3><p>2D a 3D pôdorysy sa vytvárajú na základe plánov, rozmerov, fotografií a ďalších špecifikácií poskytnutých klientom.</p><p>Klient sa zaväzuje včas poskytnúť všetky dokumenty a informácie potrebné na riadne poskytnutie služby. Patria sem najmä:</p><ul><li>fotografie v dostatočnej kvalite</li><li>pôdorysy a stavebné výkresy</li><li>preferencie materiálov a technické špecifikácie projektu</li><li>ďalšie informácie podľa uváženia dizajnéra</li></ul><p>Klient je povinný bezodkladne informovať poskytovateľa služby, ak sú predtým poskytnuté informácie neúplné alebo nesprávne, a bezodkladne poskytnúť správne údaje.</p><p>Ak sú poskytnuté nesprávne, neúplné alebo oneskorené informácie, klient nesie plnú zodpovednosť za akékoľvek zmeny kvality výsledku, ako aj za predĺženie lehoty plnenia.</p><p>V takýchto prípadoch sa štandardná lehota spracovania (4–5 dní) predlžuje o čas potrebný na získanie a spracovanie chýbajúcich informácií.</p><h3>10. Úpravy, záruka a uchovávanie údajov</h3><h4>10.1 Obmedzenie úprav</h4><p>V rámci tejto zmluvy je poskytovaný obmedzený počet úprav.</p><p>Zmluvné strany sa dohodli, že do dohodnutej odmeny sú zahrnuté dve kolá úprav.</p><p>Akékoľvek ďalšie zmeny alebo úpravy nad tento limit sa vykonávajú výlučne za samostatnú odmenu na základe predchádzajúcej písomnej dohody.</p><p>Čas spracovania úprav nie je zahrnutý v uvedenej lehote 4–5 pracovných dní a považuje sa za dodatočný pracovný čas.</p><h4>10.2 Kontrola, oznámenie vád a záruka</h4><p><strong>Voči podnikateľom (§ 1 rakúskeho obchodného zákonníka – UGB)</strong></p><p>Podnikateľ je povinný dodané služby bez zbytočného odkladu po prijatí skontrolovať.</p><p>Zjavné vady musia byť bezodkladne oznámené písomne (§ 377 UGB).</p><p>Skryté vady musia byť oznámené písomne ihneď po ich zistení.</p><p>Ak oznámenie nebude uskutočnené včas, služby sa považujú za schválené a nároky zo záruky sú vylúčené.</p><p>Záručná lehota je 12 mesiacov od dodania v rozsahu povolenom zákonom.</p><br/><p><strong>Voči spotrebiteľom (§ 1 rakúskeho zákona o ochrane spotrebiteľa – KSchG)</strong></p><p>Uplatnia sa zákonné ustanovenia o záruke podľa rakúskeho občianskeho zákonníka (ABGB).</p><p>Zákonná záručná lehota je 2 roky od dodania.</p><p>Spotrebiteľ je požiadaný, aby zjavné vady oznámil v primeranej lehote; ich neoznámenie však nemá vplyv na jeho zákonné záručné práva.</p><h4>10.3 Uchovávanie údajov</h4><p>Finálny projekt schválený klientom sa uchováva po dobu 2 rokov, aby bol v prípade potreby možný opätovný prístup k finálnym súborom.</p><p>Editovateľné pracovné súbory (projektové súbory umožňujúce ďalšie úpravy) sa uchovávajú po dobu 3 mesiacov od prijatia projektu.</p><p>Po uplynutí tejto lehoty nie je možné garantovať ďalšie spracovanie, úpravu alebo rekonštrukciu projektu a môže byť možná len na základe novej objednávky a samostatnej odmeny.</p><h3>11. Dôvernosť a ochrana údajov</h3><p>Spracovanie osobných údajov prebieha v súlade s platnými predpismi o ochrane údajov (GDPR). Podrobné informácie nájdete v našich Zásadách ochrany osobných údajov.</p><h3>12. Rozhodné právo a súdna príslušnosť</h3><p>Všetky právne vzťahy medzi 3DPlan.online a podnikateľmi sa riadia rakúskym právom s vylúčením Dohovoru OSN o zmluvách o medzinárodnej kúpe tovaru (CISG).</p><p>Výlučným miestom súdnej príslušnosti je sídlo 3DPlan.online.</p><h3>13. Záverečné ustanovenia</h3><h4>13.1 Vyššia moc</h4><p>3DPlan.online nezodpovedá za omeškania alebo nesplnenie spôsobené vyššou mocou (napr. prírodné katastrofy, výpadky elektriny, technické poruchy, opatrenia orgánov verejnej moci).</p><h4>13.2 Salvátorská klauzula</h4><p>Ak je niektoré ustanovenie týchto VOP neplatné, platnosť ostatných ustanovení zostáva nedotknutá. Neplatné ustanovenie bude nahradené ustanovením, ktoré sa čo najviac približuje pôvodnému ekonomickému zámeru.</p>"
+  },
+  "infoPage": {
+    "title": "Právo na odstúpenie od zmluvy (poučenie o zrušení)",
+    "description": "<h3>1. Právo na odstúpenie od zmluvy</h3><p>Ak ste spotrebiteľom v zmysle platných právnych predpisov na ochranu spotrebiteľa, máte právo odstúpiť od tejto zmluvy do štrnástich (14) dní bez uvedenia dôvodu.</p><p>Lehota na odstúpenie od zmluvy je štrnásť (14) dní odo dňa uzatvorenia zmluvy.</p><p>Na uplatnenie práva na odstúpenie od zmluvy nás musíte informovať:</p><p>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Viedeň<br/>Rakúsko<br/>E-mail: office@3dplan.online</p><p>prostredníctvom jednoznačného vyhlásenia (napr. listom zaslaným poštou alebo e-mailom) o vašom rozhodnutí odstúpiť od tejto zmluvy.</p><p>Na dodržanie lehoty na odstúpenie stačí, aby ste oznámenie odoslali pred uplynutím lehoty na odstúpenie.</p><h3>2. Dôsledky odstúpenia</h3><p>Ak odstúpite od tejto zmluvy, vrátime vám všetky platby, ktoré sme od vás prijali, vrátane nákladov na štandardné doručenie (s výnimkou dodatočných nákladov vyplývajúcich z vášho výberu iného typu doručenia, než je nami ponúkané najlacnejšie štandardné doručenie), bez zbytočného odkladu a najneskôr do štrnástich (14) dní odo dňa, keď sme boli informovaní o vašom rozhodnutí odstúpiť od zmluvy.</p><p>Vrátenie platby sa uskutoční rovnakým spôsobom platby, aký ste použili pri pôvodnej transakcii, pokiaľ nebolo výslovne dohodnuté inak.</p><h3>3. Predčasný zánik práva na odstúpenie (digitálne služby)</h3><p>V prípade digitálnych služieb právo na odstúpenie zaniká predčasne, ak:</p><ul><li>ste výslovne požiadali, aby sme začali poskytovať službu pred uplynutím lehoty na odstúpenie; a</li><li>potvrdili ste, že tým strácate právo na odstúpenie od zmluvy po úplnom splnení zmluvy.</li></ul><p>Platí to najmä pre digitálne služby vytvorené na mieru podľa špecifikácií klienta, ako sú personalizované 2D alebo 3D pôdorysy.</p><h3>4. Vylúčenie práva na odstúpenie</h3><p>Právo na odstúpenie sa neuplatňuje v týchto prípadoch:<ul><li>ak bola služba plne poskytnutá s vaším výslovným predchádzajúcim súhlasom pred uplynutím 14-dňovej lehoty na odstúpenie a potvrdili ste, že ste si vedomí straty práva na odstúpenie;</li><li>ak bola služba vyhotovená podľa vašich individuálnych špecifikácií alebo prispôsobená vašim požiadavkám, najmä personalizované 2D/3D pôdorysy zohľadňujúce vaše individuálne želania vrátane:<ul><li>podlahových a dokončovacích materiálov;</li><li>dizajnu dverí a okien;</li><li>ďalších individuálnych požiadaviek pri tvorbe 2D alebo 3D pôdorysov.</li></ul></li></ul></p><h3>5. Vzorový formulár na odstúpenie</h3><p>Ak chcete odstúpiť od zmluvy, vyplňte a zašlite nám tento formulár:<br/><br/>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Viedeň<br/>Rakúsko<br/>E-mail: office@3dplan.online<br/><br/>Ja/My <i>() týmto odstupujem/odstupujeme od zmluvy uzatvorenej mnou/nami ()</i> na poskytnutie nasledujúcej služby:<br/><br/>Dátum uzatvorenia zmluvy:<br/>Meno spotrebiteľa/spotrebiteľov:<br/>Adresa spotrebiteľa/spotrebiteľov:<br/>Podpis (iba pri oznámení v papierovej forme):<br/>Dátum:<br/>(*) Nehodiace sa prečiarknite.</p>"
+  },
+  "confirmation": {
+    "title": "ĎAKUJEME! VAŠA OBJEDNÁVKA BOLA ODOSLANÁ",
+    "description": "<p>Dostali sme vašu žiadosť o vytvorenie 2D alebo 3D pôdorysu. V najbližšom čase skontrolujeme zaslané podklady a kontaktujeme vás, aby sme potvrdili detaily objednávky, cenu a čas spracovania. Po prijatí všetkých potrebných informácií vám pripravíme faktúru. Práca na projekte sa začína po prijatí platby.</p><p>Hotový pôdorys vám zašleme e-mailom vo formáte JPEG alebo PNG a bude pripravený na použitie pri prezentácii vašej nehnuteľnosti. Ak chcete svoju žiadosť doplniť, pošlite nám ďalšie podklady na:</p><p><h3>office@3dplan.online</h3></p><p>Ďakujeme, že ste si vybrali <strong>3Dplan.online</strong>.</p>"
+  },
+  "confirmationContact": {
+    "title": "ĎAKUJEME! VAŠA SPRÁVA BOLA ODOSLANÁ",
+    "description": "<p>Vašu správu sme dostali a čoskoro ju spracujeme. Náš tím vás bude čo najskôr kontaktovať e-mailom, aby odpovedal na vašu otázku alebo prediskutoval vašu požiadavku.</p><p>Ak nám chcete poslať ďalšie informácie alebo súbory, napíšte nám na:</p><p><h3>office@3dplan.online</h3></p><p>Ďakujeme, že ste kontaktovali <strong>3Dplan.online</strong>.</p>"
+  }
+}

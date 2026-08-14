@@ -1,0 +1,413 @@
+{
+  "cookie": {
+    "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web. Continuando a navigare, accetti il nostro utilizzo dei cookie.",
+    "learnMore": "Scopri di più",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
+  },
+  "policyLabels": {
+    "privacy": "Informativa sulla privacy",
+    "legalNotice": "Note legali",
+    "terms": "Termini e condizioni",
+    "info": "Informazioni sul diritto di recesso"
+  },
+  "control": {
+    "learnMore": "Scopri di più",
+    "submit": "Invia",
+    "wasSended": "E-mail inviata!",
+    "error": "Si è verificato un errore. Riprova più tardi.",
+    "order": "Ordina"
+  },
+  "toolbar": {
+    "services": "Servizi",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "lang": "Lingua",
+    "servicesItems": {
+      "2dDim": "Planimetria 2D con misure",
+      "2dFur": "Planimetria 2D arredata",
+      "3dFur": "Planimetria 3D arredata",
+      "3dIn": "Visualizzazione 3D di interni",
+      "3dEx": "Visualizzazione 3D di esterni",
+      "planBasic": "Pacchetto – Basic",
+      "planPlus": "Pacchetto – Plus",
+      "planPro": "Pacchetto – Pro",
+      "planBasicDes": "Ideale per agenti immobiliari indipendenti",
+      "planPlusDes": "Adatto alle agenzie immobiliari",
+      "planProDes": "Adatto a sviluppatori e investitori",
+      "planBasicDiscount": "Sconto del 10%",
+      "planPlusDiscount": "Sconto del 15%",
+      "planProDiscount": "Sconto del 20%",
+      "planBasicQuantity": "Da 20 planimetrie",
+      "planPlusQuantity": "Da 40 planimetrie",
+      "planProQuantity": "Da 60 planimetrie"
+    }
+  },
+  "home": {
+    "usText1": "3Dplan.online - servizio grafico per agenti immobiliari.",
+    "usText2": "Trasformiamo vecchie planimetrie immobiliari in elaborati moderni e professionali e creiamo visualizzazioni di interni ed esterni.",
+    "usText3": "Ideale per il marketing immobiliare: aiuta ad aumentare le vendite e a valorizzare l’immagine della tua agenzia.",
+    "usTitle": "Servizio grafico per agenti immobiliari"
+  },
+  "planExample": {
+    "title": "Visualizzazione 3D di interni ed esterni – la chiave per vendere immobili con successo",
+    "description": "Perché è importante? Gli acquirenti prendono decisioni basate sulle emozioni e sulla percezione visiva. La visualizzazione 3D aiuta a presentare un immobile anche prima della costruzione o della ristrutturazione, creando una percezione chiara dello spazio e dello stile.<br></br><br></br>I nostri servizi:<br></br>• Visualizzazione 3D di interni – immagini realistiche che trasmettono comfort e funzionalità.<br></br>• Visualizzazione 3D di esterni – soluzioni visive d’impatto per facciate e aree circostanti."
+  },
+  "feedback": {
+    "thomas": {
+      "text": "Una collaborazione eccellente! Le grafiche delle planimetrie sono professionali: rapide, di alta qualità e a un buon prezzo. Fanno risparmiare tempo e lasciano un’ottima impressione sui clienti. Grazie, le consiglio assolutamente!",
+      "name": "Thomas Schneider, agente immobiliare"
+    },
+    "olga": {
+      "text": "Non riesco più a immaginare il mio marketing senza questo servizio. Lavoro veloce e di alta qualità, design moderno: semplicemente perfetto! Consigliatissimo.",
+      "name": "Olga Chehova, esperta di marketing"
+    },
+    "sergio": {
+      "text": "Un servizio fantastico per chi desidera presentare un immobile in modo professionale. I contenuti sono perfetti per piattaforme social come Instagram e Facebook. Lavoro rapido e di qualità. Se avrò bisogno di un’altra presentazione immobiliare, mi rivolgerò di nuovo a voi con piacere. Consigliato al 100%!",
+      "name": "Sergio Romano, agente immobiliare"
+    },
+    "irina": {
+      "text": "Ogni volta che avevo una domanda, ho ricevuto subito assistenza. Comunicazione piacevole e veloce. Il team è molto cordiale, ama il proprio lavoro ed è sempre disponibile. Lo consiglio vivamente!",
+      "name": "Iryna Moser, cliente privata"
+    },
+    "madeleine": {
+      "text": "Grazie mille, la planimetria è venuta benissimo! Sono molto soddisfatta che tutto sia stato realizzato così rapidamente.",
+      "name": "Madeleine Graf, agente immobiliare"
+    },
+    "vicdan": {
+      "text": "Grazie mille per l’invio rapido della planimetria adattata. Entrambe le versioni sono perfette per noi e desideriamo ringraziarvi sinceramente per il lavoro rapido ed efficiente.",
+      "name": "Vicdan Mutlu, assistenza clienti / amministrazione immobiliare"
+    }
+  },
+  "mailForm": {
+    "name": "Nome",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "E-mail",
+    "message": "Messaggio",
+    "title": "PUOI CONTATTARCI VIA E-MAIL<br></br>office@3dplan.online",
+    "description": "Saremo lieti di conoscere i tuoi prossimi progetti immobiliari, valutare proposte di collaborazione e rispondere a tutte le tue domande."
+  },
+  "aboutus": {
+    "description": "<h2>Chi siamo</h2><p>Siamo il team di 3DPlan.online: designer professionisti e visualizzatori 3D specializzati nella presentazione immobiliare.</p><p>La nostra missione è aiutare agenti e agenzie immobiliari a lavorare a un alto livello professionale, creando materiali visivi chiari e moderni che rendono gli immobili più attraenti e più facili da comprendere per i clienti.</p><p>Abbiamo creato questo servizio per migliorare in modo significativo la qualità delle visualizzazioni immobiliari. Planimetrie 2D e 3D di alta qualità, così come immagini fotorealistiche, aiutano a presentare gli immobili nel modo migliore, a valorizzarne i punti di forza, a distinguersi dalla concorrenza e ad attirare più potenziali acquirenti o inquilini.</p><p>Una presentazione professionale non solo rafforza la fiducia nell’immobile, ma può anche contribuire a ottenere un prezzo di vendita o di locazione più elevato.</p><h2>Come funziona</h2><p>Lavoriamo con planimetrie, disegni o schizzi esistenti. Ti basta fornire una planimetria scansionata o disegnata a mano con misure e descrizione degli ambienti: noi la trasformiamo in una visualizzazione grafica professionale.</p><p>I materiali finali possono essere utilizzati nel marketing, negli annunci online, nelle presentazioni e nei materiali promozionali.</p>"
+  },
+  "service": {
+    "3dExterior": {
+      "title": "Visualizzazioni 3D di interni ed esterni",
+      "description": "La visualizzazione 3D professionale è uno strumento potente per la presentazione immobiliare. Creiamo immagini 3D fotorealistiche di interni ed esterni, che permettono di mostrare il futuro immobile in tutti i dettagli ancora prima dell’inizio della costruzione o della ristrutturazione. Questo aiuta potenziali clienti e investitori a vedere il risultato finale e a valutare tutte le caratteristiche e i vantaggi del progetto.<br></br><br></br>A chi è utile?<br></br> • Investitori e sviluppatori che desiderano presentare ai partner e ai clienti progetti visivamente attraenti e chiari.<br></br>• Agenzie immobiliari che lavorano sull’immagine di un progetto futuro e vogliono presentarlo al meglio, attirando più clienti e aumentando l’interesse per la vendita o la locazione.<br></br><br></br>Lascia che i tuoi clienti vedano il futuro già oggi con visualizzazioni 3D di alta qualità!",
+      "control": "Inizia ora",
+      "instructionTitle": "Come ordinare una planimetria: guida passo dopo passo",
+      "step1": "Invia foto o video del sito o dell’interno, insieme a una descrizione dei materiali e dello stile desiderato. Più dettagli fornisci, più preciso sarà il risultato.",
+      "step2": "Creeremo le prime visualizzazioni 3D sulla base di tutte le tue indicazioni e te le invieremo per l’approvazione.",
+      "step3": "Dopo l’approvazione finale, consegneremo le visualizzazioni 3D definitive in alta risoluzione per l’utilizzo nel tuo marketing.",
+      "faq1title": "Quali informazioni sono necessarie per creare una visualizzazione di interni?",
+      "faq1description": "Per ottenere un risultato di alta qualità, abbiamo bisogno di:<br></br>– Foto o video dello spazio<br></br>– Una planimetria (disegnata a mano o architettonica)<br></br>– Informazioni sui materiali e sullo stile o sull’atmosfera desiderata.<br></br>Più i dati forniti sono dettagliati e precisi, più il risultato finale sarà realistico e accurato.",
+      "faq2title": "Quanto tempo richiede la creazione di una visualizzazione?",
+      "faq2description": "La creazione di una visualizzazione di interni richiede normalmente fino a 10 giorni lavorativi (escluso il tempo necessario per feedback e revisioni). La tempistica dipende dalla complessità del progetto, dal numero di viste e dal livello di dettaglio richiesto.",
+      "faq3title": "Posso richiedere modifiche dopo la creazione della visualizzazione?",
+      "faq3description": "Sì. Il processo comprende tre fasi. Dopo ogni fase riceverai una versione bozza e avrai la possibilità di richiedere modifiche o correzioni.",
+      "faq4title": "In quali formati riceverò le visualizzazioni finali?",
+      "faq4description": "Riceverai le immagini in formati comodi:<br></br>– JPEG, TIFF, PNG in alta risoluzione."
+    },
+    "3dFurniture": {
+      "title": "Planimetria 3D arredata",
+      "description": "Creiamo planimetrie 3D fotorealistiche che mostrano non solo la distribuzione esatta degli ambienti, ma anche la disposizione degli arredi. Queste planimetrie aiutano i clienti a capire come apparirà lo spazio nella realtà, con tutti i dettagli e la sua funzionalità. È lo strumento ideale per mostrare come può essere utilizzato lo spazio e per offrire una rappresentazione accurata del futuro immobile.<br></br><br></br>Perché è importante?<br></br>• Rappresentazione realistica dello spazio: le planimetrie 3D arredate permettono ai clienti di vedere la distribuzione degli ambienti, percepire l’atmosfera e comprendere lo stile dello spazio, aiutandoli a prendere una decisione più sicura.<br></br>• Valorizzazione dell’immagine dell’agenzia: visualizzazioni di alta qualità mettono in evidenza la professionalità dell’agenzia, aiutano a distinguersi dalla concorrenza e ad attirare clienti esigenti",
+      "control": "Inizia ora",
+      "instructionTitle": "Come ordinare una planimetria: guida passo dopo passo.",
+      "step1": "Inviaci una planimetria esistente – scansionata o disegnata a mano – con tutte le misure e le informazioni aggiuntive sul progetto.",
+      "step2": "Digitalizzeremo la tua planimetria secondo le tue indicazioni e ti invieremo una bozza per l’approvazione.",
+      "step3": "Dopo l’approvazione, riceverai la planimetria finale nei formati concordati e in file JPEG ad alta risoluzione per l’utilizzo nel tuo marketing.",
+      "listItem1": "✔️ Calcolo della superficie",
+      "listItem2": "✔️ Freccia del nord",
+      "listItem3": "✔️ Il tuo logo",
+      "listItem4": "✔️ Formati per siti web e social network: A4, 3:4, 5:4",
+      "listItem5": "Su richiesta: calcolo della superficie abitabile",
+      "faq1title": "Quali informazioni sono necessarie per creare una planimetria 2D/3D?",
+      "faq1description": "Ti chiediamo di allegare alla tua e-mail i seguenti materiali:<br></br>• Una planimetria – scansionata o disegnata a mano – con tutte le misure di pareti, finestre e porte.<br></br>• Indicare la posizione di cucina, bagni e servizi igienici.<br></br>• Specificare la destinazione d’uso di ogni stanza.<br></br><br></br>Nel testo dell’e-mail indica anche:<br></br>• Le tue preferenze per la disposizione degli arredi.<br></br>• I formati desiderati per la planimetria finale.<br></br>• Se deve essere inclusa la freccia del nord<br></br><br></br>Inoltre:<br></br>• Allega il logo della tua azienda se desideri inserirlo nella planimetria.<br></br>• Se disponibili, includi foto o video dell’immobile.",
+      "faq2title": "Quanto tempo richiede la creazione di una planimetria 2D/3D?",
+      "faq2description": "La creazione di una planimetria richiede normalmente fino a 5 giorni lavorativi, a seconda della complessità e dell’entità del progetto.",
+      "faq3title": "Posso apportare modifiche dopo la creazione della planimetria?",
+      "faq3description": "Sì, certamente. Riceverai una versione bozza della planimetria e avrai la possibilità di richiedere le modifiche o correzioni necessarie.",
+      "faq4title": "Offrite calcoli certificati della superficie abitabile?",
+      "faq4description": "Creiamo planimetrie e calcoliamo le superfici abitative sulla base delle misure e dei dati che ci fornisci. Tutte le superfici in metri quadrati e le dimensioni rappresentate sono valori approssimativi.<br></br>Non forniamo <strong>calcoli certificati delle superfici</strong>: il nostro servizio è un servizio grafico di digitalizzazione delle planimetrie.",
+      "serviceInfo": {
+        "title": "Planimetria 3D arredata",
+        "description": "Realizziamo planimetrie 3D professionali con arredi disposti con cura e un design d’interni armonioso, mostrando in modo chiaro proporzioni, funzionalità e atmosfera dello spazio.<br></br>Le nostre visualizzazioni aiutano i potenziali acquirenti a comprendere subito la distribuzione e il flusso dell’immobile. Presentata in modo realistico e accogliente, ogni planimetria mette in evidenza tutto il potenziale degli ambienti e crea una forte prima impressione.<br></br>Riceverai due prospettive realistiche per immobile, per una migliore comprensione dello spazio. Su richiesta possiamo includere anche aree esterne come terrazze, posti auto o zone relax, per presentare l’immobile come un ambiente abitativo completo.<br></br>Ideale per annunci immobiliari, presentazioni, brochure e una presentazione moderna e convincente dell’immobile.",
+        "item1": "✓ 1–10 stanze per planimetria",
+        "item2": "✓ 1 o 2 viste (vista dall’alto e vista laterale)",
+        "item3": "✓ Tempi di consegna: 4–5 giorni",
+        "item4": "✓ Revisioni incluse nel prezzo",
+        "item5": "+20€ — Consegna express (48 ore)",
+        "item6": "+20€ — Ambienti con forme complesse",
+        "item7": "+20€ — Più di 10 stanze nella planimetria",
+        "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
+        "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
+        "priceText": "per planimetria di un immobile"
+      }
+    },
+    "2dFurniture": {
+      "title": "Planimetria 2D arredata",
+      "description": "Le nostre planimetrie 2D dettagliate mostrano non solo la distribuzione degli ambienti, ma anche la disposizione degli arredi. Questo offre a potenziali acquirenti e inquilini un’idea chiara di come lo spazio può essere utilizzato e arredato.<br></br><br></br>Perché è importante?<br></br>• Migliore comprensione dello spazio: i clienti possono vedere subito come ottimizzare lo spazio e adattarlo alle proprie esigenze.<br></br>• Atmosfera abitativa accogliente: una rappresentazione arredata crea una sensazione di comfort e calore ancora prima della visita.",
+      "control": "Inizia ora",
+      "listItem1": "✔️ Calcolo della superficie",
+      "listItem2": "✔️ Freccia del nord",
+      "listItem3": "✔️ Il tuo logo",
+      "listItem4": "✔️ Formati per siti web e social network: A4, 3:4, 5:4",
+      "listItem5": "Su richiesta: calcolo della superficie abitabile",
+      "step1": "Inviaci una planimetria esistente – scansionata o disegnata a mano – con tutte le misure e le informazioni aggiuntive sul progetto.",
+      "step2": "Digitalizzeremo la tua planimetria secondo le tue indicazioni e ti invieremo una bozza per l’approvazione.",
+      "step3": "Dopo l’approvazione, riceverai la planimetria finale nei formati concordati e in file JPEG ad alta risoluzione per l’utilizzo nel tuo marketing.",
+      "instructionTitle": "Come ordinare una planimetria: guida passo dopo passo",
+      "serviceInfo": {
+        "title": "Planimetria 2D arredata",
+        "description": "Una planimetria 2D arredata creata sulla base della planimetria esistente del tuo immobile e progettata secondo il nostro concept oppure sulla base delle tue foto e preferenze individuali.<br></br>La tua planimetria presenterà arredi disposti in modo armonioso, mettendo chiaramente in evidenza proporzioni, funzionalità e distribuzione dello spazio. Il concept di arredamento aiuta potenziali acquirenti o inquilini a visualizzare meglio come ogni stanza può essere utilizzata e come gli ambienti sono collegati tra loro.<br></br>Puoi scegliere individualmente il colore del parquet, delle piastrelle nelle aree sanitarie e della terrazza, in modo che si adatti al carattere dell’immobile. <br></br>Ideale per annunci immobiliari, brochure e una presentazione chiara, attraente e facile da comprendere del tuo immobile.",
+        "item1": "✓ 1–10 stanze per planimetria",
+        "item2": "✓ 1 vista (dall’alto)",
+        "item3": "✓ Tempi di consegna: 4–5 giorni",
+        "item4": "✓ Revisioni incluse nel prezzo",
+        "item5": "+20€ — Consegna express (48 ore)",
+        "item6": "+20€ — Ambienti con forme complesse",
+        "item7": "+20€ — Più di 10 stanze nella planimetria",
+        "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
+        "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
+        "priceText": "per planimetria di un immobile"
+      }
+    },
+    "2dDim": {
+      "title": "Planimetria 2D con misure",
+      "description": "Creiamo planimetrie 2D dettagliate con misure precise, aiutando potenziali acquirenti e inquilini a comprendere meglio lo spazio e la sua funzionalità.<br></br><br></br>Perché è importante?<br></br>• Informazioni precise: le nostre planimetrie mostrano le dimensioni esatte delle stanze, la posizione delle pareti, delle porte e delle finestre, permettendo ai clienti di immaginare realisticamente la loro futura casa o ufficio.<br></br>• Decisioni più semplici: misure chiare aiutano potenziali acquirenti o inquilini a capire rapidamente se un immobile risponde alle loro esigenze.",
+      "control": "Inizia ora",
+      "listItem1": "✔️ Calcolo della superficie",
+      "listItem2": "✔️ Freccia del nord",
+      "listItem3": "✔️ Il tuo logo",
+      "listItem4": "✔️ Formati per siti web e social network: A4, 3:4, 5:4",
+      "listItem5": "Su richiesta: calcolo della superficie abitabile",
+      "step1": "Inviaci una planimetria esistente – scansionata o disegnata a mano – con tutte le misure e le informazioni aggiuntive sul progetto.",
+      "step2": "Digitalizzeremo la tua planimetria secondo le tue indicazioni e ti invieremo una bozza per l’approvazione.",
+      "step3": "Dopo l’approvazione, riceverai la planimetria finale nei formati concordati e in file JPEG ad alta risoluzione per l’utilizzo nel tuo marketing.",
+      "instructionTitle": "Come ordinare una planimetria: guida passo dopo passo",
+      "serviceInfo": {
+        "title": "Planimetria 2D con misure",
+        "description": "Una planimetria 2D con misure creata sulla base della planimetria esistente del tuo immobile: ideale per disegni difficili da leggere, datati o modificati.<br></br>La tua planimetria verrà rielaborata in un layout chiaro e strutturato, con linee di misura precise su tutte le pareti, garantendo massima leggibilità e accuratezza. Cucina e aree sanitarie sono indicate chiaramente per offrire una migliore comprensione della distribuzione degli spazi e delle zone funzionali.<br></br>Questo tipo di planimetria permette a potenziali acquirenti o inquilini di comprendere immediatamente le dimensioni delle stanze, le proporzioni e l’organizzazione complessiva dell’immobile.<br></br>Grazie alla presentazione grafica chiara, la planimetria è facile da capire anche per chi non è abituato a leggere disegni tecnici.<br></br>Perfetta per annunci immobiliari, brochure e presentazioni professionali di immobili.",
+        "item1": "✓ 1–10 stanze per planimetria",
+        "item2": "✓ 1 vista (dall’alto)",
+        "item3": "✓ Tempi di consegna: 4–5 giorni",
+        "item4": "✓ Revisioni incluse nel prezzo",
+        "item5": "+20€ — Consegna express (48 ore)",
+        "item6": "+20€ — Ambienti con forme complesse",
+        "item7": "+20€ — Più di 10 stanze nella planimetria",
+        "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
+        "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
+        "priceText": "per planimetria di un immobile"
+      }
+    }
+  },
+  "price": {
+    "rooms1": "Da 1 a 4 stanze",
+    "rooms2": "Da 5 a 15 stanze",
+    "rooms3": "Da 16 a 25 stanze",
+    "currency": "Euro",
+    "floor": "per piano"
+  },
+  "security": {
+    "title": "Colophon e Informativa sulla privacy",
+    "imprintTitle": "Colophon",
+    "description": "Anastasiia Strauss<br></br>Artista freelance – servizi grafici per il settore immobiliare<br></br>Witthauergasse 28/5<br></br>1180 Vienna, Austria<br></br><br></br><strong>Contatto:</strong><br></br>E-mail: office@3dplan.online<br></br>Sito web: www.3dplan.online<br></br><br></br><strong>Attività:</strong><br></br>Attività artistica indipendente non soggetta a registrazione commerciale ai sensi del § 2 del Regolamento austriaco sulle attività commerciali (GewO) (servizi grafici in contesto artistico)<br></br><strong>Autorità competente:</strong> Autorità distrettuale di Vienna Centro (Bezirkshauptmannschaft Wien Innere Stadt)<br></br>Membro della Camera di Commercio di Vienna<br></br><strong>Settore:</strong> Pubblicità e comunicazione di mercato<br></br><strong>Responsabilità per i contenuti:</strong><br></br>Nonostante un attento controllo dei contenuti, non assumo alcuna responsabilità per i contenuti di link esterni. Gli operatori delle pagine collegate sono gli unici responsabili dei relativi contenuti.<br></br><strong>Risoluzione online delle controversie ai sensi dell’art. 14, par. 1 del Regolamento ODR:</strong><br></br>La Commissione europea mette a disposizione una piattaforma per la risoluzione online delle controversie (ODR): https://ec.europa.eu/odr<br></br>Puoi inviare eventuali reclami anche direttamente all’indirizzo e-mail indicato sopra.",
+    "policyTitle": "Informativa sulla privacy",
+    "policyDescription": "La protezione dei tuoi dati personali è molto importante per noi. Trattiamo i tuoi dati esclusivamente sulla base delle disposizioni di legge (GDPR, TKG 2003). In questa informativa sulla privacy ti informiamo sugli aspetti più importanti del trattamento dei dati sul nostro sito web.<br></br><br></br><strong>1. Contatto e moduli di richiesta</strong><br></br>Se ci contatti tramite un modulo sul sito web (ad esempio modulo di richiesta o modulo di contatto), i dati da te forniti (nome, indirizzo e-mail, numero di telefono, dettagli del progetto, ecc.) saranno conservati per elaborare la tua richiesta e per eventuali domande successive. Questi dati non saranno condivisi senza il tuo consenso.<br></br><br></br><strong>2. Utilizzo di Google Fonts</strong><br></br>Il nostro sito web utilizza Google Fonts, un servizio di Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlanda. I font vengono caricati dai server di Google quando si accede al sito. Google può registrare il tuo indirizzo IP e trasferirlo negli Stati Uniti.<br></br>La base giuridica è il nostro legittimo interesse ai sensi dell’art. 6, par. 1, lett. f GDPR, a garantire un design uniforme e gradevole del sito web.<br></br><br></br>Maggiori informazioni:<br></br>https://developers.google.com/fonts/faq<br></br>https://policies.google.com/privacy<br></br><br></br><strong>3. Plugin dei social media</strong><br></br>Il nostro sito web include plugin e link a social network (Instagram, Facebook, Pinterest), gestiti da fornitori terzi:<br></br>• Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irlanda<br></br>• Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irlanda<br></br>• Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Irlanda<br></br><br></br>Quando visiti il nostro sito, dati come indirizzo IP, informazioni sul browser e interazioni possono essere trasmessi a queste piattaforme, anche se non hai effettuato l’accesso o non possiedi un profilo su di esse.<br></br><br></br>Per maggiori informazioni sul trattamento dei dati da parte di queste piattaforme, consulta le rispettive informative sulla privacy:<br></br>• Instagram: https://privacycenter.instagram.com/<br></br>• Facebook: https://www.facebook.com/about/privacy<br></br>• Pinterest: https://policy.pinterest.com/de/privacy-policy<br></br><br></br><strong>4. I tuoi diritti</strong><br></br>Hai il diritto di accedere, rettificare, cancellare, limitare, trasferire, revocare e opporti al trattamento dei tuoi dati.<br></br>Se ritieni che il trattamento dei tuoi dati violi la normativa sulla protezione dei dati o che i tuoi diritti in materia di protezione dei dati siano stati altrimenti lesi, puoi presentare reclamo all’Autorità austriaca per la protezione dei dati:<br></br>www.dsb.gv.at<br></br><br></br><strong>5. Responsabile del trattamento dei dati</strong><br></br>Anastasiia Strauss<br></br>Witthauergasse 28/5<br></br>1180 Vienna, Austria<br></br><br></br>Contatto:<br></br>E-mail: office@3dplan.online"
+  },
+  "order": {
+    "title": "Scegli il tipo di planimetria:*",
+    "type1": "Planimetria 2D con misure",
+    "type2": "Planimetria 2D arredata",
+    "type3": "Planimetria 3D arredata",
+    "materialsTitle": "Seleziona i materiali di finitura:",
+    "fileInputButton": "Scegli file",
+    "fileInputLabel": "Carica la planimetria del tuo immobile (fino a 5 MB)",
+    "expressDelivery": "+20€ — Consegna express (48 ore)",
+    "exteriorAreas": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
+    "roomCoveringTitle": "Rivestimenti del pavimento nella stanza",
+    "bathroomsCoveringTitle": "Rivestimenti del pavimento nei bagni",
+    "kitchecnCoveringTitle": "Rivestimenti del pavimento in cucina",
+    "terraceCoveringTitle": "Rivestimenti del pavimento sulle terrazze",
+    "outdoorCoveringTitle": "Rivestimenti delle superfici esterne",
+    "doorCoveringTitle": "Finiture delle porte",
+    "recipientTitle": "Destinatario della fattura",
+    "recipientLabel": "Titolo",
+    "recipientLabelMs": "Sig.ra",
+    "recipientLabelMr": "Sig.",
+    "recipientLabelDiverse": "Non binario / Diverso",
+    "recipientLabelUnknown": "Preferisco non specificare",
+    "name": "Nome",
+    "surname": "Cognome",
+    "org": "Azienda",
+    "uid": "Numero UID",
+    "country": "Paese",
+    "city": "Città",
+    "idx": "Codice postale",
+    "address": "Indirizzo",
+    "mail": "E-mail",
+    "comment": "Commenti:",
+    "termsTitle": "Termini e condizioni",
+    "termsAcceptLabel": "Accetto le <a href=\"/security/terms\">Condizioni generali</a> e l’<a href=\"/security/privacy\">Informativa sulla privacy</a>.<br><span style=\"font-size: 12px;\">* Necessario per l’elaborazione dell’ordine</span>",
+    "termsRequest": "Richiedo espressamente che iniziate a fornire il servizio prima della scadenza del periodo di recesso. Sono consapevole che, così facendo, perderò il mio diritto di recesso. <br><span style=\"font-size: 12px;\">* Necessario per l’elaborazione dell’ordine</span>",
+    "orderButton": "Invia ordine",
+    "orderNotification": "Dopo aver inviato la richiesta, riceverai una conferma e una fattura via e-mail.",
+    "clientTitle": "Ordino come: *",
+    "businessClient": "Cliente aziendale",
+    "privateClient": "Cliente privato",
+    "agree": "Accetto",
+    "disagree": "Non accetto"
+  },
+  "packages": {
+    "title": "Pacchetti di servizi",
+    "description": "I pacchetti sono pensati per ordinare planimetrie nell’arco di un mese. Puoi inviare i tuoi ordini durante tutto il mese e hai diritto allo sconto previsto per il numero indicato di planimetrie, indipendentemente dal tipo — 2D o 3D."
+  },
+  "info": {
+    "interior": {
+      "title": "Visualizzazione 3D di interni",
+      "description": "Immergiti nell’atmosfera del tuo futuro spazio con visualizzazioni 3D fotorealistiche di interni. Creiamo immagini dettagliate che riflettono comfort, stile e funzionalità dei tuoi spazi, siano essi residenziali o commerciali.<br></br>Queste visualizzazioni sono uno strumento eccellente per presentare progetti agli investitori o per promuovere con successo soluzioni già realizzate.<br></br>Il concept e lo stile degli interni vengono sviluppati secondo le tue preferenze oppure possono essere proposti dal nostro team di designer.<br></br>Il costo per vista parte da €200."
+    },
+    "exterior": {
+      "title": "Visualizzazione 3D di esterni",
+      "description": "Dai vita al tuo concept architettonico con visualizzazioni 3D di facciate di alta qualità. Realizziamo immagini realistiche dell’esterno dell’edificio, integrando parzialmente l’ambiente circostante: una soluzione ideale per presentare visivamente un progetto in fase di sviluppo o per mostrare un immobile esistente.<br></br>La modellazione si basa su disegni architettonici, schizzi o fotografie. La scelta dei materiali, dello stile della facciata e dell’ambiente circostante viene discussa individualmente.<br></br>Il costo per vista parte da €400."
+    }
+  },
+  "pricing": {
+    "dimension": {
+      "price": "€39 per planimetria di un immobile",
+      "title": "Planimetria 2D con misure",
+      "description": "<p>Una planimetria 2D con misure creata sulla base della planimetria esistente del tuo immobile: ideale per disegni difficili da leggere, datati o modificati.</p><p>La tua planimetria verrà rielaborata in un layout chiaro e strutturato, con linee di misura precise su tutte le pareti, garantendo massima leggibilità e accuratezza. Cucina e aree sanitarie sono indicate chiaramente per offrire una migliore comprensione della distribuzione degli spazi e delle zone funzionali.</p><p>Questo tipo di planimetria permette a potenziali acquirenti o inquilini di comprendere immediatamente le dimensioni delle stanze, le proporzioni e l’organizzazione complessiva dell’immobile.</p><p>Grazie alla presentazione grafica chiara, la planimetria è facile da capire anche per chi non è abituato a leggere disegni tecnici.</p><p>Perfetta per annunci immobiliari, brochure e presentazioni professionali di immobili.</p>"
+    },
+    "furniture": {
+      "price": "€39 per planimetria di un immobile",
+      "title": "Planimetria 2D arredata",
+      "description": "<p>Una planimetria 2D arredata creata sulla base della planimetria esistente del tuo immobile e progettata secondo il nostro concept oppure sulla base delle tue foto e preferenze individuali.</p><p>La tua planimetria presenterà arredi disposti in modo armonioso, mettendo chiaramente in evidenza proporzioni, funzionalità e distribuzione dello spazio. Il concept di arredamento aiuta potenziali acquirenti o inquilini a visualizzare meglio come ogni stanza può essere utilizzata e come gli ambienti sono collegati tra loro.</p><p>Puoi scegliere individualmente il colore del parquet, delle piastrelle nelle aree sanitarie e della terrazza, in modo che si adatti al carattere dell’immobile.</p><p>Ideale per annunci immobiliari, brochure e una presentazione chiara, attraente e facile da comprendere del tuo immobile.</p>"
+    },
+    "3d": {
+      "price": "€39 per planimetria di un immobile",
+      "title": "Planimetria 3D arredata",
+      "description": "<p>Realizziamo planimetrie 3D professionali con arredi disposti con cura e un design d’interni armonioso, mostrando in modo chiaro proporzioni, funzionalità e atmosfera dello spazio.</p><p>Le nostre visualizzazioni aiutano i potenziali acquirenti a comprendere subito la distribuzione e il flusso dell’immobile. Presentata in modo realistico e accogliente, ogni planimetria mette in evidenza tutto il potenziale degli ambienti e crea una forte prima impressione.</p><p>Riceverai due prospettive realistiche per immobile, per una migliore comprensione dello spazio. Su richiesta possiamo includere anche aree esterne come terrazze, posti auto o zone relax, per presentare l’immobile come un ambiente abitativo completo.</p><p>Ideale per annunci immobiliari, presentazioni, brochure e una presentazione moderna e convincente dell’immobile.</p>"
+    }
+  },
+  "mainFAQ": {
+    "1": {
+      "question": "Come posso ordinare una planimetria 2D/3D?",
+      "answer": "Scrivici a office@3dplan.online con tutti i dettagli del tuo progetto. Puoi anche ordinare direttamente tramite il modulo sul nostro sito web."
+    },
+    "2": {
+      "question": "Quali informazioni sono necessarie per creare una planimetria 2D/3D?",
+      "answer": "Invia a office@3dplan.online:<br></br>Una planimetria scansionata o disegnata a mano dell’immobile esistente con misure e nomi degli ambienti<br></br>Foto dell’immobile<br></br>Informazioni sulla posizione degli impianti idraulici e dei grandi elettrodomestici (TV, frigorifero, piano cottura)<br></br>Dettagli su pavimenti, porte, finestre e altri materiali da rappresentare<br></br>I dati per la fatturazione"
+    },
+    "3": {
+      "question": "Quanto tempo richiede la creazione di una planimetria 2D/3D?",
+      "answer": "Il tempo di elaborazione per planimetrie 2D o 3D (1–10 stanze per piano) è di 4–5 giorni.<br></br>I tempi di consegna possono variare in base alla dimensione del progetto, soprattutto se la planimetria comprende più di 10 stanze."
+    },
+    "4": {
+      "question": "È possibile apportare modifiche dopo la creazione della planimetria?",
+      "answer": "Sì, il prezzo include fino a due cicli di revisioni. Puoi modificare misure, disposizione degli arredi o aggiungere dettagli senza costi aggiuntivi."
+    },
+    "5": {
+      "question": "In quale formato riceverò la planimetria?",
+      "answer": "Riceverai il tuo progetto via e-mail in formato PNG con sfondo trasparente, ideale per il marketing. Il formato JPEG è disponibile su richiesta."
+    },
+    "6": {
+      "question": "Per quanto tempo viene conservato il mio progetto?",
+      "answer": "Il progetto finale approvato viene conservato per un anno.<br></br>I file di lavoro vengono conservati per tre mesi; dopo questo periodo non sarà più possibile apportare modifiche."
+    },
+    "7": {
+      "question": "Quali sono le condizioni di pagamento?",
+      "answer": "Il pagamento è anticipato al 100%. Il lavoro sul tuo progetto inizia dopo la ricezione del pagamento."
+    },
+    "8": {
+      "question": "Potete disporre i mobili in base alle mie foto?",
+      "answer": "Sì, possiamo inserire gli arredi in una planimetria 2D o 3D sulla base delle tue foto. Utilizziamo modelli 3D standard, quindi l’aspetto può differire leggermente."
+    },
+    "9": {
+      "question": "Potete occuparvi voi della disposizione dei mobili o devo fornire un layout?",
+      "answer": "Possiamo disporre gli arredi tenendo conto dell’ergonomia degli ambienti e dei principi di progettazione dello spazio. Se hai preferenze specifiche, puoi fornirci le tue istruzioni."
+    },
+    "10": {
+      "question": "È previsto uno sconto ordinando planimetrie 2D/3D per lo stesso immobile?",
+      "answer": "Sì. Una planimetria costa €39, due planimetrie €59, tre planimetrie €79. Ogni planimetria aggiuntiva costa +€20."
+    },
+    "11": {
+      "question": "Potete creare una planimetria includendo l’area esterna?",
+      "answer": "Sì, con un supplemento di €20. La planimetria standard costa €39, mentre una planimetria con area esterna costa €59. Su richiesta possono essere aggiunti parcheggio, giardino, patio o piscina."
+    },
+    "12": {
+      "question": "Qual è il prezzo di una planimetria 2D/3D?",
+      "answer": "Le planimetrie fino a 10 stanze costano €39. Le planimetrie con più di 10 stanze costano €59 (+€20 di supplemento)."
+    },
+    "13": {
+      "question": "Calcolate le superfici?",
+      "answer": "No, forniamo una planimetria “pulita”. Puoi aggiungere autonomamente superfici, nomi degli ambienti e qualsiasi altra informazione necessaria in base alle tue esigenze."
+    },
+    "14": {
+      "question": "Posso scegliere i materiali di finitura per il modello 3D?",
+      "answer": "Sì, durante l’ordine online puoi selezionare materiali per pavimenti e piastrelle dalla nostra libreria standard oppure fornire le tue foto di riferimento.<br></br><br></br>Le pareti interne e le facciate vengono rappresentate con una finitura bianca neutra."
+    }
+  },
+  "mainInstruction": {
+    "title": "Come ordinare una planimetria: guida passo dopo passo",
+    "step1": "Inviaci i dettagli del tuo progetto via e-mail",
+    "description1": "Scrivici indicando il tipo di planimetria di cui hai bisogno: 2D con misure, 2D arredata o 3D arredata.<br></br>Includi i seguenti materiali:<br></br>▪ Planimetrie con misure e nomi degli ambienti<br></br>▪ Foto dell’immobile<br></br>▪ Informazioni sulla posizione degli impianti idraulici e degli elettrodomestici (TV, frigorifero, piano cottura)<br></br>▪ Dettagli su pavimenti, porte, finestre e altri materiali<br></br>▪ I dati per la fatturazione",
+    "step2": "Paga il tuo progetto",
+    "description2": "Una volta fornite tutte le informazioni necessarie, riceverai una fattura.<br></br>Il lavoro sul tuo progetto inizierà non appena il pagamento sarà ricevuto.",
+    "step3": "Ricevi il progetto finito via e-mail",
+    "description3": "Riceverai il progetto completato in formato JPEG o PNG, pronto per l’utilizzo nel tuo marketing.<br></br>Forniamo una planimetria “pulita” che puoi integrare con tutte le informazioni necessarie per la presentazione o la vendita."
+  },
+  "banner": {
+    "line1": "✓ Planimetria 2D con misure",
+    "line2": "✓ Planimetria 2D arredata",
+    "line3": "✓ Planimetria 3D arredata",
+    "line4": "3Dplan.online – Servizio grafico online per agenti e agenzie immobiliari, specializzato nella digitalizzazione di planimetrie esistenti.",
+    "priceText": "per planimetria",
+    "banner2PriceText": "Planimetria con area esterna",
+    "banner2Line1": "✓ Aumenta l’attrattiva delle tue presentazioni",
+    "banner2Line2": "✓ Mostra arredi e utilizzo dello spazio in modo realistico",
+    "banner2Description": "Possiamo ampliare la tua planimetria includendo un’area esterna a tua scelta (ad es. piscina, patio, parcheggio) con un supplemento di 20€.",
+    "banner3PriceText": "per due planimetrie",
+    "banner3Line1": "✓ Offerta combinata per il tuo immobile",
+    "banner3Line2": "✓ Più planimetrie a un prezzo migliore",
+    "banner3Description": "Il prezzo di ogni planimetria aggiuntiva dello stesso immobile è ridotto di 20€ — una soluzione conveniente per presentazioni, marketing o pianificazione."
+  },
+  "serviceInfo": {
+    "description": "3Dplan.online – Servizio grafico online per la digitalizzazione di planimetrie esistenti per agenti e agenzie immobiliari.<br></br>Tutti i tipi di planimetrie a prezzo fisso, indipendentemente dal tipo di immobile.",
+    "item1": "✓ 1–10 stanze per planimetria",
+    "item2": "✓ 1 o 2 viste (vista dall’alto e vista laterale)",
+    "item3": "✓ Tempi di consegna: 4–5 giorni",
+    "item4": "✓ Revisioni incluse nel prezzo",
+    "item5": "+20€ — Consegna express (48 ore)",
+    "item6": "+20€ — Ambienti con forme complesse",
+    "item7": "+20€ — Più di 10 stanze nella planimetria",
+    "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
+    "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
+    "title": "Costi aggiuntivi:",
+    "priceText": "per planimetria di un immobile"
+  },
+  "privacyPage": {
+    "title": "Informativa sulla privacy",
+    "description": "<h3>1. Contatto e moduli di richiesta</h3><p>Se ci contatti tramite un modulo sul nostro sito web (ad esempio modulo di contatto o modulo di richiesta), le informazioni fornite (nome, indirizzo e-mail, numero di telefono, dettagli del progetto, ecc.) saranno conservate per elaborare la tua richiesta e per eventuali domande successive.<br/>Condivisione dei dati: i tuoi dati non saranno condivisi con terzi senza il tuo esplicito consenso.<br/>Periodo di conservazione: i dati saranno conservati solo per il tempo necessario all’elaborazione della tua richiesta.<p/><h3>2. Utilizzo di Google Fonts</h3><p>Il nostro sito web utilizza Google Fonts, un servizio di Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlanda.</br>I font vengono caricati dai server di Google quando si accede alla pagina.<br/>Google può registrare il tuo indirizzo IP e trasferirlo negli Stati Uniti.<br/>Base giuridica: legittimo interesse ai sensi dell’art. 6(1)(f) GDPR, per garantire un design uniforme e gradevole del sito web.<br/><br/>Maggiori informazioni:<br/><a href=\"https://developers.google.com/fonts/faq\">FAQ di Google Fonts</a><br/><a href=\"https://policies.google.com/privacy\">Informativa sulla privacy di Google</a></p><h3>3. Plugin dei social media</h3><p>Il nostro sito web include plugin e link a social network (Instagram, Facebook, Pinterest). Questi servizi sono gestiti da fornitori terzi:<br/>Instagram: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irlanda<br/>Facebook: Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irlanda<br/>Pinterest: Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Irlanda<br/>La visita al nostro sito web può comportare la trasmissione a queste piattaforme di dati come indirizzo IP, informazioni sul browser e interazioni, anche se non hai un account o non hai effettuato l’accesso.<br/>Maggiori informazioni sul trattamento dei dati da parte di queste piattaforme:<br/><a href=\"https://privacycenter.instagram.com/\">Instagram</a><br/><a href=\"https://www.facebook.com/privacy/explanation\">Facebook</a><br/><a href=\"https://policy.pinterest.com/en/privacy-policy\">Pinterest</a></p><h3>4. I tuoi diritti</h3><p>Hai il diritto di:<br/>Accedere ai tuoi dati<br/>Correggere dati inesatti<br/>Cancellare i dati<br/>Limitare il trattamento<br/>Portabilità dei dati<br/>Revocare il consenso<br/>Opporti al trattamento<br/>Se ritieni che i tuoi dati siano stati trattati in violazione delle norme sulla privacy, puoi contattare l’Autorità austriaca per la protezione dei dati:<br/><a href=\"https://www.dsb.gv.at\">www.dsb.gv.at</a></p><h3>5. Responsabile</h3><p>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Vienna, Austria<br/>UID: ATU82810647 (senza IVA)<br/>Contatto: office@3dplan.online<p/><h3>Note</h3><p>La presente informativa sulla privacy si applica esclusivamente all’utilizzo del sito web e ai dati inviati tramite moduli di contatto o di richiesta.<br/>I dati forniti nell’ambito degli ordini (ad es. planimetrie, foto, requisiti individuali) saranno utilizzati esclusivamente per l’esecuzione del tuo progetto.<p/>"
+  },
+  "legalNotice": {
+    "description": "<p><strong>Fornitore del servizio:</strong><br/><br/><strong>Anastasiia Strauss</strong><br/>Artista freelance – servizi grafici per il mercato immobiliare<br/>Witthauergasse 28/5<br/>1180 Vienna, Austria<br/><br/><strong>Contatto:</strong><br/>E-mail: office@3dplan.online<br/>Sito web: <a href=\"https://www.3dplan.online\">www.3dplan.online</a><br/><br/><strong>Attività commerciale:</strong><br/>Attività artistica freelance ai sensi del § 2 GewO (servizi grafici in contesto artistico).<br/><br/><strong>Autorità di controllo:</strong><br/>Autorità amministrativa distrettuale di Vienna Centro (Bezirkshauptmannschaft Wien Innere Stadt)<br/><br/><strong>Iscrizione:</strong><br/>Camera di Commercio di Vienna (Wirtschaftskammer Wien)<br/>Settore: Pubblicità e comunicazione di mercato<br/><br/><strong>Numero di identificazione IVA (UID):</strong> ATU82810647 (non soggetto a IVA)<br/><br/><strong>Responsabilità per i contenuti:</strong><br/>Nonostante un attento controllo dei contenuti, non assumiamo alcuna responsabilità per i contenuti di link esterni. Gli operatori delle pagine collegate sono gli unici responsabili dei rispettivi contenuti.<br/><br/><strong>Risoluzione online delle controversie:</strong><br/>Ai sensi dell’art. 14(1) del Regolamento ODR, la Commissione europea mette a disposizione una piattaforma per la risoluzione online delle controversie (ODR):<br/><a href=\"https://ec.europa.eu/odr\">https://ec.europa.eu/odr</a><br/>Puoi inviare reclami anche direttamente via e-mail all’indirizzo indicato sopra.</p>"
+  },
+  "termsPage": {
+    "title": "Termini e condizioni",
+    "description": "<h3>1. Applicazione e ambito</h3><p>Le presenti Condizioni Generali (CG) si applicano a tutti i contratti conclusi tra Anastasiia Strauss (di seguito “3DPlan.online”) e i suoi clienti (di seguito “Cliente”) relativi alla creazione e alla fornitura di planimetrie 2D e 3D. I seguenti termini si applicano agli ordini effettuati tramite il nostro negozio online da parte di aziende.</p><p>Le presenti condizioni si applicano agli ordini effettuati tramite il nostro negozio online sia da consumatori sia da clienti aziendali.</p><p>Per <strong>consumatore</strong> si intende qualsiasi persona fisica che conclude un negozio giuridico per finalità prevalentemente estranee alla propria attività commerciale, imprenditoriale o professionale indipendente.</p><p>Per <strong>imprenditore</strong> si intende qualsiasi persona fisica o giuridica, o società dotata di capacità giuridica, che, al momento della conclusione di un negozio giuridico, agisce nell’esercizio della propria attività commerciale, imprenditoriale o professionale indipendente.</p><h3>2. Descrizione dei servizi</h3><p>3DPlan.online offre servizi grafici professionali, in particolare la digitalizzazione di planimetrie immobiliari 2D in planimetrie 2D e 3D pronte per la presentazione. I servizi includono:</p><ul><li>Planimetrie 2D con misure</li><li>Planimetrie 2D arredate</li><li>Planimetrie 3D arredate</li></ul><p>Saranno forniti esclusivamente i servizi e i prodotti espressamente indicati nell’ordine o nel contratto.</p><h3>3. Conclusione del contratto / Ordine</h3><p>Il contratto di acquisto è concluso direttamente con 3DPlan.online. La presentazione dei prodotti nel negozio online non costituisce un’offerta giuridicamente vincolante, ma un invito a inviare un ordine.</p><p>Puoi inizialmente aggiungere prodotti al carrello senza obbligo e puoi modificare i dati inseriti in qualsiasi momento prima di inviare un ordine vincolante utilizzando gli strumenti di modifica disponibili.</p><p>Il contratto si conclude quando accetti l’offerta relativa ai prodotti nel carrello cliccando sul pulsante “Ordina”. Subito dopo l’invio dell’ordine riceverai una conferma via e-mail insieme a una fattura per il pagamento.</p><p>Effettuando il pagamento, confermi il tuo accordo con le condizioni di servizio fornite da 3DPlan.online.</p><p>Eventuali modifiche o integrazioni dell’ordine dopo l’invio sono possibili solo con il nostro consenso.</p><h3>4. Prezzi e pagamento</h3><p>Tutti i prezzi sono indicati in euro (EUR) e sono validi solo per pagamenti in euro. <strong>Non viene addebitata IVA</strong> (§6 par. 1 n. 27 UStG).</p><p>Per pagamenti in altre valute, 3DPlan.online si riserva il diritto di addebitare un costo aggiuntivo relativo alla conversione valutaria e alle commissioni bancarie.</p><p>Il pagamento deve essere effettuato al 100% in anticipo tramite bonifico bancario. I nostri dati bancari saranno forniti in un’e-mail separata.</p><p>La consegna o la fornitura dei servizi avverrà solo dopo la ricezione del pagamento completo.</p><h3>5. Tempi di esecuzione e consegna</h3><p>Il tempo standard di esecuzione per planimetrie 2D e 3D (per 1–10 stanze per piano) è di 4–5 giorni.</p><p>Gli ordini vengono consegnati in formato PNG (JPG su richiesta) tramite link per il download.</p><p>I tempi di esecuzione possono variare in base all’entità e alla complessità del progetto. In particolare, se sono presenti più di 10 stanze o un carico di lavoro elevato, i tempi di produzione possono estendersi. In questi casi, 3DPlan.online informerà il cliente dei tempi di esecuzione previsti prima dell’emissione della fattura.</p><p>In caso di ritardi dovuti a informazioni integrative mancanti da parte del cliente, forza maggiore o altre circostanze fuori dal nostro controllo, il tempo di consegna sarà prorogato di conseguenza.<p/><p>Il tempo necessario per le correzioni <strong>non è incluso</strong> nei 4–5 giorni indicati ed è considerato tempo di lavoro aggiuntivo.</p><h3>6. Diritti sui materiali e proprietà intellettuale</h3><p>Dopo il pagamento completo, i diritti d’uso sono trasferiti al cliente per uso privato o commerciale nell’ambito dell’ordine concordato.</p><p>Il designer si riserva il diritto di utilizzare il lavoro per portfolio, autopromozione e marketing, mantenendo la riservatezza e senza divulgare l’indirizzo del cliente o altri dati personali.</p><h3>7. Recesso e risoluzione</h3><p>Gli imprenditori non hanno un diritto legale di recesso.</p><h3>8. Esclusione di responsabilità</h3><p>Le planimetrie 2D e 3D fornite sono il risultato di un’elaborazione grafica generata al computer e hanno esclusivamente finalità visive e illustrative. Non costituiscono fotografie reali e possono differire dallo stato effettivo dell’immobile.</p><p>I materiali grafici sono creati sulla base di planimetrie, misure, fotografie e altre informazioni fornite dal cliente. 3DPlan.online non si assume alcuna responsabilità per l’esattezza o la completezza dei dati di partenza forniti dal cliente.</p><p>Le visualizzazioni non costituiscono documentazione edilizia, architettonica o tecnica e non possono essere utilizzate come documenti di costruzione o ingegneria.</p><p>Le rappresentazioni sono puramente indicative e vengono create senza modellazione architettonica dettagliata, sulla base di modelli 3D standard di arredi, elementi decorativi e componenti strutturali.</p><p>3DPlan.online non è responsabile dell’eventuale impossibilità di utilizzare i file consegnati per motivi fuori dal proprio controllo (incluse limitazioni tecniche dell’hardware o del software del cliente).</p><h3>Nei confronti degli imprenditori (§ 1 UGB):</h3><p>3DPlan.online non risponde per colpa lieve.<br/>La responsabilità per dolo e colpa grave rimane invariata.<br/>La responsabilità per lucro cessante, danni consequenziali e danni indiretti è esclusa nella misura consentita dalla legge.</p><h3>Nei confronti dei consumatori (§ 1 KSchG):</h3><p>3DPlan.online risponde dei danni derivanti da lesioni alla vita, al corpo o alla salute secondo le disposizioni di legge.</p><p>Per altri danni, 3DPlan.online risponde solo in caso di dolo o colpa grave.</p><p>In caso di colpa lieve, 3DPlan.online risponde solo per la violazione di obblighi contrattuali essenziali e limitatamente al danno tipicamente prevedibile in base al contratto.</p><p>Restano impregiudicate le disposizioni inderogabili di legge in materia di responsabilità.</p><h3>9. Collaborazione del cliente</h3><p>Le planimetrie 2D e 3D sono create sulla base di planimetrie, misure, fotografie e altre specifiche fornite dal cliente.</p><p>Il cliente si impegna a fornire tempestivamente tutti i documenti e le informazioni necessari per la corretta prestazione del servizio. Ciò include in particolare:</p><ul><li>Foto di qualità sufficiente</li><li>Planimetrie e disegni costruttivi</li><li>Preferenze sui materiali e specifiche tecniche del progetto</li><li>Altre informazioni a discrezione del designer</li></ul><p>Il cliente è tenuto a informare immediatamente il fornitore del servizio qualora le informazioni precedentemente fornite siano incomplete o errate e a fornire senza ritardo dati corretti.</p><p>Nel caso in cui vengano fornite informazioni errate, incomplete o tardive, il Cliente è pienamente responsabile di eventuali variazioni nella qualità del risultato e di eventuali proroghe del periodo di esecuzione.</p><p>In tali casi, il periodo standard di esecuzione (4–5 giorni) sarà prorogato del tempo necessario per ottenere ed elaborare le informazioni mancanti.</p><h3>10. Correzioni, garanzia e conservazione dei dati</h3><h4>10.1 Limitazione delle correzioni</h4><p>Il presente accordo prevede un numero limitato di correzioni.</p><p>Le parti concordano che due cicli di correzioni sono inclusi nel compenso concordato.</p><p>Eventuali modifiche o correzioni aggiuntive oltre tale limite saranno eseguite esclusivamente dietro compenso separato, previo accordo scritto.</p><p>Il tempo di lavorazione delle correzioni non è incluso nel periodo di esecuzione indicato di 4–5 giorni lavorativi ed è considerato tempo di lavoro aggiuntivo.</p><h4>10.2 Verifica, comunicazione dei difetti e garanzia</h4><p><strong>Nei confronti degli imprenditori (§ 1 Codice commerciale austriaco – UGB)</strong></p><p>L’imprenditore è tenuto a verificare i servizi consegnati senza indebito ritardo dopo la ricezione.</p><p>I difetti riconoscibili devono essere comunicati per iscritto senza indebito ritardo (§ 377 UGB).</p><p>I difetti nascosti devono essere comunicati per iscritto immediatamente dopo la loro scoperta.</p><p>Se la comunicazione non viene effettuata tempestivamente, i servizi si considerano approvati e le pretese di garanzia sono escluse.</p><p>Il periodo di garanzia è di 12 mesi dalla consegna, nella misura consentita dalla legge.</p><br/><p><strong>Nei confronti dei consumatori (§ 1 Legge austriaca sulla tutela dei consumatori – KSchG)</strong></p><p>Si applicano le disposizioni di garanzia previste dal Codice civile austriaco (ABGB).</p><p>Il periodo di garanzia legale è di 2 anni dalla consegna.</p><p>Il consumatore è invitato a comunicare i difetti evidenti entro un termine ragionevole; tuttavia, la mancata comunicazione non pregiudica i diritti di garanzia previsti dalla legge.</p><h4>10.3 Conservazione dei dati</h4><p>Il progetto finale approvato dal cliente sarà conservato per un periodo di 2 anni, per consentire un nuovo accesso ai file finali se necessario.</p><p>I file di lavoro modificabili (file di progetto che consentono ulteriori modifiche) saranno conservati per un periodo di 3 mesi dall’accettazione del progetto.</p><p>Dopo la scadenza di tale periodo, ulteriori elaborazioni, modifiche o ricostruzioni del progetto non possono essere garantite e potrebbero essere possibili solo con un nuovo incarico e un compenso separato.</p><h3>11. Riservatezza e protezione dei dati</h3><p>Il trattamento dei dati personali viene effettuato in conformità alle normative applicabili in materia di protezione dei dati (GDPR). Informazioni dettagliate sono disponibili nella nostra Informativa sulla privacy.</p><h3>12. Legge applicabile e foro competente</h3><p>Tutti i rapporti giuridici tra 3DPlan.online e gli imprenditori sono regolati dal diritto austriaco, con esclusione della Convenzione delle Nazioni Unite sui contratti di vendita internazionale di merci (CISG).</p><p>Il foro esclusivo è quello della sede legale di 3DPlan.online.</p><h3>13. Varie</h3><h4>13.1 Forza maggiore</h4><p>3DPlan.online non è responsabile per ritardi o mancata esecuzione causati da forza maggiore (ad es. calamità naturali, interruzioni di corrente, guasti tecnici, provvedimenti governativi).</p><h4>13.2 Clausola salvatoria</h4><p>Qualora una disposizione delle presenti CG fosse invalida, la validità delle restanti disposizioni rimane invariata. La disposizione invalida sarà sostituita da una disposizione che si avvicini il più possibile all’intento economico originario.</p>"
+  },
+  "infoPage": {
+    "title": "Diritto di recesso (informativa sul recesso)",
+    "description": "<h3>1. Diritto di recesso</h3><p>Se sei un consumatore ai sensi della normativa applicabile sulla tutela dei consumatori, hai il diritto di recedere dal presente contratto entro quattordici (14) giorni senza indicarne il motivo.</p><p>Il periodo di recesso è di quattordici (14) giorni dalla data di conclusione del contratto.</p><p>Per esercitare il diritto di recesso, devi informarci:</p><p>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Vienna<br/>Austria<br/>E-mail: office@3dplan.online</p><p>mediante una dichiarazione chiara (ad esempio una lettera inviata per posta o e-mail) della tua decisione di recedere dal presente contratto.</p><p>Per rispettare il termine di recesso, è sufficiente inviare la comunicazione prima della scadenza del periodo di recesso.</p><h3>2. Effetti del recesso</h3><p>Se recedi dal presente contratto, ti rimborseremo tutti i pagamenti ricevuti, inclusi i costi della consegna standard (ad eccezione di eventuali costi aggiuntivi derivanti dalla scelta di un tipo di consegna diverso dalla consegna standard meno costosa da noi offerta), senza indebito ritardo e comunque non oltre quattordici (14) giorni dal giorno in cui siamo stati informati della tua decisione di recedere.</p><p>Il rimborso sarà effettuato utilizzando lo stesso mezzo di pagamento usato per la transazione iniziale, salvo diverso accordo espresso.</p><h3>3. Estinzione anticipata del diritto di recesso (servizi digitali)</h3><p>Nel caso di servizi digitali, il diritto di recesso si estingue anticipatamente se:</p><ul><li>hai richiesto espressamente che iniziassimo l’esecuzione del servizio prima della scadenza del periodo di recesso; e</li><li>hai riconosciuto che, così facendo, perderai il diritto di recesso una volta che il contratto sarà stato interamente eseguito.</li></ul><p>Ciò si applica in particolare a servizi digitali personalizzati creati secondo le specifiche del cliente, come planimetrie 2D o 3D personalizzate.</p><h3>4. Esclusione del diritto di recesso</h3><p>Il diritto di recesso non si applica nei seguenti casi:<ul><li>se il servizio è stato interamente eseguito con il tuo esplicito consenso preventivo prima della scadenza del periodo di recesso di 14 giorni e hai riconosciuto di essere consapevole della perdita del diritto di recesso;</li><li>se il servizio è stato prodotto secondo le tue specifiche individuali o adattato alle tue esigenze, in particolare planimetrie 2D/3D personalizzate che tengono conto dei tuoi desideri individuali, inclusi:<ul><li>pavimenti e materiali di finitura;</li><li>design di porte e finestre;</li><li>altri requisiti individuali nella creazione di planimetrie 2D o 3D.</li></ul></li></ul></p><h3>5. Modulo tipo di recesso</h3><p>Se desideri recedere dal contratto, compila e restituisci questo modulo:<br/><br/>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Vienna<br/>Austria<br/>E-mail: office@3dplan.online<br/><br/>Io/Noi <i>() con la presente recedo/recediamo dal contratto concluso da me/noi ()</i> per la fornitura del seguente servizio:<br/><br/>Data di conclusione del contratto:<br/>Nome del/dei consumatore/i:<br/>Indirizzo del/dei consumatore/i:<br/>Firma (solo in caso di comunicazione su carta):<br/>Data:<br/>(*) Cancellare la dicitura non pertinente.</p>"
+  },
+  "confirmation": {
+    "title": "GRAZIE! IL TUO ORDINE È STATO INVIATO",
+    "description": "<p>Abbiamo ricevuto la tua richiesta per la creazione di una planimetria 2D o 3D. Esamineremo a breve i materiali inviati e ti contatteremo per confermare i dettagli dell’ordine, il prezzo e i tempi di realizzazione. Dopo aver ricevuto tutte le informazioni necessarie, prepareremo la fattura. Il lavoro sul progetto inizierà dopo la ricezione del pagamento.</p><p>La planimetria finale ti sarà inviata via e-mail in formato JPEG o PNG, pronta per essere utilizzata nella presentazione del tuo immobile. Se desideri integrare la richiesta, puoi inviare ulteriori materiali a:</p><p><h3>office@3dplan.online</h3></p><p>Grazie per aver scelto <strong>3Dplan.online</strong>.</p>"
+  },
+  "confirmationContact": {
+    "title": "GRAZIE! IL TUO MESSAGGIO È STATO INVIATO",
+    "description": "<p>Abbiamo ricevuto il tuo messaggio e lo esamineremo a breve. Il nostro team ti contatterà via e-mail il prima possibile per rispondere alla tua domanda o discutere la tua richiesta.</p><p>Se desideri inviarci ulteriori informazioni o file, puoi scriverci a:</p><p><h3>office@3dplan.online</h3></p><p>Grazie per aver contattato <strong>3Dplan.online</strong>.</p>"
+  }
+}
