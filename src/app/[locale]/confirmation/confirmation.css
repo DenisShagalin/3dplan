@@ -1,0 +1,88 @@
+.confirm_page {
+  max-width: 720px;
+  padding: 40px 24px 56px;
+  line-height: 1.6;
+}
+
+.confirm_card {
+  padding: 40px 36px;
+  text-align: center;
+}
+
+.confirm_icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--ui-accent-bg);
+  color: var(--ui-accent);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.confirm_h1 {
+  margin: 20px 0 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ui-text);
+}
+
+.confirm_text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: var(--ui-text-sec);
+}
+
+.confirm_text p {
+  margin: 0 0 14px;
+}
+
+.confirm_text p:last-child {
+  margin-bottom: 0;
+}
+
+.confirm_text strong {
+  color: var(--ui-text);
+}
+
+/* The contact e-mail comes as an <h3> inside the translation */
+.confirm_text h3 {
+  display: inline-block;
+  margin: 4px 0;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--ui-accent-bg);
+  color: var(--ui-accent);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.confirm_text a {
+  color: var(--ui-accent);
+}
+
+@media (max-width: 600px) {
+  .confirm_page {
+    padding: 24px 16px 40px;
+  }
+
+  .confirm_card {
+    padding: 28px 18px;
+  }
+
+  .confirm_h1 {
+    font-size: 22px;
+  }
+
+  .confirm_text {
+    font-size: 14px;
+  }
+
+  .confirm_text h3 {
+    font-size: 16px;
+  }
+}

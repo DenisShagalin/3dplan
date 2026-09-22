@@ -23,7 +23,8 @@ const images = [
 export default function Page() {
   const [src, setSrc] = useState("");
 
-  const { orderView, showOrder } = useOrder();
+  // const { orderView, showOrder } = useOrder();
+  const { showOrder } = useOrder(); // navigates to the /order page
 
   const onClick = useCallback(
     (src: string) => () => {
@@ -35,7 +36,7 @@ export default function Page() {
   return (
     <>
       <Picture src={src} open={!!src} setOpen={() => setSrc("")} />
-      {orderView}
+      {/* {orderView} */}
       <Flex vertical align="center">
         <Carousel loading={false}>
           {images.map((src, idx) => (

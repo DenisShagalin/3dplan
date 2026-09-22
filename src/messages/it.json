@@ -260,6 +260,16 @@
     "agree": "Accetto",
     "disagree": "Non accetto"
   },
+  "validation": {
+    "required": "Questo campo è obbligatorio",
+    "email": "Inserisci un indirizzo e-mail valido",
+    "types": "Scegli almeno un tipo di planimetria",
+    "files": "Carica la planimetria del tuo immobile",
+    "fileSize": "I file selezionati superano 5 MB",
+    "terms": "Accetta i Termini e condizioni e l'Informativa sulla privacy",
+    "withdrawal": "Scegli una delle due opzioni",
+    "summary": "Compila i campi evidenziati"
+  },
   "packages": {
     "title": "Pacchetti di servizi",
     "description": "I pacchetti sono pensati per ordinare planimetrie nell’arco di un mese. Puoi inviare i tuoi ordini durante tutto il mese e hai diritto allo sconto previsto per il numero indicato di planimetrie, indipendentemente dal tipo — 2D o 3D."

@@ -36,11 +36,12 @@ const plans: Array<{
 export const MainPlans = () => {
   const t = useTranslations();
 
-  const { orderView, showOrder } = useOrder();
+  // const { orderView, showOrder } = useOrder();
+  const { showOrder } = useOrder(); // navigates to the /order page
 
   return (
     <>
-      {orderView}
+      {/* {orderView} */}
       <Flex className="home_plans" justify="space-around">
         {plans.map((plan) => (
           <Flex key={plan.alt} vertical className="img_wrap" align="center">

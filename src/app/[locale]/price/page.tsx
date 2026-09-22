@@ -143,7 +143,8 @@ const PriceMini = ({
 };
 
 export default function Price() {
-  const { orderView, showOrder } = useOrder();
+  // const { orderView, showOrder } = useOrder();
+  const { showOrder } = useOrder(); // navigates to the /order page
   const { isSmall } = useMedia();
 
   const t = useTranslations();
@@ -159,7 +160,7 @@ export default function Price() {
 
   return (
     <>
-      {orderView}
+      {/* {orderView} */}
       <Flex vertical align="center">
         <Flex
           vertical={isSmall}

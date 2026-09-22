@@ -260,6 +260,16 @@
     "agree": "Súhlasím",
     "disagree": "Nesúhlasím"
   },
+  "validation": {
+    "required": "Toto pole je povinné",
+    "email": "Zadajte platnú e-mailovú adresu",
+    "types": "Vyberte aspoň jeden typ pôdorysu",
+    "files": "Nahrajte pôdorys svojej nehnuteľnosti",
+    "fileSize": "Vybrané súbory presahujú 5 MB",
+    "terms": "Prijmite prosím všeobecné obchodné podmienky a zásady ochrany osobných údajov",
+    "withdrawal": "Vyberte jednu z dvoch možností",
+    "summary": "Vyplňte prosím zvýraznené polia"
+  },
   "packages": {
     "title": "Balíky služieb",
     "description": "Balíky sú určené na objednávanie pôdorysov v rámci jedného mesiaca. Objednávky môžete zadávať počas celého mesiaca a máte garantovanú zľavu podľa uvedeného počtu pôdorysov bez ohľadu na typ – 2D alebo 3D."

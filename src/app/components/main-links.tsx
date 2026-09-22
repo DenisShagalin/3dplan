@@ -3,13 +3,13 @@
 import "./main-links.css";
 
 import { useCallback } from "react";
-import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
-import { MenuOutlined } from "@ant-design/icons";
+import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { Dropdown } from "./common/dropdown";
 import useMedia from "./common/media-hook";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { isSupportedLocale } from "@/i18n/locales";
+import { useOrder } from "../hooks/useOrder";
 
 export const MainLinks = () => {
   // Resolved on the server from the URL prefix, the cookie or the browser.
@@ -20,6 +20,7 @@ export const MainLinks = () => {
   const t = useTranslations();
 
   const { isSmall } = useMedia();
+  const { showOrder } = useOrder();
 
   const serviceItems = [
     {
@@ -104,66 +105,70 @@ export const MainLinks = () => {
   );
 
   return (
-    <div className="top_toolbar">
-      <div
-        className="main-links"
-        style={
-          isSmall
-            ? {
-                width: "90%",
-                padding: "20px",
-                justifyContent: "space-between",
-              }
-            : {}
-        }
-      >
-        <Link href="/">
-          <Image
-            src="/logo_small.png"
-            alt="small_logo"
-            className="toolbar_logo"
-            priority
-            width={100}
-            height={0}
-            style={{
-              width: "auto",
-              height: "auto",
-            }}
-          />
+    <header className="site_header">
+      <div className="site_header_inner">
+        <Link href="/" className="site_header_logo" aria-label="3Dplan.online">
+          3D<span>plan</span>.online
         </Link>
 
-        {!isSmall ? (
-          <>
+        {!isSmall && (
+          <nav className="site_header_nav">
             <Dropdown
               items={serviceItems}
               onClick={(href) => router.push(href)}
+              rootClassName="ui_dropdown"
+              selectedKeys={[pathname]}
             >
-              <Link href="">{t("toolbar.services").toLocaleUpperCase()}</Link>
+              <Link href="" className="site_header_dd">
+                {t("toolbar.services")}
+                <DownOutlined className="site_header_chevron" />
+              </Link>
             </Dropdown>
-
-            <Link href="/price">
-              {t("toolbar.pricing").toLocaleUpperCase()}
-            </Link>
-            <Link href="/about">{t("toolbar.about").toLocaleUpperCase()}</Link>
-            <Link href="/contact">
-              {t("toolbar.contact").toLocaleUpperCase()}
-            </Link>
-
-            <Dropdown items={lang} onClick={onClick}>
-              <Link href="">{locale.toUpperCase()}</Link>
-            </Dropdown>
-          </>
-        ) : (
-          <Dropdown
-            // @ts-ignore
-            items={items}
-            onClick={onClick}
-            placement="bottomLeft"
-          >
-            <MenuOutlined />
-          </Dropdown>
+            <Link href="/price">{t("toolbar.pricing")}</Link>
+            <Link href="/about">{t("toolbar.about")}</Link>
+            <Link href="/contact">{t("toolbar.contact")}</Link>
+          </nav>
         )}
+
+        <div className="site_header_actions">
+          <Dropdown
+            items={lang}
+            onClick={onClick}
+            placement="bottomRight"
+            rootClassName="ui_dropdown ui_dropdown_compact"
+            selectedKeys={[locale]}
+          >
+            <span className="site_header_lang">
+              {locale.toUpperCase()}
+              <DownOutlined className="site_header_chevron" />
+            </span>
+          </Dropdown>
+
+          {!isSmall && (
+            <button
+              type="button"
+              className="site_header_btn ui_btn"
+              onClick={() => showOrder("")}
+            >
+              {t("control.order")}
+            </button>
+          )}
+
+          {isSmall && (
+            <Dropdown
+              // @ts-ignore
+              items={items}
+              onClick={onClick}
+              // placement="bottomLeft" // previous placement
+              placement="bottomRight"
+              rootClassName="ui_dropdown"
+              selectedKeys={[pathname, locale]}
+            >
+              <MenuOutlined className="site_header_burger" />
+            </Dropdown>
+          )}
+        </div>
       </div>
-    </div>
+    </header>
   );
 };

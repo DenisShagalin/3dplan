@@ -260,6 +260,16 @@
     "agree": "I agree",
     "disagree": "I do not agree"
   },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid e-mail address",
+    "types": "Please choose at least one type of floor plan",
+    "files": "Please upload the floor plan of your property",
+    "fileSize": "The selected files exceed 5 MB",
+    "terms": "Please accept the Terms and Conditions and the Privacy Policy",
+    "withdrawal": "Please choose one of the two options",
+    "summary": "Please fill in the highlighted fields"
+  },
   "packages": {
     "title": "Service Packages",
     "description": "The packages are designed for ordering floor plans within one month. You can place your orders throughout the month and are guaranteed a discount for the specified number of floor plans, regardless of the type — 2D or 3D."

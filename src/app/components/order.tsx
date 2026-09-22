@@ -1,13 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useCallback, useMemo, useState } from "react";
-import { Input, Flex, Typography, Button, Modal } from "antd";
+import { useCallback, useId, useMemo, useRef, useState } from "react";
+import { Input, Button } from "antd";
 import { Select } from "antd";
-import Title from "antd/lib/typography/Title";
 import { sendEmail } from "../utils/email";
 import { allowConfirmation } from "../utils/confirmation";
-import useMedia from "./common/media-hook";
+import "./order.css";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
 import { useRouter } from "@/i18n/navigation";
 import Image from "next/image";
@@ -18,7 +17,33 @@ export type OrderType =
   | "3D floor plan with furniture"
   | "";
 
+// The order form lives on its own page now; the service is picked through a
+// short slug in the query string: "/order?type=3d-furniture".
+export const ORDER_PAGE_PATHNAME = "/order";
+
+const ORDER_TYPE_SLUGS: Record<Exclude<OrderType, "">, string> = {
+  "2D floor plan with dimensions": "2d-dimension",
+  "2D floor plan with furniture": "2d-furniture",
+  "3D floor plan with furniture": "3d-furniture",
+};
+
+export const getOrderHref = (orderType: OrderType) =>
+  orderType
+    ? {
+        pathname: ORDER_PAGE_PATHNAME,
+        query: { type: ORDER_TYPE_SLUGS[orderType] },
+      }
+    : ORDER_PAGE_PATHNAME;
+
+/** Unknown or missing slugs open the form with nothing preselected. */
+export const getOrderTypeFromSlug = (slug?: string | null): OrderType =>
+  (Object.entries(ORDER_TYPE_SLUGS).find(([, value]) => value === slug)?.[0] as
+    | OrderType
+    | undefined) ?? "";
+
 const MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024;
+
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const roomCovering = [
   "/covering/room/1 Light oak.png",
@@ -113,7 +138,212 @@ const doorCovering = [
   "/covering/door/White.png",
 ];
 
-const TypeBlock = ({
+const ORDER_TYPES = {
+  dimensions: "2D floor plan with dimensions",
+  furniture2d: "2D floor plan with furniture",
+  furniture3d: "3D floor plan with furniture",
+} as const;
+
+const BUSINESS_CLIENT = "businessClient";
+const PRIVATE_CLIENT = "privateClient";
+
+type ValidationKey =
+  | "required"
+  | "email"
+  | "types"
+  | "files"
+  | "fileSize"
+  | "terms"
+  | "withdrawal"
+  | "summary";
+
+type ValidationMessages = Record<ValidationKey, string>;
+
+/** Reads the "validation.*" namespace of the active locale. */
+const useValidationMessages = (): ValidationMessages => {
+  const t = useTranslations("validation");
+  return useMemo(
+    () => ({
+      required: t("required"),
+      email: t("email"),
+      types: t("types"),
+      files: t("files"),
+      fileSize: t("fileSize"),
+      terms: t("terms"),
+      withdrawal: t("withdrawal"),
+      summary: t("summary"),
+    }),
+    [t],
+  );
+};
+
+type OrderValues = {
+  types: string[];
+  files: File[];
+  clientType: string;
+  firstName: string;
+  lastName: string;
+  org: string;
+  iuid: string;
+  country: string;
+  city: string;
+  idx: string;
+  address: string;
+  email: string;
+  isAgreed: boolean;
+  termRequest: string;
+};
+
+type FieldKey = keyof OrderValues;
+
+type FormErrors = Partial<Record<FieldKey, string>>;
+
+const validateOrder = (
+  values: OrderValues,
+  messages: ValidationMessages,
+): FormErrors => {
+  const errors: FormErrors = {};
+
+  const requireText = (key: FieldKey, value: string) => {
+    if (!value.trim()) {
+      errors[key] = messages.required;
+    }
+  };
+
+  if (!values.types.length) {
+    errors.types = messages.types;
+  }
+
+  if (!values.files.length) {
+    errors.files = messages.files;
+  }
+
+  requireText("clientType", values.clientType);
+  requireText("firstName", values.firstName);
+  requireText("lastName", values.lastName);
+  requireText("country", values.country);
+  requireText("city", values.city);
+  requireText("idx", values.idx);
+  requireText("address", values.address);
+
+  // Company details are only asked of business clients, the withdrawal waiver
+  // only of private ones — the inputs of the other branch stay disabled.
+  if (values.clientType === BUSINESS_CLIENT) {
+    requireText("org", values.org);
+    requireText("iuid", values.iuid);
+  }
+
+  if (values.clientType === PRIVATE_CLIENT && !values.termRequest) {
+    errors.termRequest = messages.withdrawal;
+  }
+
+  if (!values.email.trim()) {
+    errors.email = messages.required;
+  } else if (!EMAIL_PATTERN.test(values.email.trim())) {
+    errors.email = messages.email;
+  }
+
+  if (!values.isAgreed) {
+    errors.isAgreed = messages.terms;
+  }
+
+  return errors;
+};
+
+const FieldError = ({ message }: { message?: string }) =>
+  message ? (
+    <span role="alert" className="order_error ui_error">
+      {message}
+    </span>
+  ) : null;
+
+const StepTitle = ({ step, title }: { step: number; title: string }) => (
+  <div className="order_step">
+    <span className="order_step_num">{step}</span>
+    <h2 className="order_step_title">{title}</h2>
+  </div>
+);
+
+const TextField = ({
+  label,
+  value,
+  onChange,
+  error,
+  disabled,
+  required = true,
+  wide,
+}: {
+  label: string;
+  value: string;
+  onChange: (value: string) => void;
+  error?: string;
+  disabled?: boolean;
+  required?: boolean;
+  wide?: boolean;
+}) => {
+  const id = useId();
+  return (
+    <div
+      className={`order_field ui_field${wide ? " order_field_wide ui_field_wide" : ""}`}
+      data-error={error ? "true" : undefined}
+    >
+      <label
+        htmlFor={id}
+        className={`order_label ui_label${disabled ? " is-disabled" : ""}`}
+      >
+        {label}
+        {required ? <span className="order_req ui_req"> *</span> : null}
+      </label>
+      <Input
+        id={id}
+        className="order_input ui_input"
+        placeholder={label}
+        value={value}
+        disabled={disabled}
+        onChange={(e) => onChange(e.target.value)}
+        status={error ? "error" : undefined}
+      />
+      <FieldError message={error} />
+    </div>
+  );
+};
+
+const SelectField = ({
+  label,
+  value,
+  onChange,
+  options,
+  error,
+}: {
+  label: string;
+  value: string;
+  onChange: (value: string) => void;
+  options: { value: string; label: string }[];
+  error?: string;
+}) => {
+  const id = useId();
+  return (
+    <div
+      className="order_field ui_field"
+      data-error={error ? "true" : undefined}
+    >
+      <label htmlFor={id} className="order_label ui_label">
+        {label}
+      </label>
+      <Select
+        id={id}
+        className="order_select"
+        value={value || undefined}
+        onChange={onChange}
+        options={options}
+        status={error ? "error" : undefined}
+      />
+      <FieldError message={error} />
+    </div>
+  );
+};
+
+const ServiceOption = ({
   content,
   onChange,
   isChecked,
@@ -121,117 +351,97 @@ const TypeBlock = ({
   content: string;
   onChange: () => void;
   isChecked: boolean;
-}) => {
-  return (
-    <Flex
-      style={{
-        backgroundColor: "var(--main-white-color)",
-        padding: "2px 4px",
-        width: "100%",
-        margin: "0.25rem 0",
-        borderRadius: "4px",
-      }}
-    >
-      <input checked={isChecked} type="checkbox" onChange={onChange} />
-      <Typography.Text style={{ paddingLeft: "0.25rem" }}>
-        {content}
-      </Typography.Text>
-    </Flex>
-  );
-};
+}) => (
+  <label className={`order_option${isChecked ? " is-active" : ""}`}>
+    <input type="checkbox" checked={isChecked} onChange={onChange} />
+    <span className="order_option_name">{content}</span>
+  </label>
+);
+
+const CheckRow = ({
+  content,
+  onChange,
+  isChecked,
+  disabled,
+}: {
+  content: string;
+  onChange: () => void;
+  isChecked: boolean;
+  disabled?: boolean;
+}) => (
+  <label className="order_check">
+    <input
+      type="checkbox"
+      checked={isChecked}
+      disabled={disabled}
+      onChange={onChange}
+    />
+    <span>{content}</span>
+  </label>
+);
 
 const MaterialsChooser = ({
   title,
   coverings,
   onChange,
   current,
-  isSmall,
 }: {
   title: string;
   coverings: string[];
   onChange: (type: string) => void;
   current: string[];
-  isSmall: boolean;
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <Flex
-      vertical
-      align="center"
-      style={{
-        backgroundColor: "var(--main-white-color)",
-        padding: "0.5rem",
-        width: isSmall ? "90%" : "50%",
-        borderRadius: "4px",
-      }}
-    >
-      <Flex align="center" justify="center" style={{ width: "100%" }}>
-        <Title
-          style={{
-            fontFamily: "Arial",
-            color: "var(--main-grey-color)",
-            textAlign: "center",
-            margin: "0.5rem",
-          }}
-          level={5}
-        >
-          {title}
-        </Title>
-        {isOpen ? (
-          <UpOutlined
-            onClick={() => setIsOpen(false)}
-            style={{ marginBottom: "0.5rem" }}
-          />
-        ) : (
-          <DownOutlined onClick={() => setIsOpen(true)} />
-        )}
-      </Flex>
+    <div className={`order_materials${isOpen ? " is-open" : ""}`}>
+      <button
+        type="button"
+        className="order_materials_head"
+        aria-expanded={isOpen}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span className="order_materials_title">{title}</span>
+        {current.length > 0 ? (
+          <span className="order_materials_count">{current.length}</span>
+        ) : null}
+        {isOpen ? <UpOutlined /> : <DownOutlined />}
+      </button>
 
-      <Flex wrap="wrap" style={{ display: isOpen ? "" : "none" }}>
-        {coverings.map((src) => (
-          <Flex
-            title={src
-              .split("/")
-              .pop()
-              ?.replace(/\.[^.]+$/, "")
-              ?.replace(/\d/, "")}
-            key={src}
-            style={{ width: "45%", margin: "0.5rem" }}
-          >
-            <input
-              type="checkbox"
-              checked={current.includes(src)}
-              onChange={() => onChange(src)}
-            />
-            <Image
-              src={src}
-              alt={src}
-              width={0}
-              height={0}
-              sizes="100wh"
-              style={{
-                width: "50%",
-                height: "auto",
-                flex: 1,
-                paddingLeft: "0.5rem",
-              }}
-            />
-          </Flex>
-        ))}
-      </Flex>
-    </Flex>
+      <div className="order_swatches" hidden={!isOpen}>
+        {coverings.map((src) => {
+          const name = src
+            .split("/")
+            .pop()
+            ?.replace(/\.[^.]+$/, "")
+            ?.replace(/\d/, "");
+          const isChecked = current.includes(src);
+          return (
+            <label
+              key={src}
+              title={name}
+              className={`order_swatch${isChecked ? " is-active" : ""}`}
+            >
+              <input
+                type="checkbox"
+                checked={isChecked}
+                onChange={() => onChange(src)}
+              />
+              <Image
+                src={src}
+                alt={name ?? src}
+                width={0}
+                height={0}
+                sizes="120px"
+              />
+            </label>
+          );
+        })}
+      </div>
+    </div>
   );
 };
 
-export function Order({
-  open,
-  setOpen,
-  defaultValue = "",
-}: {
-  open: boolean;
-  setOpen: (b: boolean) => void;
-  defaultValue?: OrderType;
-}) {
+export function OrderForm({ defaultValue = "" }: { defaultValue?: OrderType }) {
   const router = useRouter();
 
   const [type, setType] = useState("");
@@ -252,53 +462,74 @@ export function Order({
     defaultValue ? [defaultValue] : [],
   );
   const [files, setFiles] = useState<File[]>([]);
-  const [coverings, setCoverings] = useState<Record<any, any>>({});
-  const [isExpressDeliviery, setExpressDelivery] = useState(false);
+  const [fileSizeError, setFileSizeError] = useState("");
+  const [coverings, setCoverings] = useState<Record<string, string[]>>({});
+  const [isExpressDelivery, setExpressDelivery] = useState(false);
   const [isExteriorAreas, setExteriorAreas] = useState(false);
 
   const [termRequest, setTermsRequest] = useState("");
   const [isAgreed, setIsAgreed] = useState(false);
 
   const t = useTranslations();
+  const validationMessages = useValidationMessages();
 
-  const { isSmall } = useMedia();
+  const formRef = useRef<HTMLDivElement>(null);
 
   const [isLoading, setLoading] = useState(false);
-  const [submitLabel, setSubmitLabel] = useState(t("order.orderButton"));
+  const [status, setStatus] = useState<"idle" | "sent" | "error">("idle");
 
-  const isActive = useMemo(
+  // Errors are always up to date, but only surfaced once the visitor has tried
+  // to submit — so the form does not shout at anyone who has just opened it.
+  const [showErrors, setShowErrors] = useState(false);
+
+  const errors = useMemo(
     () =>
-      !!files.length &&
-      email.trim() &&
-      firstName.trim() &&
-      lastName.trim() &&
-      clientType.trim() &&
-      (clientType === "businessClient" ? org.trim() : true) &&
-      (clientType === "businessClient" ? iuid.trim() : true) &&
-      (clientType === "privateClient" ? !!termRequest : true) &&
-      country.trim() &&
-      idx.trim() &&
-      city.trim() &&
-      address.trim() &&
-      isAgreed &&
-      types.length > 0,
+      validateOrder(
+        {
+          types,
+          files,
+          clientType,
+          firstName,
+          lastName,
+          org,
+          iuid,
+          country,
+          city,
+          idx,
+          address,
+          email,
+          isAgreed,
+          termRequest,
+        },
+        validationMessages,
+      ),
     [
-      email,
+      types,
+      files,
+      clientType,
       firstName,
       lastName,
       org,
       iuid,
       country,
-      idx,
-      type,
       city,
+      idx,
       address,
+      email,
       isAgreed,
-      types,
       termRequest,
-      clientType,
+      validationMessages,
     ],
   );
+
+  const visibleErrors: FormErrors = showErrors ? errors : {};
+
+  const submitLabel =
+    status === "sent"
+      ? t("control.wasSended")
+      : status === "error"
+        ? t("control.error")
+        : t("order.orderButton");
 
   const clear = useCallback(() => {
     setFirstName("");
@@ -314,20 +545,38 @@ export function Order({
     setAddress("");
     setTypes([]);
     setFiles([]);
+    setFileSizeError("");
     setCoverings({});
     setExpressDelivery(false);
     setExteriorAreas(false);
     setTermsRequest("");
     setIsAgreed(false);
     setClientType("");
+    setShowErrors(false);
+  }, []);
+
+  const scrollToFirstError = useCallback(() => {
+    // The errors are painted on the next render, so wait for it before looking.
+    requestAnimationFrame(() => {
+      formRef.current
+        ?.querySelector('[data-error="true"]')
+        ?.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
   }, []);
 
   const onSubmit = useCallback(async () => {
+    if (Object.keys(errors).length > 0) {
+      setShowErrors(true);
+      setStatus("idle");
+      scrollToFirstError();
+      return;
+    }
+
     const coveringEntries = Object.entries(coverings)
-      .filter(([, values]) => (values as string[]).length > 0)
+      .filter(([, values]) => values.length > 0)
       .map(
         ([key, values]) =>
-          `  ${key}: ${(values as string[])
+          `  ${key}: ${values
             .map(
               (v) =>
                 v
@@ -341,10 +590,10 @@ export function Order({
 
     try {
       setLoading(true);
-      await sendEmail({
+      const response = await sendEmail({
         message: `
 Order Types: ${types.join(", ")}
-Express Delivery: ${isExpressDeliviery ? "Yes" : "No"}
+Express Delivery: ${isExpressDelivery ? "Yes" : "No"}
 Exterior Areas: ${isExteriorAreas ? "Yes" : "No"}
 
 --- Coverings ---
@@ -372,20 +621,27 @@ ${message || "—"}
         subject: `Order from ${email}: ${firstName} ${lastName}`,
         files,
       });
+
+      // fetch only rejects on a network failure, so a 4xx/5xx would otherwise
+      // pass for a delivered order and send the visitor to the thank-you page.
+      if (!response.ok) {
+        throw new Error(`Order request failed with status ${response.status}`);
+      }
+
       setLoading(false);
-      setSubmitLabel(t("control.wasSended"));
+      setStatus("sent");
       clear();
-      allowConfirmation('order');
+      allowConfirmation("order");
       router.push("/confirmation");
     } catch (e) {
       setLoading(false);
-      setSubmitLabel(t("control.error"));
-      clear();
-      setTimeout(() => {
-        setSubmitLabel(t("order.orderButton"));
-      }, 5000);
+      setStatus("error");
+      // The input is deliberately kept so the visitor can simply retry.
+      setTimeout(() => setStatus("idle"), 5000);
     }
   }, [
+    errors,
+    scrollToFirstError,
     email,
     message,
     firstName,
@@ -398,7 +654,7 @@ ${message || "—"}
     address,
     type,
     types,
-    isExpressDeliviery,
+    isExpressDelivery,
     isExteriorAreas,
     coverings,
     isAgreed,
@@ -406,545 +662,404 @@ ${message || "—"}
     files,
     clientType,
     clear,
+    router,
   ]);
 
   const onTypeChange = useCallback(
-    (type: string) => () => {
-      if (types.includes(type)) {
-        setTypes(types.filter((t) => t !== type));
-      } else {
-        setTypes([...types, type]);
-      }
+    (orderType: string) => () => {
+      setTypes((current) =>
+        current.includes(orderType)
+          ? current.filter((item) => item !== orderType)
+          : [...current, orderType],
+      );
     },
-    [types],
-  );
-
-  const renderTitle = useCallback(
-    (title: string) => (
-      <Title
-        style={{
-          fontFamily: "Arial",
-          color: "var(--main-grey-color)",
-          textAlign: "center",
-          margin: "1rem",
-        }}
-        level={4}
-      >
-        {title}
-      </Title>
-    ),
     [],
   );
 
-  const onFileChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = Array.from(e.target.files || []);
-    const overallSize = files.reduce((acc, file) => acc + file.size, 0);
-    if (overallSize < MAX_FILE_SIZE_BYTES) {
-      setFiles(files);
+  const onClientTypeChange = useCallback((value: string) => {
+    setClientType(value);
+    // Drop whatever belongs to the other branch, otherwise a value typed before
+    // the switch stays in the state and is mailed out from a disabled input.
+    if (value === PRIVATE_CLIENT) {
+      setOrg("");
+      setIuid("");
+    } else {
+      setTermsRequest("");
     }
   }, []);
 
-  const onCoveringChange = useCallback(
-    (field: string) => (type: string) => {
-      const current = coverings[field] || [];
-      if (current.includes(type)) {
-        setCoverings({
-          ...coverings,
-          [field]: current.filter((t: string) => t !== type),
-        });
-      } else {
-        setCoverings({
-          ...coverings,
-          [field]: [...current, type],
-        });
+  const onFileChange = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement>) => {
+      const selected = Array.from(e.target.files || []);
+      const overallSize = selected.reduce((acc, file) => acc + file.size, 0);
+
+      if (overallSize > MAX_FILE_SIZE_BYTES) {
+        // Keep the previous selection and say why the new one was rejected —
+        // before, oversized files were dropped without a word.
+        setFileSizeError(validationMessages.fileSize);
+        e.target.value = "";
+        return;
       }
+
+      setFileSizeError("");
+      setFiles(selected);
     },
-    [coverings],
+    [validationMessages],
   );
 
+  const onCoveringChange = useCallback(
+    (field: string) => (covering: string) => {
+      setCoverings((current) => {
+        const selected = current[field] || [];
+        return {
+          ...current,
+          [field]: selected.includes(covering)
+            ? selected.filter((item) => item !== covering)
+            : [...selected, covering],
+        };
+      });
+    },
+    [],
+  );
+
+  const isBusinessClient = clientType === BUSINESS_CLIENT;
+  const isPrivateClient = clientType === PRIVATE_CLIENT;
+  const fileError = fileSizeError || visibleErrors.files;
+
+  const orderTypeOptions = [
+    { value: ORDER_TYPES.dimensions, label: t("order.type1") },
+    { value: ORDER_TYPES.furniture2d, label: t("order.type2") },
+    { value: ORDER_TYPES.furniture3d, label: t("order.type3") },
+  ];
+
+  const summaryRows = [
+    ...orderTypeOptions
+      .filter((option) => types.includes(option.value))
+      .map((option) => option.label),
+    ...(isExpressDelivery ? [t("order.expressDelivery")] : []),
+    ...(isExteriorAreas ? [t("order.exteriorAreas")] : []),
+  ];
+
   return (
-    <Modal
-      closable={{ "aria-label": "Custom Close Button" }}
-      open={open}
-      onCancel={() => setOpen(false)}
-      width={isSmall ? "100%" : "60%"}
-      style={{
-        backgroundColor: "var(--main-biege-color)",
-        maxWidth: isSmall ? "unset" : "820px",
-        padding: 0,
-        margin: isSmall ? 0 : undefined,
-        top: isSmall ? 0 : undefined,
-        height: isSmall ? "100%" : undefined,
-      }}
-      footer={null}
-    >
-      <Flex
-        gap="small"
-        align="center"
-        vertical
-        style={{
-          width: "100%",
-          padding: !isSmall ? "1rem" : undefined,
-          backgroundColor: "var(--main-biege-color)",
-          fontFamily: "Arial",
-        }}
-      >
-        {renderTitle(t("order.title"))}
+    <div ref={formRef} className="order_page ui_page">
+      <div className="order_crumbs">
+        {t("toolbar.services")} / {t("control.order")}
+      </div>
+      <h1 className="order_h1">{t("control.order")}</h1>
 
-        <Flex vertical align="flex-start">
-          <TypeBlock
-            content={t("order.type1")}
-            isChecked={types.includes("2D floor plan with dimensions")}
-            onChange={onTypeChange("2D floor plan with dimensions")}
-          />
-          <TypeBlock
-            content={t("order.type2")}
-            isChecked={types.includes("2D floor plan with furniture")}
-            onChange={onTypeChange("2D floor plan with furniture")}
-          />
-          <TypeBlock
-            content={t("order.type3")}
-            isChecked={types.includes("3D floor plan with furniture")}
-            onChange={onTypeChange("3D floor plan with furniture")}
-          />
-        </Flex>
+      <div className="order_layout">
+        <div className="order_main">
+          {/* STEP 1: services and surcharges */}
+          <section className="order_card ui_card">
+            <StepTitle step={1} title={t("order.title")} />
 
-        <Flex
-          justify="center"
-          align="center"
-          style={{
-            backgroundColor: "var(--main-white-color)",
-            padding: "0.5rem 1rem",
-            borderRadius: "4px",
-          }}
-        >
-          <label htmlFor="file-upload" className="custom-file-upload">
-            {t("order.fileInputButton")}
-          </label>
-          <input
-            id="file-upload"
-            type="file"
-            multiple
-            accept="image/*, application/pdf"
-            onChange={onFileChange}
-          />
-          <span id="file-name-display">
-            {files.length > 0
-              ? files.map((file) => file.name).join(", ")
-              : t("order.fileInputLabel")}{" "}
-            *
-          </span>
-        </Flex>
+            <div data-error={visibleErrors.types ? "true" : undefined}>
+              {orderTypeOptions.map((option) => (
+                <ServiceOption
+                  key={option.value}
+                  content={option.label}
+                  isChecked={types.includes(option.value)}
+                  onChange={onTypeChange(option.value)}
+                />
+              ))}
+              <FieldError message={visibleErrors.types} />
+            </div>
 
-        <Flex
-          vertical
-          justify="center"
-          align="center"
-          style={{
-            width: "100%",
-          }}
-        >
-          <Flex vertical align="flex-start">
-            <TypeBlock
-              content={t("order.expressDelivery")}
-              isChecked={isExpressDeliviery}
-              onChange={() => setExpressDelivery(!isExpressDeliviery)}
-            />
-            <TypeBlock
-              content={t("order.exteriorAreas")}
-              isChecked={isExteriorAreas}
-              onChange={() => setExteriorAreas(!isExteriorAreas)}
-            />
-          </Flex>
-        </Flex>
+            <div className="order_group">
+              <div className="order_surcharge">
+                <CheckRow
+                  content={t("order.expressDelivery")}
+                  isChecked={isExpressDelivery}
+                  onChange={() => setExpressDelivery(!isExpressDelivery)}
+                />
+                <CheckRow
+                  content={t("order.exteriorAreas")}
+                  isChecked={isExteriorAreas}
+                  onChange={() => setExteriorAreas(!isExteriorAreas)}
+                />
+              </div>
+            </div>
+          </section>
 
-        {renderTitle(t("order.materialsTitle"))}
+          {/* STEP 2: plan upload, materials and comment */}
+          <section className="order_card ui_card">
+            <StepTitle step={2} title={t("order.materialsTitle")} />
 
-        <MaterialsChooser
-          title={t("order.roomCoveringTitle")}
-          coverings={roomCovering}
-          onChange={onCoveringChange("roomCovering")}
-          current={coverings["roomCovering"] || []}
-          isSmall={isSmall}
-        />
-
-        <MaterialsChooser
-          title={t("order.bathroomsCoveringTitle")}
-          coverings={bathCovering}
-          onChange={onCoveringChange("bathCovering")}
-          current={coverings["bathCovering"] || []}
-          isSmall={isSmall}
-        />
-
-        <MaterialsChooser
-          title={t("order.kitchecnCoveringTitle")}
-          coverings={kitchenCovering}
-          onChange={onCoveringChange("kitchenCovering")}
-          current={coverings["kitchenCovering"] || []}
-          isSmall={isSmall}
-        />
-
-        <MaterialsChooser
-          title={t("order.terraceCoveringTitle")}
-          coverings={terraceCovering}
-          onChange={onCoveringChange("terraceCovering")}
-          current={coverings["terraceCovering"] || []}
-          isSmall={isSmall}
-        />
-
-        <MaterialsChooser
-          title={t("order.outdoorCoveringTitle")}
-          coverings={outdoorCovering}
-          onChange={onCoveringChange("outdoorCovering")}
-          current={coverings["outdoorCovering"] || []}
-          isSmall={isSmall}
-        />
-
-        <MaterialsChooser
-          title={t("order.doorCoveringTitle")}
-          coverings={doorCovering}
-          onChange={onCoveringChange("doorCovering")}
-          current={coverings["doorCovering"] || []}
-          isSmall={isSmall}
-        />
-
-        <Flex
-          vertical
-          align="flex-start"
-          style={{
-            width: "80%",
-            backgroundColor: "var(--main-white-color)",
-            padding: "0.5rem",
-            marginTop: "1rem",
-          }}
-        >
-          <Typography.Text>{t("order.comment")}</Typography.Text>
-          <Input.TextArea
-            autoSize={{ minRows: 3, maxRows: 5 }}
-            onChange={(e) => setMessage(e.target.value)}
-            value={message}
-            style={{
-              background: "var(--main-white-color)",
-              border: "unset",
-            }}
-          />
-        </Flex>
-
-        {renderTitle(t("order.recipientTitle"))}
-
-        {/* FORM */}
-        <Flex
-          vertical
-          align="flex-start"
-          justify="flex-start"
-          style={{
-            width: "82%",
-          }}
-        >
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical align="flex-start" style={{ width: "49%" }}>
-              <Typography.Text>{t("order.clientTitle")}</Typography.Text>
-              <Select
-                style={{
-                  width: "100%",
-                }}
-                className="recipient-select"
-                onChange={(value) => setClientType(value)}
-                options={[
-                  {
-                    value: "businessClient",
-                    label: t("order.businessClient"),
-                  },
-                  {
-                    value: "privateClient",
-                    label: t("order.privateClient"),
-                  },
-                ]}
+            <div data-error={fileError ? "true" : undefined}>
+              <input
+                id="file-upload"
+                type="file"
+                multiple
+                accept="image/*, application/pdf"
+                onChange={onFileChange}
               />
-            </Flex>
-            <Flex vertical align="flex-start" style={{ width: "49%" }}>
-              <Typography.Text>{t("order.recipientLabel")}</Typography.Text>
-              <Select
-                style={{
-                  width: "100%",
-                }}
-                className="recipient-select"
-                onChange={(value) => setType(value)}
-                options={[
-                  {
-                    value: "ms",
-                    label: t("order.recipientLabelMs"),
-                  },
-                  {
-                    value: "mr",
-                    label: t("order.recipientLabelMr"),
-                  },
-                  {
-                    value: "diverse",
-                    label: t("order.recipientLabelDiverse"),
-                  },
-                  {
-                    value: "unknown",
-                    label: t("order.recipientLabelUnknown"),
-                  },
-                ]}
-              />
-            </Flex>
-          </Flex>
+              <label
+                htmlFor="file-upload"
+                className={`order_upload${files.length > 0 ? " has-files" : ""}`}
+                style={
+                  fileError ? { borderColor: "var(--order-error)" } : undefined
+                }
+              >
+                <span className="order_upload_btn">
+                  {t("order.fileInputButton")}
+                </span>
+                <span id="file-name-display">
+                  {files.length > 0
+                    ? files.map((file) => file.name).join(", ")
+                    : t("order.fileInputLabel")}
+                  <span className="order_req ui_req"> *</span>
+                </span>
+              </label>
+              <FieldError message={fileError} />
+            </div>
 
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical style={{ width: "49%" }}>
-              <Typography.Text>{t("order.name")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.name")}
-                onChange={(e) => setFirstName(e.target.value)}
+            <div className="order_group">
+              <MaterialsChooser
+                title={t("order.roomCoveringTitle")}
+                coverings={roomCovering}
+                onChange={onCoveringChange("roomCovering")}
+                current={coverings["roomCovering"] || []}
+              />
+              <MaterialsChooser
+                title={t("order.bathroomsCoveringTitle")}
+                coverings={bathCovering}
+                onChange={onCoveringChange("bathCovering")}
+                current={coverings["bathCovering"] || []}
+              />
+              <MaterialsChooser
+                title={t("order.kitchecnCoveringTitle")}
+                coverings={kitchenCovering}
+                onChange={onCoveringChange("kitchenCovering")}
+                current={coverings["kitchenCovering"] || []}
+              />
+              <MaterialsChooser
+                title={t("order.terraceCoveringTitle")}
+                coverings={terraceCovering}
+                onChange={onCoveringChange("terraceCovering")}
+                current={coverings["terraceCovering"] || []}
+              />
+              <MaterialsChooser
+                title={t("order.outdoorCoveringTitle")}
+                coverings={outdoorCovering}
+                onChange={onCoveringChange("outdoorCovering")}
+                current={coverings["outdoorCovering"] || []}
+              />
+              <MaterialsChooser
+                title={t("order.doorCoveringTitle")}
+                coverings={doorCovering}
+                onChange={onCoveringChange("doorCovering")}
+                current={coverings["doorCovering"] || []}
+              />
+            </div>
+
+            <div className="order_group">
+              <label htmlFor="order-comment" className="order_group_label">
+                {t("order.comment")}
+              </label>
+              <Input.TextArea
+                id="order-comment"
+                className="order_input order_textarea ui_input ui_textarea"
+                autoSize={{ minRows: 3, maxRows: 5 }}
+                onChange={(e) => setMessage(e.target.value)}
+                value={message}
+              />
+            </div>
+          </section>
+
+          {/* STEP 3: invoice recipient */}
+          <section className="order_card ui_card">
+            <StepTitle step={3} title={t("order.recipientTitle")} />
+
+            <div
+              className="order_field ui_field"
+              data-error={visibleErrors.clientType ? "true" : undefined}
+              style={{ marginBottom: "16px" }}
+            >
+              {/* The label already carries its own asterisk. */}
+              <span className="order_label ui_label">
+                {t("order.clientTitle")}
+              </span>
+              <div
+                role="radiogroup"
+                aria-label={t("order.clientTitle")}
+                className={`order_toggle${visibleErrors.clientType ? " has-error" : ""}`}
+              >
+                {[
+                  { value: PRIVATE_CLIENT, label: t("order.privateClient") },
+                  { value: BUSINESS_CLIENT, label: t("order.businessClient") },
+                ].map((option) => (
+                  <button
+                    key={option.value}
+                    type="button"
+                    role="radio"
+                    aria-checked={clientType === option.value}
+                    className={`order_toggle_btn${clientType === option.value ? " is-active" : ""}`}
+                    onClick={() => onClientTypeChange(option.value)}
+                  >
+                    {option.label}
+                  </button>
+                ))}
+              </div>
+              <FieldError message={visibleErrors.clientType} />
+            </div>
+
+            <div className="order_grid ui_grid">
+              <TextField
+                label={t("order.name")}
                 value={firstName}
-                style={{
-                  background: "#ffffff",
-                  border: "unset",
-                }}
+                onChange={setFirstName}
+                error={visibleErrors.firstName}
               />
-            </Flex>
-            <Flex vertical style={{ width: "49%" }}>
-              <Typography.Text>{t("order.surname")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.surname")}
-                onChange={(e) => setLastName(e.target.value)}
+              <TextField
+                label={t("order.surname")}
                 value={lastName}
-                style={{
-                  background: "#ffffff",
-                  border: "unset",
-                }}
+                onChange={setLastName}
+                error={visibleErrors.lastName}
               />
-            </Flex>
-          </Flex>
-
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical style={{ width: "100%" }}>
-              <Typography.Text>{t("order.org")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.org")}
-                onChange={(e) => setOrg(e.target.value)}
-                value={org}
-                disabled={clientType === "privateClient"}
-                style={{
-                  border: "unset",
-                }}
+              <SelectField
+                label={t("order.recipientLabel")}
+                value={type}
+                onChange={setType}
+                options={[
+                  { value: "ms", label: t("order.recipientLabelMs") },
+                  { value: "mr", label: t("order.recipientLabelMr") },
+                  { value: "diverse", label: t("order.recipientLabelDiverse") },
+                  { value: "unknown", label: t("order.recipientLabelUnknown") },
+                ]}
               />
-            </Flex>
-          </Flex>
-
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical style={{ width: "49%" }}>
-              <Typography.Text>{t("order.uid")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.uid")}
-                onChange={(e) => setIuid(e.target.value)}
-                value={iuid}
-                disabled={clientType === "privateClient"}
-                style={{
-                  border: "unset",
-                }}
-              />
-            </Flex>
-            <Flex vertical style={{ width: "49%" }}>
-              <Typography.Text>{t("order.country")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.country")}
-                onChange={(e) => setCountry(e.target.value)}
-                value={country}
-                style={{
-                  border: "unset",
-                }}
-              />
-            </Flex>
-          </Flex>
-
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical style={{ width: "49%" }}>
-              <Typography.Text>{t("order.city")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.city")}
-                onChange={(e) => setCity(e.target.value)}
-                value={city}
-                style={{
-                  border: "unset",
-                }}
-              />
-            </Flex>
-            <Flex vertical style={{ width: "49%" }}>
-              <Typography.Text>{t("order.idx")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.idx")}
-                onChange={(e) => setIdx(e.target.value)}
-                value={idx}
-                style={{
-                  border: "unset",
-                }}
-              />
-            </Flex>
-          </Flex>
-
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical style={{ width: "100%" }}>
-              <Typography.Text>{t("order.address")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.address")}
-                onChange={(e) => setAddress(e.target.value)}
-                value={address}
-                style={{
-                  border: "unset",
-                }}
-              />
-            </Flex>
-          </Flex>
-
-          <Flex
-            align="flex-start"
-            justify="space-between"
-            style={{ width: "100%", padding: "0.25rem 0" }}
-          >
-            <Flex vertical style={{ width: "100%" }}>
-              <Typography.Text>{t("order.mail")} *</Typography.Text>
-              <Input
-                size="large"
-                placeholder={t("order.mail")}
-                onChange={(e) => setEmail(e.target.value)}
+              <TextField
+                label={t("order.mail")}
                 value={email}
-                style={{
-                  background: "#ffffff",
-                  border: "unset",
+                onChange={setEmail}
+                error={visibleErrors.email}
+              />
+              <TextField
+                label={t("order.org")}
+                value={org}
+                onChange={setOrg}
+                error={visibleErrors.org}
+                disabled={isPrivateClient}
+                required={isBusinessClient}
+              />
+              <TextField
+                label={t("order.uid")}
+                value={iuid}
+                onChange={setIuid}
+                error={visibleErrors.iuid}
+                disabled={isPrivateClient}
+                required={isBusinessClient}
+              />
+              <TextField
+                label={t("order.country")}
+                value={country}
+                onChange={setCountry}
+                error={visibleErrors.country}
+              />
+              <TextField
+                label={t("order.city")}
+                value={city}
+                onChange={setCity}
+                error={visibleErrors.city}
+              />
+              <TextField
+                label={t("order.idx")}
+                value={idx}
+                onChange={setIdx}
+                error={visibleErrors.idx}
+              />
+              <TextField
+                label={t("order.address")}
+                value={address}
+                onChange={setAddress}
+                error={visibleErrors.address}
+              />
+            </div>
+          </section>
+
+          {/* STEP 4: terms */}
+          <section className="order_card ui_card">
+            <StepTitle step={4} title={t("order.termsTitle")} />
+
+            <div
+              className={`order_terms${visibleErrors.isAgreed ? " has-error" : ""}`}
+              data-error={visibleErrors.isAgreed ? "true" : undefined}
+            >
+              <label className="order_check">
+                <input
+                  type="checkbox"
+                  checked={isAgreed}
+                  onChange={() => setIsAgreed(!isAgreed)}
+                />
+                <span
+                  className="order_rich"
+                  dangerouslySetInnerHTML={{
+                    __html: t.raw("order.termsAcceptLabel"),
+                  }}
+                />
+              </label>
+              <FieldError message={visibleErrors.isAgreed} />
+            </div>
+
+            <div
+              className={`order_terms${isBusinessClient ? " is-disabled" : ""}${visibleErrors.termRequest ? " has-error" : ""}`}
+              data-error={visibleErrors.termRequest ? "true" : undefined}
+            >
+              <div
+                className="order_rich"
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("order.termsRequest"),
                 }}
               />
-            </Flex>
-          </Flex>
-        </Flex>
+              <div className="order_choice">
+                <CheckRow
+                  content={t("order.agree")}
+                  disabled={isBusinessClient}
+                  isChecked={termRequest === "agree"}
+                  onChange={() => setTermsRequest("agree")}
+                />
+                <CheckRow
+                  content={t("order.disagree")}
+                  disabled={isBusinessClient}
+                  isChecked={termRequest === "disagree"}
+                  onChange={() => setTermsRequest("disagree")}
+                />
+              </div>
+              <FieldError message={visibleErrors.termRequest} />
+            </div>
+          </section>
+        </div>
 
-        {renderTitle(t("order.termsTitle"))}
+        {/* SIDEBAR SUMMARY */}
+        <aside className="order_side">
+          <div className="order_summary">
+            <h3 className="order_summary_title">{t("control.order")}</h3>
+            {summaryRows.length > 0 ? (
+              summaryRows.map((row) => (
+                <div key={row} className="order_summary_row">
+                  {row}
+                </div>
+              ))
+            ) : (
+              <div className="order_summary_row is-empty">—</div>
+            )}
 
-        <Flex
-          style={{
-            width: "80%",
-            backgroundColor: "var(--main-white-color)",
-            padding: "0.5rem",
-            borderRadius: "4px",
-          }}
-          justify="space-between"
-          align="center"
-        >
-          <input
-            type="checkbox"
-            checked={isAgreed}
-            onChange={() => setIsAgreed(!isAgreed)}
-          />
-          <div
-            dangerouslySetInnerHTML={{
-              __html: t.raw("order.termsAcceptLabel"),
-            }}
-            style={{ width: "100%", paddingLeft: "1rem" }}
-          />
-        </Flex>
-
-        <Flex
-          style={{
-            width: "80%",
-            backgroundColor:
-              clientType === "businessClient" ? "" : "var(--main-white-color)",
-            padding: "0.5rem",
-            borderRadius: "4px",
-          }}
-          justify="space-between"
-          vertical
-        >
-          <div
-            dangerouslySetInnerHTML={{
-              __html: t.raw("order.termsRequest"),
-            }}
-            style={{ width: "100%", paddingLeft: "1rem" }}
-          />
-          <Flex vertical style={{ paddingTop: "0.5rem" }}>
-            <Flex>
-              <input
-                type="checkbox"
-                disabled={clientType === "businessClient"}
-                checked={termRequest === "agree"}
-                onChange={() => setTermsRequest("agree")}
-              />
-              <label style={{ paddingLeft: "0.5rem" }}>
-                {" "}
-                {t("order.agree")}
-              </label>
-            </Flex>
-            <Flex>
-              <input
-                type="checkbox"
-                disabled={clientType === "businessClient"}
-                checked={termRequest === "disagree"}
-                onChange={() => setTermsRequest("disagree")}
-              />
-              <label style={{ paddingLeft: "0.5rem" }}>
-                {" "}
-                {t("order.disagree")}
-              </label>
-            </Flex>
-          </Flex>
-        </Flex>
-
-        <Flex
-          vertical
-          justify="center"
-          align="center"
-          style={{
-            width: "100%",
-            margin: isSmall ? "1rem" : undefined,
-          }}
-        >
-          <Button
-            onClick={onSubmit}
-            disabled={!isActive}
-            loading={isLoading}
-            className="order_button"
-            style={{ marginTop: "1rem" }}
-          >
-            {submitLabel}
-          </Button>
-          <Typography.Text style={{ fontSize: "0.725rem", marginTop: "1rem" }}>
-            {t("order.orderNotification")}
-          </Typography.Text>
-        </Flex>
-      </Flex>
-    </Modal>
+            {/* The button stays enabled: a disabled one never explains itself. */}
+            <Button
+              onClick={onSubmit}
+              loading={isLoading}
+              className="order_submit ui_btn"
+            >
+              {submitLabel}
+            </Button>
+            {showErrors && Object.keys(errors).length > 0 ? (
+              <span role="alert" className="order_summary_alert">
+                {validationMessages.summary}
+              </span>
+            ) : null}
+            <p className="order_summary_note">{t("order.orderNotification")}</p>
+          </div>
+        </aside>
+      </div>
+    </div>
   );
 }

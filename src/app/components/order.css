@@ -1,0 +1,636 @@
+/* Order page, after the "/order" mockup. Colours ("--ui-*") and the
+   ".ui_page", ".ui_card" and ".ui_btn" classes live in globals.css. */
+.order_page {
+  /* Moved to globals.css (":root" --ui-* tokens and ".ui_page"):
+  --order-accent: #65733f;
+  --order-accent-hover: #535f34;
+  --order-accent-active: #485229;
+  --order-accent-light: #8a9a5b;
+  --order-accent-bg: #f0f3e6;
+  --order-text: #1a1a19;
+  --order-text-sec: #4a4a46;
+  --order-bg: #faf9f6;
+  --order-dark: #20211d;
+  --order-line: rgba(26, 26, 25, 0.08);
+  --order-border: rgba(26, 26, 25, 0.18);
+  --order-error: #ff4d4f;
+
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: var(--order-text);
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  */
+  max-width: 948px;
+  padding: 0 24px 48px;
+}
+
+/* Moved to globals.css (".ui_page"):
+.order_page *,
+.order_page *::before,
+.order_page *::after {
+  box-sizing: border-box;
+}
+*/
+
+.order_crumbs {
+  padding-top: 20px;
+  font-size: 14px;
+  color: var(--ui-text-sec);
+}
+
+.order_h1 {
+  margin: 8px 0 0;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ui-text);
+}
+
+/* Layout: form on the left, sticky summary on the right */
+.order_layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.order_main {
+  flex: 1 1 520px;
+  min-width: 0;
+  margin-right: 32px;
+}
+
+.order_side {
+  flex: 1 1 260px;
+  align-self: stretch;
+}
+
+/* Cards */
+.order_card {
+  margin-top: 24px;
+  padding: 28px;
+  /* Moved to globals.css (".ui_card"):
+  background: #fff;
+  border: 1px solid var(--order-line);
+  border-radius: 16px;
+  */
+}
+
+.order_step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.order_step_num {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--ui-accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.order_step_title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ui-text);
+}
+
+.order_group {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--ui-line-soft);
+}
+
+.order_group_label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Service options */
+.order_option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  border: 1px solid var(--ui-line-soft);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 120ms, background 120ms;
+}
+
+.order_option:last-child {
+  margin-bottom: 0;
+}
+
+.order_option:hover {
+  border-color: var(--ui-accent-light);
+}
+
+.order_option.is-active {
+  border-color: var(--ui-accent);
+  background: var(--ui-accent-bg);
+}
+
+.order_option input,
+.order_check input {
+  flex: 0 0 auto;
+  accent-color: var(--ui-accent);
+  transform: scale(1.15);
+}
+
+.order_option input {
+  margin: 0 12px 0 0;
+}
+
+.order_option_name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* Checkbox rows */
+.order_check {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.order_check:last-child {
+  margin-bottom: 0;
+}
+
+.order_check input {
+  margin: 4px 10px 0 2px;
+}
+
+.order_check input:disabled,
+.order_check input:disabled + span {
+  cursor: not-allowed;
+}
+
+.order_surcharge {
+  padding: 16px 18px;
+  border-radius: 10px;
+  background: var(--ui-accent-bg);
+}
+
+.order_surcharge .order_check {
+  font-weight: 700;
+}
+
+/* Upload */
+.order_upload {
+  display: block;
+  padding: 22px;
+  border: 2px dashed rgba(26, 26, 25, 0.2);
+  border-radius: 10px;
+  background: var(--ui-surface-hover);
+  color: var(--ui-text-sec);
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 120ms, background 120ms;
+}
+
+.order_upload:hover,
+.order_page #file-upload:focus-visible + .order_upload {
+  border-color: var(--ui-accent-light);
+  background: var(--ui-accent-bg);
+}
+
+.order_upload.has-files {
+  border-style: solid;
+  border-color: var(--ui-accent);
+}
+
+.order_upload_btn {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 6px 14px;
+  border-radius: var(--ui-radius);
+  background: var(--ui-accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.order_page #file-name-display {
+  display: block;
+  padding-left: 0;
+  word-break: break-word;
+}
+
+/* Materials: collapsible swatch pickers */
+.order_materials {
+  margin-bottom: 10px;
+  border: 1px solid var(--ui-line-soft);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.order_materials.is-open {
+  border-color: var(--ui-accent-light);
+}
+
+.order_materials_head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  background: #fff;
+  color: var(--ui-text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.order_materials_head:hover {
+  background: var(--ui-surface-hover);
+}
+
+.order_materials_head:focus-visible {
+  outline: 2px solid var(--ui-accent-light);
+  outline-offset: -2px;
+}
+
+.order_materials_title {
+  flex: 1;
+}
+
+.order_materials_count {
+  min-width: 22px;
+  padding: 1px 7px;
+  border-radius: 11px;
+  background: var(--ui-accent);
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.order_swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 10px;
+  padding: 4px 16px 16px;
+}
+
+.order_swatch {
+  position: relative;
+  display: block;
+  border: 2px solid transparent;
+  border-radius: var(--ui-radius);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 120ms;
+}
+
+.order_swatch:hover {
+  border-color: var(--ui-accent-light);
+}
+
+.order_swatch.is-active {
+  border-color: var(--ui-accent);
+}
+
+.order_swatch:has(input:focus-visible) {
+  outline: 2px solid var(--ui-accent-light);
+  outline-offset: 2px;
+}
+
+/* The tile itself is the control; the checkbox stays for keyboard users. */
+.order_swatch input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.order_swatch img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.order_swatch.is-active::after {
+  content: "✓";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--ui-accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Fields */
+/* Moved to globals.css (".ui_grid", ".ui_field", ".ui_label", ".ui_req",
+   ".ui_input", ".ui_textarea"):
+.order_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 16px;
+}
+
+.order_field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.order_field_wide {
+  grid-column: 1 / -1;
+}
+
+.order_label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.order_label.is-disabled {
+  color: var(--ui-muted);
+}
+
+.order_req {
+  color: var(--ui-required);
+}
+
+.order_page .order_input.ant-input {
+  padding: 9px 12px;
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius);
+  font-size: 14px;
+  color: var(--ui-text);
+  background: #fff;
+}
+
+.order_page .order_input.ant-input:hover:not(.ant-input-disabled),
+.order_page .order_input.ant-input:focus {
+  border-color: var(--ui-accent-light);
+}
+
+.order_page .order_input.ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(138, 154, 91, 0.2);
+}
+
+.order_page .order_input.ant-input-disabled {
+  background: var(--ui-disabled-bg);
+  color: var(--ui-muted);
+}
+
+.order_page .order_input.ant-input-status-error,
+.order_page .order_input.ant-input-status-error:hover {
+  border-color: var(--ui-error);
+}
+
+.order_page .order_textarea.ant-input {
+  min-height: 84px;
+}
+*/
+
+.order_page .order_select {
+  width: 100%;
+}
+
+.order_page .order_select .ant-select-selector {
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid var(--ui-border) !important;
+  border-radius: var(--ui-radius);
+  font-size: 14px;
+}
+
+.order_page .order_select .ant-select-selection-item,
+.order_page .order_select .ant-select-selection-placeholder {
+  line-height: 40px;
+}
+
+.order_page .order_select:hover .ant-select-selector,
+.order_page .order_select.ant-select-focused .ant-select-selector {
+  border-color: var(--ui-accent-light) !important;
+}
+
+.order_page .order_select.ant-select-status-error .ant-select-selector {
+  border-color: var(--ui-error) !important;
+}
+
+/* Moved to globals.css (".ui_error"):
+.order_error {
+  display: block;
+  padding-top: 4px;
+  color: var(--ui-error);
+  font-size: 12px;
+  line-height: 1.3;
+}
+*/
+
+/* Private / business toggle */
+.order_toggle {
+  display: flex;
+  gap: 10px;
+}
+
+.order_toggle_btn {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--ui-line-control);
+  border-radius: var(--ui-radius);
+  background: #fff;
+  color: var(--ui-text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 120ms, background 120ms;
+}
+
+.order_toggle_btn:hover {
+  border-color: var(--ui-accent-light);
+}
+
+.order_toggle_btn.is-active {
+  border-color: var(--ui-accent);
+  background: var(--ui-accent-bg);
+  color: var(--ui-accent);
+}
+
+.order_toggle_btn:focus-visible {
+  outline: 2px solid var(--ui-accent-light);
+  outline-offset: 2px;
+}
+
+.order_toggle.has-error .order_toggle_btn {
+  border-color: var(--ui-error);
+}
+
+/* Terms */
+.order_terms {
+  padding: 14px 16px;
+  border: 1px solid var(--ui-line-soft);
+  border-radius: 10px;
+}
+
+.order_terms + .order_terms {
+  margin-top: 12px;
+}
+
+.order_terms.has-error {
+  border-color: var(--ui-error);
+}
+
+.order_terms.is-disabled {
+  background: var(--ui-disabled-bg);
+  color: var(--ui-muted);
+}
+
+.order_rich {
+  font-size: 14px;
+}
+
+.order_rich a {
+  color: var(--ui-accent);
+  text-decoration: underline;
+}
+
+.order_choice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin-top: 12px;
+}
+
+.order_choice .order_check {
+  margin-bottom: 0;
+}
+
+/* Summary */
+.order_summary {
+  position: sticky;
+  top: 92px;
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 14px;
+  background: var(--ui-dark);
+  color: #fff;
+}
+
+.order_summary_title {
+  margin: 0 0 14px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.order_summary_row {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #dfe1d5;
+  font-size: 14px;
+}
+
+.order_summary_row.is-empty {
+  color: #9a9c8f;
+}
+
+/* Colours, hover and focus come from ".ui_btn" in globals.css */
+.order_page .order_submit.ant-btn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px 28px;
+  /* Moved to globals.css (".ui_btn"):
+  height: auto;
+  border: none !important;
+  border-radius: 8px;
+  background: var(--order-accent) !important;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: none;
+  */
+}
+
+/* Moved to globals.css (".ui_btn"):
+.order_page .order_submit.ant-btn:hover {
+  background: var(--order-accent-hover) !important;
+}
+
+.order_page .order_submit.ant-btn:active {
+  background: var(--order-accent-active) !important;
+}
+
+.order_page .order_submit.ant-btn:focus-visible {
+  outline: 3px solid var(--order-accent-light);
+  outline-offset: 2px;
+}
+*/
+
+.order_summary_alert {
+  display: block;
+  margin-top: 10px;
+  color: #ff7875;
+  font-size: 13px;
+  text-align: center;
+}
+
+.order_summary_note {
+  margin: 12px 0 0;
+  color: #9a9c8f;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .order_main {
+    margin-right: 0;
+  }
+
+  .order_summary {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .order_page {
+    padding: 0 16px 32px;
+  }
+
+  .order_h1 {
+    font-size: 28px;
+  }
+
+  .order_card {
+    padding: 20px 16px;
+  }
+
+  /* Moved to globals.css (".ui_grid"):
+  .order_grid {
+    grid-template-columns: 1fr;
+  }
+  */
+}

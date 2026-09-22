@@ -260,6 +260,16 @@
     "agree": "Je suis d’accord",
     "disagree": "Je ne suis pas d’accord"
   },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "email": "Veuillez saisir une adresse e-mail valide",
+    "types": "Veuillez choisir au moins un type de plan",
+    "files": "Veuillez téléverser le plan de votre bien",
+    "fileSize": "Les fichiers sélectionnés dépassent 5 Mo",
+    "terms": "Veuillez accepter les conditions générales et la politique de confidentialité",
+    "withdrawal": "Veuillez choisir l'une des deux options",
+    "summary": "Veuillez remplir les champs en surbrillance"
+  },
   "packages": {
     "title": "Forfaits de services",
     "description": "Les forfaits sont conçus pour la commande de plans d'étage sur un mois. Vous pouvez passer vos commandes tout au long du mois et bénéficiez d'une remise garantie pour le nombre de plans spécifié, quel que soit le type — 2D ou 3D."

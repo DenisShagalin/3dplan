@@ -18,3 +18,112 @@
     white-space: nowrap;
     font-size: 1rem;
 }
+
+/* Header from the redesign mockup. The rules above belong to the previous
+   header, which is commented out in main-links.tsx. */
+.site_header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background: rgba(250, 249, 246, 0.96);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid var(--ui-line);
+}
+
+.site_header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.site_header_logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--ui-text);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.site_header_logo span {
+    color: var(--ui-accent);
+}
+
+.site_header_nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.site_header_nav a {
+    color: var(--ui-text);
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.site_header_nav a:hover {
+    color: var(--ui-accent);
+}
+
+.site_header_actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.site_header_lang {
+    font-size: 14px;
+    color: var(--ui-text-sec);
+    border: 1px solid var(--ui-line-control);
+    border-radius: var(--ui-radius);
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.site_header_burger {
+    font-size: 20px;
+    color: var(--ui-text);
+    cursor: pointer;
+}
+
+@media (max-width: 860px) {
+    .site_header_inner {
+        padding: 0 16px;
+    }
+}
+
+/* Dropdown triggers. The popups use ".ui_dropdown" from globals.css. */
+.site_header_dd,
+.site_header_lang {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.site_header_chevron {
+    font-size: 10px;
+    color: var(--ui-muted);
+    transition: transform 150ms ease, color 150ms ease;
+}
+
+/* antd adds "ant-dropdown-open" to the trigger while the popup is shown */
+.site_header_dd.ant-dropdown-open,
+.site_header_nav .site_header_dd:hover {
+    color: var(--ui-accent);
+}
+
+.ant-dropdown-open .site_header_chevron {
+    transform: rotate(180deg);
+    color: var(--ui-accent);
+}
+
+.site_header_lang:hover,
+.site_header_lang.ant-dropdown-open {
+    border-color: var(--ui-accent-light);
+    color: var(--ui-accent);
+}

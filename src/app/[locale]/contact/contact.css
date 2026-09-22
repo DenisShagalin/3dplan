@@ -1,0 +1,63 @@
+.contact_page {
+  max-width: 720px;
+  padding: 40px 24px 56px;
+}
+
+.contact_head {
+  text-align: center;
+}
+
+.contact_h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ui-text);
+}
+
+.contact_lead {
+  margin: 12px auto 0;
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ui-text-sec);
+}
+
+.contact_card {
+  margin-top: 28px;
+  padding: 28px;
+}
+
+.contact_submit_row {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.contact_page .contact_submit.ant-btn {
+  min-width: 220px;
+  padding: 14px 28px;
+}
+
+@media (max-width: 600px) {
+  .contact_page {
+    padding: 24px 16px 40px;
+  }
+
+  .contact_h1 {
+    font-size: 28px;
+  }
+
+  .contact_lead {
+    font-size: 14px;
+  }
+
+  .contact_card {
+    margin-top: 20px;
+    padding: 20px 16px;
+  }
+
+  .contact_page .contact_submit.ant-btn {
+    width: 100%;
+  }
+}

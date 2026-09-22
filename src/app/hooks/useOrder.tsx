@@ -1,32 +1,22 @@
-import { useCallback, useMemo, useState } from "react";
-import { OrderType, Order } from "../components/order";
+import { useCallback } from "react";
+import { useRouter } from "@/i18n/navigation";
+import { OrderType, getOrderHref } from "../components/order";
 
+// The order form used to open as a modal from here; it is a page now
+// ("/order"), so showing it is just a navigation. The old modal version is
+// kept below, commented out, for a quick manual revert.
 export const useOrder = () => {
-  const [isOpen, setOpen] = useState<boolean>(false);
-  const [orderValue, setOrderValue] = useState<OrderType | null>("");
+  const router = useRouter();
 
-  const showOrder = useCallback((orderValue: OrderType) => {
-    setOpen(true);
-    setOrderValue(orderValue);
-  }, []);
-
-  const hideOrder = useCallback(() => {
-    setOpen(false);
-    setOrderValue(null);
-  }, []);
-
-  const orderView = useMemo(() => {
-    if (isOpen && orderValue) {
-      return (
-        <Order open={isOpen} setOpen={setOpen} defaultValue={orderValue} />
-      );
-    }
-    return null;
-  }, [isOpen, orderValue]);
+  const showOrder = useCallback(
+    (orderValue: OrderType) => {
+      router.push(getOrderHref(orderValue));
+    },
+    [router],
+  );
 
   return {
-    orderView,
     showOrder,
-    hideOrder,
   };
 };
+

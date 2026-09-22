@@ -260,6 +260,16 @@
     "agree": "Ich stimme zu",
     "disagree": "Ich stimme nicht zu"
   },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "types": "Bitte wählen Sie mindestens einen Grundrisstyp",
+    "files": "Bitte laden Sie den Grundriss Ihrer Immobilie hoch",
+    "fileSize": "Die ausgewählten Dateien überschreiten 5 MB",
+    "terms": "Bitte akzeptieren Sie die AGB und die Datenschutzerklärung",
+    "withdrawal": "Bitte wählen Sie eine der beiden Optionen",
+    "summary": "Bitte füllen Sie die markierten Felder aus"
+  },
   "packages": {
     "title": "Leistungspakete",
     "description": "Die Pakete sind für die Bestellung von Grundrissen innerhalb eines Monats ausgelegt. Sie können Ihre Aufträge im Laufe des Monats zusammenstellen und erhalten garantiert einen Rabatt auf die angegebene Anzahl an Grundrissen – unabhängig davon, ob es sich um 2D- oder 3D-Pläne handelt."
