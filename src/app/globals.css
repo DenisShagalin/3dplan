@@ -8,10 +8,11 @@
 
   /* Redesign palette (header, order and confirmation pages). Reuse these
      tokens and the "ui_*" classes at the end of this file on new pages. */
-  --ui-accent: #65733f;
-  --ui-accent-hover: #535f34;
-  --ui-accent-active: #485229;
-  --ui-accent-light: #8a9a5b;
+  /* --ui-accent: #65733f; */
+  --ui-accent: #9ca769;
+  --ui-accent-hover: #8c965e;
+  --ui-accent-active: #808956;
+  --ui-accent-light: #b5bd8e;
   --ui-accent-bg: #f0f3e6;
   --ui-text: #1a1a19;
   --ui-text-sec: #4a4a46;

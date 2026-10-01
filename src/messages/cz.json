@@ -20,6 +20,7 @@
   },
   "toolbar": {
     "services": "Services",
+    "packages": "Balíčky",
     "pricing": "Ceník",
     "about": "O nás",
     "contact": "Kontakt",
@@ -144,6 +145,21 @@
         "item8": "+20€ — Další 2D/3D plán pro stejnou nemovitost",
         "item9": "+20€ — Venkovní plochy (parkování, zahrada, terasa apod.)",
         "priceText": "za půdorys jedné nemovitosti"
+      },
+      "portfolio": {
+        "apartment150Munich": "Byt 150 m² Mnichov",
+        "apartment64Salzburg": "Byt 64 m² Salcburk",
+        "apartment68Vienna": "Byt 68 m² Vídeň",
+        "house250Munich": "Dům 250 m² Mnichov",
+        "house63Germany": "Dům 63 m² Německo",
+        "house75Klagenfurt": "Dům 75 m² Klagenfurt",
+        "house120GrazGround": "Dům 120 m² Graz — Přízemí",
+        "house120GrazUpper": "Dům 120 m² Graz — Patro",
+        "house95Bamberg": "Dům 95 m² Bamberg",
+        "house220Reckendorf": "Dům 220 m² Reckendorf",
+        "apartment65Bamberg": "Byt 65 m² Bamberg",
+        "apartment80Bamberg": "Byt 80 m² Bamberg",
+        "apartment85Germany": "Byt 85 m² Německo"
       }
     },
     "2dFurniture": {
@@ -172,6 +188,15 @@
         "item8": "+20€ — Další 2D/3D plán pro stejnou nemovitost",
         "item9": "+20€ — Venkovní plochy (parkování, zahrada, terasa apod.)",
         "priceText": "za půdorys nemovitosti"
+      },
+      "portfolio": {
+        "apartment55Linz": "Byt 55 m² Linec",
+        "apartment63Vienna": "Byt 63 m² Vídeň",
+        "house75Klagenfurt": "Dům 75 m² Klagenfurt",
+        "house95Vienna": "Dům 95 m² Vídeň",
+        "house250Munich": "Dům 250 m² Mnichov",
+        "house120GrazGround": "Dům 120 m² Graz — Přízemí",
+        "house120GrazUpper": "Dům 120 m² Graz — Patro"
       }
     },
     "2dDim": {
@@ -200,6 +225,12 @@
         "item8": "+20€ — Další 2D/3D plán téže nemovitosti",
         "item9": "+20€ — Vnější prostory (parkoviště, zahrada, patio atd.)",
         "priceText": "za půdorys jedné nemovitosti"
+      },
+      "portfolio": {
+        "apartment60Switzerland": "Byt 60 m² Švýcarsko",
+        "apartment190Berlin": "Byt 190 m² Berlín",
+        "house63Germany": "Dům 63 m² Německo",
+        "house95Vienna": "Dům 95 m² Vídeň"
       }
     }
   },
@@ -222,6 +253,12 @@
     "type1": "2D půdorys s rozměry",
     "type2": "2D půdorys s nábytkem",
     "type3": "3D půdorys s nábytkem",
+    "groupPlans": "Jednotlivé půdorysy",
+    "typeDesc": {
+      "dimensions": "Kótovací čáry, bez nábytku",
+      "furniture2d": "S rozmístěním nábytku",
+      "furniture3d": "Prostorová vizualizace. Lze doplnit interiér"
+    },
     "materialsTitle": "Vyberte dokončovací materiály:",
     "fileInputButton": "Vybrat soubor",
     "fileInputLabel": "Nahrajte půdorys vaší nemovitosti (do 5 MB)",
@@ -302,6 +339,7 @@
     }
   },
   "mainFAQ": {
+    "title": "Často kladené otázky",
     "1": {
       "question": "Jak mohu objednat 2D/3D půdorys?",
       "answer": "Napište nám na office@3dplan.online a poskytněte všechny údaje o vašem projektu. Objednávku můžete také podat přímo přes formulář na našem webu."
@@ -419,5 +457,111 @@
   "confirmationContact": {
     "title": "DĚKUJEME! VAŠE ZPRÁVA BYLA ODESLÁNA",
     "description": "<p>Vaši zprávu jsme obdrželi a brzy ji zpracujeme. Náš tým vás bude co nejdříve kontaktovat e-mailem, aby odpověděl na váš dotaz nebo projednal vaši žádost.</p><p>Pokud nám chcete zaslat další informace nebo soubory, napište nám na:</p><p><h3>office@3dplan.online</h3></p><p>Děkujeme, že jste kontaktovali <strong>3Dplan.online</strong>.</p>"
+  },
+  "pricePage": {
+    "headline": "Jedna cena — <accent>39 € za půdorys</accent>",
+    "lead": "Kterýkoli ze tří základních půdorysů, až 10 místností. Příplatky znáte předem — bez telefonátů a vyjednávání.",
+    "planPrice": "39 €",
+    "topView": "1 pohled (shora)",
+    "delivery": "Hotovo za 1–3 dny",
+    "dimension": {
+      "item1": "Přesné kóty na všech stěnách",
+      "item2": "Vyznačená kuchyně a koupelny"
+    },
+    "furniture": {
+      "item1": "Rozmístění nábytku podle vašich fotografií nebo našeho konceptu",
+      "item2": "Barva podlah a obkladů podle výběru"
+    },
+    "3d": {
+      "item1": "Prostorová vizualizace s interiérem",
+      "item2": "2 pohledy (shora a z boku)",
+      "item3": "Lze doplnit vizualizaci interiéru"
+    },
+    "surcharges": {
+      "title": "Příplatky — stejné pro všechny tři půdorysy",
+      "amount": "+20 €",
+      "express": "Expresní dodání (48 hodin)",
+      "complex": "Složitá geometrie místností",
+      "rooms": "Více než 10 místností na půdorysu",
+      "extraFloor": "Další půdorys podlaží téže nemovitosti",
+      "outdoor": "Venkovní plochy (parkování, zahrada, terasa, pozemek)",
+      "unreadable": "Nečitelný podklad",
+      "note": "Dvě kola úprav jsou v ceně. 100% platba předem na fakturu."
+    },
+    "other": {
+      "title": "Samostatné služby",
+      "lead": "Cena se počítá jinak — za pohled, ne za celý půdorys.",
+      "more": "Zjistit více",
+      "perView": "/ pohled",
+      "interior": {
+        "title": "Vizualizace interiéru",
+        "price": "od 39 €",
+        "note": "Pouze spolu s již objednaným 3D půdorysem s nábytkem"
+      },
+      "exterior": {
+        "title": "Vizualizace exteriéru",
+        "price": "od 199 €",
+        "note": "Samostatně stojící domy, 1–2 podlaží. +40 € za další pohled"
+      }
+    },
+    "legal": {
+      "label": "Důležité:",
+      "text": "Půdorysy jsou grafickým zpracováním, nikoli stavební dokumentací. Výpočty ploch nejsou certifikované."
+    }
+  },
+  "servicePage": {
+    "examples": "Ukázky prací",
+    "examplesLead": "Skutečné projekty – jaký výsledek od této služby očekávat.",
+    "about": "Co to je a pro koho",
+    "included": "Co je zahrnuto"
+  },
+  "packagesPage": {
+    "headline": "Balíčky — výhodnější než jednotlivě",
+    "lead": "Pokud k jedné nemovitosti potřebujete více než jeden druh grafiky — půdorys, interiér, exteriér — balíček vyjde levněji, než objednat každou službu zvlášť.",
+    "price": "{amount} €",
+    "popular": "Nejoblíbenější",
+    "order": "Objednat balíček",
+    "plans": {
+      "name": "Balíček „Půdorysy“",
+      "sub": "2D + 3D jedné nemovitosti"
+    },
+    "interior": {
+      "name": "Balíček „Interiér“",
+      "sub": "3D půdorys + vizualizace 3 místností"
+    },
+    "full": {
+      "name": "Balíček „Kompletní prezentace“",
+      "sub": "Půdorys + interiér + exteriér"
+    },
+    "items": {
+      "plan2dView": "2D půdorys s rozměry nebo s nábytkem — dle výběru (1 pohled)",
+      "plan2d": "2D půdorys s rozměry nebo s nábytkem — dle výběru",
+      "plan3d": "3D půdorys s nábytkem (2 pohledy)",
+      "rooms": "3 vizualizace místností (po 1 pohledu)",
+      "interior": "3 vizualizace interiéru",
+      "exterior": "3D vizualizace exteriéru (2 pohledy)",
+      "revisionsPlan": "2 kola úprav ke každému půdorysu",
+      "revisionsItem": "2 kola úprav ke každé položce",
+      "delivery": "Hotovo od 48 hodin"
+    },
+    "good": {
+      "title": "Dobré vědět",
+      "fixed": {
+        "title": "Pevná cena",
+        "text": "Platí pro půdorysy s nejvýše 10 místnostmi na podlaží."
+      },
+      "extras": {
+        "title": "Příplatky zvlášť",
+        "text": "Více než 10 místností, nečitelný podklad, nestandardní geometrie, další podlaží, expresní dodání — každý +20 €."
+      },
+      "formats": {
+        "title": "Formáty souborů",
+        "text": "PNG, JPEG nebo PDF dle výběru, bez vodoznaků — připraveno ke zveřejnění."
+      }
+    },
+    "single": {
+      "text": "Potřebujete jen jednu službu?",
+      "link": "Zobrazit služby jednotlivě →"
+    }
   }
 }

@@ -3,6 +3,7 @@
 import "./main-links.css";
 
 import { useCallback } from "react";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { Dropdown } from "./common/dropdown";
@@ -38,6 +39,10 @@ export const MainLinks = () => {
   ];
 
   const main = [
+    {
+      key: "/packages",
+      label: t("toolbar.packages"),
+    },
     {
       key: "/price",
       label: t("toolbar.pricing"),
@@ -108,7 +113,13 @@ export const MainLinks = () => {
     <header className="site_header">
       <div className="site_header_inner">
         <Link href="/" className="site_header_logo" aria-label="3Dplan.online">
-          3D<span>plan</span>.online
+          <Image
+            src="/logo_small.png"
+            alt="3Dplan.online"
+            width={120}
+            height={45}
+            priority
+          />
         </Link>
 
         {!isSmall && (
@@ -124,6 +135,7 @@ export const MainLinks = () => {
                 <DownOutlined className="site_header_chevron" />
               </Link>
             </Dropdown>
+            <Link href="/packages">{t("toolbar.packages")}</Link>
             <Link href="/price">{t("toolbar.pricing")}</Link>
             <Link href="/about">{t("toolbar.about")}</Link>
             <Link href="/contact">{t("toolbar.contact")}</Link>

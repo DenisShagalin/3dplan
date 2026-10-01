@@ -1,0 +1,78 @@
+/* Redesigned about page */
+
+.about_page {
+  max-width: 1120px;
+  padding: 0 24px 64px;
+}
+
+.about_hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 48px;
+  align-items: start;
+  padding: 56px 0;
+}
+
+.about_photo_box {
+  overflow: hidden;
+  border: 1px solid var(--ui-line);
+  border-radius: var(--ui-radius-card);
+  background: #fff;
+}
+
+.about_img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about_copy h2 {
+  margin: 0 0 12px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ui-text);
+}
+
+/* The first heading is the page title */
+.about_copy h2:first-child {
+  font-size: 40px;
+  line-height: 1.18;
+}
+
+.about_copy h2:not(:first-child) {
+  margin-top: 36px;
+}
+
+.about_copy p {
+  max-width: 65ch;
+  margin: 0 0 14px;
+  font-size: 16px;
+  color: var(--ui-text-sec);
+}
+
+/* Lead paragraph under the title */
+.about_copy h2:first-child + p {
+  font-size: 18px;
+  color: var(--ui-text);
+}
+
+@media (max-width: 860px) {
+  .about_page {
+    padding: 0 16px 48px;
+  }
+
+  .about_hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+    padding: 32px 0;
+  }
+
+  .about_photo_box {
+    max-width: 420px;
+  }
+
+  .about_copy h2:first-child {
+    font-size: 32px;
+  }
+}

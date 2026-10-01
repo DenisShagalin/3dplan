@@ -1,0 +1,244 @@
+/* UiServicesInfo: sits inside a .ui_page wrapper */
+
+.usi_section {
+  margin-bottom: 56px;
+}
+
+.usi_h2 {
+  margin: 0 0 20px;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+/* Service block (hidden with "skip") */
+.usi_service {
+  margin-bottom: 56px;
+  padding: 32px;
+}
+
+.usi_description {
+  margin: 0 0 24px;
+  font-size: 15px;
+  color: var(--ui-text-sec);
+}
+
+.usi_offer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.usi_price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  padding: 16px;
+  border-radius: 50%;
+  background: var(--ui-accent-bg);
+  text-align: center;
+}
+
+.usi_price_value {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ui-accent);
+}
+
+.usi_price_text {
+  font-size: 13px;
+  color: var(--ui-text-sec);
+}
+
+.usi_list,
+.usi_extras {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.usi_list li {
+  padding: 4px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+.usi_extras {
+  margin-bottom: 24px;
+}
+
+.usi_extras li {
+  padding: 4px 0;
+  font-size: 14px;
+  color: var(--ui-text-sec);
+}
+
+.usi a.ui_btn,
+.usi a.ui_btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Disclosure cards (steps and FAQ).
+   Each container is a two-row grid: card headers on top, bodies below. A
+   closed card sits in the top row only, so it is as tall as the tallest
+   header in the row; an open card spans both rows via subgrid, so its body
+   grows the bottom row without stretching its closed neighbours. The
+   vertical padding lives on the toggle and body, not the card, so open and
+   closed cards add the same height to the top row. */
+.usi_disc {
+  display: grid;
+  grid-row: 1;
+  grid-template-rows: subgrid;
+}
+
+.usi_disc_open {
+  grid-row: 1 / span 2;
+}
+
+.usi_disc_toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  border: 0;
+  background: none;
+  font: inherit;
+  text-align: left;
+  color: var(--ui-text);
+  cursor: pointer;
+}
+
+.usi_disc_toggle::after {
+  content: "";
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  margin-left: auto;
+  border-right: 2px solid var(--ui-accent);
+  border-bottom: 2px solid var(--ui-accent);
+  transform: rotate(45deg);
+  transition: transform 150ms ease;
+}
+
+.usi_disc_open > .usi_disc_toggle::after {
+  transform: rotate(-135deg);
+}
+
+.usi_disc_toggle:focus-visible {
+  outline: 2px solid var(--ui-accent-light);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* Steps */
+.usi_steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+}
+
+.usi_step {
+  padding: 0 24px;
+}
+
+.usi_step_head {
+  padding: 24px 0;
+}
+
+.usi_step_num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ui-accent);
+  font-weight: 700;
+  color: #fff;
+}
+
+.usi_step_title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+.usi_step_text {
+  margin: 0;
+  padding: 0 0 24px;
+  font-size: 14px;
+  color: var(--ui-text-sec);
+}
+
+/* FAQ: rows of two, each laid out like .usi_steps */
+.usi_faq {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.usi_faq_row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+}
+
+.usi_faq_item {
+  padding: 0 20px;
+  border: 1px solid var(--ui-line);
+  border-radius: var(--ui-radius);
+  background: #fff;
+}
+
+.usi_faq_question {
+  padding: 16px 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.usi_faq_answer {
+  margin: 0;
+  padding: 0 0 16px;
+  font-size: 14px;
+  color: var(--ui-text-sec);
+}
+
+@media (max-width: 860px) {
+  .usi_h2 {
+    font-size: 22px;
+  }
+
+  /* One column: the cards just stack, nothing to align. */
+  .usi_steps,
+  .usi_faq_row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .usi_disc {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .usi_service {
+    padding: 20px 16px;
+  }
+
+  .usi_offer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

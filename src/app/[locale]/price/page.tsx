@@ -1,152 +1,63 @@
 "use client";
 
-import Paragraph from "antd/lib/typography/Paragraph";
-import Text from "antd/lib/typography/Text";
-import { useTranslations } from "next-intl";
-import { Flex } from "antd";
-import useMedia from "@/app/components/common/media-hook";
-import { ServicesInfo } from "@/app/components/common/services-info";
-import { useOrder } from "@/app/hooks/useOrder";
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { OrderType, getOrderHref } from "@/app/components/order";
+import { UiServicesInfo } from "@/app/components/common/ui-services-info";
+import "./price.css";
 
-export type OrderType =
-  | "2D floor plan with dimensions"
-  | "2D floor plan with furniture"
-  | "3D floor plan with furniture"
-  | "";
+// The previous version of this page lives at "/old_price" for comparison.
 
-const ImgWrapper = ({ src }: { src: string }) => (
-  <div className="">
-    <img key={src} src={src} alt={src} style={{ width: "100%" }} />
-  </div>
-);
+const PLANS: {
+  orderType: Exclude<OrderType, "">;
+  titleKey: string;
+  itemKeys: string[];
+}[] = [
+  {
+    orderType: "2D floor plan with dimensions",
+    titleKey: "pricing.dimension.title",
+    itemKeys: [
+      "pricePage.dimension.item1",
+      "pricePage.dimension.item2",
+      "pricePage.topView",
+      "pricePage.delivery",
+    ],
+  },
+  {
+    orderType: "2D floor plan with furniture",
+    titleKey: "pricing.furniture.title",
+    itemKeys: [
+      "pricePage.furniture.item1",
+      "pricePage.furniture.item2",
+      "pricePage.topView",
+      "pricePage.delivery",
+    ],
+  },
+  {
+    orderType: "3D floor plan with furniture",
+    titleKey: "pricing.3d.title",
+    itemKeys: [
+      "pricePage.3d.item1",
+      "pricePage.3d.item2",
+      "pricePage.3d.item3",
+      "pricePage.delivery",
+    ],
+  },
+];
 
-const TextWrap = ({
-  children,
-  style = {},
-}: {
-  style?: React.CSSProperties;
-  children: React.ReactNode;
-}) => (
-  <Text
-    style={{
-      textAlign: "center",
-      color: "var(--main-grey-color)",
-      fontSize: "1rem",
-      fontWeight: "bold",
-      ...style,
-    }}
-  >
-    {children}
-  </Text>
-);
+const SURCHARGE_KEYS = [
+  "express",
+  "complex",
+  "rooms",
+  "extraFloor",
+  "outdoor",
+  "unreadable",
+];
 
-const PriceMini = ({
-  imageSrc,
-  title,
-  priceText,
-  description,
-  descriptionitems,
-  items,
-  onClick,
-}: {
-  imageSrc: string;
-  title: string;
-  priceText: string;
-  description: string;
-  descriptionitems: string[];
-  items: string[];
-  onClick: () => void;
-}) => {
-  const { isSmall } = useMedia();
-  const t = useTranslations();
-  return (
-    <Flex
-      vertical
-      align="center"
-      style={{
-        padding: "1rem",
-        fontFamily: "Arial, sans-serif",
-        width: isSmall ? "90%" : "32%",
-      }}
-    >
-      <ImgWrapper src={imageSrc} />
-      <Text style={{ color: "var(--main-grey-color)" }}>{title}</Text>
-      <Paragraph
-        style={{
-          padding: "1rem",
-          margin: 0,
-          fontSize: "1.325rem",
-          textAlign: "center",
-        }}
-      >
-        {priceText}
-      </Paragraph>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: description,
-        }}
-        style={{
-          fontSize: "1.125rem",
-          marginTop: "1rem",
-          color: "var(--main-grey-color)",
-        }}
-      />
-
-      <Flex
-        vertical
-        align="flex-start"
-        justify="flex-start"
-        style={{ paddingTop: isSmall ? "1rem" : "", width: "100%" }}
-      >
-        {descriptionitems.map((item: string, idx: number) => (
-          <TextWrap key={idx} style={{ textAlign: "left" }}>
-            {t(item)}
-          </TextWrap>
-        ))}
-      </Flex>
-
-      <Flex
-        style={{
-          width: "100%",
-          margin: "1rem 0",
-        }}
-        vertical
-      >
-        <Flex vertical align="flex-start">
-          {items.map((item: string, idx: number) => (
-            <TextWrap
-              key={idx}
-              style={{
-                color: "var(--light-grey-color)",
-                fontWeight: "normal",
-                textAlign: "left",
-              }}
-            >
-              {t(item)}
-            </TextWrap>
-          ))}
-        </Flex>
-      </Flex>
-
-      {isSmall && (
-        <button
-          className="order_button"
-          onClick={onClick}
-          style={{ marginTop: "1rem" }}
-        >
-          {t("control.order")}
-        </button>
-      )}
-    </Flex>
-  );
-};
+const OTHER_SERVICES = ["interior", "exterior"];
 
 export default function Price() {
-  // const { orderView, showOrder } = useOrder();
-  const { showOrder } = useOrder(); // navigates to the /order page
-  const { isSmall } = useMedia();
-
   const t = useTranslations();
 
   useEffect(() => {
@@ -159,149 +70,80 @@ export default function Price() {
   }, []);
 
   return (
-    <>
-      {/* {orderView} */}
-      <Flex vertical align="center">
-        <Flex
-          vertical={isSmall}
-          align={isSmall ? "center" : "flex-start"}
-          justify="space-around"
-          style={{
-            marginBottom: "3rem",
-            width: "90%",
-          }}
-        >
-          <PriceMini
-            imageSrc="/plans/A4_R.jpg"
-            title={t("pricing.dimension.title")}
-            priceText={t("pricing.dimension.price")}
-            description={t.raw("pricing.dimension.description")}
-            descriptionitems={[
-              "service.2dDim.serviceInfo.item1",
-              "service.2dDim.serviceInfo.item2",
-              "service.2dDim.serviceInfo.item3",
-              "service.2dDim.serviceInfo.item4",
-            ]}
-            items={[
-              "service.2dDim.serviceInfo.item5",
-              "service.2dDim.serviceInfo.item6",
-              "service.2dDim.serviceInfo.item7",
-              "service.2dDim.serviceInfo.item8",
-            ]}
-            onClick={() => {
-              showOrder("2D floor plan with dimensions");
-            }}
-          />
-          <PriceMini
-            imageSrc="/plans/A4-M.jpg"
-            title={t("pricing.furniture.title")}
-            priceText={t("pricing.furniture.price")}
-            description={t.raw("pricing.furniture.description")}
-            descriptionitems={[
-              "service.2dFurniture.serviceInfo.item1",
-              "service.2dFurniture.serviceInfo.item2",
-              "service.2dFurniture.serviceInfo.item3",
-              "service.2dFurniture.serviceInfo.item4",
-            ]}
-            items={[
-              "service.2dFurniture.serviceInfo.item5",
-              "service.2dFurniture.serviceInfo.item6",
-              "service.2dFurniture.serviceInfo.item7",
-              "service.2dFurniture.serviceInfo.item8",
-              "service.2dFurniture.serviceInfo.item9",
-            ]}
-            onClick={() => {
-              showOrder("2D floor plan with furniture");
-            }}
-          />
-          <PriceMini
-            imageSrc="/plans/A4-3D.jpg"
-            title={t("pricing.3d.title")}
-            priceText={t("pricing.3d.price")}
-            description={t.raw("pricing.3d.description")}
-            descriptionitems={[
-              "service.3dFurniture.serviceInfo.item1",
-              "service.3dFurniture.serviceInfo.item2",
-              "service.3dFurniture.serviceInfo.item3",
-              "service.3dFurniture.serviceInfo.item4",
-            ]}
-            items={[
-              "service.3dFurniture.serviceInfo.item5",
-              "service.3dFurniture.serviceInfo.item6",
-              "service.3dFurniture.serviceInfo.item7",
-              "service.3dFurniture.serviceInfo.item8",
-              "service.3dFurniture.serviceInfo.item9",
-            ]}
-            onClick={() => {
-              showOrder("3D floor plan with furniture");
-            }}
-          />
-        </Flex>
+    <div className="price_page ui_page">
+      <section className="price_top">
+        <h1 className="price_h1">
+          {t.rich("pricePage.headline", {
+            accent: (chunks) => <span>{chunks}</span>,
+          })}
+        </h1>
+        <p className="price_lead">{t("pricePage.lead")}</p>
+      </section>
 
-        {!isSmall && (
-          <Flex
-            align={"flex-start"}
-            justify="space-around"
-            style={{
-              marginBottom: "3rem",
-              width: "90%",
-            }}
-          >
-            <button
-              className="order_button"
-              onClick={() => {
-                showOrder("2D floor plan with dimensions");
-              }}
-              style={{ marginTop: "1rem" }}
-            >
-              {t("control.order")}{" "}
-            </button>
+      <section className="price_plans">
+        {PLANS.map(({ orderType, titleKey, itemKeys }) => (
+          <div key={orderType} className="price_plan ui_card">
+            <h2 className="price_plan_title">{t(titleKey)}</h2>
+            <div className="price_plan_price">{t("pricePage.planPrice")}</div>
+            <ul className="price_check">
+              {itemKeys.map((key) => (
+                <li key={key}>{t(key)}</li>
+              ))}
+            </ul>
+            <Link href={getOrderHref(orderType)} className="ui_btn">
+              {t("control.order")}
+            </Link>
+          </div>
+        ))}
+      </section>
 
-            <button
-              className="order_button"
-              onClick={() => {
-                showOrder("2D floor plan with furniture");
-              }}
-              style={{ marginTop: "1rem" }}
-            >
-              {t("control.order")}{" "}
-            </button>
+      <section className="price_surcharges ui_card">
+        <h2 className="price_h2">{t("pricePage.surcharges.title")}</h2>
+        <ul className="price_sc_list">
+          {SURCHARGE_KEYS.map((key) => (
+            <li key={key}>
+              <span>{t(`pricePage.surcharges.${key}`)}</span>
+              <span className="price_sc_amount">
+                {t("pricePage.surcharges.amount")}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p className="price_sc_note">{t("pricePage.surcharges.note")}</p>
+      </section>
 
-            <button
-              className="order_button"
-              onClick={() => {
-                showOrder("3D floor plan with furniture");
-              }}
-              style={{ marginTop: "1rem" }}
-            >
-              {t("control.order")}{" "}
-            </button>
-          </Flex>
-        )}
+      <section className="price_other">
+        <h2 className="price_h2">{t("pricePage.other.title")}</h2>
+        <p className="price_other_lead">{t("pricePage.other.lead")}</p>
+        <div className="price_other_grid">
+          {OTHER_SERVICES.map((key) => (
+            <div key={key} className="price_other_card">
+              <div className="price_other_body">
+                <h3 className="price_other_title">
+                  {t(`pricePage.other.${key}.title`)}
+                </h3>
+                <div className="price_other_price">
+                  {t(`pricePage.other.${key}.price`)}{" "}
+                  <span>{t("pricePage.other.perView")}</span>
+                </div>
+                <div className="price_other_note">
+                  {t(`pricePage.other.${key}.note`)}
+                </div>
+              </div>
+              {/* No service pages for these yet, so "more" asks us directly. */}
+              <Link href="/contact" className="price_btn_outline">
+                {t("pricePage.other.more")}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
 
-        <ServicesInfo
-          title="service.3dFurniture.serviceInfo.title"
-          description="service.3dFurniture.serviceInfo.description"
-          priceText="service.3dFurniture.serviceInfo.priceText"
-          descriptionitems={[
-            "service.3dFurniture.serviceInfo.item1",
-            "service.3dFurniture.serviceInfo.item2",
-            "service.3dFurniture.serviceInfo.item3",
-            "service.3dFurniture.serviceInfo.item4",
-          ]}
-          items={[
-            "service.3dFurniture.serviceInfo.item5",
-            "service.3dFurniture.serviceInfo.item6",
-            "service.3dFurniture.serviceInfo.item7",
-            "service.3dFurniture.serviceInfo.item8",
-            "service.3dFurniture.serviceInfo.item9",
-          ]}
-          onOrder={() => {
-            showOrder("3D floor plan with furniture");
-          }}
-          skip
-        />
-      </Flex>
-    </>
+      <section className="price_legal">
+        <strong>{t("pricePage.legal.label")}</strong> {t("pricePage.legal.text")}
+      </section>
+
+      <UiServicesInfo skip />
+    </div>
   );
 }

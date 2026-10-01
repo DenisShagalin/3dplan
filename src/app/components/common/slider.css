@@ -31,7 +31,7 @@
 }
 
 .slider_control .control {
-    background-color: var(--main-grey-color);
+    background-color: var(--ui-accent);
     border-radius: 50%;
     z-index: 1;
     display: flex;

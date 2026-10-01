@@ -20,6 +20,7 @@
   },
   "toolbar": {
     "services": "Services",
+    "packages": "Packages",
     "pricing": "Pricing",
     "about": "About us",
     "contact": "Contact",
@@ -144,6 +145,21 @@
         "item8": "+20€ — Additional 2D/3D plan for the same property",
         "item9": "+20€ — External areas (parking, garden, patio, etc.)",
         "priceText": "per floor plan for a property"
+      },
+      "portfolio": {
+        "apartment150Munich": "Apartment 150 m² Munich",
+        "apartment64Salzburg": "Apartment 64 m² Salzburg",
+        "apartment68Vienna": "Apartment 68 m² Vienna",
+        "house250Munich": "House 250 m² Munich",
+        "house63Germany": "House 63 m² Germany",
+        "house75Klagenfurt": "House 75 m² Klagenfurt",
+        "house120GrazGround": "House 120 m² Graz — Ground floor",
+        "house120GrazUpper": "House 120 m² Graz — Upper floor",
+        "house95Bamberg": "House 95 m² Bamberg",
+        "house220Reckendorf": "House 220 m² Reckendorf",
+        "apartment65Bamberg": "Apartment 65 m² Bamberg",
+        "apartment80Bamberg": "Apartment 80 m² Bamberg",
+        "apartment85Germany": "Apartment 85 m² Germany"
       }
     },
     "2dFurniture": {
@@ -172,6 +188,15 @@
         "item8": "+20€ — Additional 2D/3D plan for the same property",
         "item9": "+20€ — External areas (parking, garden, patio, etc.)",
         "priceText": "per floor plan for a property"
+      },
+      "portfolio": {
+        "apartment55Linz": "Apartment 55 m² Linz",
+        "apartment63Vienna": "Apartment 63 m² Vienna",
+        "house75Klagenfurt": "House 75 m² Klagenfurt",
+        "house95Vienna": "House 95 m² Vienna",
+        "house250Munich": "House 250 m² Munich",
+        "house120GrazGround": "House 120 m² Graz — Ground floor",
+        "house120GrazUpper": "House 120 m² Graz — Upper floor"
       }
     },
     "2dDim": {
@@ -200,6 +225,12 @@
         "item8": "+20€ — Additional 2D/3D plan for the same property",
         "item9": "+20€ — External areas (parking, garden, patio, etc.)",
         "priceText": "per floor plan for a property"
+      },
+      "portfolio": {
+        "apartment60Switzerland": "Apartment 60 m² Switzerland",
+        "apartment190Berlin": "Apartment 190 m² Berlin",
+        "house63Germany": "House 63 m² Germany",
+        "house95Vienna": "House 95 m² Vienna"
       }
     }
   },
@@ -222,6 +253,12 @@
     "type1": "2D floor plan with dimensions",
     "type2": "2D floor plan with furniture",
     "type3": "3D floor plan with furniture",
+    "groupPlans": "Individual plans",
+    "typeDesc": {
+      "dimensions": "Dimension lines, no furniture",
+      "furniture2d": "With furniture layout",
+      "furniture3d": "3D visualisation. Interior can be added"
+    },
     "materialsTitle": "Select the finishing materials:",
     "fileInputButton": "Choose file",
     "fileInputLabel": "Upload the floor plan of your property (up to 5 MB)",
@@ -301,8 +338,8 @@
       "description": "<p>We develop professional 3D floor plans with thoughtfully arranged furniture and harmonious interior design, clearly showcasing the proportions, functionality, and atmosphere of the space.</p><p>Our visualizations help potential buyers immediately understand the layout and flow of the property. Presented in a realistic and inviting way, each plan highlights the full potential of the rooms and creates a strong first impression.</p><p>You receive two realistic perspectives per property for better spatial understanding. Optionally, we can include surrounding areas such as terraces, parking spaces, or relaxation zones to present the property as a complete living environment.</p><p>Ideal for real estate listings, presentations, brochures, and a modern, compelling property showcase.</p>"
     }
   },
-
   "mainFAQ": {
+    "title": "Frequently asked questions",
     "1": {
       "question": "How can I order a 2D/3D floor plan?",
       "answer": "Email us at office@3dplan.online with all details of your project. You can also order directly via the form on our website."
@@ -413,7 +450,6 @@
     "title": "Right of Withdrawal (Cancellation Policy)",
     "description": "<h3>1. Right of Withdrawal</h3><p>If you are a consumer within the meaning of applicable consumer protection law, you have the right to withdraw from this contract within fourteen (14) days without giving any reason.</p><p>The withdrawal period is fourteen (14) days from the date of conclusion of the contract.</p><p>To exercise your right of withdrawal, you must inform us:</p><p>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Vienna<br/>Austria<br/>E-mail: office@3dplan.online</p><p>by means of a clear statement (e.g., a letter sent by post or e-mail) of your decision to withdraw from this contract.</p><p>To meet the withdrawal deadline, it is sufficient for you to send your communication before the withdrawal period has expired.</p><h3>2. Effects of Withdrawal</h3><p>If you withdraw from this contract, we shall reimburse all payments received from you, including the costs of standard delivery (except for any additional costs resulting from your choice of a type of delivery other than the least expensive standard delivery offered by us), without undue delay and in any event no later than fourteen (14) days from the day on which we are informed about your decision to withdraw.</p><p>Reimbursement will be made using the same means of payment as you used for the initial transaction, unless expressly agreed otherwise.</p><h3>3. Early Expiry of the Right of Withdrawal (Digital Services)</h3><p>In the case of digital services, the right of withdrawal expires prematurely if:</p><ul><li>you have expressly requested that we begin the performance of the service before the withdrawal period has expired; and</li><li>you have acknowledged that you thereby lose your right of withdrawal once the contract has been fully performed.</li></ul><p>This applies in particular to customized digital services created according to the client’s specifications, such as personalized 2D or 3D floor plans.</p><h3>4. Exclusion of the Right of Withdrawal</h3><p>The right of withdrawal does not apply in the following cases:<ul><li>if the service has been fully performed with your explicit prior consent before the expiration of the 14-day withdrawal period, and you acknowledge that you are aware of losing your right of withdrawal;</li><li>if the service has been produced according to your individual specifications or tailored to your requirements, in particular personalized 2D/3D floor plans considering your individual wishes, including:<ul><li>flooring and finishing materials;</li><li>door and window design;</li><li>other individual requirements in the creation of 2D or 3D floor plans.</li></ul></li></ul></p><h3>5. Model Withdrawal Form</h3><p>If you wish to withdraw from the contract, please complete and return this form:<br/><br/>Anastasiia Strauss<br/>Witthauergasse 28/5<br/>1180 Vienna<br/>Austria<br/>E-mail: office@3dplan.online<br/><br/>I/We <i>() hereby withdraw from the contract concluded by me/us ()</i> for the provision of the following service:<br/><br/>Date of contract conclusion:<br/>Name of consumer(s):<br/>Address of consumer(s):<br/>Signature (only if notified on paper):<br/>Date:<br/>(*) Delete as appropriate.</p>"
   },
-
   "confirmation": {
     "title": "THANK YOU! YOUR ORDER HAS BEEN SUBMITTED",
     "description": "<p>We have received your request for a 2D or 3D floor plan.<br>We will review the submitted materials shortly and contact you to confirm the order details, price, and delivery time. Once all required information has been received, we will prepare an invoice. Work on your project begins after payment is received.</p><p>The finished floor plan will be sent to you by e-mail in JPEG or PNG format, ready to use for your property presentation. If you would like to add more materials to your request, please send them to:</p><p><h3>office@3dplan.online</h3></p><p>Thank you for choosing <strong>3Dplan.online</strong>.</p>"
@@ -421,5 +457,111 @@
   "confirmationContact": {
     "title": "THANK YOU! YOUR MESSAGE HAS BEEN SENT",
     "description": "<p>We have received your message and will review it shortly. Our team will contact you by e-mail as soon as possible to answer your question or discuss your request.</p><p>If you would like to send us additional information or files, please contact us at:</p><p><h3>office@3dplan.online</h3></p><p>Thank you for contacting <strong>3Dplan.online</strong>.</p>"
+  },
+  "pricePage": {
+    "headline": "One price — <accent>€39 per plan</accent>",
+    "lead": "Any of the three basic plans, up to 10 rooms. Surcharges are known upfront — no calls, no negotiating.",
+    "planPrice": "€39",
+    "topView": "1 view (top view)",
+    "delivery": "Ready in 1–3 days",
+    "dimension": {
+      "item1": "Precise dimension lines on all walls",
+      "item2": "Kitchen and bathrooms marked"
+    },
+    "furniture": {
+      "item1": "Furniture layout based on your photos or our concept",
+      "item2": "Floor and tile colours of your choice"
+    },
+    "3d": {
+      "item1": "3D visualisation with interior design",
+      "item2": "2 views (top and side)",
+      "item3": "Interior visualisation can be added"
+    },
+    "surcharges": {
+      "title": "Surcharges — the same for all three plans",
+      "amount": "+€20",
+      "express": "Express delivery (48 hours)",
+      "complex": "Complex room geometry",
+      "rooms": "More than 10 rooms on the plan",
+      "extraFloor": "Additional floor plan of the same property",
+      "outdoor": "Outdoor areas (parking, garden, patio, plot)",
+      "unreadable": "Illegible source plan",
+      "note": "Two rounds of revisions are included. 100% prepayment by invoice."
+    },
+    "other": {
+      "title": "Separate services",
+      "lead": "Priced differently — per view, not per plan.",
+      "more": "Learn more",
+      "perView": "/ view",
+      "interior": {
+        "title": "Interior visualisation",
+        "price": "from €39",
+        "note": "Only together with an already ordered 3D floor plan with furniture"
+      },
+      "exterior": {
+        "title": "Exterior visualisation",
+        "price": "from €199",
+        "note": "Detached houses, 1–2 storeys. +€40 per additional view"
+      }
+    },
+    "legal": {
+      "label": "Please note:",
+      "text": "The plans are a graphic rendering, not construction documents. Area calculations are not certified."
+    }
+  },
+  "servicePage": {
+    "examples": "Examples of work",
+    "examplesLead": "Real projects — what to expect from this service.",
+    "about": "What it is and who it's for",
+    "included": "What's included"
+  },
+  "packagesPage": {
+    "headline": "Packages — better value than ordering separately",
+    "lead": "If a property needs more than one kind of graphic — a plan, interior, exterior — a package costs less than ordering each service on its own.",
+    "price": "€{amount}",
+    "popular": "Popular choice",
+    "order": "Order package",
+    "plans": {
+      "name": "Plans package",
+      "sub": "2D + 3D of one property"
+    },
+    "interior": {
+      "name": "Interior package",
+      "sub": "3D floor plan + visualisation of 3 rooms"
+    },
+    "full": {
+      "name": "Full presentation package",
+      "sub": "Plan + interior + exterior"
+    },
+    "items": {
+      "plan2dView": "2D floor plan with dimensions or furniture — your choice (1 view)",
+      "plan2d": "2D floor plan with dimensions or furniture — your choice",
+      "plan3d": "3D floor plan with furniture (2 views)",
+      "rooms": "3 room visualisations (1 view each)",
+      "interior": "3 interior visualisations",
+      "exterior": "3D exterior visualisation (2 views)",
+      "revisionsPlan": "2 rounds of revisions for each plan",
+      "revisionsItem": "2 rounds of revisions for each item",
+      "delivery": "Ready from 48 hours"
+    },
+    "good": {
+      "title": "Good to know",
+      "fixed": {
+        "title": "Fixed price",
+        "text": "Applies to plans with up to 10 rooms per floor."
+      },
+      "extras": {
+        "title": "Surcharges extra",
+        "text": "More than 10 rooms, illegible source plan, non-standard geometry, additional floor, express delivery — +€20 each."
+      },
+      "formats": {
+        "title": "File formats",
+        "text": "PNG, JPEG or PDF of your choice, no watermarks — ready to publish."
+      }
+    },
+    "single": {
+      "text": "Only need one service?",
+      "link": "See individual services →"
+    }
   }
 }

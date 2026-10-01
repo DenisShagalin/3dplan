@@ -1,0 +1,335 @@
+/* Redesigned service pages (/service/*) */
+
+.sv_page {
+  max-width: 1120px;
+  padding: 0 24px 64px;
+}
+
+.sv_crumbs {
+  padding: 20px 0 0;
+  font-size: 14px;
+  color: var(--ui-text-sec);
+}
+
+.sv_h1 {
+  margin: 0 0 12px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--ui-text);
+}
+
+.sv_h2 {
+  margin: 0 0 12px;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+.sv_muted {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ui-text-sec);
+}
+
+.sv_measure {
+  max-width: 65ch;
+}
+
+.sv_page a.ui_btn,
+.sv_page a.ui_btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.sv_hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+  padding: 20px 0 48px;
+}
+
+.sv_lead {
+  max-width: 65ch;
+  margin: 0 0 20px;
+  font-size: 18px;
+  color: var(--ui-text-sec);
+}
+
+.sv_pill {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: var(--ui-accent-bg);
+}
+
+.sv_pill_amount {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+.sv_pill_term {
+  font-size: 13px;
+  color: var(--ui-text-sec);
+}
+
+.sv_actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.sv_check {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sv_check li {
+  display: flex;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 15px;
+  color: var(--ui-text);
+}
+
+.sv_check li::before {
+  content: "✓";
+  font-weight: 700;
+  color: var(--ui-accent);
+}
+
+/* Hero image */
+.sv_visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  cursor: zoom-in;
+}
+
+/* Portfolio carousel */
+.sv_portfolio {
+  margin-top: 28px;
+}
+
+/* The shared carousel is 80% wide (90% !important under 820px) with 100px
+   controls; here it takes the full width minus room for slimmer arrows. */
+.sv_portfolio .carousel {
+  width: calc(100% - 64px) !important;
+}
+
+.sv_portfolio .carousel .carousel_control {
+  width: 32px;
+  height: 32px;
+}
+
+.sv_portfolio .carousel .carousel_control svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--ui-text-sec);
+}
+
+.sv_portfolio .carousel .carousel_control_left {
+  left: -32px;
+}
+
+.sv_portfolio .carousel .carousel_control_right {
+  right: -32px;
+}
+
+/* Captions wrap to different line counts, so stretch every slide to the
+   tallest one instead of letting each card take its own height. */
+.sv_portfolio .slick-track {
+  display: flex !important;
+}
+
+.sv_portfolio .slick-slide {
+  height: auto !important;
+}
+
+.sv_portfolio .slick-slide > div,
+.sv_portfolio .image_wrap {
+  height: 100%;
+}
+
+.sv_pf_item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--ui-line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.sv_pf_item img {
+  display: block;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+.sv_pf_caption {
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--ui-text-sec);
+}
+
+/* Sections */
+.sv_section {
+  padding: 48px 0 0;
+  margin-bottom: 8px;
+}
+
+.sv_slider {
+  margin-top: 28px;
+  overflow: hidden;
+  border: 1px solid var(--ui-line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.sv_desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.sv_desc p {
+  margin: 0 0 16px;
+  font-size: 16px;
+  color: var(--ui-text-sec);
+}
+
+/* Surcharges */
+.sv_sc_list {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--ui-line-soft);
+}
+
+.sv_sc_list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--ui-line-soft);
+  font-size: 16px;
+  color: var(--ui-text);
+}
+
+.sv_sc_amount {
+  flex-shrink: 0;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.sv_sc_note {
+  margin-top: 16px;
+}
+
+/* Related services */
+.sv_related {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.sv_related_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.sv_related_name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+.sv_related_note {
+  margin-top: 2px;
+  font-size: 13px;
+  color: var(--ui-text-sec);
+}
+
+.sv_btn_outline {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border: 1px solid var(--ui-accent);
+  border-radius: var(--ui-radius);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ui-accent);
+  white-space: nowrap;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.sv_page .sv_btn_outline:hover {
+  background: var(--ui-accent);
+  color: #fff;
+}
+
+.sv_btn_outline:focus-visible {
+  outline: 2px solid var(--ui-accent-light);
+  outline-offset: 2px;
+}
+
+/* Steps and FAQ sit between the sections and the final call to action */
+.sv_page .usi {
+  padding-top: 48px;
+}
+
+/* Final call to action */
+.sv_cta {
+  padding: 8px 0 16px;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .sv_hero,
+  .sv_desc {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .sv_h1 {
+    font-size: 30px;
+  }
+
+  .sv_h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sv_page {
+    padding: 0 16px 40px;
+  }
+
+  .sv_lead {
+    font-size: 16px;
+  }
+
+  .sv_related {
+    grid-template-columns: 1fr;
+  }
+
+  .sv_related_card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

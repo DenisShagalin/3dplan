@@ -10,11 +10,13 @@ import "./order.css";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
 import { useRouter } from "@/i18n/navigation";
 import Image from "next/image";
+import { PACKAGES, PackageOrderType } from "./packages";
 
 export type OrderType =
   | "2D floor plan with dimensions"
   | "2D floor plan with furniture"
   | "3D floor plan with furniture"
+  | PackageOrderType
   | "";
 
 // The order form lives on its own page now; the service is picked through a
@@ -25,6 +27,9 @@ const ORDER_TYPE_SLUGS: Record<Exclude<OrderType, "">, string> = {
   "2D floor plan with dimensions": "2d-dimension",
   "2D floor plan with furniture": "2d-furniture",
   "3D floor plan with furniture": "3d-furniture",
+  "Plans package": "pkg-plans",
+  "Interior package": "pkg-interior",
+  "Full presentation package": "pkg-full",
 };
 
 export const getOrderHref = (orderType: OrderType) =>
@@ -345,16 +350,24 @@ const SelectField = ({
 
 const ServiceOption = ({
   content,
+  price,
+  description,
   onChange,
   isChecked,
 }: {
   content: string;
+  price: string;
+  description: string;
   onChange: () => void;
   isChecked: boolean;
 }) => (
   <label className={`order_option${isChecked ? " is-active" : ""}`}>
-    <input type="checkbox" checked={isChecked} onChange={onChange} />
-    <span className="order_option_name">{content}</span>
+    <span className="order_option_row">
+      <input type="checkbox" checked={isChecked} onChange={onChange} />
+      <span className="order_option_name">{content}</span>
+      <span className="order_option_price">{price}</span>
+    </span>
+    <span className="order_option_desc">{description}</span>
   </label>
 );
 
@@ -726,14 +739,41 @@ ${message || "—"}
   const isPrivateClient = clientType === PRIVATE_CLIENT;
   const fileError = fileSizeError || visibleErrors.files;
 
-  const orderTypeOptions = [
-    { value: ORDER_TYPES.dimensions, label: t("order.type1") },
-    { value: ORDER_TYPES.furniture2d, label: t("order.type2") },
-    { value: ORDER_TYPES.furniture3d, label: t("order.type3") },
+  const planOptions = [
+    {
+      value: ORDER_TYPES.dimensions,
+      label: t("order.type1"),
+      price: t("pricePage.planPrice"),
+      description: t("order.typeDesc.dimensions"),
+    },
+    {
+      value: ORDER_TYPES.furniture2d,
+      label: t("order.type2"),
+      price: t("pricePage.planPrice"),
+      description: t("order.typeDesc.furniture2d"),
+    },
+    {
+      value: ORDER_TYPES.furniture3d,
+      label: t("order.type3"),
+      price: t("pricePage.planPrice"),
+      description: t("order.typeDesc.furniture3d"),
+    },
+  ];
+
+  const packageOptions = PACKAGES.map(({ key, orderType, price }) => ({
+    value: orderType,
+    label: t(`packagesPage.${key}.name`),
+    price: t("packagesPage.price", { amount: price }),
+    description: t(`packagesPage.${key}.sub`),
+  }));
+
+  const optionGroups = [
+    { label: t("order.groupPlans"), options: planOptions },
+    { label: t("toolbar.packages"), options: packageOptions },
   ];
 
   const summaryRows = [
-    ...orderTypeOptions
+    ...[...planOptions, ...packageOptions]
       .filter((option) => types.includes(option.value))
       .map((option) => option.label),
     ...(isExpressDelivery ? [t("order.expressDelivery")] : []),
@@ -754,13 +794,20 @@ ${message || "—"}
             <StepTitle step={1} title={t("order.title")} />
 
             <div data-error={visibleErrors.types ? "true" : undefined}>
-              {orderTypeOptions.map((option) => (
-                <ServiceOption
-                  key={option.value}
-                  content={option.label}
-                  isChecked={types.includes(option.value)}
-                  onChange={onTypeChange(option.value)}
-                />
+              {optionGroups.map((group) => (
+                <div key={group.label} className="order_option_group">
+                  <div className="order_option_group_label">{group.label}</div>
+                  {group.options.map((option) => (
+                    <ServiceOption
+                      key={option.value}
+                      content={option.label}
+                      price={option.price}
+                      description={option.description}
+                      isChecked={types.includes(option.value)}
+                      onChange={onTypeChange(option.value)}
+                    />
+                  ))}
+                </div>
               ))}
               <FieldError message={visibleErrors.types} />
             </div>

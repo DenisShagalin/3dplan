@@ -20,6 +20,7 @@
   },
   "toolbar": {
     "services": "Dienstleistungen",
+    "packages": "Pakete",
     "pricing": "Preise",
     "about": "Über uns",
     "contact": "Kontakt",
@@ -140,6 +141,21 @@
         "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
         "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
         "priceText": "pro Grundriss für eine Immobilie"
+      },
+      "portfolio": {
+        "apartment150Munich": "Wohnung 150 m² München",
+        "apartment64Salzburg": "Wohnung 64 m² Salzburg",
+        "apartment68Vienna": "Wohnung 68 m² Wien",
+        "house250Munich": "Haus 250 m² München",
+        "house63Germany": "Haus 63 m² Deutschland",
+        "house75Klagenfurt": "Haus 75 m² Klagenfurt",
+        "house120GrazGround": "Haus 120 m² Graz — Erdgeschoss",
+        "house120GrazUpper": "Haus 120 m² Graz — Obergeschoss",
+        "house95Bamberg": "Haus 95 m² Bamberg",
+        "house220Reckendorf": "Haus 220 m² Reckendorf",
+        "apartment65Bamberg": "Wohnung 65 m² Bamberg",
+        "apartment80Bamberg": "Wohnung 80 m² Bamberg",
+        "apartment85Germany": "Wohnung 85 m² Deutschland"
       }
     },
     "2dFurniture": {
@@ -168,6 +184,15 @@
         "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
         "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
         "priceText": "pro Grundriss für eine Immobilie"
+      },
+      "portfolio": {
+        "apartment55Linz": "Wohnung 55 m² Linz",
+        "apartment63Vienna": "Wohnung 63 m² Wien",
+        "house75Klagenfurt": "Haus 75 m² Klagenfurt",
+        "house95Vienna": "Haus 95 m² Wien",
+        "house250Munich": "Haus 250 m² München",
+        "house120GrazGround": "Haus 120 m² Graz — Erdgeschoss",
+        "house120GrazUpper": "Haus 120 m² Graz — Obergeschoss"
       }
     },
     "2dDim": {
@@ -196,6 +221,12 @@
         "item8": "+20€ — zusätzlicher 2D-/3D-Grundriss derselben Immobilie",
         "item9": "+20€ — Außenbereiche (Parkplatz, Garten, Patio usw.)",
         "priceText": "pro Grundriss für eine Immobilie"
+      },
+      "portfolio": {
+        "apartment60Switzerland": "Wohnung 60 m² Schweiz",
+        "apartment190Berlin": "Wohnung 190 m² Berlin",
+        "house63Germany": "Haus 63 m² Deutschland",
+        "house95Vienna": "Haus 95 m² Wien"
       }
     }
   },
@@ -222,6 +253,12 @@
     "type1": "2D-Plan mit Bemaßung",
     "type2": "2D-Plan mit Möblierung",
     "type3": "3D-Plan mit Möblierung",
+    "groupPlans": "Einzelne Grundrisse",
+    "typeDesc": {
+      "dimensions": "Maßlinien, ohne Möblierung",
+      "furniture2d": "Mit Möblierung",
+      "furniture3d": "Räumliche Visualisierung. Innenraum zubuchbar"
+    },
     "materialsTitle": "Wählen Sie die Ausstattungsmaterialien aus:",
     "fileInputButton": "Datei auswählen",
     "fileInputLabel": "Laden Sie den Grundriss Ihrer Immobilie hoch (bis zu 5 MB)",
@@ -302,6 +339,7 @@
     }
   },
   "mainFAQ": {
+    "title": "Häufig gestellte Fragen",
     "1": {
       "question": "Wie kann ich einen 2D-/3D-Grundriss bestellen?",
       "answer": "Schreiben Sie uns eine E-Mail an office@3dplan.online und geben Sie alle Daten zu Ihrem Projekt an. Alternativ können Sie die Bestellung direkt über das Formular auf unserer Website aufgeben."
@@ -419,5 +457,111 @@
   "confirmationContact": {
     "title": "VIELEN DANK! IHRE NACHRICHT WURDE GESENDET",
     "description": "<p>Wir haben Ihre Nachricht erhalten und werden sie in Kürze prüfen. Unser Team wird Sie so schnell wie möglich per E-Mail kontaktieren, um Ihre Frage zu beantworten oder Ihre Anfrage zu besprechen.</p><p>Wenn Sie uns zusätzliche Informationen oder Dateien senden möchten, schreiben Sie uns bitte an:</p><p><h3>office@3dplan.online</h3></p><p>Vielen Dank, dass Sie <strong>3Dplan.online</strong> kontaktiert haben.</p>"
+  },
+  "pricePage": {
+    "headline": "Ein Preis — <accent>39 € pro Grundriss</accent>",
+    "lead": "Jeder der drei Basis-Grundrisse, bis zu 10 Räume. Aufpreise sind im Voraus bekannt — ohne Telefonate und Verhandlungen.",
+    "planPrice": "39 €",
+    "topView": "1 Ansicht (Draufsicht)",
+    "delivery": "Fertig in 1–3 Tagen",
+    "dimension": {
+      "item1": "Genaue Maßlinien an allen Wänden",
+      "item2": "Küche und Sanitärbereiche eingezeichnet"
+    },
+    "furniture": {
+      "item1": "Möblierung nach Ihren Fotos oder unserem Konzept",
+      "item2": "Farbe von Bodenbelag und Fliesen nach Wahl"
+    },
+    "3d": {
+      "item1": "Räumliche Visualisierung mit Einrichtung",
+      "item2": "2 Ansichten (von oben und seitlich)",
+      "item3": "Innenraumvisualisierung zubuchbar"
+    },
+    "surcharges": {
+      "title": "Aufpreise — für alle drei Grundrisse gleich",
+      "amount": "+20 €",
+      "express": "Expresslieferung (48 Stunden)",
+      "complex": "Komplexe Raumgeometrie",
+      "rooms": "Mehr als 10 Räume im Grundriss",
+      "extraFloor": "Zusätzlicher Geschossplan derselben Immobilie",
+      "outdoor": "Außenbereiche (Parkplatz, Garten, Terrasse, Grundstück)",
+      "unreadable": "Schwer lesbare Vorlage",
+      "note": "Zwei Korrekturrunden sind im Preis enthalten. 100 % Vorauszahlung per Rechnung."
+    },
+    "other": {
+      "title": "Einzelleistungen",
+      "lead": "Anders berechnet — pro Ansicht, nicht pro Grundriss.",
+      "more": "Mehr erfahren",
+      "perView": "/ Ansicht",
+      "interior": {
+        "title": "Innenraumvisualisierung",
+        "price": "ab 39 €",
+        "note": "Nur zusammen mit einem bereits bestellten 3D-Grundriss mit Möblierung"
+      },
+      "exterior": {
+        "title": "Außenvisualisierung",
+        "price": "ab 199 €",
+        "note": "Freistehende Häuser, 1–2 Geschosse. +40 € pro zusätzliche Ansicht"
+      }
+    },
+    "legal": {
+      "label": "Wichtig:",
+      "text": "Die Grundrisse sind eine grafische Aufbereitung und keine Bauunterlagen. Flächenberechnungen sind nicht zertifiziert."
+    }
+  },
+  "servicePage": {
+    "examples": "Beispiele unserer Arbeit",
+    "examplesLead": "Echte Projekte – so sieht das Ergebnis dieser Leistung aus.",
+    "about": "Was ist das und für wen?",
+    "included": "Was ist enthalten"
+  },
+  "packagesPage": {
+    "headline": "Pakete — günstiger als einzeln",
+    "lead": "Wenn Sie für ein Objekt mehr als eine Art von Grafik brauchen — Grundriss, Innenraum, Außenansicht —, ist ein Paket günstiger, als jede Leistung einzeln zu bestellen.",
+    "price": "{amount} €",
+    "popular": "Beliebte Wahl",
+    "order": "Paket bestellen",
+    "plans": {
+      "name": "Paket „Grundrisse“",
+      "sub": "2D + 3D eines Objekts"
+    },
+    "interior": {
+      "name": "Paket „Innenraum“",
+      "sub": "3D-Grundriss + Visualisierung von 3 Räumen"
+    },
+    "full": {
+      "name": "Paket „Komplettpräsentation“",
+      "sub": "Grundriss + Innenraum + Außenansicht"
+    },
+    "items": {
+      "plan2dView": "2D-Grundriss mit Maßangaben oder Möblierung — nach Wahl (1 Ansicht)",
+      "plan2d": "2D-Grundriss mit Maßangaben oder Möblierung — nach Wahl",
+      "plan3d": "3D-Grundriss mit Möblierung (2 Ansichten)",
+      "rooms": "3 Raumvisualisierungen (je 1 Ansicht)",
+      "interior": "3 Innenraumvisualisierungen",
+      "exterior": "3D-Außenvisualisierung (2 Ansichten)",
+      "revisionsPlan": "2 Korrekturrunden pro Grundriss",
+      "revisionsItem": "2 Korrekturrunden pro Position",
+      "delivery": "Fertig ab 48 Stunden"
+    },
+    "good": {
+      "title": "Gut zu wissen",
+      "fixed": {
+        "title": "Festpreis",
+        "text": "Gilt für Grundrisse mit bis zu 10 Räumen pro Geschoss."
+      },
+      "extras": {
+        "title": "Aufpreise separat",
+        "text": "Mehr als 10 Räume, schwer lesbare Vorlage, nicht standardmäßige Geometrie, zusätzliches Geschoss, Expresslieferung — je +20 €."
+      },
+      "formats": {
+        "title": "Dateiformate",
+        "text": "PNG, JPEG oder PDF nach Wahl, ohne Wasserzeichen — bereit zur Veröffentlichung."
+      }
+    },
+    "single": {
+      "text": "Brauchen Sie nur eine Leistung?",
+      "link": "Leistungen einzeln ansehen →"
+    }
   }
 }

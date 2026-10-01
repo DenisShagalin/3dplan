@@ -20,6 +20,7 @@
   },
   "toolbar": {
     "services": "Services",
+    "packages": "Forfaits",
     "pricing": "Tarifs",
     "about": "À propos de nous",
     "contact": "Contact",
@@ -144,6 +145,21 @@
         "item8": "+20€ — Plan 2D/3D supplémentaire du même bien",
         "item9": "+20€ — Espaces extérieurs (parking, jardin, patio, etc.)",
         "priceText": "par plan d'étage pour un bien immobilier"
+      },
+      "portfolio": {
+        "apartment150Munich": "Appartement 150 m² Munich",
+        "apartment64Salzburg": "Appartement 64 m² Salzbourg",
+        "apartment68Vienna": "Appartement 68 m² Vienne",
+        "house250Munich": "Maison 250 m² Munich",
+        "house63Germany": "Maison 63 m² Allemagne",
+        "house75Klagenfurt": "Maison 75 m² Klagenfurt",
+        "house120GrazGround": "Maison 120 m² Graz — Rez-de-chaussée",
+        "house120GrazUpper": "Maison 120 m² Graz — Étage",
+        "house95Bamberg": "Maison 95 m² Bamberg",
+        "house220Reckendorf": "Maison 220 m² Reckendorf",
+        "apartment65Bamberg": "Appartement 65 m² Bamberg",
+        "apartment80Bamberg": "Appartement 80 m² Bamberg",
+        "apartment85Germany": "Appartement 85 m² Allemagne"
       }
     },
     "2dFurniture": {
@@ -172,6 +188,15 @@
         "item8": "+20€ — Plan 2D/3D supplémentaire du même bien",
         "item9": "+20€ — Espaces extérieurs (parking, jardin, patio, etc.)",
         "priceText": "par plan d'étage pour un bien immobilier"
+      },
+      "portfolio": {
+        "apartment55Linz": "Appartement 55 m² Linz",
+        "apartment63Vienna": "Appartement 63 m² Vienne",
+        "house75Klagenfurt": "Maison 75 m² Klagenfurt",
+        "house95Vienna": "Maison 95 m² Vienne",
+        "house250Munich": "Maison 250 m² Munich",
+        "house120GrazGround": "Maison 120 m² Graz — Rez-de-chaussée",
+        "house120GrazUpper": "Maison 120 m² Graz — Étage"
       }
     },
     "2dDim": {
@@ -200,6 +225,12 @@
         "item8": "+20€ — Plan 2D/3D supplémentaire du même bien",
         "item9": "+20€ — Terrains extérieurs (parking, jardin, patio, etc.)",
         "priceText": "par plan d’étage pour un bien immobilier"
+      },
+      "portfolio": {
+        "apartment60Switzerland": "Appartement 60 m² Suisse",
+        "apartment190Berlin": "Appartement 190 m² Berlin",
+        "house63Germany": "Maison 63 m² Allemagne",
+        "house95Vienna": "Maison 95 m² Vienne"
       }
     }
   },
@@ -222,6 +253,12 @@
     "type1": "Plan 2D avec dimensions",
     "type2": "Plan 2D avec mobilier",
     "type3": "Plan 3D avec mobilier",
+    "groupPlans": "Plans à l’unité",
+    "typeDesc": {
+      "dimensions": "Cotes, sans mobilier",
+      "furniture2d": "Avec aménagement du mobilier",
+      "furniture3d": "Visualisation en volume. Intérieur en option"
+    },
     "materialsTitle": "Sélectionnez les matériaux de finition:",
     "fileInputButton": "Choisir un fichier",
     "fileInputLabel": "Téléchargez le plan de votre bien immobilier (jusqu’à 5 Mo)",
@@ -302,6 +339,7 @@
     }
   },
   "mainFAQ": {
+    "title": "Questions fréquentes",
     "1": {
       "question": "Comment puis-je commander un plan 2D/3D ?",
       "answer": "Écrivez-nous à office@3dplan.online et fournissez toutes les informations sur votre projet. Vous pouvez également passer commande directement via le formulaire sur notre site."
@@ -419,5 +457,111 @@
   "confirmationContact": {
     "title": "MERCI ! VOTRE MESSAGE A ÉTÉ ENVOYÉ",
     "description": "<p>Nous avons bien reçu votre message et l’examinerons prochainement. Notre équipe vous contactera par e-mail dès que possible afin de répondre à votre question ou de discuter de votre demande.</p><p>Si vous souhaitez nous envoyer des informations ou des fichiers supplémentaires, vous pouvez nous écrire à:</p><p><h3>office@3dplan.online</h3></p><p>Merci d’avoir contacté <strong>3Dplan.online</strong>.</p>"
+  },
+  "pricePage": {
+    "headline": "Un seul prix — <accent>39 € par plan</accent>",
+    "lead": "L’un des trois plans de base, jusqu’à 10 pièces. Les suppléments sont connus à l’avance — sans appels ni négociations.",
+    "planPrice": "39 €",
+    "topView": "1 vue (vue de dessus)",
+    "delivery": "Prêt en 1 à 3 jours",
+    "dimension": {
+      "item1": "Cotes précises sur tous les murs",
+      "item2": "Cuisine et sanitaires indiqués"
+    },
+    "furniture": {
+      "item1": "Aménagement selon vos photos ou notre concept",
+      "item2": "Couleur des sols et du carrelage au choix"
+    },
+    "3d": {
+      "item1": "Visualisation en volume avec aménagement intérieur",
+      "item2": "2 vues (dessus et côté)",
+      "item3": "Visualisation d’intérieur en option"
+    },
+    "surcharges": {
+      "title": "Suppléments — identiques pour les trois plans",
+      "amount": "+20 €",
+      "express": "Livraison express (48 heures)",
+      "complex": "Géométrie complexe des pièces",
+      "rooms": "Plus de 10 pièces sur le plan",
+      "extraFloor": "Plan d’étage supplémentaire du même bien",
+      "outdoor": "Espaces extérieurs (parking, jardin, patio, terrain)",
+      "unreadable": "Plan source illisible",
+      "note": "Deux séries de corrections incluses dans le prix. Paiement intégral à l’avance sur facture."
+    },
+    "other": {
+      "title": "Services à part",
+      "lead": "Le prix est calculé autrement — par vue, et non par plan.",
+      "more": "En savoir plus",
+      "perView": "/ vue",
+      "interior": {
+        "title": "Visualisation d’intérieur",
+        "price": "à partir de 39 €",
+        "note": "Uniquement avec un plan 3D avec mobilier déjà commandé"
+      },
+      "exterior": {
+        "title": "Visualisation d’extérieur",
+        "price": "à partir de 199 €",
+        "note": "Maisons individuelles, 1 à 2 niveaux. +40 € par vue supplémentaire"
+      }
+    },
+    "legal": {
+      "label": "Important :",
+      "text": "Les plans sont un rendu graphique, pas des documents de construction. Les calculs de surface ne sont pas certifiés."
+    }
+  },
+  "servicePage": {
+    "examples": "Exemples de réalisations",
+    "examplesLead": "Des projets réels — le résultat à attendre de ce service.",
+    "about": "De quoi s'agit-il et pour qui ?",
+    "included": "Ce qui est inclus"
+  },
+  "packagesPage": {
+    "headline": "Forfaits — plus avantageux qu’à l’unité",
+    "lead": "Si un bien a besoin de plus d’un type de visuel — plan, intérieur, extérieur — un forfait revient moins cher que de commander chaque service séparément.",
+    "price": "{amount} €",
+    "popular": "Le plus choisi",
+    "order": "Commander le forfait",
+    "plans": {
+      "name": "Forfait « Plans »",
+      "sub": "2D + 3D d’un même bien"
+    },
+    "interior": {
+      "name": "Forfait « Intérieur »",
+      "sub": "Plan 3D + visualisation de 3 pièces"
+    },
+    "full": {
+      "name": "Forfait « Présentation complète »",
+      "sub": "Plan + intérieur + extérieur"
+    },
+    "items": {
+      "plan2dView": "Plan 2D avec dimensions ou mobilier — au choix (1 vue)",
+      "plan2d": "Plan 2D avec dimensions ou mobilier — au choix",
+      "plan3d": "Plan 3D avec mobilier (2 vues)",
+      "rooms": "3 visualisations de pièces (1 vue chacune)",
+      "interior": "3 visualisations d’intérieur",
+      "exterior": "Visualisation 3D d’extérieur (2 vues)",
+      "revisionsPlan": "2 séries de corrections par plan",
+      "revisionsItem": "2 séries de corrections par élément",
+      "delivery": "Prêt dès 48 heures"
+    },
+    "good": {
+      "title": "Bon à savoir",
+      "fixed": {
+        "title": "Prix fixe",
+        "text": "S’applique aux plans comptant jusqu’à 10 pièces par étage."
+      },
+      "extras": {
+        "title": "Suppléments à part",
+        "text": "Plus de 10 pièces, plan source illisible, géométrie non standard, étage supplémentaire, livraison express — +20 € chacun."
+      },
+      "formats": {
+        "title": "Formats de fichier",
+        "text": "PNG, JPEG ou PDF au choix, sans filigrane — prêts à publier."
+      }
+    },
+    "single": {
+      "text": "Besoin d’un seul service ?",
+      "link": "Voir les services à l’unité →"
+    }
   }
 }

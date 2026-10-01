@@ -20,6 +20,7 @@
   },
   "toolbar": {
     "services": "Servizi",
+    "packages": "Pacchetti",
     "pricing": "Prezzi",
     "about": "Chi siamo",
     "contact": "Contatti",
@@ -144,6 +145,21 @@
         "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
         "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
         "priceText": "per planimetria di un immobile"
+      },
+      "portfolio": {
+        "apartment150Munich": "Appartamento 150 m² Monaco di Baviera",
+        "apartment64Salzburg": "Appartamento 64 m² Salisburgo",
+        "apartment68Vienna": "Appartamento 68 m² Vienna",
+        "house250Munich": "Casa 250 m² Monaco di Baviera",
+        "house63Germany": "Casa 63 m² Germania",
+        "house75Klagenfurt": "Casa 75 m² Klagenfurt",
+        "house120GrazGround": "Casa 120 m² Graz — Piano terra",
+        "house120GrazUpper": "Casa 120 m² Graz — Primo piano",
+        "house95Bamberg": "Casa 95 m² Bamberga",
+        "house220Reckendorf": "Casa 220 m² Reckendorf",
+        "apartment65Bamberg": "Appartamento 65 m² Bamberga",
+        "apartment80Bamberg": "Appartamento 80 m² Bamberga",
+        "apartment85Germany": "Appartamento 85 m² Germania"
       }
     },
     "2dFurniture": {
@@ -172,6 +188,15 @@
         "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
         "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
         "priceText": "per planimetria di un immobile"
+      },
+      "portfolio": {
+        "apartment55Linz": "Appartamento 55 m² Linz",
+        "apartment63Vienna": "Appartamento 63 m² Vienna",
+        "house75Klagenfurt": "Casa 75 m² Klagenfurt",
+        "house95Vienna": "Casa 95 m² Vienna",
+        "house250Munich": "Casa 250 m² Monaco di Baviera",
+        "house120GrazGround": "Casa 120 m² Graz — Piano terra",
+        "house120GrazUpper": "Casa 120 m² Graz — Primo piano"
       }
     },
     "2dDim": {
@@ -200,6 +225,12 @@
         "item8": "+20€ — Planimetria 2D/3D aggiuntiva dello stesso immobile",
         "item9": "+20€ — Aree esterne (parcheggio, giardino, patio, ecc.)",
         "priceText": "per planimetria di un immobile"
+      },
+      "portfolio": {
+        "apartment60Switzerland": "Appartamento 60 m² Svizzera",
+        "apartment190Berlin": "Appartamento 190 m² Berlino",
+        "house63Germany": "Casa 63 m² Germania",
+        "house95Vienna": "Casa 95 m² Vienna"
       }
     }
   },
@@ -222,6 +253,12 @@
     "type1": "Planimetria 2D con misure",
     "type2": "Planimetria 2D arredata",
     "type3": "Planimetria 3D arredata",
+    "groupPlans": "Planimetrie singole",
+    "typeDesc": {
+      "dimensions": "Quote, senza arredamento",
+      "furniture2d": "Con disposizione degli arredi",
+      "furniture3d": "Visualizzazione tridimensionale. Interni su richiesta"
+    },
     "materialsTitle": "Seleziona i materiali di finitura:",
     "fileInputButton": "Scegli file",
     "fileInputLabel": "Carica la planimetria del tuo immobile (fino a 5 MB)",
@@ -302,6 +339,7 @@
     }
   },
   "mainFAQ": {
+    "title": "Domande frequenti",
     "1": {
       "question": "Come posso ordinare una planimetria 2D/3D?",
       "answer": "Scrivici a office@3dplan.online con tutti i dettagli del tuo progetto. Puoi anche ordinare direttamente tramite il modulo sul nostro sito web."
@@ -419,5 +457,111 @@
   "confirmationContact": {
     "title": "GRAZIE! IL TUO MESSAGGIO È STATO INVIATO",
     "description": "<p>Abbiamo ricevuto il tuo messaggio e lo esamineremo a breve. Il nostro team ti contatterà via e-mail il prima possibile per rispondere alla tua domanda o discutere la tua richiesta.</p><p>Se desideri inviarci ulteriori informazioni o file, puoi scriverci a:</p><p><h3>office@3dplan.online</h3></p><p>Grazie per aver contattato <strong>3Dplan.online</strong>.</p>"
+  },
+  "pricePage": {
+    "headline": "Un unico prezzo — <accent>€39 a planimetria</accent>",
+    "lead": "Una qualsiasi delle tre planimetrie di base, fino a 10 locali. I supplementi sono noti in anticipo — senza telefonate né trattative.",
+    "planPrice": "€39",
+    "topView": "1 vista (dall’alto)",
+    "delivery": "Pronta in 1–3 giorni",
+    "dimension": {
+      "item1": "Quote precise su tutte le pareti",
+      "item2": "Cucina e bagni indicati"
+    },
+    "furniture": {
+      "item1": "Arredamento in base alle vostre foto o al nostro concept",
+      "item2": "Colore di pavimenti e piastrelle a scelta"
+    },
+    "3d": {
+      "item1": "Visualizzazione tridimensionale con arredamento",
+      "item2": "2 viste (dall’alto e laterale)",
+      "item3": "Possibile aggiungere la visualizzazione degli interni"
+    },
+    "surcharges": {
+      "title": "Supplementi — uguali per tutte e tre le planimetrie",
+      "amount": "+€20",
+      "express": "Consegna express (48 ore)",
+      "complex": "Geometria complessa dei locali",
+      "rooms": "Più di 10 locali nella planimetria",
+      "extraFloor": "Planimetria aggiuntiva di un altro piano dello stesso immobile",
+      "outdoor": "Aree esterne (parcheggio, giardino, patio, terreno)",
+      "unreadable": "Planimetria di partenza illeggibile",
+      "note": "Due cicli di revisioni inclusi nel prezzo. Pagamento anticipato al 100% su fattura."
+    },
+    "other": {
+      "title": "Servizi separati",
+      "lead": "Il prezzo si calcola diversamente — per vista, non per planimetria.",
+      "more": "Scopri di più",
+      "perView": "/ vista",
+      "interior": {
+        "title": "Visualizzazione di interni",
+        "price": "da €39",
+        "note": "Solo insieme a una planimetria 3D arredata già ordinata"
+      },
+      "exterior": {
+        "title": "Visualizzazione di esterni",
+        "price": "da €199",
+        "note": "Case indipendenti, 1–2 piani. +€40 per ogni vista aggiuntiva"
+      }
+    },
+    "legal": {
+      "label": "Importante:",
+      "text": "Le planimetrie sono un’elaborazione grafica, non documentazione edilizia. I calcoli delle superfici non sono certificati."
+    }
+  },
+  "servicePage": {
+    "examples": "Esempi di lavori",
+    "examplesLead": "Progetti reali — il risultato che puoi aspettarti da questo servizio.",
+    "about": "Che cos'è e a chi è rivolto",
+    "included": "Cosa è incluso"
+  },
+  "packagesPage": {
+    "headline": "Pacchetti — più convenienti che singolarmente",
+    "lead": "Se per un immobile serve più di un tipo di grafica — planimetria, interni, esterni — un pacchetto costa meno che ordinare ogni servizio separatamente.",
+    "price": "€{amount}",
+    "popular": "La scelta più popolare",
+    "order": "Ordina il pacchetto",
+    "plans": {
+      "name": "Pacchetto «Planimetrie»",
+      "sub": "2D + 3D dello stesso immobile"
+    },
+    "interior": {
+      "name": "Pacchetto «Interni»",
+      "sub": "Planimetria 3D + visualizzazione di 3 locali"
+    },
+    "full": {
+      "name": "Pacchetto «Presentazione completa»",
+      "sub": "Planimetria + interni + esterni"
+    },
+    "items": {
+      "plan2dView": "Planimetria 2D con misure o arredata — a scelta (1 vista)",
+      "plan2d": "Planimetria 2D con misure o arredata — a scelta",
+      "plan3d": "Planimetria 3D arredata (2 viste)",
+      "rooms": "3 visualizzazioni di locali (1 vista ciascuna)",
+      "interior": "3 visualizzazioni di interni",
+      "exterior": "Visualizzazione 3D di esterni (2 viste)",
+      "revisionsPlan": "2 cicli di revisioni per ogni planimetria",
+      "revisionsItem": "2 cicli di revisioni per ogni voce",
+      "delivery": "Pronto da 48 ore"
+    },
+    "good": {
+      "title": "Buono a sapersi",
+      "fixed": {
+        "title": "Prezzo fisso",
+        "text": "Vale per planimetrie fino a 10 locali per piano."
+      },
+      "extras": {
+        "title": "Supplementi a parte",
+        "text": "Più di 10 locali, planimetria illeggibile, geometria non standard, piano aggiuntivo, consegna express — +€20 ciascuno."
+      },
+      "formats": {
+        "title": "Formati dei file",
+        "text": "PNG, JPEG o PDF a scelta, senza filigrane — pronti per la pubblicazione."
+      }
+    },
+    "single": {
+      "text": "Ti serve un solo servizio?",
+      "link": "Vedi i singoli servizi →"
+    }
   }
 }

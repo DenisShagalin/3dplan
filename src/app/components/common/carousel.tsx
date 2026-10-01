@@ -12,9 +12,16 @@ interface IProps {
   loading: boolean;
   children: any;
   autoplay?: boolean;
+  // Defaults to 1 on small screens and 3 otherwise.
+  slidesToShow?: number;
 }
 
-export const Carousel: React.FC<IProps> = ({ children, loading, autoplay }) => {
+export const Carousel: React.FC<IProps> = ({
+  children,
+  loading,
+  autoplay,
+  slidesToShow,
+}) => {
   const ref: any = useRef();
   const { isSmall } = useMedia();
 
@@ -26,7 +33,7 @@ export const Carousel: React.FC<IProps> = ({ children, loading, autoplay }) => {
         </div>
         <div className="carousel_images">
           <AntCarousel
-            slidesToShow={isSmall ? 1 : 3}
+            slidesToShow={slidesToShow ?? (isSmall ? 1 : 3)}
             slidesToScroll={1}
             ref={ref}
             dots={false}
