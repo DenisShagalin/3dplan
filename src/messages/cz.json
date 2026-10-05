@@ -159,7 +159,10 @@
         "house220Reckendorf": "Dům 220 m² Reckendorf",
         "apartment65Bamberg": "Byt 65 m² Bamberg",
         "apartment80Bamberg": "Byt 80 m² Bamberg",
-        "apartment85Germany": "Byt 85 m² Německo"
+        "apartment85Germany": "Byt 85 m² Německo",
+        "apartment100Goetzis": "Byt 100 m² Götzis",
+        "apartment55Vorarlberg": "Byt 55 m² Vorarlbersko",
+        "apartment80Bludenz": "Byt 80 m² Bludenz"
       }
     },
     "2dFurniture": {
@@ -196,7 +199,59 @@
         "house95Vienna": "Dům 95 m² Vídeň",
         "house250Munich": "Dům 250 m² Mnichov",
         "house120GrazGround": "Dům 120 m² Graz — Přízemí",
-        "house120GrazUpper": "Dům 120 m² Graz — Patro"
+        "house120GrazUpper": "Dům 120 m² Graz — Patro",
+        "apartment80Bludenz": "Byt 80 m² Bludenz"
+      }
+    },
+    "interior": {
+      "lead": "Doplní váš 3D půdorys o samostatný fotorealistický obraz místnosti — na základě již schváleného nábytku a designu.",
+      "priceTerm": "za obrázek (pohled)",
+      "ctaTerm": "za obrázek",
+      "condition": "Pouze spolu s již objednaným 3D půdorysem s nábytkem — nelze objednat samostatně",
+      "order": "Objednat vizualizaci interiéru",
+      "howItWorks": {
+        "title": "Jak to funguje",
+        "lead": "Použijeme přesně ten nábytek a design, které jste již schválili ve 3D půdorysu — bez opakovaného schvalování.",
+        "room": "Vizualizace místnosti",
+        "plan": "Stejná místnost na půdorysu"
+      }
+    },
+    "exterior": {
+      "lead": "Ukažte nemovitost ještě před prohlídkou — s okolím, pozadím a atmosférou. Na základě výkresů fasád budovy.",
+      "priceTerm": "za pohled · samostatně stojící domy, 1–2 podlaží",
+      "delivery": "Hotovo od 48 hodin",
+      "order": "Objednat vizualizaci exteriéru",
+      "included": {
+        "title": "Co je zahrnuto v základní ceně",
+        "lead": "199 € za pohled: digitalizace budovy, pozadí dle výběru, 2 kola úprav, soubor PNG/JPEG/PDF, dodání od 48 hodin.",
+        "model": "3D model vaší budovy",
+        "background": "Libovolné pozadí dle vašeho výběru"
+      },
+      "backgrounds": {
+        "title": "Pozadí dle výběru — zahrnuto v ceně",
+        "lead": "Vytváří se ve 3D, bez použití skutečných fotografií lokality.",
+        "mountains": "Hory",
+        "village": "Obec",
+        "sea": "Moře",
+        "night": "Noční krajina"
+      },
+      "surcharges": {
+        "title": "Příplatky",
+        "amount": "+40 €",
+        "extraView": "Další pohled",
+        "extraViewNote": "např. pohled na dům zezadu",
+        "landscaping": "Úprava pozemku",
+        "landscapingNote": "bazén, dětské hřiště apod."
+      },
+      "provide": {
+        "title": "Co je potřeba dodat",
+        "lead": "Pro modelování budovy:",
+        "sitePlan": "Situační plán pozemku",
+        "floorPlans": "Půdorys domu (pro každé podlaží)",
+        "elevations": "Boční pohledy na fasády",
+        "materials": "Materiály fasády, oken, dveří a střechy",
+        "landscaping": "Vaše přání k úpravě pozemku",
+        "photos": "Fotografie nemovitosti — pokud jsou k dispozici, nepovinné"
       }
     },
     "2dDim": {
@@ -230,7 +285,8 @@
         "apartment60Switzerland": "Byt 60 m² Švýcarsko",
         "apartment190Berlin": "Byt 190 m² Berlín",
         "house63Germany": "Dům 63 m² Německo",
-        "house95Vienna": "Dům 95 m² Vídeň"
+        "house95Vienna": "Dům 95 m² Vídeň",
+        "apartment55Vorarlberg": "Byt 55 m² Vorarlbersko"
       }
     }
   },

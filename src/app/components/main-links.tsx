@@ -36,6 +36,14 @@ export const MainLinks = () => {
       key: "/service/3d-furniture",
       label: t("toolbar.servicesItems.3dFur"),
     },
+    {
+      key: "/service/interior",
+      label: t("toolbar.servicesItems.3dIn"),
+    },
+    {
+      key: "/service/exterior",
+      label: t("toolbar.servicesItems.3dEx"),
+    },
   ];
 
   const main = [

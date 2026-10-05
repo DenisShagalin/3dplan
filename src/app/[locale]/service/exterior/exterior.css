@@ -1,0 +1,54 @@
+/* Exterior service page (/service/exterior), on top of service.css */
+
+.ex_grid_bg {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* The model, background and portfolio renders are landscape, so they keep
+   their own proportions instead of the 5:4 crop used for floor plans. */
+.ex_page .sv_grid img {
+  aspect-ratio: 16 / 9;
+}
+
+.ex_page .sv_portfolio .sv_pf_item img {
+  aspect-ratio: 7 / 5;
+}
+
+.ex_bg_name {
+  font-weight: 700;
+  color: var(--ui-text);
+  text-align: center;
+}
+
+.ex_sc_note {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+  color: var(--ui-text-sec);
+}
+
+.ex_list {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ex_list li {
+  display: flex;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 15px;
+  color: var(--ui-text);
+}
+
+.ex_list li::before {
+  content: "—";
+  color: var(--ui-accent);
+}
+
+@media (max-width: 860px) {
+  .ex_grid_bg {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}

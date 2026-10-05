@@ -30,6 +30,9 @@ const PORTFOLIO = [
   ["apartment-65-bamberg", "apartment65Bamberg"],
   ["apartment-80-bamberg", "apartment80Bamberg"],
   ["apartment-85-germany", "apartment85Germany"],
+  ["apartment-100-goetzis", "apartment100Goetzis"],
+  ["apartment-55-vorarlberg", "apartment55Vorarlberg"],
+  ["apartment-80-bludenz", "apartment80Bludenz"],
 ].map(([file, key]) => ({
   src: `/3d-furniture/portfolio/${file}.webp`,
   key: `service.3dFurniture.portfolio.${key}`,
@@ -179,8 +182,7 @@ export default function Page() {
                   {t(`pricePage.other.${key}.note`)}
                 </div>
               </div>
-              {/* No service pages for these yet, so "more" asks us directly. */}
-              <Link href="/contact" className="sv_btn_outline">
+              <Link href={`/service/${key}`} className="sv_btn_outline">
                 {t("pricePage.other.more")}
               </Link>
             </div>

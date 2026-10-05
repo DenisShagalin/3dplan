@@ -9,7 +9,7 @@ export default function About() {
     <div className="about_page ui_page">
       <section className="about_hero">
         <div className="about_photo_box">
-          <img className="about_img" src="/aboutus.jpg" alt="about us" />
+          <img className="about_img" src="/aboutus.webp" alt="about us" />
         </div>
 
         {/* "aboutus.description" is trusted authored HTML (<h2> + <p>). */}

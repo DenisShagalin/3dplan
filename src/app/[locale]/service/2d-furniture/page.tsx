@@ -24,6 +24,7 @@ const PORTFOLIO = [
   ["house-250-munich", "house250Munich"],
   ["house-120-graz-ground", "house120GrazGround"],
   ["house-120-graz-upper", "house120GrazUpper"],
+  ["apartment-80-bludenz", "apartment80Bludenz"],
 ].map(([file, key]) => ({
   src: `/2d-furniture/portfolio/${file}.webp`,
   key: `service.2dFurniture.portfolio.${key}`,
@@ -173,8 +174,7 @@ export default function Page() {
                   {t(`pricePage.other.${key}.note`)}
                 </div>
               </div>
-              {/* No service pages for these yet, so "more" asks us directly. */}
-              <Link href="/contact" className="sv_btn_outline">
+              <Link href={`/service/${key}`} className="sv_btn_outline">
                 {t("pricePage.other.more")}
               </Link>
             </div>

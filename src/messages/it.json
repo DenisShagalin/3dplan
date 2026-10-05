@@ -159,7 +159,10 @@
         "house220Reckendorf": "Casa 220 m² Reckendorf",
         "apartment65Bamberg": "Appartamento 65 m² Bamberga",
         "apartment80Bamberg": "Appartamento 80 m² Bamberga",
-        "apartment85Germany": "Appartamento 85 m² Germania"
+        "apartment85Germany": "Appartamento 85 m² Germania",
+        "apartment100Goetzis": "Appartamento 100 m² Götzis",
+        "apartment55Vorarlberg": "Appartamento 55 m² Vorarlberg",
+        "apartment80Bludenz": "Appartamento 80 m² Bludenz"
       }
     },
     "2dFurniture": {
@@ -196,7 +199,59 @@
         "house95Vienna": "Casa 95 m² Vienna",
         "house250Munich": "Casa 250 m² Monaco di Baviera",
         "house120GrazGround": "Casa 120 m² Graz — Piano terra",
-        "house120GrazUpper": "Casa 120 m² Graz — Primo piano"
+        "house120GrazUpper": "Casa 120 m² Graz — Primo piano",
+        "apartment80Bludenz": "Appartamento 80 m² Bludenz"
+      }
+    },
+    "interior": {
+      "lead": "Completa la vostra planimetria 3D con un’immagine fotorealistica separata di un locale — sulla base dell’arredamento e del design già approvati.",
+      "priceTerm": "per immagine (vista)",
+      "ctaTerm": "per immagine",
+      "condition": "Solo insieme a una planimetria 3D arredata già ordinata — non ordinabile separatamente",
+      "order": "Ordina la visualizzazione di interni",
+      "howItWorks": {
+        "title": "Come funziona",
+        "lead": "Utilizziamo esattamente l’arredamento e il design che avete già approvato nella planimetria 3D — senza ulteriori approvazioni.",
+        "room": "Visualizzazione del locale",
+        "plan": "Lo stesso locale sulla planimetria"
+      }
+    },
+    "exterior": {
+      "lead": "Mostrate l’immobile ancora prima della visita — con l’ambiente circostante, lo sfondo e l’atmosfera. Sulla base dei disegni di facciata dell’edificio.",
+      "priceTerm": "per vista · case indipendenti, 1–2 piani",
+      "delivery": "Pronta da 48 ore",
+      "order": "Ordina la visualizzazione di esterni",
+      "included": {
+        "title": "Cosa è incluso nel prezzo base",
+        "lead": "€199 per vista: modellazione dell’edificio, sfondo a scelta, 2 cicli di revisioni, file PNG/JPEG/PDF, consegna da 48 ore.",
+        "model": "Modello 3D del vostro edificio",
+        "background": "Qualsiasi sfondo a vostra scelta"
+      },
+      "backgrounds": {
+        "title": "Sfondo a scelta — incluso nel prezzo",
+        "lead": "Creato in 3D, senza utilizzare foto reali del luogo.",
+        "mountains": "Montagne",
+        "village": "Paese",
+        "sea": "Mare",
+        "night": "Paesaggio notturno"
+      },
+      "surcharges": {
+        "title": "Supplementi",
+        "amount": "+€40",
+        "extraView": "Vista aggiuntiva",
+        "extraViewNote": "ad esempio, la vista sul retro della casa",
+        "landscaping": "Sistemazione del terreno",
+        "landscapingNote": "piscina, area giochi, ecc."
+      },
+      "provide": {
+        "title": "Cosa dovete fornire",
+        "lead": "Per la modellazione dell’edificio:",
+        "sitePlan": "Planimetria del lotto",
+        "floorPlans": "Pianta della casa (una per piano)",
+        "elevations": "Prospetti laterali",
+        "materials": "Materiali di facciata, finestre, porte e tetto",
+        "landscaping": "Le vostre preferenze per la sistemazione del terreno",
+        "photos": "Foto dell’immobile — se disponibili, facoltative"
       }
     },
     "2dDim": {
@@ -230,7 +285,8 @@
         "apartment60Switzerland": "Appartamento 60 m² Svizzera",
         "apartment190Berlin": "Appartamento 190 m² Berlino",
         "house63Germany": "Casa 63 m² Germania",
-        "house95Vienna": "Casa 95 m² Vienna"
+        "house95Vienna": "Casa 95 m² Vienna",
+        "apartment55Vorarlberg": "Appartamento 55 m² Vorarlberg"
       }
     }
   },

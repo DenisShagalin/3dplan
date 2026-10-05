@@ -1,0 +1,19 @@
+/* Interior service page (/service/interior), on top of service.css */
+
+/* Room renders are 7:5; the floor plan next to one is cropped to match. */
+.in_page .sv_grid img,
+.in_page .sv_portfolio .sv_pf_item img {
+  aspect-ratio: 7 / 5;
+}
+
+/* Interior is an add-on to a 3D floor plan, never ordered on its own. */
+.in_condition {
+  display: block;
+  max-width: 52ch;
+  margin: 0 0 8px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--ui-accent-bg);
+  font-size: 13px;
+  color: var(--ui-text-sec);
+}

@@ -54,7 +54,7 @@ Six locales: `en, de, fr, cz, sk, it` ([locales.ts](src/i18n/locales.ts)). `en` 
 
 ### Message catalogs
 
-All six files must stay structurally identical — same keys, same count (currently 397 leaves). Adding a string means adding it to all six. Translated copy is real marketing/legal text; if you cannot translate, say so rather than leaving English in a non-English file.
+All six files must stay structurally identical — same keys, same count (currently 439 leaves). Adding a string means adding it to all six. Translated copy is real marketing/legal text; if you cannot translate, say so rather than leaving English in a non-English file.
 
 Some strings carry markup:
 

@@ -184,6 +184,21 @@
   color: var(--ui-text-sec);
 }
 
+/* Image grids (exterior, interior): figures styled like portfolio cards */
+.sv_grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.sv_grid_pair {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.sv_grid img {
+  width: 100%;
+}
+
 /* Sections */
 .sv_section {
   padding: 48px 0 0;
@@ -324,7 +339,8 @@
     font-size: 16px;
   }
 
-  .sv_related {
+  .sv_related,
+  .sv_grid_pair {
     grid-template-columns: 1fr;
   }
 

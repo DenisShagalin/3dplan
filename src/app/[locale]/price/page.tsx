@@ -7,8 +7,6 @@ import { OrderType, getOrderHref } from "@/app/components/order";
 import { UiServicesInfo } from "@/app/components/common/ui-services-info";
 import "./price.css";
 
-// The previous version of this page lives at "/old_price" for comparison.
-
 const PLANS: {
   orderType: Exclude<OrderType, "">;
   titleKey: string;
@@ -130,8 +128,7 @@ export default function Price() {
                   {t(`pricePage.other.${key}.note`)}
                 </div>
               </div>
-              {/* No service pages for these yet, so "more" asks us directly. */}
-              <Link href="/contact" className="price_btn_outline">
+              <Link href={`/service/${key}`} className="price_btn_outline">
                 {t("pricePage.other.more")}
               </Link>
             </div>

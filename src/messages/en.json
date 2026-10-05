@@ -159,7 +159,10 @@
         "house220Reckendorf": "House 220 m² Reckendorf",
         "apartment65Bamberg": "Apartment 65 m² Bamberg",
         "apartment80Bamberg": "Apartment 80 m² Bamberg",
-        "apartment85Germany": "Apartment 85 m² Germany"
+        "apartment85Germany": "Apartment 85 m² Germany",
+        "apartment100Goetzis": "Apartment 100 m² Götzis",
+        "apartment55Vorarlberg": "Apartment 55 m² Vorarlberg",
+        "apartment80Bludenz": "Apartment 80 m² Bludenz"
       }
     },
     "2dFurniture": {
@@ -196,7 +199,59 @@
         "house95Vienna": "House 95 m² Vienna",
         "house250Munich": "House 250 m² Munich",
         "house120GrazGround": "House 120 m² Graz — Ground floor",
-        "house120GrazUpper": "House 120 m² Graz — Upper floor"
+        "house120GrazUpper": "House 120 m² Graz — Upper floor",
+        "apartment80Bludenz": "Apartment 80 m² Bludenz"
+      }
+    },
+    "interior": {
+      "lead": "Adds a separate photorealistic image of a room to your 3D floor plan — based on the furniture and design you have already approved.",
+      "priceTerm": "per image (view)",
+      "ctaTerm": "per image",
+      "condition": "Only together with an already ordered 3D floor plan with furniture — not available separately",
+      "order": "Order interior visualisation",
+      "howItWorks": {
+        "title": "How it works",
+        "lead": "We use exactly the furniture and design you have already approved in the 3D floor plan — no repeated approvals.",
+        "room": "Room visualisation",
+        "plan": "The same room on the plan"
+      }
+    },
+    "exterior": {
+      "lead": "Show the property before the viewing — with its surroundings, a background and atmosphere. Based on the building's facade drawings.",
+      "priceTerm": "per view · detached houses, 1–2 storeys",
+      "delivery": "Ready from 48 hours",
+      "order": "Order exterior visualisation",
+      "included": {
+        "title": "What's included in the base price",
+        "lead": "€199 per view: digitising the building, a background of your choice, 2 rounds of revisions, a PNG/JPEG/PDF file, delivery from 48 hours.",
+        "model": "3D model of your building",
+        "background": "Any background of your choice"
+      },
+      "backgrounds": {
+        "title": "Background of your choice — included in the price",
+        "lead": "Created in 3D, without using real photos of the location.",
+        "mountains": "Mountains",
+        "village": "Village",
+        "sea": "Sea",
+        "night": "Night landscape"
+      },
+      "surcharges": {
+        "title": "Surcharges",
+        "amount": "+€40",
+        "extraView": "Additional view",
+        "extraViewNote": "e.g. a view of the back of the house",
+        "landscaping": "Landscaping of the plot",
+        "landscapingNote": "pool, playground, etc."
+      },
+      "provide": {
+        "title": "What you need to provide",
+        "lead": "To model the building:",
+        "sitePlan": "Site plan",
+        "floorPlans": "Floor plan of the house (one per storey)",
+        "elevations": "Side elevations",
+        "materials": "Facade, window, door and roof materials",
+        "landscaping": "Your wishes for the plot design",
+        "photos": "Photos of the property — optional, if available"
       }
     },
     "2dDim": {
@@ -230,7 +285,8 @@
         "apartment60Switzerland": "Apartment 60 m² Switzerland",
         "apartment190Berlin": "Apartment 190 m² Berlin",
         "house63Germany": "House 63 m² Germany",
-        "house95Vienna": "House 95 m² Vienna"
+        "house95Vienna": "House 95 m² Vienna",
+        "apartment55Vorarlberg": "Apartment 55 m² Vorarlberg"
       }
     }
   },

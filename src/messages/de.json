@@ -155,7 +155,10 @@
         "house220Reckendorf": "Haus 220 m² Reckendorf",
         "apartment65Bamberg": "Wohnung 65 m² Bamberg",
         "apartment80Bamberg": "Wohnung 80 m² Bamberg",
-        "apartment85Germany": "Wohnung 85 m² Deutschland"
+        "apartment85Germany": "Wohnung 85 m² Deutschland",
+        "apartment100Goetzis": "Wohnung 100 m² Götzis",
+        "apartment55Vorarlberg": "Wohnung 55 m² Vorarlberg",
+        "apartment80Bludenz": "Wohnung 80 m² Bludenz"
       }
     },
     "2dFurniture": {
@@ -192,7 +195,59 @@
         "house95Vienna": "Haus 95 m² Wien",
         "house250Munich": "Haus 250 m² München",
         "house120GrazGround": "Haus 120 m² Graz — Erdgeschoss",
-        "house120GrazUpper": "Haus 120 m² Graz — Obergeschoss"
+        "house120GrazUpper": "Haus 120 m² Graz — Obergeschoss",
+        "apartment80Bludenz": "Wohnung 80 m² Bludenz"
+      }
+    },
+    "interior": {
+      "lead": "Ergänzt Ihren 3D-Grundriss um ein separates fotorealistisches Bild eines Raumes — auf Basis der bereits freigegebenen Möblierung und Gestaltung.",
+      "priceTerm": "pro Bild (Ansicht)",
+      "ctaTerm": "pro Bild",
+      "condition": "Nur zusammen mit einem bereits bestellten 3D-Grundriss mit Möblierung — nicht einzeln bestellbar",
+      "order": "Innenraumvisualisierung bestellen",
+      "howItWorks": {
+        "title": "So funktioniert es",
+        "lead": "Wir verwenden genau die Möbel und das Design, die Sie im 3D-Grundriss bereits freigegeben haben — ohne erneute Abstimmung.",
+        "room": "Visualisierung des Raumes",
+        "plan": "Derselbe Raum im Grundriss"
+      }
+    },
+    "exterior": {
+      "lead": "Zeigen Sie die Immobilie schon vor der Besichtigung — mit Umgebung, Hintergrund und Atmosphäre. Auf Grundlage der Fassadenpläne des Gebäudes.",
+      "priceTerm": "pro Ansicht · freistehende Häuser, 1–2 Geschosse",
+      "delivery": "Fertig ab 48 Stunden",
+      "order": "Außenvisualisierung bestellen",
+      "included": {
+        "title": "Was im Grundpreis enthalten ist",
+        "lead": "199 € pro Ansicht: Digitalisierung des Gebäudes, Hintergrund nach Wahl, 2 Korrekturrunden, Datei als PNG/JPEG/PDF, Lieferung ab 48 Stunden.",
+        "model": "3D-Modell Ihres Gebäudes",
+        "background": "Beliebiger Hintergrund nach Ihrer Wahl"
+      },
+      "backgrounds": {
+        "title": "Hintergrund nach Wahl — im Preis inbegriffen",
+        "lead": "Wird in 3D erstellt, ohne echte Fotos der Umgebung.",
+        "mountains": "Berge",
+        "village": "Siedlung",
+        "sea": "Meer",
+        "night": "Nachtlandschaft"
+      },
+      "surcharges": {
+        "title": "Aufpreise",
+        "amount": "+40 €",
+        "extraView": "Zusätzliche Ansicht",
+        "extraViewNote": "z. B. Rückansicht des Hauses",
+        "landscaping": "Gestaltung des Grundstücks",
+        "landscapingNote": "Pool, Spielplatz usw."
+      },
+      "provide": {
+        "title": "Was Sie bereitstellen müssen",
+        "lead": "Für die Modellierung des Gebäudes:",
+        "sitePlan": "Lageplan",
+        "floorPlans": "Grundriss des Hauses (je Geschoss)",
+        "elevations": "Seitenansichten der Fassaden",
+        "materials": "Materialien von Fassade, Fenstern, Türen und Dach",
+        "landscaping": "Wünsche zur Gestaltung des Grundstücks",
+        "photos": "Fotos der Immobilie — falls vorhanden, optional"
       }
     },
     "2dDim": {
@@ -226,7 +281,8 @@
         "apartment60Switzerland": "Wohnung 60 m² Schweiz",
         "apartment190Berlin": "Wohnung 190 m² Berlin",
         "house63Germany": "Haus 63 m² Deutschland",
-        "house95Vienna": "Haus 95 m² Wien"
+        "house95Vienna": "Haus 95 m² Wien",
+        "apartment55Vorarlberg": "Wohnung 55 m² Vorarlberg"
       }
     }
   },
