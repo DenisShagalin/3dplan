@@ -55,6 +55,39 @@
     "title": "3D Visualization of Interiors and Exteriors – The Key to Successful Real Estate Sales",
     "description": "Why is important? Buyerthis s make decisions based on emotions and visual perception. 3D visualization helps to present a property even before construction or renovation, creating a sense of space and style.<br></br><br></br>Our Services:<br></br>• 3D Interior Visualization – realistic images that convey comfort and functionality.<br></br>• 3D Exterior Visualization – striking visual solutions for facades and surrounding areas."
   },
+  "homePage": {
+    "kicker": "For real estate agents and agencies",
+    "title": "Your old floor plan, turned into a plan that sells — in 48 hours",
+    "lead": "We digitise illegible, outdated and hand-drawn floor plans into professional 2D and 3D graphics for marketing. It saves you 2–4 hours on preparing an exposé.",
+    "order": "Order a plan",
+    "price": "from €39",
+    "before": "Original",
+    "after": "Finished plan",
+    "value": {
+      "title": "Why estate agents choose us",
+      "lead": "An agent's assistant costs €20–29 an hour, and preparing an exposé takes 2–4 hours — we take this task off your hands at a fixed price and turnaround.",
+      "anySource": {
+        "title": "Any source material",
+        "text": "We work with scans, old drawings and hand-drawn sketches — where automated services fail."
+      },
+      "fixedPrice": {
+        "title": "Fixed price",
+        "text": "€39 per plan, surcharges known upfront. No calls or negotiating — everything by e-mail."
+      },
+      "ready": {
+        "title": "Ready to publish",
+        "text": "Clean graphics without markings — straight into your listing, website or brochure."
+      }
+    },
+    "pricing": {
+      "title": "One price for all basic plans",
+      "text": "2D with dimensions · 2D with furniture · 3D with furniture — any of the three, up to 10 rooms.",
+      "perPlan": "/ plan",
+      "revisions": "Two rounds of revisions",
+      "included": "included"
+    },
+    "reviewsTitle": "What our clients say"
+  },
   "feedback": {
     "thomas": {
       "text": "A great collaboration! The plan graphics look professional - fast, high-quality, and at a good price. It saves time and leaves a great impression on clients. Thank you and I highly recommend it!",

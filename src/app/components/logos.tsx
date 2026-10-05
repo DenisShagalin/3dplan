@@ -7,18 +7,18 @@ const logos = [
     src: "/logos/AJAS.png",
     link: "https://www.ajas-immo.at/",
   },
-  {
-    src: "/logos/brimo.png",
-    link: "https://brimo-immobilien.de/",
-  },
+  // {
+  //   src: "/logos/brimo.png",
+  //   link: "https://brimo-immobilien.de/",
+  // },
   {
     src: "/logos/graf_immobilien_logo.png",
     link: "https://www.graf-immobilienmakler.com/",
   },
-  {
-    src: "/logos/remax.png",
-    link: "https://www.remax.de/",
-  },
+  // {
+  //   src: "/logos/remax.png",
+  //   link: "https://www.remax.de/",
+  // },
 ];
 
 export const Logos = () => (

@@ -51,6 +51,39 @@
     "usText3": "Perfekt für das Immobilienmarketing - steigert den Verkauf und stärkt das Image Ihrer Agentur.",
     "usTitle": "Grafikservice für Immobilienmakler"
   },
+  "homePage": {
+    "kicker": "Für Immobilienmakler und Maklerbüros",
+    "title": "Aus dem alten Grundriss wird in 48 Stunden ein Grundriss, der verkauft",
+    "lead": "Wir digitalisieren unleserliche, veraltete und handgezeichnete Grundrisse zu professionellen 2D- und 3D-Grafiken für Ihr Marketing. Das spart Ihnen 2–4 Stunden bei der Erstellung eines Exposés.",
+    "order": "Grundriss bestellen",
+    "price": "ab 39 €",
+    "before": "Vorlage",
+    "after": "Fertiger Grundriss",
+    "value": {
+      "title": "Warum Makler uns wählen",
+      "lead": "Eine Stunde Makler-Assistenz kostet 20–29 €, die Vorbereitung eines Exposés dauert 2–4 Stunden — wir übernehmen diese Aufgabe zum Festpreis und mit fester Lieferzeit.",
+      "anySource": {
+        "title": "Jede Vorlage",
+        "text": "Wir arbeiten mit Scans, alten Bauzeichnungen und Handskizzen — dort, wo automatische Dienste scheitern."
+      },
+      "fixedPrice": {
+        "title": "Festpreis",
+        "text": "39 € pro Grundriss, Aufpreise sind im Voraus bekannt. Ohne Telefonate und Verhandlungen — alles per E-Mail."
+      },
+      "ready": {
+        "title": "Bereit zur Veröffentlichung",
+        "text": "Saubere Grafik ohne Markierungen — direkt ins Inserat, auf die Website oder in die Broschüre."
+      }
+    },
+    "pricing": {
+      "title": "Ein Preis für alle Basis-Grundrisse",
+      "text": "2D mit Maßen · 2D mit Möblierung · 3D mit Möblierung — jeder der drei, bis zu 10 Räume.",
+      "perPlan": "/ Grundriss",
+      "revisions": "Zwei Korrekturrunden",
+      "included": "inklusive"
+    },
+    "reviewsTitle": "Das sagen unsere Kunden"
+  },
   "feedback": {
     "thomas": {
       "text": "Eine großartige Zusammenarbeit! Die Plan-Grafiken sehen professionell aus - schnell, hochwertig und zu einem guten Preis. Spart Zeit und hinterlässt einen hervorragenden Eindruck bei Kunden. Vielen Dank und absolute Empfehlung!",

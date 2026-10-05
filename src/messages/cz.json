@@ -55,6 +55,39 @@
     "title": "3D Vizualizace interiérů a exteriérů – Klíč k úspěšnému prodeji nemovitostí",
     "description": "Proč je to důležité? Kupující přijímají rozhodnutí na základě emocí a vizuálního vnímání. 3D vizualizace pomáhá prezentovat nemovitost ještě před výstavbou nebo rekonstrukcí a vytváří pocit prostoru a stylu.<br></br><br></br>Naše služby:<br></br>• 3D Vizualizace interiéru – realistické obrazy, které zprostředkovávají pohodlí a funkčnost.<br></br>• 3D Vizualizace exteriéru – působivá vizuální řešení pro fasády a okolní prostory."
   },
+  "homePage": {
+    "kicker": "Pro realitní makléře a kanceláře",
+    "title": "Ze starého půdorysu za 48 hodin půdorys, který prodává",
+    "lead": "Digitalizujeme nečitelné, zastaralé a ručně kreslené půdorysy do profesionální 2D a 3D grafiky pro marketing. Ušetří vám to 2–4 hodiny při přípravě exposé.",
+    "order": "Objednat půdorys",
+    "price": "od 39 €",
+    "before": "Podklad",
+    "after": "Hotový půdorys",
+    "value": {
+      "title": "Proč si nás makléři vybírají",
+      "lead": "Hodina asistenta makléře stojí 20–29 € a příprava exposé zabere 2–4 hodiny — tento úkol převezmeme za pevnou cenu a v pevném termínu.",
+      "anySource": {
+        "title": "Jakýkoli podklad",
+        "text": "Pracujeme se skeny, starými výkresy i ručními náčrty — tam, kde automatické služby selhávají."
+      },
+      "fixedPrice": {
+        "title": "Pevná cena",
+        "text": "39 € za půdorys, příplatky znáte předem. Bez telefonátů a vyjednávání — vše e-mailem."
+      },
+      "ready": {
+        "title": "Připraveno k publikaci",
+        "text": "Čistá grafika bez označení — rovnou do inzerátu, na web nebo do brožury."
+      }
+    },
+    "pricing": {
+      "title": "Jedna cena za všechny základní půdorysy",
+      "text": "2D s rozměry · 2D s nábytkem · 3D s nábytkem — kterýkoli ze tří, až 10 místností.",
+      "perPlan": "/ půdorys",
+      "revisions": "Dvě kola úprav",
+      "included": "v ceně"
+    },
+    "reviewsTitle": "Co říkají naši klienti"
+  },
   "feedback": {
     "thomas": {
       "text": "Skvělá spolupráce! Grafika plánů vypadá profesionálně – rychlá, vysoce kvalitní a za dobrou cenu. Šetří čas a zanechává skvělý dojem na klienty. Děkuji a vřele doporučuji!",

@@ -55,6 +55,39 @@
     "title": "Visualizzazione 3D di interni ed esterni – la chiave per vendere immobili con successo",
     "description": "Perché è importante? Gli acquirenti prendono decisioni basate sulle emozioni e sulla percezione visiva. La visualizzazione 3D aiuta a presentare un immobile anche prima della costruzione o della ristrutturazione, creando una percezione chiara dello spazio e dello stile.<br></br><br></br>I nostri servizi:<br></br>• Visualizzazione 3D di interni – immagini realistiche che trasmettono comfort e funzionalità.<br></br>• Visualizzazione 3D di esterni – soluzioni visive d’impatto per facciate e aree circostanti."
   },
+  "homePage": {
+    "kicker": "Per agenti immobiliari e agenzie",
+    "title": "Dalla vecchia planimetria, in 48 ore, una planimetria che vende",
+    "lead": "Digitalizziamo planimetrie illeggibili, datate e disegnate a mano in grafiche 2D e 3D professionali per il marketing. Vi fa risparmiare 2–4 ore nella preparazione di un exposé.",
+    "order": "Ordina una planimetria",
+    "price": "da €39",
+    "before": "Originale",
+    "after": "Planimetria finita",
+    "value": {
+      "title": "Perché gli agenti immobiliari ci scelgono",
+      "lead": "Un’ora di un assistente costa €20–29 e la preparazione di un exposé richiede 2–4 ore — ci occupiamo noi di questo compito a prezzo e tempi fissi.",
+      "anySource": {
+        "title": "Qualsiasi documento di partenza",
+        "text": "Lavoriamo con scansioni, vecchi disegni e schizzi a mano — dove i servizi automatici non ce la fanno."
+      },
+      "fixedPrice": {
+        "title": "Prezzo fisso",
+        "text": "€39 per planimetria, supplementi noti in anticipo. Senza telefonate né trattative — tutto via e-mail."
+      },
+      "ready": {
+        "title": "Pronta per la pubblicazione",
+        "text": "Grafica pulita senza marcature — direttamente nell’annuncio, sul sito o nella brochure."
+      }
+    },
+    "pricing": {
+      "title": "Un unico prezzo per tutte le planimetrie di base",
+      "text": "2D con quote · 2D arredata · 3D arredata — una qualsiasi delle tre, fino a 10 locali.",
+      "perPlan": "/ planimetria",
+      "revisions": "Due cicli di revisioni",
+      "included": "inclusi"
+    },
+    "reviewsTitle": "Cosa dicono i nostri clienti"
+  },
   "feedback": {
     "thomas": {
       "text": "Una collaborazione eccellente! Le grafiche delle planimetrie sono professionali: rapide, di alta qualità e a un buon prezzo. Fanno risparmiare tempo e lasciano un’ottima impressione sui clienti. Grazie, le consiglio assolutamente!",

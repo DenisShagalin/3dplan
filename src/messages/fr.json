@@ -55,6 +55,39 @@
     "title": "Visualisation 3D d'intérieurs et d'extérieurs – La clé d'une vente immobilière réussie",
     "description": "Pourquoi est-ce important ? Les acheteurs prennent leurs décisions sur la base des émotions et de la perception visuelle. La visualisation 3D permet de présenter un bien immobilier même avant la construction ou la rénovation, créant une impression d'espace et de style.<br></br><br></br>Nos services :<br></br>• Visualisation 3D d'intérieur – des images réalistes qui transmettent confort et fonctionnalité.<br></br>• Visualisation 3D d'extérieur – des solutions visuelles saisissantes pour les façades et les espaces environnants."
   },
+  "homePage": {
+    "kicker": "Pour les agents immobiliers et les agences",
+    "title": "Votre ancien plan devient en 48 heures un plan qui fait vendre",
+    "lead": "Nous numérisons les plans illisibles, obsolètes ou dessinés à la main en graphismes 2D et 3D professionnels pour votre marketing. Vous gagnez 2 à 4 heures sur la préparation d’un dossier de présentation.",
+    "order": "Commander un plan",
+    "price": "à partir de 39 €",
+    "before": "Original",
+    "after": "Plan final",
+    "value": {
+      "title": "Pourquoi les agents immobiliers nous choisissent",
+      "lead": "Une heure d’assistant coûte 20 à 29 €, et la préparation d’un dossier de présentation prend 2 à 4 heures — nous prenons cette tâche en charge à prix et délai fixes.",
+      "anySource": {
+        "title": "Tout document source",
+        "text": "Nous travaillons avec des scans, d’anciens plans et des croquis à la main — là où les services automatiques échouent."
+      },
+      "fixedPrice": {
+        "title": "Prix fixe",
+        "text": "39 € par plan, suppléments connus à l’avance. Sans appels ni négociations — tout par e-mail."
+      },
+      "ready": {
+        "title": "Prêt à publier",
+        "text": "Un graphisme propre, sans marquages — directement dans l’annonce, sur le site ou dans la brochure."
+      }
+    },
+    "pricing": {
+      "title": "Un seul prix pour tous les plans de base",
+      "text": "2D avec cotes · 2D avec mobilier · 3D avec mobilier — l’un des trois, jusqu’à 10 pièces.",
+      "perPlan": "/ plan",
+      "revisions": "Deux séries de corrections",
+      "included": "inclus"
+    },
+    "reviewsTitle": "Ce que disent nos clients"
+  },
   "feedback": {
     "thomas": {
       "text": "Une excellente collaboration ! Les graphiques des plans ont l'air professionnels - rapides, de haute qualité et à un bon prix. Cela fait gagner du temps et laisse une excellente impression aux clients. Merci et je le recommande vivement !",
