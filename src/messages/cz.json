@@ -19,7 +19,7 @@
     "order": "Objednat"
   },
   "toolbar": {
-    "services": "Services",
+    "services": "Služby",
     "packages": "Balíčky",
     "pricing": "Ceník",
     "about": "O nás",
@@ -652,5 +652,9 @@
       "text": "Potřebujete jen jednu službu?",
       "link": "Zobrazit služby jednotlivě →"
     }
+  },
+  "metadata": {
+    "title": "2D a 3D půdorysy online | 3dplan.online",
+    "description": "Půdorysy pro realitní inzeráty a realitní makléře. Váš stávající plán překreslíme do 2D půdorysu s rozměry nebo do 2D či 3D půdorysu s nábytkem – profesionálně, online a za pevné ceny."
   }
 }

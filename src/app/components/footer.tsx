@@ -47,8 +47,7 @@ export const Footer = () => {
             height={71}
             className="f_logo"
           />
-          {/* Brand tagline, shown in German on every locale like the old image. */}
-          <div className="f_tagline">Grafikservice für Immobilienmakler</div>
+          <div className="f_tagline">{t("home.usTitle")}</div>
         </div>
 
         <div className="f_mid">

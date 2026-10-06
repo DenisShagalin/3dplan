@@ -2,7 +2,7 @@ import "@/app/globals.css";
 
 import { ConfigProvider } from "antd";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Script from "next/script";
 import type { Metadata } from "next";
@@ -15,10 +15,6 @@ import { CookiePopup } from "@/app/components/cookie-popup";
 import { HREFLANG, isSupportedLocale } from "@/i18n/locales";
 import { SITE_URL, getAlternates } from "@/i18n/metadata";
 
-const TITLE = "2D & 3D Grundrisse online | 3dplan.online";
-const DESCRIPTION =
-  "Grundriss für Immobilien Exposé. Grundriss für Immobilienverkauf. Immobilien Grundriss Service. Grundriss für Immobilienanzeige. Grundriss für Makler. Grundriss Service online. Grundriss erstellen lassen. Grundriss digitalisieren. 3D Grundriss Wohnung. 2D Grundriss mit Maßen. Grundriss für Immobilien Exposé. Grundriss erstellen Preis. Immobilien Visualisierung Grundriss. Professioneller Grundriss Immobilien";
-
 type LocaleParams = Readonly<{ params: Promise<{ locale: string }> }>;
 
 export async function generateMetadata({
@@ -30,11 +26,13 @@ export async function generateMetadata({
     notFound();
   }
 
+  const t = await getTranslations({ locale, namespace: "metadata" });
+
   return {
     // Turns the alternates below into the absolute URLs hreflang requires.
     metadataBase: new URL(SITE_URL),
-    title: TITLE,
-    description: DESCRIPTION,
+    title: t("title"),
+    description: t("description"),
     alternates: await getAlternates(locale),
   };
 }
