@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "@/i18n/navigation";
 import { consumeConfirmation } from "@/app/utils/confirmation";
+import { trackConversion } from "@/app/utils/gtag";
 import "./confirmation.css";
 
 export default function Confirmation() {
@@ -25,6 +26,9 @@ export default function Confirmation() {
     const key = consumeConfirmation();
 
     if (key === "contact" || key === "order") {
+      // The flag is set only by a successful submit and cleared on read, so
+      // this counts each order or contact request exactly once.
+      trackConversion(key);
       setAllowed(true);
       setSubmittedKey(key);
     } else {

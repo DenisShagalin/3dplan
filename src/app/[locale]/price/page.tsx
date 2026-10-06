@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { OrderType, getOrderHref } from "@/app/components/order";
@@ -57,15 +56,6 @@ const OTHER_SERVICES = ["interior", "exterior"];
 
 export default function Price() {
   const t = useTranslations();
-
-  useEffect(() => {
-    if (window && "gtag" in window) {
-      // @ts-ignore
-      window?.gtag?.("event", "conversion", {
-        send_to: "AW-18022087039/htcLCJ7W46scEP_yzJFD",
-      });
-    }
-  }, []);
 
   return (
     <div className="price_page ui_page">

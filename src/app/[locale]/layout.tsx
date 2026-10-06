@@ -4,7 +4,6 @@ import { ConfigProvider } from "antd";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import type { Metadata } from "next";
 
 import { Background } from "@/app/components/background";
@@ -12,6 +11,8 @@ import { Section } from "@/app/components/section";
 import { Footer } from "@/app/components/footer";
 import { MainLinks } from "@/app/components/main-links";
 import { CookiePopup } from "@/app/components/cookie-popup";
+import { GtagPageView } from "@/app/components/gtag-page-view";
+import { GOOGLE_ADS_ID, GTAG_BOOTSTRAP } from "@/app/utils/gtag";
 import { HREFLANG, isSupportedLocale } from "@/i18n/locales";
 import { SITE_URL, getAlternates } from "@/i18n/metadata";
 
@@ -54,19 +55,13 @@ export default async function RootLayout({
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
 
+        {/* Plain inline script, not next/script: it has to define gtag and
+            the consent defaults before any component effect can call it. */}
+        <script dangerouslySetInnerHTML={{ __html: GTAG_BOOTSTRAP }} />
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18022087039"
-        ></script>
-        <Script>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            // @ts-ignore
-            window.dataLayer.push(arguments)
-          }
-          gtag('js', new Date());
-          gtag('config', 'AW-18022087039');`}
-        </Script>
+          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
+        />
       </head>
       <body>
         <ConfigProvider
@@ -90,6 +85,7 @@ export default async function RootLayout({
               <Footer />
             </Section>
             <CookiePopup />
+            <GtagPageView />
           </NextIntlClientProvider>
         </ConfigProvider>
       </body>

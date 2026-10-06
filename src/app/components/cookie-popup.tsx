@@ -4,28 +4,28 @@ import { useEffect, useState } from "react";
 import { Button, Flex, Typography } from "antd";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { readConsent, saveConsent } from "@/app/utils/gtag";
 import "./cookie-popup.css";
-
-const COOKIE_CONSENT_KEY = "3DPLAN_LOCALE_cookie_consent";
 
 export const CookiePopup = () => {
   const t = useTranslations("cookie");
   const [visible, setVisible] = useState(false);
 
+  // A missing or expired (6+ months) choice asks again. A stored "accepted"
+  // is reapplied to gtag by the bootstrap in the layout, not here.
   useEffect(() => {
-    const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
-    if (!consent) {
+    if (!readConsent()) {
       setVisible(true);
     }
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
+    saveConsent(true);
     setVisible(false);
   };
 
   const handleDecline = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, "declined");
+    saveConsent(false);
     setVisible(false);
   };
 
