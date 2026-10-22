@@ -10,9 +10,6 @@ import { getOrderHref } from "@/app/components/order";
 import { UiServicesInfo } from "@/app/components/common/ui-services-info";
 import "../service.css";
 
-// The previous version of this page lives at "/service/old_2d-dimension"
-// for comparison.
-
 const HERO_IMAGE = "/2d-dimension/hero.webp";
 
 // Image file → caption key under "service.2dDim.portfolio".
@@ -22,6 +19,7 @@ const PORTFOLIO = [
   ["house-63-germany", "house63Germany"],
   ["house-95-vienna", "house95Vienna"],
   ["apartment-55-vorarlberg", "apartment55Vorarlberg"],
+  ["apartment-60-bratislava", "apartment60Bratislava"]
 ].map(([file, key]) => ({
   src: `/2d-dimension/portfolio/${file}.webp`,
   key: `service.2dDim.portfolio.${key}`,
