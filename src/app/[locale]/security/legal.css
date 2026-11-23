@@ -20,6 +20,12 @@
   color: var(--ui-text-sec);
 }
 
+/* Page tone instead of the white ui_card: the UID images carry a #faf9f6
+   background and have to blend in */
+.legal_card.ui_card {
+  background: var(--ui-bg);
+}
+
 /* Authored HTML from the message catalogs */
 .legal_card h3 {
   margin: 36px 0 12px;
@@ -38,6 +44,23 @@
   color: var(--ui-text);
 }
 
+.legal_card h2 {
+  margin: 24px 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ui-text);
+}
+
+/* UID line: 2x image, shown 24px high; scales down on narrow screens */
+.legal_card img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 24px;
+  max-width: 100%;
+}
+
+.legal_card > h2:first-child,
 .legal_card > h3:first-child,
 .legal_card > h4:first-child {
   margin-top: 0;
