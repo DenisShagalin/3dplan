@@ -74,7 +74,8 @@
   text-align: right;
 }
 
-.footer .f_legal a {
+.footer .f_legal a,
+.footer .f_legal button {
   display: block;
   padding: 3px 0;
   font-size: 13px;
@@ -82,11 +83,23 @@
   text-decoration: none;
 }
 
-.footer .f_legal a:hover {
+/* The cookie settings entry is a button (it opens a dialog), styled as a link */
+.footer .f_legal button {
+  margin: 0 0 0 auto;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.footer .f_legal a:hover,
+.footer .f_legal button:hover {
   color: #fff;
 }
 
-.footer a:focus-visible {
+.footer a:focus-visible,
+.footer button:focus-visible {
   outline: 2px solid var(--ui-accent-light);
   outline-offset: 2px;
 }
@@ -104,5 +117,9 @@
 
   .f_legal {
     text-align: center;
+  }
+
+  .footer .f_legal button {
+    margin: 0 auto;
   }
 }

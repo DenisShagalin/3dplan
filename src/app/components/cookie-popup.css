@@ -30,12 +30,23 @@
   flex-shrink: 0;
 }
 
-.cookie-popup__btn-decline {
+.cookie-popup__btn {
   background-color: transparent !important;
   border-color: var(--main-white-color, #fff) !important;
   color: var(--main-white-color, #fff) !important;
 }
 
-.cookie-popup__btn-decline:hover {
+.cookie-popup__btn:hover {
   opacity: 0.8;
+}
+
+.cookie-settings__desc {
+  margin-bottom: 0 !important;
+  font-size: 13px;
+}
+
+.cookie-settings__always {
+  flex-shrink: 0;
+  font-size: 13px;
+  white-space: nowrap;
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { CookieSettingsLink } from "./cookie-settings-link";
 
 import "./footer.css";
 
@@ -78,6 +79,7 @@ export const Footer = () => {
               {t(key)}
             </Link>
           ))}
+          <CookieSettingsLink />
         </nav>
       </div>
     </footer>

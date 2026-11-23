@@ -12,7 +12,7 @@ import { Footer } from "@/app/components/footer";
 import { MainLinks } from "@/app/components/main-links";
 import { CookiePopup } from "@/app/components/cookie-popup";
 import { GtagPageView } from "@/app/components/gtag-page-view";
-import { GOOGLE_ADS_ID, GTAG_BOOTSTRAP } from "@/app/utils/gtag";
+import { GTAG_BOOTSTRAP } from "@/app/utils/gtag";
 import { HREFLANG, isSupportedLocale } from "@/i18n/locales";
 import { SITE_URL, getAlternates } from "@/i18n/metadata";
 
@@ -56,12 +56,10 @@ export default async function RootLayout({
         <link rel="icon" href="/favicon.png" sizes="any" />
 
         {/* Plain inline script, not next/script: it has to define gtag and
-            the consent defaults before any component effect can call it. */}
+            the consent defaults before any component effect can call it.
+            gtag.js is added by this script or the cookie banner, and only
+            after consent. */}
         <script dangerouslySetInnerHTML={{ __html: GTAG_BOOTSTRAP }} />
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
-        />
       </head>
       <body>
         <ConfigProvider

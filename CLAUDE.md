@@ -54,7 +54,7 @@ Six locales: `en, de, fr, cz, sk, it` ([locales.ts](src/i18n/locales.ts)). `en` 
 
 ### Message catalogs
 
-All six files must stay structurally identical — same keys, same count (currently 462 leaves). Adding a string means adding it to all six. Translated copy is real marketing/legal text; if you cannot translate, say so rather than leaving English in a non-English file.
+All six files must stay structurally identical — same keys, same count (currently 473 leaves). Adding a string means adding it to all six. Translated copy is real marketing/legal text; if you cannot translate, say so rather than leaving English in a non-English file.
 
 Some strings carry markup:
 
@@ -87,5 +87,5 @@ Ant Design is themed once, in [layout.tsx](src/app/[locale]/layout.tsx) via `Con
 - Most components are `"use client"` — the only real server components are the locale layout and the static page shells. Adding `useState`/`useTranslations` means adding the directive.
 - Images in `public/` are referenced by literal string arrays in the components (see the `*Covering` arrays in [order.tsx](src/app/components/order.tsx) and the gallery arrays in the service pages). Filenames contain spaces and are load-bearing — renaming a file means editing the array.
 - The home page and some sections are commented out rather than deleted (`MainPlans`, `Banner`). Leave commented-out blocks alone unless asked; they are deliberate parked work.
-- Google Ads gtag is inlined in the layout `<head>`.
+- Google Ads gtag: the layout inlines a Consent Mode v2 bootstrap; gtag.js itself is injected only after cookie consent ([gtag.ts](src/app/utils/gtag.ts)). Do not add tracking scripts to the layout directly.
 - Commit messages are short, lowercase, imperative-ish ("added locales routing", "corrected order validation").
